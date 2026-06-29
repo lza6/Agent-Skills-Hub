@@ -9,7 +9,7 @@
 
 ## ✨ 特性
 
-- 🚀 **一键总安装**：基础技能 + Wave 1–42 全栈扩展，一条命令搞定
+- 🚀 **一键总安装**：基础技能 + Wave 1–71 全栈扩展，一条命令搞定
 - 🌐 **国内网络友好**：内置 GitHub 镜像加速，无需代理也能装
 - 📚 **中文手册自动生成**：272+ 技能的中文说明，安装后自动同步到 `~/.claude/`
 - 🔧 **元数据补全**：自动为新技能生成中文 stub 说明
@@ -26,7 +26,7 @@
 git clone https://github.com/lza6/Agent-Skills-Hub.git
 cd Agent-Skills-Hub
 
-# 2. 执行总安装（基础 + Wave 1–42 + 文档同步）
+# 2. 执行总安装（基础 + Wave 1–71 + 文档同步）
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install-all-skills-total.ps1
 ```
 
@@ -45,7 +45,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install-all-skills-total.p
 ### 单波次安装
 
 ```powershell
-.\scripts\install-fullstack-skills-waveN.ps1   # N = 1..42
+.\scripts\install-fullstack-skills-waveN.ps1   # N = 1..71
 ```
 
 ---
@@ -67,10 +67,10 @@ Agent-Skills-Hub/
 │   └── SKILLS-CATEGORY-REPORT.md      # 技能分类报告
 ├── data/
 │   ├── skills_zh_data.py              # 技能中文元数据字典（核心数据源）
-│   └── fullstack-skills-manifest.txt  # 全栈扩展技能清单（Wave 1–42）
+│   └── fullstack-skills-manifest.txt  # 全栈扩展技能清单（Wave 1–71）
 ├── scripts/
 │   ├── install-all-skills.ps1         # 基础技能批量安装
-│   ├── install-fullstack-skills-wave*.ps1  # Wave 1–42 各波次脚本
+│   ├── install-fullstack-skills-wave*.ps1  # Wave 1–71 各波次脚本
 │   ├── github-mirror.ps1              # GitHub 镜像（国内网络加速）
 │   ├── sync-skills-zh-data.py         # 自动补全新技能中文说明
 │   ├── generate-skills-reference-zh.py # 中文手册生成
