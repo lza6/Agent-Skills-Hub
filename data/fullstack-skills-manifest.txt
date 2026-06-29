@@ -1,0 +1,1998 @@
+# 全栈扩展技能清单 — install-fullstack-skills.ps1 安装后由 sync 脚本补充中文元数据
+# 入口技能（优先了解）
+using-fullstack-agent-skills
+fullstack-product-specification
+fullstack-testing-and-quality-gates
+fullstack-observability-and-release-engineering
+cloud-fullstack-development
+
+# vaquarkhan 核心工作流（节选，完整 72 个见仓库 --list）
+react-nextjs-frontend-architecture
+backend-microservices-architecture
+authentication-and-authorization-fullstack
+api-contract-first-development
+postgres-and-relational-data-modeling
+redis-caching-and-session-store-patterns
+bff-architecture-and-api-aggregation
+e2e-testing-playwright-cypress
+cicd-gitops-and-progressive-deployment
+terraform-fullstack-infrastructure-as-code
+ui-engineering-and-design-systems
+vercel-edge-and-jamstack-delivery
+realtime-ui-websockets-and-sse
+performance-and-load-testing-fullstack
+java-spring-boot-microservices
+dotnet-aspnet-core-microservices
+aws-serverless-fullstack-architecture
+azure-serverless-fullstack-architecture
+gcp-serverless-fullstack-architecture
+
+# Jeffallan 全栈精选
+fullstack-guardian
+nestjs-expert
+nextjs-developer
+react-expert
+react-native-expert
+typescript-pro
+vue-expert
+fastapi-expert
+django-expert
+spring-boot-engineer
+golang-pro
+graphql-architect
+microservices-architect
+api-designer
+architecture-designer
+cloud-architect
+database-optimizer
+postgres-pro
+sql-pro
+devops-engineer
+kubernetes-specialist
+terraform-engineer
+websocket-engineer
+secure-code-guardian
+security-reviewer
+test-master
+playwright-expert
+code-reviewer
+debugging-wizard
+javascript-pro
+
+# skills.sh 热门单项
+fullstack-developer
+fullstack-dev
+senior-fullstack
+full-stack-development
+
+# Vercel
+vercel-react-native-skills
+web-design-guidelines
+
+# === Wave 2: Next.js / Prisma / Supabase / Stripe / tRPC / shadcn ===
+# Prisma ORM
+prisma-database-setup
+prisma-client-api
+prisma-cli
+prisma-postgres
+prisma-driver-adapter-implementation
+prisma-upgrade-v7
+
+# Supabase
+supabase-postgres-best-practices
+
+# Next.js / React (wshobson)
+nextjs-app-router-patterns
+postgresql-table-design
+tailwind-design-system
+react-state-management
+react-modernization
+typescript-advanced-types
+nodejs-backend-patterns
+auth-patterns
+
+# Auth / UI
+clerk-nextjs-patterns
+auth0-nextjs
+shadcn
+tailwind
+
+# NestJS
+nestjs-best-practices
+nestjs-patterns
+
+# tRPC / 类型安全
+trpc
+trpc-type-safety
+type-safety-validation
+trpc-tanstack-nextjs
+drizzle-orm
+drizzle-orm-patterns
+
+# Stripe
+stripe-best-practices
+upgrade-stripe
+stripe-projects
+
+# GraphQL / 其他
+apollo-client
+nextjs-best-practices
+nextjs-supabase-auth
+ralph-loop
+docker-patterns
+
+# === Wave 3: K8s / AWS / GraphQL / Remix / Hono / Astro / Playwright ===
+# AWS
+aws-iam
+aws-serverless
+aws-cdk
+aws-containers
+aws-cloudformation
+aws-billing-and-cost-management
+amazon-bedrock
+
+# 基础设施 CLI
+aws-cli
+kubernetes
+terraform
+graphql
+docker-compose
+nginx
+postgres
+redis
+grpc-protobuf
+cloudflare-workers
+
+# K8s 运维
+flux
+external-secrets
+cert-manager
+rook-ceph
+cilium-gateway
+cilium-network
+
+# Remix / React Router
+react-router-data-mode
+react-router-declarative-mode
+
+# 现代框架
+hono
+astro
+better-auth-best-practices
+create-auth-skill
+better-auth-security-best-practices
+
+# 架构
+clean-ddd-hexagonal
+feature-slicing
+postgres-drizzle
+modern-javascript
+
+# E2E
+playwright-cli
+playwright-best-practices
+apollo-federation
+apollo-connectors
+graphql-schema
+
+# === Wave 4: Cloudflare / Azure / Bun / Svelte / Remotion / DB / Go / Rails ===
+# Cloudflare
+wrangler
+workers-best-practices
+cloudflare
+agents-sdk
+durable-objects
+
+# Azure
+azure-deploy
+azure-kubernetes
+azure-ai
+azure-compute
+azure-storage
+azure-identity
+appinsights-instrumentation
+
+# 运行时 / 前端
+bun-runtime
+sveltekit-structure
+remotion-best-practices
+nuxt
+nuxt-ui
+
+# 后端
+django-security
+fastapi-python
+rails-expert
+
+# 数据库 / 搜索
+mongodb-atlas-stream-processing
+mongodb-connection
+mongodb-mcp-setup
+mongodb-schema-design
+mongodb-query-optimizer
+elasticsearch-esql
+elasticsearch-authn
+elasticsearch-onboarding
+
+# Go
+go-development
+golang-code-style
+golang-error-handling
+golang-testing
+
+# === Wave 5: Rust / Laravel / Vue / Angular / GCP / MQ / Redis / 事件驱动 / Qwik / C# ===
+# Rust
+rust-skills
+rust-async-patterns
+
+# PHP
+laravel-specialist
+
+# Vue (antfu/skills)
+vue
+vue-best-practices
+pinia
+vitest
+vue-router-best-practices
+unocss
+
+# Angular (analogjs/angular-skills)
+angular-component
+angular-di
+angular-directives
+angular-signals
+angular-forms
+
+# GCP
+gcp-development
+gcp-cloud-run
+gcp-cloud-architect
+
+# 消息队列
+kafka-development
+rabbitmq-development
+
+# Redis 官方 (redis/agent-skills)
+redis-core
+redis-search
+redis-clustering
+redis-connections
+redis-security
+redis-observability
+iris-development
+
+# 事件驱动 / 微服务 (wshobson/agents)
+cqrs-implementation
+microservices-patterns
+event-store-design
+saga-orchestration
+workflow-orchestration-patterns
+
+# Qwik / C# / Rust GraphQL
+qwik-expert
+csharp-async
+csharp-xunit
+rust-best-practices
+
+# === Wave 6: Flutter / SolidJS / Pulumi / Terraform / Java / Kotlin / Swift / Expo / Monorepo ===
+# Flutter (flutter/skills)
+flutter-add-integration-test
+flutter-add-widget-preview
+flutter-add-widget-test
+flutter-apply-architecture-best-practices
+flutter-build-responsive-layout
+flutter-fix-layout-issues
+flutter-implement-json-serialization
+flutter-setup-declarative-routing
+flutter-setup-localization
+flutter-use-http-package
+
+# SolidJS
+# solidjs-patterns  # 源仓库 different-ai/openwork 已下架，无法安装
+
+# Pulumi (pulumi/agent-skills)
+pulumi-best-practices
+pulumi-overview
+pulumi-component
+pulumi-terraform-to-pulumi
+pulumi-arm-to-pulumi
+pulumi-cdk-to-pulumi
+pulumi-automation-api
+
+# Terraform (hashicorp/agent-skills + wshobson + awesome-copilot)
+terraform-test
+terraform-style-guide
+terraform-stacks
+refactor-module
+terraform-azurerm-set-diff-analyzer
+
+# Java / Kotlin
+java-springboot
+kotlin-springboot
+
+# Swift / iOS
+swiftui-pro
+swiftui-expert-skill
+swift-concurrency-pro
+
+# Expo / React Native
+expo-ui
+expo-deployment
+expo-cicd-workflows
+native-data-fetching
+expo-module
+expo-tailwind-setup
+vercel-react-native-skills
+
+# Svelte / Monorepo
+svelte-code-writer
+turborepo
+
+# === Wave 7: AI/LLM / Security / Design / Figma / Supabase / MCP / Prompt ===
+# Anthropic (anthropics/skills)
+mcp-builder
+webapp-testing
+web-artifacts-builder
+canvas-design
+doc-coauthoring
+brand-guidelines
+algorithmic-art
+theme-factory
+
+# Vercel AI SDK
+migrate-ai-sdk-v6-to-v7
+
+# OpenAI (openai/skills)
+security-best-practices
+security-threat-model
+figma-implement-design
+playwright
+openai-docs
+
+# Figma MCP
+figma-generate-design
+figma-use
+figma-code-connect
+figma-swiftui
+
+# Design System
+extract-design-system
+
+# Firebase
+firebase-security-rules-auditor
+firebase-firestore
+firebase-auth-basics
+firebase-basics
+
+# Supabase 深化
+supabase-postgres-best-practices
+
+# OWASP / MCP / Prompt
+owasp-security
+mcp-cli
+enhance-prompt
+taste-design
+design-md
+# solidjs-patterns  # 源仓库 different-ai/openwork 已下架，无法安装
+
+# === Wave 8: Payments / Observability / DevOps / PM 工具集成 ===
+# Stripe (stripe/ai)
+stripe-best-practices
+stripe-directory
+stripe-projects
+upgrade-stripe
+connect-recommend
+
+# Sentry (getsentry/skills)
+security-review
+code-review
+find-bugs
+gha-security-review
+skill-scanner
+
+# OpenAI 集成 (openai/skills)
+linear
+notion-knowledge-capture
+notion-meeting-intelligence
+notion-research-documentation
+notion-spec-to-implementation
+sentry
+gh-fix-ci
+vercel-deploy
+
+# Datadog / Notion / Linear
+agent-skills
+notion-api
+linear-cli
+
+# CI/CD
+ci-cd-and-automation
+github-actions-docs
+
+# Azure 可观测性
+azure-diagnostics
+appinsights-instrumentation
+
+# === Wave 11: 补装 GraphQL / FastAPI / ClickHouse / Terraform ===
+graphql-architect
+cc-skill-clickhouse-io
+graphql
+fastapi-router-py
+python-fastapi-development
+terraform-stacks
+
+# === Wave 9: DevOps / GitOps / AI Agent / Shopify / Auth 补装 ===
+# BagelHole DevOps-Security
+docker-management
+podman
+kubernetes-ops
+helm-charts
+argocd-gitops
+kustomize
+kubernetes-hardening
+gpu-kubernetes-operations
+model-serving-kubernetes
+fedramp-compliance
+soc2-compliance
+hashicorp-vault
+
+# Flux CD GitOps
+gitops-knowledge
+gitops-repo-audit
+gitops-cluster-debug
+
+# AI Agent 框架 (sickn33)
+langgraph
+crewai
+django-pro
+shopify-development
+shopify-apps
+
+# Shopify / Playwright (jeffallan)
+shopify-expert
+playwright-expert
+
+# Auth 补装
+clerk-nextjs-patterns
+auth0-nextjs
+
+# === Wave 10: Prisma / FastAPI / WordPress / MCP-AI / SRE / 搜索 ===
+# Prisma (prisma/skills)
+prisma-cli
+prisma-client-api
+prisma-compute
+prisma-database-setup
+prisma-driver-adapter-implementation
+prisma-postgres
+prisma-postgres-setup
+prisma-upgrade-v7
+
+# FastAPI (sickn33)
+fastapi-router-py
+python-fastapi-development
+fastapi-templates
+
+# WordPress (jezweb)
+wordpress-content
+wordpress-elementor
+
+# MCP / LLM / SRE (BagelHole)
+mcp-server-security
+llm-caching
+llm-cost-optimization
+ai-agent-security
+prompt-injection-defense
+agent-evals
+incident-management
+runbook-creation
+disaster-recovery
+ai-sre-incident-response
+
+# 搜索 / KV (intellectronica)
+tavily
+mgrep-code-search
+upstash-redis-kv
+
+# === Wave 12: ClickHouse / Neo4j / FastAPI 补装 ===
+# ClickHouse 官方 (clickhouse/agent-skills)
+chdb-datastore
+chdb-sql
+clickhouse-architecture-advisor
+clickhouse-best-practices
+clickhouse-js-node-troubleshooting
+clickhouse-js-node-coding
+clickhouse-managed-postgres-rca
+clickhousectl-cloud-deploy
+clickhousectl-local-dev
+
+# Neo4j (neo4j-contrib/neo4j-skills)
+neo4j-getting-started-skill
+neo4j-cypher-skill
+neo4j-graphrag-skill
+neo4j-driver-python-skill
+neo4j-import-skill
+neo4j-gds-skill
+neo4j-modeling-skill
+neo4j-query-tuning-skill
+
+# FastAPI (Microsoft 直链)
+fastapi-router-py
+# python-fastapi-development  # sickn33 大仓库网络超时，待补
+# cc-skill-clickhouse-io      # 同上，已有 clickhouse-best-practices 官方替代
+
+# === Wave 13: LangChain / LangSmith / Snowflake / Databricks / dbt ===
+# LangChain (langchain-ai/langchain-skills)
+ecosystem-primer
+langchain-dependencies
+langchain-fundamentals
+langchain-middleware
+langchain-rag
+langgraph-cli
+langgraph-fundamentals
+langgraph-human-in-the-loop
+langgraph-persistence
+deep-agents-core
+deep-agents-memory
+deep-agents-orchestration
+managed-deep-agents
+swarm
+
+# LangSmith (langchain-ai/langsmith-skills)
+langsmith-trace
+langsmith-dataset
+langsmith-evaluator
+
+# Snowflake / Databricks / dbt
+cortex-code
+snowflake-semanticview
+databricks-python-sdk
+python-dev
+configuring-dbt-mcp-server
+answering-natural-language-questions-with-dbt
+building-dbt-semantic-layer
+running-dbt-commands
+using-dbt-for-analytics-engineering
+fetching-dbt-docs
+troubleshooting-dbt-job-errors
+
+# === Wave 14: 安全测试 / AWS / 浏览器测试 / Semgrep ===
+# addyosmani
+security-and-hardening
+browser-testing-with-devtools
+
+# Trail of Bits
+semgrep
+insecure-defaults
+secure-workflow-guide
+mutation-testing
+property-based-testing
+semgrep-rule-creator
+supply-chain-risk-auditor
+
+# BagelHole 渗透 / DAST
+penetration-testing
+dast-scanning
+waf-setup
+dependency-scanning
+
+# AWS (itsmostafa/aws-agent-skills)
+dynamodb
+lambda
+s3
+api-gateway
+iam
+ec2
+ecs
+eks
+rds
+sqs
+sns
+cognito
+cloudformation
+cloudwatch
+secrets-manager
+eventbridge
+step-functions
+bedrock
+
+# Playwright Java (sickn33，可能网络失败)
+playwright-java
+
+# === Wave 15: Netlify / Cloudflare 深化 / Remix / WebSocket / 性能 ===
+# Netlify (netlify/context-and-tools)
+netlify-agent-runner
+netlify-ai-gateway
+netlify-blobs
+netlify-caching
+netlify-cli-and-deploy
+netlify-config
+netlify-database
+netlify-deploy
+netlify-edge-functions
+netlify-forms
+netlify-frameworks
+netlify-functions
+netlify-identity
+netlify-image-cdn
+
+# Cloudflare 补装
+sandbox-sdk
+web-perf
+cloudflare-email-service
+turnstile-spin
+cloudflare-one
+cloudflare-one-migrations
+
+# React Router / Remix
+react-router-declarative-mode
+
+# WebSocket / 性能
+websocket-engineer
+performance-optimization
+observability-and-instrumentation
+
+# === Wave 16: 测试框架补装（Jest / Cypress / Selenium / Playwright / Vitest / pnpm / gRPC）===
+# LambdaTest (LambdaTest/agent-skills)
+jest-skill
+cypress-skill
+selenium-skill
+playwright-skill
+vitest-skill
+test-framework-migration-skill
+hyperexecute-skill
+pytest-skill
+webdriverio-skill
+
+# mindrally/skills
+jest
+selenium-automation
+pnpm
+grpc-development
+
+# Cypress 官方 (cypress-io/ai-toolkit)
+cypress-author
+cypress-docs
+cypress-explain
+
+# Trail of Bits
+testing-handbook-generator
+
+# antfu/skills (同名 pnpm，与 mindrally 二选一即可)
+# pnpm
+
+# === Wave 17: FastAPI 官方 / 移动测试 / Deno / SolidJS / Expo ===
+fastapi
+fastapi-expert
+appium-skill
+detox-skill
+flutter-testing-skill
+smartui-skill
+puppeteer-skill
+karma-skill
+mocha-skill
+deno-expert
+deno-typescript
+solidjs
+native-data-fetching
+upgrading-expo
+expo-dev-client
+expo-deployment
+upgrade-react-native
+expo-react-native-typescript
+puppeteer-automation
+
+# === Wave 18: n8n / Temporal / Neon / Vector DB / Drizzle tRPC Zod / 构建工具 ===
+n8n-workflow-patterns
+n8n-mcp-tools-expert
+n8n-node-configuration
+n8n-code-javascript
+n8n-error-handling
+temporal-developer
+temporal-cloud
+neon-postgres
+neon
+trpc
+drizzle-orm-patterns
+zod
+d1-drizzle-schema
+nestjs-best-practices
+kibana-dashboards
+kibana-alerting-rules
+elasticsearch-audit
+elasticsearch-file-ingest
+pgvector-semantic-search
+qdrant-clients-sdk
+weaviate
+weaviate-cookbooks
+pinecone-docs
+cdc
+index-knowledge
+storage-format
+cmake
+makefile-validator
+
+# === Wave 19: AI 可观测 / LLM 评估 / 多模型 SDK / 前端 UI 深化 ===
+langfuse
+prompt-engineer
+eval-driven-dev
+# llm-obs-trace-rca  # datadog-labs 源已变更，不可用
+gemini-api
+pdf
+security-best-practices
+gh-fix-ci
+shadcn
+tailwind-css
+vue-debug-guides
+vue-pinia-best-practices
+vue-router-best-practices
+vue-testing-best-practices
+svelte5-best-practices
+svelte-core-bestpractices
+storybook
+hono-api-scaffolder
+hono-routing
+clerk-astro-patterns
+
+# === Wave 20: Spring/Flask/Celery / Three.js / GCP / Azure / Pulumi / WASM ===
+spring-boot-engineer
+java-architect
+create-spring-boot-java-project
+spring-boot-skill
+flask-api-development
+django-celery
+bullmq-specialist
+threejs-fundamentals
+threejs-animation
+threejs-shaders
+threejs-materials
+threejs-postprocessing
+threejs-webgl
+gcloud
+cloud-run-basics
+bigquery-basics
+google-cloud-recipe-auth
+google-cloud-recipe-onboarding
+agent-platform-rag-engine-management
+agent-platform-deploy
+bigquery-ai-ml
+azure-compute
+azure-rbac
+azure-reliability
+azure-cost
+pulumi-esc
+webassembly-component-development
+
+# === Wave 21: Ruby/Rails / Go / K8s / Shopify / WooCommerce ===
+kubernetes-specialist
+ruby-rails
+ruby-rails-application
+rails-hotwire
+hwc-stimulus-fundamentals
+shopify-admin
+shopify-dev
+shopify-liquid
+shopify-hydrogen
+shopify-functions
+shopify-custom-data
+shopify-storefront-graphql
+shopify-use-shopify-cli
+woocommerce-backend-dev
+woocommerce-code-review
+go-backend-microservices
+go-web-expert
+argocd-expert
+
+# === Wave 22: PHP/Laravel / .NET C# / DevSecOps / Godot / WordPress ===
+php-pro
+php-best-practices
+wordpress-pro
+wordpress-setup
+# wordpress-plugin-core  # jezweb 已下架，改用 wordpress-setup
+drupal-development
+dotnet-best-practices
+fluentui-blazor
+dotnet-webapi
+create-blazor-project
+dotnet-maui-doctor
+maui-shell-navigation
+blazor-expert
+codeql
+devsecops-expert
+godot-ui
+# godot-best-practices  # jwynia 已下架；已有 godot-gdscript-patterns
+
+# === Wave 23: Symfony / Observability / Mobile / Elixir-Phoenix / Rust ===
+opentelemetry
+dashboarding
+promql
+grafana-oss
+loki
+appinsights-instrumentation
+azure-diagnostics
+# azure-observability  # microsoft/azure-skills 已下架
+observability-fundamentals
+phoenix-cli
+phoenix-tracing
+rust-best-practices
+react-native-expert
+android-kotlin-core
+expo-router
+symfony-doctrine-migrations
+symfony-interfaces-and-autowiring
+symfony-controller-cleanup
+# symfony:quality-checks  # makfly 已下架
+elixir
+phoenix
+phoenix-liveview
+wordpress-plugin-fundamentals
+sentry-elixir-sdk
+
+# === Wave 24: Datadog / Symfony API Platform / KMP / Niche langs / Akka ===
+agent-skills
+# dd-pup / dd-logs  # datadog-labs 仓库当前仅暴露 agent-skills
+jaegertracing
+honeycombio
+symfony-api-platform-security
+symfony-api-platform-filters
+symfony-api-platform-state-providers
+symfony-api-platform-versioning
+android-jetpack-compose
+compose-multiplatform-patterns
+kotlin-multiplatform
+fsharp-testing
+zig-best-practices
+haskell-pro
+clojure-write
+clojure-review
+erlang-otp-behaviors
+scala-collections
+scala-functional-patterns
+scala-type-system
+crystal-engineer
+akka-net-best-practices
+
+# === Wave 25: Symfony 深化 / KMP / Ansible / Sentry / Nim+PHP / Splunk ===
+symfony-symfony-messenger
+symfony-symfony-cache
+symfony-tdd-with-phpunit
+symfony-api-platform-resources
+symfony-api-platform-dto-resources
+kotlin-multiplatform-expect-actual
+ansible-automation
+ansible-playbooks
+error-tracking
+sentry-performance-monitoring
+sentry-sdk-configuration
+sentry-error-capturing
+sentry-sdk-setup
+sentry-sdk-upgrade
+nim-metaprogramming
+nim-memory-management
+php-modern-features
+php-security-patterns
+analyzing-security-logs-with-splunk
+
+# === Wave 26: FastAPI / RN Web / Symfony Pest / K8s+IaC / Proxy / Lua+Nim ===
+fastapi-async-patterns
+fastapi-dependency-injection
+fastapi-validation
+react-native-web-core
+react-native-web-navigation
+react-native-web-performance
+react-native-web-styling
+symfony-tdd-with-pest
+symfony-symfony-scheduler
+kustomize-basics
+kustomize-overlays
+kubernetes-manifests
+kubernetes-resources
+kubernetes-security
+terraform-modules
+terraform-configuration
+pulumi-stacks
+pulumi-components
+terraform-module-builder
+traefik
+caddy-reverse-proxy
+haproxy
+service-mesh-implementation
+lua-coroutines
+lua-tables-patterns
+nim-c-interop
+
+# === Wave 27: Django / GraphQL Relay / Helm / Memcached / iOS+ObjC ===
+django-orm-patterns
+django-rest-framework
+django-cbv-patterns
+django-expert
+django-application
+graphql-resolvers
+graphql-schema-design
+graphql-performance
+graphql-inspector-validate
+graphql-inspector-diff
+graphql-inspector-audit
+relay-fragments-patterns
+relay-mutations-patterns
+relay-pagination
+relay-best-practices
+apollo-caching-strategies
+apollo-client-patterns
+apollo-server-patterns
+apollo-client
+apollo-mcp-server
+helm-templates
+helm-values
+helm-expert
+helm-chart-patterns
+memcached-config-helper
+ios-swiftui-patterns
+ios-uikit-architecture
+ios-swift-concurrency
+swift-protocol-oriented-programming
+swift-concurrency
+swift-optionals-patterns
+objective-c-arc-patterns
+objective-c-protocols-and-categories
+objective-c-blocks-and-gcd
+
+# === Wave 28: NestJS / Playwright BDD / TensorFlow / GitLab CI / Ruby+Rails / Effect ===
+nestjs-dependency-injection
+nestjs-guards-interceptors
+nestjs-testing
+sentry-nestjs-sdk
+playwright-bdd-configuration
+playwright-bdd-gherkin-syntax
+playwright-bdd-step-definitions
+bdd-scenarios
+bdd-patterns
+bdd-principles
+tensorflow-neural-networks
+tensorflow-data-pipelines
+tensorflow-model-deployment
+gitlab-ci-pipeline-configuration
+gitlab-ci-job-configuration
+gitlab-ci-variables-secrets
+gitlab-ci-best-practices
+gitlab-ci-artifacts-caching
+gitlab-ci-validator
+ruby-metaprogramming
+ruby-gems-bundler
+ruby-blocks-procs-lambdas
+ruby-oop
+ruby-standard-library
+rails-action-controller-patterns
+rails-active-record-patterns
+rspec-fundamentals
+rspec-advanced
+rspec-mocking
+rubocop-configuration
+rubocop-cops
+rubocop-integration
+cocoapods-podspec-fundamentals
+cocoapods-privacy-manifests
+cocoapods-publishing-workflow
+effect-core-patterns
+effect-concurrency
+effect-dependency-injection
+effect-error-handling
+effect-schema
+effect-testing
+effect-ts
+
+# === Wave 29: Storybook / Vitest+Jest / Phoenix+Ecto / Bun / Gleam / Maven / Testing ===
+storybook-configuration
+storybook-story-writing
+storybook-play-functions
+storybook-args-controls
+storybook-component-documentation
+vitest-configuration
+vitest-testing-patterns
+vitest-performance
+jest-advanced
+jest-configuration
+jest-testing-patterns
+phoenix-controllers
+phoenix-routing
+phoenix-patterns
+phoenix-views-templates
+ecto-changesets
+ecto-query-patterns
+ecto-schema-patterns
+ecto-schemas
+elixir-ecto-patterns
+elixir-otp-patterns
+elixir-pattern-matching
+absinthe-schema
+absinthe-resolvers
+absinthe-subscriptions
+bun-package-manager
+bun-bundler
+bun-sqlite
+bun-testing
+gleam-type-system
+gleam-actor-model
+gleam-erlang-interop
+maven-build-lifecycle
+maven-dependency-management
+maven-plugin-configuration
+cypress-fundamentals
+cypress-advanced
+mocha-fundamentals
+mocha-assertions
+playwright-test-architecture
+playwright-page-object-model
+playwright-fixtures-and-hooks
+junit-fundamentals
+junit-parameterized
+testng-fundamentals
+testng-data-driven
+monorepo-architecture
+monorepo-tooling
+monorepo-workflows
+mise-tool-management
+syncpack-configuration
+
+# === Wave 30: Vue/Next.js / Tailwind / Zustand / Angular / React / Flow / GlueStack ===
+vue-component-patterns
+vue-composition-api
+vue-reactivity-system
+nextjs-app-router
+nextjs-data-fetching
+nextjs-server-components
+tailwind-components
+tailwind-configuration
+tailwind-performance
+tailwind-responsive-design
+tailwind-utility-classes
+zustand-advanced-patterns
+zustand-middleware
+zustand-store-patterns
+zustand-typescript
+angular-dependency-injection
+angular-rxjs-patterns
+react-context-patterns
+react-hooks-patterns
+react-performance
+reactflow-fundamentals
+reactflow-custom-nodes
+svelteflow-fundamentals
+svelteflow-custom-nodes
+gluestack-components
+gluestack-theming
+gluestack-accessibility
+gluestack-mcp-tools
+ink-component-patterns
+ink-hooks-state
+ink-layout-styling
+atomic-design-fundamentals
+atomic-design-atoms
+atomic-design-molecules
+atomic-design-organisms
+atomic-design-templates
+tanstack-start
+shadcn-ui
+
+# === Wave 31: Python / C++ / C / Java / SRE / Shell / Pytest / Linters ===
+python-async-patterns
+python-data-classes
+python-type-system
+cpp-modern-features
+cpp-smart-pointers
+cpp-templates-metaprogramming
+c-data-structures
+c-memory-management
+c-systems-programming
+java-concurrency
+java-generics
+java-streams-api
+runbooks-incident-response
+runbooks-structure
+runbooks-troubleshooting-guides
+sre-incident-response
+sre-monitoring-and-observability
+sre-reliability-engineering
+shell-scripting-fundamentals
+shell-error-handling
+shell-portability
+shell-best-practices
+pytest-advanced
+pytest-fixtures
+pytest-plugins
+pylint-configuration
+pylint-integration
+biome-configuration
+biome-formatting
+biome-linting
+eslint-configuration
+eslint-rules
+checkstyle-configuration
+credo-configuration
+terraform-state
+
+# === Wave 32: TypeScript / Figma / Sentry / Design / Markdown / Rust / SOLID ===
+typescript-async-patterns
+typescript-type-system
+typescript-utility-types
+figma-analyze-frame
+figma-extract-tokens
+figma-generate-component
+figma-sync-design-system
+sentry-alerts-issues
+sentry-release-management
+design-loop
+design-review
+design-system
+landing-page
+product-showcase
+tailwind-theme-builder
+prettier-configuration
+prettier-integration
+prettier-plugins
+markdown-documentation
+markdown-syntax-fundamentals
+markdown-tables
+markdownlint-configuration
+rust-error-handling
+rust-ownership-system
+clippy-configuration
+clippy-lints
+clippy-custom
+oop-encapsulation
+oop-inheritance-composition
+oop-polymorphism
+solid-principles
+architect
+document
+optimize
+cucumber-fundamentals
+cucumber-step-definitions
+cucumber-best-practices
+ameba-configuration
+dialyzer-configuration
+shfmt-configuration
+syncpack-version-groups
+
+# === Wave 33: GitHub Actions / Docker Compose / Stripe / Sentry Ops / Fnox / Git / SOP / PR / React+Expo ===
+act-docker-setup
+act-local-testing
+act-workflow-syntax
+docker-compose-basics
+docker-compose-networking
+docker-compose-production
+stripe-payments
+investigate-errors
+query-events
+check-releases
+analyze-performance
+fnox-configuration
+fnox-providers
+fnox-security-best-practices
+git-storytelling-commit-strategy
+git-storytelling-branch-strategy
+git-storytelling-commit-messages
+git-workflow
+create-sop
+sop-authoring
+sop-structure
+sop-maintenance
+blueprints-writing
+create-blueprint
+generate-blueprints
+load-pr-context
+load-mr-context
+review-mr
+create-mr
+monitor-pipeline
+view-pipeline
+react-patterns
+react-native-components
+react-native-navigation
+react-native-styling
+react-native-platform
+expo-config
+expo-modules
+expo-updates
+expo-build
+codex-review
+gws-setup
+google-apps-script
+project-docs
+project-health
+roadmap
+team-update
+shopify-content
+
+# === Wave 34: han扫尾 Mobile/Langs/CI/SRE/Linters/Agent + jezweb Cloud/UX ===
+android-architecture
+android-jetpack-compose
+kotlin-coroutines
+kotlin-dsl-patterns
+kotlin-null-safety
+react-native-native-modules
+react-native-performance
+react-native-web-testing
+ios-uikit-architecture
+cocoapods-podspec-fundamentals
+cocoapods-privacy-manifests
+cocoapods-subspecs-organization
+crystal-concurrency
+crystal-macros
+csharp-async-patterns
+csharp-linq
+csharp-nullable-types
+erlang-concurrency
+erlang-distribution
+gleam-erlang-interop
+lua-c-integration
+objective-c-arc-patterns
+objective-c-blocks-and-gcd
+objective-c-protocols-and-categories
+swift-protocol-oriented-programming
+ruby-gems-bundler
+ruby-oop
+php-composer-and-autoloading
+cypress-ci-cd
+mocha-configuration
+junit-extensions
+testng-parallel
+bdd-collaboration
+graphql-inspector-ci
+gitlab-ci-best-practices
+gitlab-ci-artifacts-caching
+ansible-inventory
+ansible-roles
+kustomize-generators
+pulumi-basics
+sre-monitoring-and-observability
+sre-reliability-engineering
+runbooks-structure
+gitlab-ci-pipeline-configuration
+gitlab-ci-job-configuration
+gitlab-ci-variables-secrets
+mise-environment-management
+ameba-custom-rules
+ameba-integration
+checkstyle-custom
+checkstyle-rules
+credo-checks
+credo-custom-checks
+dialyzer-analysis
+dialyzer-integration
+eslint-custom
+markdownlint-custom-rules
+markdownlint-integration
+pylint-checkers
+shfmt-formatting
+claude-agent-sdk-agent-creation
+claude-agent-sdk-context-management
+git-worktrees-worktree-management
+claude-agent-sdk-tool-integration
+mise-tool-management
+atomic-design-integration
+atomic-design-quarks
+boy-scout-rule
+legacy-code-safety
+orthogonality-principle
+simplicity-principles
+structural-design-principles
+effect-resource-management
+blueprints-maintenance
+blueprints-organization
+cloudflare-api
+cloudflare-worker-builder
+d1-migration
+github-release
+fork-discipline
+shopify-products
+shopify-setup
+ux-audit
+ux-compare
+ux-extract
+onboarding-ux
+vite-flare-starter
+
+# === Wave 35: han收尾 + jezweb全量 + Jeffallan专家 ===
+sip-authentication-security
+sip-media-negotiation
+sip-protocol-fundamentals
+sop-rfc2119
+update-sop
+mise-environment-management
+mise-task-configuration
+notetaker-fundamentals
+code-annotation-patterns
+documentation-linking
+cocoapods-test-specs
+scratch-workspace
+android-kotlin-coroutines
+create-issue
+view-workflow
+my-tickets
+ticket
+issue
+my-issues
+baseline-restorer
+professional-honesty
+proof-of-work
+silent-execution
+comment
+complete
+create
+my-tasks
+start
+task
+validate
+develop
+explain
+explicit-configuration
+fix
+review
+test
+ai-image-generator
+app-docs
+aussie-business-english
+award-application
+color-palette
+db-seed
+elevenlabs-agents
+favicon-gen
+git-workflow
+google-chat-messages
+gws-install
+icon-set-generator
+image-processing
+nemoclaw-setup
+nz-business-english
+parcel-tracking
+proposal-writer
+react-native
+react-patterns
+responsiveness-check
+resume-cover-letter
+seo-local-business
+social-media-posts
+strategy-document
+uk-business-english
+us-business-english
+angular-architect
+api-designer
+atlassian-mcp
+chaos-engineer
+cli-developer
+cloud-architect
+code-documenter
+cpp-pro
+csharp-developer
+database-optimizer
+debugging-wizard
+devops-engineer
+dotnet-core-expert
+embedded-systems
+feature-forge
+fine-tuning-expert
+flutter-expert
+game-developer
+golang-pro
+javascript-pro
+kotlin-specialist
+legacy-modernizer
+mcp-developer
+microservices-architect
+ml-pipeline
+monitoring-expert
+nextjs-developer
+pandas-pro
+postgres-pro
+rag-architect
+react-expert
+rust-engineer
+salesforce-developer
+secure-code-guardian
+security-reviewer
+spark-engineer
+spec-miner
+sql-pro
+sre-engineer
+swift-expert
+terraform-engineer
+test-master
+the-fool
+typescript-pro
+vue-expert
+vue-expert-js
+
+# === Wave 36: Vercel / Azure / makfly / vaquarkhan / antigravity ===
+composition-patterns
+deploy-to-vercel
+react-best-practices
+react-native-skills
+react-view-transitions
+vercel-cli-with-tokens
+vercel-optimize
+writing-guidelines
+airunway-aks-setup
+azure-aigateway
+azure-cloud-migrate
+azure-compliance
+azure-enterprise-infra-planner
+azure-hosted-copilot-sdk
+azure-kubernetes-automatic-readiness
+azure-kusto
+azure-messaging
+azure-prepare
+azure-quotas
+azure-resource-lookup
+azure-resource-visualizer
+azure-upgrade
+azure-validate
+microsoft-foundry
+entra-agent-id
+python-appservice-deploy
+symfony-api-platform-serialization
+symfony-api-platform-tests
+symfony-bootstrap-check
+symfony-cqrs-and-handlers
+symfony-doctrine-batch-processing
+symfony-doctrine-fixtures-foundry
+symfony-e2e-panther-playwright
+symfony-messenger-retry-failures
+symfony-ports-and-adapters
+symfony-symfony-voters
+symfony-using-symfony-superpowers
+symfony-value-objects-and-dtos
+python-fastapi-development
+solidjs-patterns
+typescript-expert
+nextjs-best-practices
+nextjs-supabase-auth
+aws-skills
+aws-iam-best-practices
+aws-security-audit
+agent-framework-azure-ai-py
+azure-ai-ml-py
+azure-ai-openai-dotnet
+angular-best-practices
+angular-state-management
+agent-memory-systems
+ai-agent-development
+api-patterns
+
+# === Wave 37: Sentry / mindrally / aj-geddes / tech-leads / antigravity / bobmatnyc ===
+sentry-android-sdk
+sentry-browser-sdk
+sentry-nextjs-sdk
+sentry-python-sdk
+sentry-react-sdk
+sentry-node-sdk
+sentry-workflow
+sentry-setup-ai-monitoring
+accessibility-a11y
+apollo-graphql
+clean-architecture
+fastapi-microservices-serverless
+hono-typescript
+java-spring-development
+kubernetes-deployment
+api-security-hardening
+api-gateway-configuration
+blue-green-deployment
+database-schema-design
+deployment-automation
+feature-flag-system
+coding-guidelines
+core-web-vitals
+create-adr
+create-rfc
+domain-analysis
+frontend-blueprint
+drizzle-orm-expert
+github-actions-advanced
+cloudflare-workers-expert
+api-security-best-practices
+golang-concurrency-patterns
+hono-core
+sveltekit
+react-advanced
+spring-boot
+
+# === Wave 38: mindrally / aj-geddes / bobmatnyc / tech-leads / antigravity ===
+alpine-js
+mindrally-fullstack
+ajgeddes-api-patterns
+bobmatnyc-fullstack
+techleads-gtm
+antigravity-dev-batch
+backend-architect
+devops-troubleshooter
+nx-workspace
+perf-lighthouse
+zero-trust-architecture
+
+# === Wave 39: minimax / shubhamsaboo / andrelandgraf / alirezarezvani / mukul975 / antigravity / techleads ===
+minimax-multimodal
+shubham-llm-apps
+andre-fullstackrecipes
+alirezarezvani-dev
+mukul-cybersecurity
+antigravity-dev2
+techleads-accessibility-fix
+
+# === Wave 40: shubham重试 / alirezarezvani-3 / mukul-security-2 / antigravity-dev3 ===
+shubham-retry
+alirezarezvani-3
+mukul-security-2
+antigravity-dev3
+
+# === Wave 41: alirezarezvani-4 / mukul-security-3 / antigravity-dev4 ===
+alirezarezvani-4
+mukul-security-3
+antigravity-dev4
+
+# === Wave 42: alirezarezvani-5 / mukul-security-4 / antigravity-dev5 ===
+alirezarezvani-5
+mukul-security-4
+antigravity-dev5
+
+# === Wave 43: 官方/大型技能库 ===
+# 科学研究技能 (K-Dense-AI) - 140+ 科学技能
+scientific-agent-skills
+
+# PM 技能市场 (phuryn) - 100+ PM 技能
+pm-skills
+
+# 上下文工程技能
+Agent-Skills-for-Context-Engineering
+
+# Obsidian 技能
+obsidian-skills
+
+# Vue 3 官方技能
+vuejs-ai-skills
+
+# NVIDIA 技能
+nvidia-skills
+
+# Firebase 官方技能
+firebase-agent-skills
+
+# Google 官方技能
+google-skills
+
+# Apify Agent Skills
+apify-agent-skills
+
+# awesome-agent-skills (VoltAgent) - 1000+ 技能
+voltagent-awesome-agent-skills
+
+# === Wave 44: 实用工具技能 ===
+# Humanizer - 消除 AI 生成痕迹
+humanizer
+content-humanizer
+
+# Humanizer 中文版
+humanizer-zh
+
+# Caveman - 节省 65% tokens
+caveman
+
+# PDF 转 Markdown
+pdf2md-skill
+
+# 书籍转技能
+book-to-skill
+
+# 代码库转课程
+codebase-to-course
+
+# 架构图生成器
+architecture-diagram-generator
+
+# Nothing 设计风格
+nothing-design-skill
+
+# UI Design Brain - 60+ 组件知识
+ui-design-brain
+ui-design
+
+# 深度阅读分析
+deep-reading-analyst-skill
+
+# === Wave 45: 中文/营销/视频/交易技能 ===
+# 微信 Claude Code 技能
+wechat-claude-code
+
+# 微信文章转 Markdown
+wechat-article-for-ai
+
+# 视频剪辑技能
+chengfeng-videocut-skills
+
+# 视频技能合集
+video-skills
+
+# AI 营销技能
+ai-marketing-claude-code-skills
+
+# 交易技能
+claude-trading-skills
+
+# Buffet 投资技能
+buffett-skills
+
+# X/Twitter 文章发布
+x-article-publisher-skill
+
+# SEO/广告技能
+notfair-seo-geo-ads
+
+# 卡兹克中文技能
+khazix-skills
+
+# === Wave 46: 开发工具/安全/逆向技能 ===
+# Android 逆向工程
+android-reverse-engineering-skill
+
+# 逆向技能
+reverse-skills
+
+# 自动技能安装
+autoskills
+
+# Skill Scanner (安全扫描)
+skill-scanner
+skillspector
+
+# 专业技能市场
+claude-code-skills-marketplace
+
+# .NET 技能
+dotnet-skills
+
+# AWS Agent Toolkit
+aws-agent-toolkit
+
+# GitHub Copilot Plugins
+copilot-plugins
+
+# 他山 Cursor Skills (95个技能)
+tashan-cursor-skills
+
+# === Wave 47: 精选合集/工作流 ===
+# awesome-claude-code-skills (精选合集)
+awesome-claude-code-skills
+
+# awesome-agent-skills (教程指南)
+awesome-agent-skills-guide
+
+# awesome-claude-code-workflows
+awesome-claude-code-workflows
+
+# awesome-claude (注册表)
+awesome-claude
+
+# everything-ai-coding (聚合资源)
+everything-ai-coding
+
+# Claude Dev Suite
+claude-dev-suite
+
+# Claude Code Studio
+claude-code-studio
+
+# Cross-Code Organizer
+cross-code-organizer
+
+# VSync (跨平台同步)
+vsync
+
+# ECC2Cursor
+ecc2cursor
+
+# === Wave 56: 搜索发现更多技能仓库 ===
+# QA/测试技能
+qa-skills
+
+# 文档技能工具包
+documentation-skills-toolkit
+
+# 文档技能生成器
+DocumentationSkillGenerator
+
+# AI API 测试技能 (中文)
+ai-api-test-skill
+
+# 架构设计技能
+architecture-design-skill
+
+# 前端架构设计 (中文)
+frontend-architecture-designer-skill
+
+# 多代理架构师
+multi-agent-architect
+
+# Obsidian 文档技能
+obsidian-documentation-skill
+
+# PKM 文档
+pkm-documentation
+
+# 视觉文档
+visual-docs
+
+# Git 工作流技能
+git-workflow-skill
+
+# GitHub 工作流技能
+github-workflow-skill
+
+# Git GitHub 工作流
+git-github-workflow-skill
+
+# Claude Code GitHub 工作流
+claude-code-github-workflow-skills
+
+# C++ 性能技能
+cpp-perf-skills
+
+# 代码性能优化器
+code-performance-optimizer-skill
+
+# 极致优化器
+extreme-optimizer
+
+# React 性能技能
+react-performance-skill
+
+# WordPress 开发技能
+wordpress-dev-skills
+
+# Windows 优化
+windows-optimize
+
+# Python 性能优化
+python-vibeperf
+
+# Android 性能技能
+SkillsForAndroidPerformance
+
+# iOS 性能优化
+ios-performance-optimizer-skill
+
+# Tailwind Agent Skills
+Tailwind-Agent-Skills
+
+# Gemini 文档技能
+gemini-documentation-skills
+
+# GitHub 文档技能
+github-documentation-skills
+
+# Vibe 创建技能 (视频)
+vibe-creating-skill
+
+# 抽取设计系统
+extract-design-system
+
+# 创意到上线
+idea-to-ship-skills
+
+# Claude 设计风格
+claude-design-style
+
+# Skill Blast (一键安装)
+skill-blast
+
+# Awesome Skill Forge (90000+)
+awesome-skill-forge
+
+# 韩语技能合集
+awesome-korean-agent-skills
+
+# 技能管理器
+skills-manager
+
+# 自动清理
+auto-cleanup-skill
+
+# 技能编译器
+Skill-Compiler
+
+# Off-the-shelf 资产
+off-the-shelf
+
+# Obsidian 技能管理器
+obsidian-skills-manager
+
+# Modsearch
+modsearch
+
+# Dualform Labs
+dualform-labs
+
+# HCaiano Skills
+hcaiano-skills
+
+# Steve Derico Skills
+stevederico-skills
+
+# PMarreck LLM Skills
+llm_skills
+
+# Dot Agents
+dot-agents
+
+# WebGPU Metal 调试
+webgpu-metal-debug-kit
+
+# Woo Review
+woo-review
+
+# Audn AI Skills (红队)
+audn-ai-skills
+
+# 安全技能市场
+security-skills-marketplace
+
+# 安全测试技能
+security-testing-skill
+
+# 渗透测试技能
+pentest-security-testing-skills
+
+# Web 安全测试
+web-security-testing-skills
+
+# 提示工程技能
+prompt-engineering-skills
+
+# DailyForge
+DailyForge
+
+# Claude 提示工程 (中文)
+claude-prompt-engineering-skills
+
+# CUE Skill
+cue-skill
+
+# Dreamybot 提示工程
+dreamybot-prompt-engineering-skill
+
+# 六层提示设计
+cyydark-prompt-engineering-skill
+
+# 模型无关提示工程
+kzhekov-prompt-engineering-skill
+
+# === Wave 59: 调试/重构/官方技能 ===
+# 嵌入式技能
+embeddedskills
+
+# 调试技能
+debug-skill
+claudecode-debug-mode
+linux-kernel-crash-debug
+starrocks-debug-skills
+jlink-debug-skill
+
+# 重构技能
+python-refactoring-skills
+code-refactoring-skill
+refactoring-code-smells-skills
+autorefactor
+
+# SwiftUI 技能
+SwiftUI-Agent-Skill
+Swift-Concurrency-Agent-Skill
+Swift-Agent-Skills
+
+# Claude 技能工厂
+claude-code-skill-factory
+claude-skill-codex
+claude-skill-codex-imagegen
+claude-skill-codereview
+claude-skill-code-review-router
+claude-skill-code-walkthrough
+claude-skill-code-cleanup
+claude-skill-code-memory
+
+# Agent Skill Creator
+agent-skill-creator
+
+# PPT 技能
+ppt-agent-skills
+
+# HashiCorp 技能
+hashicorp-agent-skills
+
+# WordPress 官方技能
+WordPress-agent-skills
+
+# Supabase 技能
+supabase-agent-skills
+
+# CallStack React Native 技能
+callstackincubator-agent-skills
+
+# Microsoft Azure 技能
+MicrosoftDocs-Agent-Skills
+
+# Tech Leads Club 技能
+tech-leads-club-agent-skills
+
+# AWS Agent Skills
+itsmostafa-aws-agent-skills
+
+# 吴恩达课程技能
+datawhalechina-agent-skills-with-anthropic
+
+# Agent Skill OS
+AgentSkillOS
+
+# 技能标准
+agent-skills-standard
+
+# Solopreneur 技能
+opc-skills
+
+# Acontext
+Acontext
+
+# === Wave 62: Monorepo/微服务/项目设置 ===
+# Astro Monorepo
+astro-monorepo-skill
+
+# TypeScript Monorepo
+monorepo-skills
+
+# Hermes Skill Toolkit (4技能包)
+hermes-skill-toolkit
+
+# Electron Web Monorepo
+electron-web-monorepo-skill
+
+# FastAPI 微服务
+fastapi-microservice-skills
+
+# 项目设置
+project-setup-skill
+apple-platform-project-setup-skill
+claude-github-skill
+
+# Next.js Intelligence Toolkit
+nextjs-intelligence-toolkit
+
+# 代码学习教程
+code-learning-tutorial-skill
+
+# === Wave 63: 状态管理/API设计/审计 ===
+# Task Tracker
+task-tracker
+
+# API 设计技能
+google-api-design-skill
+express-api-design-skill
+api-design-ai-skills
+
+# 内部审计/会计
+internal-audit-ops
+accounting-ops
+
+# === Wave 64: 设计模式 ===
+# Agentic Design Patterns (28模式)
+agentic-design-patterns-skills
+
+# GoF 设计模式
+DesignPattern-skill
+design-patterns-skill
+software-best-design-patterns-skill
+Design-Patterns
+
+# Unity 设计模式
+unity-design-patterns-skills
+
+# React 设计模式
+react-design-patterns-skills-for-agent
+
+# Design Pattern (架构审查)
+design-pattern-skill

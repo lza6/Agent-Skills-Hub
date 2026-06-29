@@ -1,0 +1,19 @@
+# Logs
+logs/
+*.log
+
+# Caches and local data
+__pycache__/
+*.pyc
+.agents/
+data/skills/
+skills-lock.json
+
+# Backup/temp files
+* - 副本.*
+*.bak
+*.tmp
+.vscode/
+
+# Ignore local install batch file if personal
+# install-all.bat
