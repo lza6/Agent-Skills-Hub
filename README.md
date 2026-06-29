@@ -63,6 +63,7 @@ Agent-Skills-Hub/
 │   ├── SKILLS-REFERENCE-CN.md         # 中文技能手册（核心，推荐）
 │   ├── SKILLS-REFERENCE.md            # 英文简要版
 │   ├── INSTALL-CN.md                  # 给他人电脑的一键安装指南
+│   ├── SKILLS-GUIDE-CN.md             # 高效使用技巧指南（新增）
 │   ├── PATHS-CN.md                    # 完整路径映射说明
 │   └── SKILLS-CATEGORY-REPORT.md      # 技能分类报告
 ├── data/
