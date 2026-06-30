@@ -1,5 +1,5 @@
 {
-  "total_repos": 563,
+  "total_repos": 581,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -860,6 +860,12 @@
       ]
     },
     {
+      "repo": "alinaqi/claude-bootstrap",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "alirezarezvani/claude-code-skill-factory",
       "waves": [
         58,
@@ -951,6 +957,12 @@
       ]
     },
     {
+      "repo": "aradotso/trending-skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "araguaci/cursor-skills",
       "waves": [
         72
@@ -1003,7 +1015,8 @@
     {
       "repo": "asyrafhussin/agent-skills",
       "waves": [
-        22
+        22,
+        76
       ]
     },
     {
@@ -1104,6 +1117,12 @@
       "repo": "blader/humanizer",
       "waves": [
         44
+      ]
+    },
+    {
+      "repo": "blogic-cz/blogic-marketplace",
+      "waves": [
+        76
       ]
     },
     {
@@ -1409,6 +1428,12 @@
       ]
     },
     {
+      "repo": "deepgram/skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "denoland/skills",
       "waves": [
         17
@@ -1531,6 +1556,12 @@
       "repo": "emotixco/claude-skills-founder",
       "waves": [
         70
+      ]
+    },
+    {
+      "repo": "evanca/flutter-ai-rules",
+      "waves": [
+        76
       ]
     },
     {
@@ -1886,6 +1917,12 @@
       ]
     },
     {
+      "repo": "iii-hq/skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "inekipelov/apple-platform-project-setup-skill",
       "waves": [
         62
@@ -1939,6 +1976,12 @@
       "repo": "jaballer/react-claude-skills",
       "waves": [
         70
+      ]
+    },
+    {
+      "repo": "jabrena/cursor-rules-java",
+      "waves": [
+        76
       ]
     },
     {
@@ -2319,6 +2362,12 @@
       ]
     },
     {
+      "repo": "margelo/react-native-skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "markpitt/claude-skills",
       "waves": [
         22
@@ -2377,6 +2426,12 @@
       "repo": "metabase/metabase",
       "waves": [
         24
+      ]
+    },
+    {
+      "repo": "mhagrelius/dotfiles",
+      "waves": [
+        76
       ]
     },
     {
@@ -2452,6 +2507,12 @@
       "repo": "mobiusquant/OpenMobius-skill",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "modu-ai/moai-adk",
+      "waves": [
+        76
       ]
     },
     {
@@ -2600,6 +2661,12 @@
       ]
     },
     {
+      "repo": "oakoss/agent-skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "oalders/kitchen-sink",
       "waves": [
         71
@@ -2629,6 +2696,12 @@
       "waves": [
         68,
         69
+      ]
+    },
+    {
+      "repo": "omer-metin/skills-for-antigravity",
+      "waves": [
+        76
       ]
     },
     {
@@ -2676,6 +2749,12 @@
       ]
     },
     {
+      "repo": "ovachiever/droid-tings",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "paipeline/auto-routines",
       "waves": [
         71
@@ -2690,7 +2769,8 @@
     {
       "repo": "patricio0312rev/skills",
       "waves": [
-        26
+        26,
+        76
       ]
     },
     {
@@ -2756,9 +2836,21 @@
       ]
     },
     {
+      "repo": "pixijs/pixijs-skills",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "pjt3591oo/react-design-patterns-skills-for-agent",
       "waves": [
         64
+      ]
+    },
+    {
+      "repo": "pluginagentmarketplace/custom-plugin-java",
+      "waves": [
+        76
       ]
     },
     {
@@ -3218,6 +3310,12 @@
       ]
     },
     {
+      "repo": "thebeardedbearsas/claude-craft",
+      "waves": [
+        76
+      ]
+    },
+    {
       "repo": "thebushidocollective/han",
       "waves": [
         24,
@@ -3262,6 +3360,12 @@
       "repo": "timescale/pg-aiguide",
       "waves": [
         18
+      ]
+    },
+    {
+      "repo": "toss/es-toolkit",
+      "waves": [
+        76
       ]
     },
     {
@@ -3425,6 +3529,12 @@
       "repo": "worldwonderer/video-recap-skills",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "wshaddix/dotnet-skills",
+      "waves": [
+        76
       ]
     },
     {
