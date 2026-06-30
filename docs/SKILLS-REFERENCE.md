@@ -1,6 +1,6 @@
 # Claude Code 全局技能总览手册
 
-> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **11339** 个全局技能
+> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **11538** 个全局技能
 
 ---
 
@@ -859,7 +859,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 ### Wave 71 全量已安装技能索引（按字母排序）
 
-> 以下 **11127** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
+> 以下 **11326** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
 > 仅展示**已安装**技能，未安装的不收录。
 
 | Skill | Description |
@@ -1045,6 +1045,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/Offer Letter Generator` | Create formal employment offer letters with compensation and terms |
 | `/Omnisend Automation` | Automate ecommerce marketing workflows including contact management, bulk operations, and subscrib… |
 | `/OpenAI Automation` | Automate OpenAI API operations -- generate responses with multimodal and structured output support… |
+| `/OpenMobius-skill` | ICT/SMC trading knowledge base (665 concepts + 1246 cases) + a built-in SMC structural indicator +… |
 | `/OpenTelemetry-NET-Instrumentation` | Provides guidance for implementing OpenTelemetry instrumentation in .NET codebases, covering traci… |
 | `/PDF Compress` | Reduce PDF file size while maintaining acceptable quality |
 | `/PDF Converter` | Convert PDF files to and from Word, Excel, Image, and other formats |
@@ -1442,6 +1443,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agentphone` | Build AI phone agents with AgentPhone API. Use when the user wants to make phone calls, send/recei… |
 | `/agentql-automation` | Automate Agentql tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/agents` | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, … |
+| `/agents-best-practices` | Use this skill when designing, generating an MVP blueprint for, auditing, refactoring, or explaini… |
 | `/agents-context-management` | Use to create or polish repo agent context files: README.md, AGENTS.md/CLAUDE.md symlinks, and exi… |
 | `/agents-introspection` | Use to retrospect on a task against historical Codex and Claude Code chat transcripts in the curre… |
 | `/agents-md` | This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain … |
@@ -1461,6 +1463,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ai-agent-security` | Secure AI agents against prompt injection, tool abuse, and data exfiltration with defense-in-depth… |
 | `/ai-agents-architect` | Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning … |
 | `/ai-analyzer` | AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
+| `/ai-audit-account-report` | Turn account usage data into a concise AI audit outreach package. |
 | `/ai-automation-workflows` | Build automated AI workflows combining multiple models and services. Patterns: batch processing, s… |
 | `/ai-chat` | Guidance for improving the Windmill AI chat (copilot), especially global mode — tools, prompts, an… |
 | `/ai-cold-outreach` | When the user wants to build an AI-powered outreach system, write cold emails, improve deliverabil… |
@@ -2510,6 +2513,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bambu-3mf-export` | Export finished STL meshes to a real Bambu Studio .3mf PROJECT with print settings baked in, no "n… |
 | `/bambu-labs` | Dry-run, upload, and cautiously initiate local Bambu Lab print jobs from validated plain `.gcode`,… |
 | `/bannerbear-automation` | Automate Bannerbear tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/baoyu-design` | Create polished design artifacts as self-contained HTML: UI mockups, interactive prototypes, wiref… |
 | `/bap-identity` | Manage BAP (Bitcoin Attestation Protocol) identity files using bap-cli. This skill should be used … |
 | `/barba-js` | Page transitions library for creating fluid, smooth transitions between website pages. Use this sk… |
 | `/bare-eval` | Run isolated eval and grading calls using CC 2.1.81 --bare mode. Constructs claude -p --bare invoc… |
@@ -2765,6 +2769,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/brand-copywriter` | Writes marketing copy using proven copywriting frameworks. Use when user needs copy for ads (Faceb… |
 | `/brand-discovery` | Brand discovery diagnostic for assessing client brand health, identifying creative gaps, and scopi… |
 | `/brand-guidelines-anthropic` | To access Anthropic's official brand identity and style resources, use this skill. |
+| `/brand-guidelines-builder` | Help non-designers evaluate work against brand guidelines and know what to fix. |
 | `/brand-guidelines-community` | To access Anthropic's official brand identity and style resources, use this skill. |
 | `/brand-ideation` | Generate, evaluate, and narrow brand concepts during early ideation including positioning territor… |
 | `/brand-identity` | Design or evaluate a brand visual identity system covering logo, color, typography, imagery direct… |
@@ -2995,6 +3000,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/camofox-cloaked-browser` | Use Camofox/Camoufox as an opt-in anti-detection browser server for agent workflows that need cloa… |
 | `/campaign-analytics` | Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI ca… |
 | `/campaign-cleaner-automation` | Automate Campaign Cleaner tasks via Rube MCP (Composio). Always search tools first for current sch… |
+| `/campaign-postmortem` | Build sourced campaign retrospectives from goals, launch context, performance data, team feedback,… |
 | `/campayn-automation` | Automate Campayn tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/canary-deployment` | Implement canary deployment strategies to gradually roll out new versions to subset of users with … |
 | `/canary-watch` | Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE st… |
@@ -3240,6 +3246,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/clawpatch` | This skill is specifically for the Clawpatch CLI (openclaw/clawpatch, https://clawpatch.ai) — an n… |
 | `/clay` | You are an expert in Clay, the data enrichment and outbound sales platform that pulls from 75+ dat… |
 | `/clean-architecture` | Clean Architecture principles and best practices from Robert C. Martin's book. This skill should b… |
+| `/clean-code-guard` | Review generated or changed production code before it ships, using Clean Code, SOLID, DRY, KISS, Y… |
 | `/clean-code-ts-react` | Use when writing, reviewing, or refactoring TypeScript or React code for craftsmanship — naming, f… |
 | `/clean-ddd-hexagonal` | Proactively apply when designing APIs, microservices, or scalable backend structure. Triggers on D… |
 | `/cleanup` | Clean up project files, remove cruft, and organize codebase |
@@ -3526,6 +3533,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/company-announcement-writer` | Executive communication style for all-hands emails. Balances transparency with appropriate messagi… |
 | `/company-os` | The meta-framework for how a company runs — the connective tissue between all C-suite roles. Cover… |
 | `/company-people` | Give it a list of companies (LinkedIn company URLs or domains) and it finds the decision maker at … |
+| `/company-recording-clip` | Turn a company meeting or event recording into a short, approved, postable clip. |
 | `/company-research` | Conduct comprehensive company research and due diligence. Analyze business model, competitive land… |
 | `/company-values` | Define authentic company values that guide decisions and culture — not generic corporate platitude… |
 | `/compare` | 当用户在纠结选哪个技术、对比框架、选数据库、选部署方案时使用 -- 对比不同技术方案的优劣，帮你做出选择 |
@@ -3868,6 +3876,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cron-mastery` | Master OpenClaw's timing systems. Use for scheduling reliable reminders, setting up periodic maint… |
 | `/cron-schedule` | Schedule persistent background workers via CronCreate |
 | `/cross-conversation-project-manager` | Maintain project state across MULTIPLE conversations over days/weeks. Track tasks, decisions, bloc… |
+| `/cross-crm-opportunity-sync` | Coordinate opportunities and customer records across multiple CRMs while preserving attribution, v… |
 | `/cross-eval` | /cs:cross-eval <memo> — Multi-model consensus on a board memo or strategy brief. Claude + Codex + … |
 | `/cross-platform-compatibility` | Handle cross-platform compatibility including file paths, environment detection, platform-specific… |
 | `/cross-project-coordinator` | 跨项目并行开发协调框架创建 Skill。当启动涉及2个或以上子项目并行开发时激活：收集项目清单，生成标准协调框架文档（项目地图/API契约/并行轨道/Day 1清单）。触发词：「多项目并行」「建协… |
@@ -3935,12 +3944,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cursor-subagent-creator` | Creates Cursor-specific AI subagents with isolated context for complex multi-step workflows. Use w… |
 | `/custom-prompt-engineer` | Optimize and rewrite user-provided prompts into high-performance prompts for AI models. Trigger th… |
 | `/customer-billing-ops` | Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal re… |
+| `/customer-deck-builder` | Build tailored customer-facing sales or customer success decks from approved account context and g… |
 | `/customer-journey-map` | Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opp… |
 | `/customer-journey-mapper` | Maps the full customer journey from first touch to advocacy. Generates a comprehensive customer-jo… |
 | `/customer-panel-of-experts` | Build a panel of your real buyer personas (from a deep scan of any tools you allow it to connect t… |
 | `/customer-psychographic-profiler` | One sentence - what this skill does and when to invoke it |
 | `/customer-research` | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentio… |
 | `/customer-review-aggregator` | Aggregate and analyze customer reviews from G2, Capterra, Trustpilot, App Store, and other platfor… |
+| `/customer-story-writer` | Draft customer stories from approved transcripts, notes, briefs, quotes, and proof points. Use for… |
 | `/customer-success` | Customer success management - onboarding, health scoring, QBRs, expansion playbooks, and retention… |
 | `/customer-success-manager` | Monitors customer health, predicts churn risk, and identifies expansion opportunities using weight… |
 | `/customer-support` | Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sen… |
@@ -3974,6 +3985,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dagster` | Dagster is a data pipeline orchestrator built around the concept of software-defined assets. Learn… |
 | `/daily` | Documentation and capabilities reference for Daily |
 | `/daily-gift` | Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synth… |
+| `/daily-lead-steward` | Maintain a daily review cockpit for high-intent leads and hand-raisers. |
 | `/daily-meeting-update` | Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum … |
 | `/daily-news-report` | Scrapes content based on a preset URL list, filters high-quality technical information, and genera… |
 | `/daily-plan` | 每日规划与小结 agent。通过问答式对话帮助用户完成每日小结和次日规划， 自动生成 Obsidian markdown 文件并维护双向链接体系。 当用户说「每日小结」「日报」「今日规划」「dai… |
@@ -4433,6 +4445,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/docs-auditor` | Audits any developer documentation site across 33 checks in 7 categories and produces a scored rep… |
 | `/docs-cleaner` | Consolidates redundant documentation while preserving all valuable content. This skill should be u… |
 | `/docs-consistency-checker` | Validate consistency across SEED Design component documentation layers (design guidelines in ./doc… |
+| `/docs-guard` | Review generated or changed documentation before it ships — READMEs, API references, docstrings, P… |
 | `/docs-review` | Review documentation changes for compliance with the Metabase writing style guide. Use when review… |
 | `/docs-search` | Library-documentation lookup methodology — API behavior, version-specific changes, idiomatic usage… |
 | `/docs-seeker` | Searching internet for technical documentation using llms.txt standard, GitHub repositories via Re… |
@@ -5025,7 +5038,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/financial-modeling` | Build integrated financial models with 3-statement projections. Create income statement, balance s… |
 | `/find-bugs` | Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when ask… |
 | `/find-community` | Find and build a community around your product — identify where your users gather, engage authenti… |
+| `/find-customer-social-proof` | Find approved customer proof for campaigns, pages, decks, emails, and sales conversations. Use whe… |
 | `/find-hypertable-candidates` | Analyze an existing PostgreSQL database to identify tables that would benefit from conversion to T… |
+| `/find-lead-account-owner` | Resolve the right account owner for a lead using contact, company, and deal ownership evidence. |
 | `/find-skills` | Helps users discover and install agent skills when they ask questions like "how do I do X", "find … |
 | `/find-tool` | Use to find, compare, and recommend current tools, packages, libraries, CLIs, VSCode extensions, a… |
 | `/finding` | Write up a single security finding in a consistent, actionable format: title, severity (CVSS), aff… |
@@ -5796,9 +5811,54 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/guardrail-review` | Review or design the content-safety guardrails of an AI system — input/output classifiers, refusal… |
 | `/guidance` | You are an expert in Guidance, Microsoft's library for controlling LLM output with constrained gen… |
 | `/guizang-ppt-skill` | 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① "电子杂志 × 电子墨水"（衬线 + 流体背景 + 暖色） ② "瑞士… |
+| `/guizang-social-card-skill` | Generate Guizang-style social card image sets and WeChat official account cover pairs from article… |
 | `/gwas-database` | Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, … |
+| `/gws-admin-reports` | Google Workspace Admin SDK: Audit logs and usage reports. |
+| `/gws-calendar` | Google Calendar: Manage calendars and events. |
+| `/gws-calendar-agenda` | Google Calendar: Show upcoming events across all calendars. |
+| `/gws-calendar-insert` | Google Calendar: Create a new event. |
+| `/gws-chat` | Google Chat: Manage Chat spaces and messages. |
+| `/gws-chat-send` | Google Chat: Send a message to a space. |
+| `/gws-classroom` | Google Classroom: Manage classes, rosters, and coursework. |
+| `/gws-docs` | Read and write Google Docs. |
+| `/gws-docs-write` | Google Docs: Append text to a document. |
+| `/gws-drive` | Google Drive: Manage files, folders, and shared drives. |
+| `/gws-drive-upload` | Google Drive: Upload a file with automatic metadata. |
+| `/gws-events` | Subscribe to Google Workspace events. |
+| `/gws-events-renew` | Google Workspace Events: Renew/reactivate Workspace Events subscriptions. |
+| `/gws-events-subscribe` | Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON. |
+| `/gws-forms` | Read and write Google Forms. |
+| `/gws-gmail` | Gmail: Send, read, and manage email. |
+| `/gws-gmail-forward` | Gmail: Forward a message to new recipients. |
+| `/gws-gmail-read` | Gmail: Read a message and extract its body or headers. |
+| `/gws-gmail-reply` | Gmail: Reply to a message (handles threading automatically). |
+| `/gws-gmail-reply-all` | Gmail: Reply-all to a message (handles threading automatically). |
+| `/gws-gmail-send` | Gmail: Send an email. |
+| `/gws-gmail-triage` | Gmail: Show unread inbox summary (sender, subject, date). |
+| `/gws-gmail-watch` | Gmail: Watch for new emails and stream them as NDJSON. |
 | `/gws-install` | Quick install of the Google Workspace CLI (gws) on an additional machine using existing OAuth cred… |
+| `/gws-keep` | Manage Google Keep notes. |
+| `/gws-meet` | Manage Google Meet conferences. |
+| `/gws-modelarmor` | Google Model Armor: Filter user-generated content for safety. |
+| `/gws-modelarmor-create-template` | Google Model Armor: Create a new Model Armor template. |
+| `/gws-modelarmor-sanitize-prompt` | Google Model Armor: Sanitize a user prompt through a Model Armor template. |
+| `/gws-modelarmor-sanitize-response` | Google Model Armor: Sanitize a model response through a Model Armor template. |
+| `/gws-people` | Google People: Manage contacts and profiles. |
+| `/gws-script` | Manage Google Apps Script projects. |
+| `/gws-script-push` | Google Apps Script: Upload local files to an Apps Script project. |
 | `/gws-setup` | Set up the Google Workspace CLI (gws) from scratch. Guides through GCP project creation, OAuth cre… |
+| `/gws-shared` | gws CLI: Shared patterns for authentication, global flags, and output formatting. |
+| `/gws-sheets` | Google Sheets: Read and write spreadsheets. |
+| `/gws-sheets-append` | Google Sheets: Append a row to a spreadsheet. |
+| `/gws-sheets-read` | Google Sheets: Read values from a spreadsheet. |
+| `/gws-slides` | Google Slides: Read and write presentations. |
+| `/gws-tasks` | Google Tasks: Manage task lists and tasks. |
+| `/gws-workflow` | Google Workflow: Cross-service productivity workflows. |
+| `/gws-workflow-email-to-task` | Google Workflow: Convert a Gmail message into a Google Tasks entry. |
+| `/gws-workflow-file-announce` | Google Workflow: Announce a Drive file in a Chat space. |
+| `/gws-workflow-meeting-prep` | Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs. |
+| `/gws-workflow-standup-report` | Google Workflow: Today's meetings + open tasks as a standup summary. |
+| `/gws-workflow-weekly-digest` | Google Workflow: Weekly summary: this week's meetings + unread email count. |
 | `/habitica-automation` | Automate Habitica tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/hackernews-automation` | Automate Hackernews tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/hads` | Use when writing technical documentation that needs to be readable by both humans and AI models, c… |
@@ -5954,6 +6014,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/html` | Guidelines for semantic HTML markup, document structure, forms, accessibility attributes, and mode… |
 | `/html-animation-to-mp4` | Convert an HTML/CSS/JS animation — especially a Claude "Design" timeline artifact (a *.dc.html bun… |
 | `/html-injection-testing` | Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML … |
+| `/html-mockup-builder` | Build self-contained HTML mockups from campaign, product, or page briefs. |
 | `/html-slides` | > |
 | `/html-to-image-automation` | Automate Html To Image tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/html-to-ppt` | Convert HTML/Markdown to PowerPoint presentations using Marp |
@@ -6160,6 +6221,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/improve-codebase-architecture` | Explore a codebase to find opportunities for architectural improvement, focusing on making the cod… |
 | `/improve-content` | Use when rewriting or refreshing an existing page that's underperforming. The agent fetches the UR… |
 | `/in-app-messaging-kit` | Library of in-product message patterns, triggers, and targeting rules. |
+| `/inbound-lead-audit-cx-map` | Audit inbound lead handling and map the customer experience from source event to follow-up outcome. |
 | `/inbound-lead-qualifier` | Analyze inbound leads (form fills, demo requests) and score based on ICP fit, intent, and urgency.… |
 | `/inbox` | Email triage system that handles both one-time setup and recurring triage in a single skill. Auto-… |
 | `/inbox-setup` | One-time setup skill that builds a personalized inbox triage knowledge base via interactive interv… |
@@ -6215,6 +6277,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/instagram-automation` | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insig… |
 | `/instagram-marketing` | Create, optimize, and automate Instagram content including Reels, Stories, carousels, and feed pos… |
 | `/install-plugins` | 当用户想安装插件、增强 Claude Code 功能、配置开发环境时使用 -- 按需安装社区插件 |
+| `/install-zapier` | Install and connect Zapier, routing to the right surface (MCP, SDK, or CLI) for what the person ne… |
 | `/instinct-apply` | Surfaces relevant instincts during work. Use when starting a task to check if any learned behavior… |
 | `/instinct-export` | Export instincts for sharing with teammates or backup |
 | `/instinct-import` | Import instincts from teammates or community collections |
@@ -6587,6 +6650,33 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/laravel-specialist` | Build and configure Laravel 10+ applications, including creating Eloquent models and relationships… |
 | `/laravel-tdd` | Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and… |
 | `/laravel-verification` | 日本語翻訳：このファイルは laravel-verification 用の日本語翻訳が必要です |
+| `/lark-approval` | 飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lar… |
+| `/lark-apps` | 妙搭（Spark/Miaoda）应用开发与托管：应用创建、HTML静态站点发布、本地全栈开发、云端生成迭代。当用户要开发/新建一个系统·工具·平台·应用，或要本地开发 / 云端开发 / 修改 / … |
+| `/lark-attendance` | 飞书考勤打卡：查询自己的考勤打卡记录 |
+| `/lark-base` | 飞书多维表格（Base）操作：建表、字段、记录、视图、统计、公式/lookup、表单、仪表盘、workflow、角色权限；遇到 Base/多维表格/bitable 或 /base/ 链接时使用。文… |
+| `/lark-calendar` | 飞书日历：管理日历日程和会议室。查看/搜索日程、创建/更新日程、管理参会人、查询忙闲和推荐时段、预定会议室。当用户需要查看日程安排、创建/修改会议、查询/预定会议室时使用。不负责：查询过去的视频会… |
+| `/lark-contact` | 飞书 / Lark 通讯录:按姓名 / 邮箱解析成 open_id,或按 open_id 反查姓名 / 部门 / 邮箱 / 联系方式 / 个人状态 / 签名。当用户提到某人姓名要下一步发消息 / … |
+| `/lark-doc` | 飞书云文档（Docx / Wiki 文档）：读取和编辑飞书文档内容。当用户给出文档 URL 或 token，或需要查看、创建、编辑文档、插入或下载文档图片附件时使用。文档中嵌入的电子表格、多维表格… |
+| `/lark-drive` | 飞书云空间（云盘/云存储）：管理 Drive 文件和文件夹，包含上传/下载、创建文件夹、复制/移动/删除、查看元数据、评论/权限/订阅、标题、版本和本地文件导入。用户需要整理云盘目录、处理云空间资… |
+| `/lark-event` | Lark/Feishu real-time event listening / subscribing / consuming: stream events as NDJSON via `lark… |
+| `/lark-im` | 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件（支持大文件分片下载）、管理表情回复、发送应用内/短信/电话加急、发送和处理交互卡片（Interac… |
+| `/lark-mail` | 飞书邮箱：Use when user mentions 起草邮件、写邮件、草稿、发送/回复/转发邮件、查阅邮件、看邮件、搜索邮件、邮件文件夹、邮件标签、邮件联系人、监听新邮件、邮件收信规则等；us… |
+| `/lark-markdown` | 飞书 Markdown：查看、创建、上传、编辑和比较 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取、修改、局部 patch 或比较差异时使用。不负责将 Markdow… |
+| `/lark-minutes` | 飞书妙记：搜索妙记、查看妙记基础信息、下载/上传音视频、读取或编辑妙记的产物内容、改标题、替换说话人/关键词。当给出minute_token、本地音视频文件，要查/改/转妙记产物时使用；本地音视频… |
+| `/lark-note` | 飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node… |
+| `/lark-okr` | 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标、关键结果、对齐关系、量化指标和进展记录。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。不负责：待办任务管理… |
+| `/lark-openapi-explorer` | 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足… |
+| `/lark-shared` | Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain… |
+| `/lark-sheets` | 飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作原子批量更新，以及图表、透… |
+| `/lark-skill-maker` | 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。 |
+| `/lark-slides` | 飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。当用户给出 doubao.com 的… |
+| `/lark-task` | 飞书任务：管理任务、清单和任务智能体。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员、上传任务附件、注册或注销任务智能体、更新任务智能体的主页数据、写入智能体任务记录。当… |
+| `/lark-vc` | 飞书视频会议：搜索历史会议记录、查询会议纪要（总结/待办/章节/逐字稿）、查询参会人快照。当用户查询已结束的会议、获取会议产物（纪要/妙记）、查看参会人时使用；查询未来日程走 lark-calen… |
+| `/lark-vc-agent` | 飞书视频会议会中能力：用于让应用机器人真实加入或离开正在进行的会议，并读取当前身份可见的会中事件，如参会人加入/离开、发言、聊天、屏幕共享。适用于用户询问正在开的会议发生了什么、谁在发言、是否共享… |
+| `/lark-whiteboard` | 飞书画板：查询和编辑飞书云文档中的画板。支持导出画板为预览图片、导出原始节点结构、使用多种格式更新画板内容。 当用户需要查看画板内容、导出画板图片、编辑画板时使用此 skill。不负责：飞书云文档… |
+| `/lark-wiki` | 飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管… |
+| `/lark-workflow-meeting-summary` | 会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。 |
+| `/lark-workflow-standup-report` | 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。 |
 | `/last30days` | Research what people actually say about any topic in the last 30 days. Pulls posts and engagement … |
 | `/last30days-skill` | Deep research engine covering the last 30 days across 10+ sources -- Reddit, X/Twitter, YouTube, T… |
 | `/lastpass-automation` | Automate Lastpass tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -7092,6 +7182,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-hub` | Access 1200+ AI Agent tools via Model Context Protocol (MCP) |
 | `/mcp-integration` | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP … |
 | `/mcp-management` | Manage MCP servers - discover, analyze, execute tools/prompts/resources. Use for MCP integrations,… |
+| `/mcp-media-inbox-triage` | Find media, partnership, and high-intent requests buried in a shared Gmail inbox, summarize the us… |
 | `/mcp-oauth-connector-pitfalls` | Use when building or debugging an MCP server's OAuth flow for a client connector (ChatGPT, Claude … |
 | `/mcp-patterns` | MCP server building, advanced patterns, and security hardening. Use when building MCP servers, imp… |
 | `/mcp-security-audit` | Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:… |
@@ -7099,13 +7190,16 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-server-patterns` | Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs S… |
 | `/mcp-server-security` | Secure Model Context Protocol (MCP) servers with transport encryption, tool authorization, input v… |
 | `/mcp-setup` | Configure popular MCP servers for enhanced agent capabilities |
+| `/mcp-sheet-cache-bridge` | Keep Zapier Tables or another MCP-connected record store as the source of truth while Google Sheet… |
 | `/mcp-tool-developer` | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with… |
+| `/mcp-urgent-caller-triage` | Prioritize inbound client calls by reading transcripts, classifying urgency, matching callers to l… |
 | `/mcp-visual-output` | Interactive MCP visual output via @json-render/mcp. Upgrade plain JSON tool responses to interacti… |
 | `/md-document` | Converts long-form markdown (specs, RFCs, reports, plans, explainers) into a single-file, lightly-… |
 | `/md-review` | Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged … |
 | `/md-slides` | > |
 | `/md-to-docx` | Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images… |
 | `/md-to-office` | > |
+| `/md2html` | Convert long-form Markdown (plan, spec, system design, RFC, runbook, postmortem, brainstorm, notes… |
 | `/mdr-745-specialist` | EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, … |
 | `/medchem` | Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS),… |
 | `/media-asset-management` | Plan and run a media pipeline for images, video, and downloadable assets. Use this skill when desi… |
@@ -7125,6 +7219,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/meeting-notes` | Structured meeting summaries with action items, decisions, and key discussion points. Use when: ta… |
 | `/meeting-synthesizer` | Synthesize a SERIES of meeting transcripts into one hierarchy-weighted, cross-meeting analysis: ke… |
 | `/meeting-to-tasks` | Takes meeting transcripts, extracts action items with owners and deadlines, detects implicit commi… |
+| `/mega-campaign-generator` | Build review-first outbound campaign packages from source context for marketing and sales teams. |
 | `/meilisearch` | Add fast, typo-tolerant full-text search with Meilisearch. Use when a user asks to add search to a… |
 | `/meilisearch-admin` | Check Meilisearch index status, tasks, health, and settings. Use for debugging search issues, moni… |
 | `/melo-automation` | Automate Melo tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -7454,6 +7549,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/naga_control` | Naga 自身控制能力。暂停/恢复语音和Live2D、切换模型/角色、管理会话/技能、控制音乐播放、启停旅行等。当用户要求控制自身功能时使用。 |
 | `/nagios` | Configure Nagios for infrastructure monitoring, service checks, host monitoring, and alert notific… |
 | `/namecheap` | Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/upd… |
+| `/named-account-trigger-radar` | Identify named accounts with timely buying or expansion signals and recommend next actions. |
 | `/naming-analyzer` | Suggest better variable, function, and class names based on context and conventions. |
 | `/naming-convention` | Establish a naming convention system for design elements, components, and tokens with clear rules … |
 | `/nango-automation` | Automate Nango tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -7617,6 +7713,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nlp-natural-language-processing` | Expert guidance for natural language processing development using transformers, spaCy, NLTK, and m… |
 | `/nmap-recon` | Perform network reconnaissance with Nmap. Use when a user asks to scan networks, discover hosts an… |
 | `/nnsight-remote-interpretability` | Provides guidance for interpreting and manipulating neural network internals using nnsight with op… |
+| `/no-ai-slop` | Rules and worked examples for writing prose that does not read like AI-generated slop. Consult bef… |
+| `/no-lead-left-behind-lead-treatment-audit` | Audit lead handling quality across GTM systems and identify missed or low-quality follow-up. |
 | `/no-outlinks-audit` | Runs a full dead-end page audit for any website. Discovers all blog/content pages, detects which o… |
 | `/nocodb` | Build database applications with NocoDB, the open-source Airtable alternative. Use when a user ask… |
 | `/nocrm-io-automation` | Automate Nocrm IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -8091,7 +8189,17 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/perplexity-search` | Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and… |
 | `/perplexityai-automation` | Automate Perplexityai tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/persistiq-automation` | Automate Persistiq tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/persona-content-creator` | Create, organize, and distribute content across Workspace. |
+| `/persona-customer-support` | Manage customer support — track tickets, respond, escalate issues. |
 | `/persona-distiller` | 將任何人的思維方式蒸餾為可直接作為 agent system prompt 使用的結構化 persona。 當使用者說「幫我蒸餾 X」、「模擬 X 的思維」、「建立 X 的 agent perso… |
+| `/persona-event-coordinator` | Plan and manage events — scheduling, invitations, and logistics. |
+| `/persona-exec-assistant` | Manage an executive's schedule, inbox, and communications. |
+| `/persona-hr-coordinator` | Handle HR workflows — onboarding, announcements, and employee comms. |
+| `/persona-it-admin` | Administer IT — monitor security and configure Workspace. |
+| `/persona-project-manager` | Coordinate projects — track tasks, schedule meetings, and share docs. |
+| `/persona-researcher` | Organize research — manage references, notes, and collaboration. |
+| `/persona-sales-ops` | Manage sales workflows — track deals, schedule calls, client comms. |
+| `/persona-team-lead` | Lead a team — run standups, coordinate tasks, and communicate. |
 | `/personal-assistant` | the operator's executive assistant — triages Gmail/Outlook/Apple Mail, handles iPostal1 mail, mana… |
 | `/personal-tool-builder` | Expert in building custom tools that solve your own problems first. The best products often start … |
 | `/personalization-at-scale` | Generate unique personalized first lines for hundreds of prospects using company news, LinkedIn ac… |
@@ -8873,6 +8981,47 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/recallmax` | FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes w… |
 | `/receiving-code-review` | Code review requires technical evaluation, not emotional performance. |
 | `/recharts` | Build responsive charts in React with Recharts. Use when a user asks to create line charts, bar ch… |
+| `/recipe-backup-sheet-as-csv` | Export a Google Sheets spreadsheet as a CSV file for local backup or processing. |
+| `/recipe-batch-invite-to-event` | Add a list of attendees to an existing Google Calendar event and send notifications. |
+| `/recipe-block-focus-time` | Create recurring focus time blocks on Google Calendar to protect deep work hours. |
+| `/recipe-bulk-download-folder` | List and download all files from a Google Drive folder. |
+| `/recipe-collect-form-responses` | Retrieve and review responses from a Google Form. |
+| `/recipe-compare-sheet-tabs` | Read data from two tabs in a Google Sheet to compare and identify differences. |
+| `/recipe-copy-sheet-for-new-month` | Duplicate a Google Sheets template tab for a new month of tracking. |
+| `/recipe-create-classroom-course` | Create a Google Classroom course and invite students. |
+| `/recipe-create-doc-from-template` | Copy a Google Docs template, fill in content, and share with collaborators. |
+| `/recipe-create-events-from-sheet` | Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row. |
+| `/recipe-create-expense-tracker` | Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries. |
+| `/recipe-create-feedback-form` | Create a Google Form for feedback and share it via Gmail. |
+| `/recipe-create-gmail-filter` | Create a Gmail filter to automatically label, star, or categorize incoming messages. |
+| `/recipe-create-meet-space` | Create a Google Meet meeting space and share the join link. |
+| `/recipe-create-presentation` | Create a new Google Slides presentation and add initial slides. |
+| `/recipe-create-shared-drive` | Create a Google Shared Drive and add members with appropriate roles. |
+| `/recipe-create-task-list` | Set up a new Google Tasks list with initial tasks. |
+| `/recipe-create-vacation-responder` | Enable a Gmail out-of-office auto-reply with a custom message and date range. |
+| `/recipe-draft-email-from-doc` | Read content from a Google Doc and use it as the body of a Gmail message. |
+| `/recipe-email-drive-link` | Share a Google Drive file and email the link with a message to recipients. |
+| `/recipe-find-free-time` | Query Google Calendar free/busy status for multiple users to find a meeting slot. |
+| `/recipe-find-large-files` | Identify large Google Drive files consuming storage quota. |
+| `/recipe-forward-labeled-emails` | Find Gmail messages with a specific label and forward them to another address. |
+| `/recipe-generate-report-from-sheet` | Read data from a Google Sheet and create a formatted Google Docs report. |
+| `/recipe-label-and-archive-emails` | Apply Gmail labels to matching messages and archive them to keep your inbox clean. |
+| `/recipe-log-deal-update` | Append a deal status update to a Google Sheets sales tracking spreadsheet. |
+| `/recipe-organize-drive-folder` | Create a Google Drive folder structure and move files into the right locations. |
+| `/recipe-plan-weekly-schedule` | Review your Google Calendar week, identify gaps, and add events to fill them. |
+| `/recipe-post-mortem-setup` | Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat. |
+| `/recipe-reschedule-meeting` | Move a Google Calendar event to a new time and automatically notify all attendees. |
+| `/recipe-review-meet-participants` | Review who attended a Google Meet conference and for how long. |
+| `/recipe-review-overdue-tasks` | Find Google Tasks that are past due and need attention. |
+| `/recipe-save-email-attachments` | Find Gmail messages with attachments and save them to a Google Drive folder. |
+| `/recipe-save-email-to-doc` | Save a Gmail message body into a Google Doc for archival or reference. |
+| `/recipe-schedule-recurring-event` | Create a recurring Google Calendar event with attendees. |
+| `/recipe-send-team-announcement` | Send a team announcement via both Gmail and a Google Chat space. |
+| `/recipe-share-doc-and-notify` | Share a Google Docs document with edit access and email collaborators the link. |
+| `/recipe-share-event-materials` | Share Google Drive files with all attendees of a Google Calendar event. |
+| `/recipe-share-folder-with-team` | Share a Google Drive folder and all its contents with a list of collaborators. |
+| `/recipe-sync-contacts-to-sheet` | Export Google Contacts directory to a Google Sheets spreadsheet. |
+| `/recipe-watch-drive-changes` | Subscribe to change notifications on a Google Drive file or folder. |
 | `/recoil` | You are an expert in Recoil, the state management library by Meta for React applications. You help… |
 | `/recommendation-engine` | Build recommendation systems with collaborative filtering, matrix factorization, hybrid approaches… |
 | `/recommendation-system` | Deploy production recommendation systems with feature stores, caching, A/B testing. Use for person… |
@@ -8941,6 +9090,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/release-planning` | Plan, coordinate, and execute software releases across environments. Manage versioning, rollout st… |
 | `/release-post` | Create professional package release blog posts following Tidyverse or Shiny blog conventions. Use … |
 | `/release-review` | Senior developer-level release review for macOS/iOS apps. Identifies security, privacy, UX, and di… |
+| `/release-skills` | Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, R… |
 | `/release-sync` | Syncs latest release content to NotebookLM and HQ Knowledge Base after version tagging. Reads CHAN… |
 | `/remarkety-automation` | Automate Remarkety tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/remediation-planner` | 整改计划制定 Skill。将差距报告、审核发现、或不兼容分析转化为有优先级、有验收标准的可执行整改计划。每个步骤配对验证方法，防止「计划没有验证」的情况。触发词：「基于这个分析制定整改计划」「怎么… |
@@ -9121,6 +9271,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/root-cause-investigation` | Systematic investigation of metric changes and anomalies. Use when a metric unexpectedly changes, … |
 | `/rootly-automation` | Automate Rootly tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/rosette-text-analytics-automation` | Automate Rosette Text Analytics tasks via Rube MCP (Composio). Always search tools first for curre… |
+| `/rossmann-voice` | Louis Rossmann's writing voice for general prose: testable-number density, high sentence-length va… |
 | `/roundup` | Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub,… |
 | `/roundup-setup` | Interactive onboarding that learns your communication style, audiences, and data sources to config… |
 | `/route-tester` | Test authenticated routes in the your project using cookie-based authentication. Use this skill wh… |
@@ -9675,6 +9826,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sales-sendpulse` | SendPulse platform help — email marketing, Automation 360, chatbots (WhatsApp/Instagram/Telegram/F… |
 | `/sales-sendr` | Sendr (sendr.ai) platform help — AI-powered personalized outreach with lipsync video, dynamic land… |
 | `/sales-seo` | SEO strategy — tool-agnostic framework for keyword research, technical audits, link building, cont… |
+| `/sales-sequence-builder` | Create practical sales sequences from campaign context, account signals, and reference copy. |
 | `/sales-serplock` | Serplock platform help — AI search visibility with Prompt Rank (LLM mention tracking across ChatGP… |
 | `/sales-shadow` | Shadow platform help — bot-free AI meeting assistant capturing audio + screen on macOS, on-device … |
 | `/sales-shopify` | Shopify platform help — the leading commerce platform for makers and DTC sellers: products, orders… |
@@ -9869,6 +10021,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/scikit-learn-best-practices` | Best practices for scikit-learn machine learning, model development, evaluation, and deployment in… |
 | `/scikit-survival` | Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-surv… |
 | `/sciomc` | Orchestrate parallel scientist agents for comprehensive analysis with AUTO mode |
+| `/scipilot-figure-skill` | SciPilot Skills 家族成员，负责科研数据可视化——但定位不是"画图工具"， 而是"可视化顾问"。先做数据剖析（列类型/样本量/分布/异常值/分组结构/相关性）， 再结合用户的论证目标… |
 | `/scipy-best-practices` | Best practices for SciPy scientific computing, optimization, signal processing, and statistical an… |
 | `/scope-appropriate-architecture` | Right-sizes architecture to project scope. Prevents over-engineering by classifying projects into … |
 | `/scope-guard` | Session boundary discipline contract. Establishes and self-audits write scope for infrastructure a… |
@@ -10548,6 +10701,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/square` | Accept payments and manage commerce with Square. Use when a user asks to accept in-person and onli… |
 | `/square-automation` | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always searc… |
 | `/squirrel` | Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade d… |
+| `/src-hunter` | 实战 SRC / 众测 / Bug bounty 漏洞挖掘工作流 skill。包含：5 阶段方法论（intake → recon → enum → hunt → report）、19 个攻击类 p… |
 | `/srdf` | MoveIt2 SRDF generation, validation, and planning-semantics workflow. Use when creating, editing, … |
 | `/sre-engineer` | Defines service level objectives, creates error budget policies, designs incident response procedu… |
 | `/sre-incident-response` | Use when responding to production incidents following SRE principles and best practices. |
@@ -10711,6 +10865,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/supply-chain-attack-recon` | External recon for software supply-chain attack surface — package-namespace squatting candidates, … |
 | `/supply-chain-guard` | Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI… |
 | `/supply-chain-risk-auditor` | Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply … |
+| `/support-ticket-triage` | Triage support tickets by pulling helpdesk context, searching issue trackers and knowledge bases i… |
 | `/supportbee-automation` | Automate Supportbee tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/supportivekoala-automation` | Automate Supportivekoala tasks via Rube MCP (Composio). Always search tools first for current sche… |
 | `/survey-design` | Design surveys that collect reliable, unbiased quantitative data to validate hypotheses and measur… |
@@ -11008,6 +11163,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/test-framework-migration-skill` | Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress… |
 | `/test-gaps` | Detect missing test coverage and generate test suggestions |
 | `/test-generator` | Generate unit, integration, and end-to-end tests for existing code. Use when a user asks to write … |
+| `/test-guard` | Review generated or changed test code against universal testing rules before it ships. Best used r… |
 | `/test-master` | Generates test files, creates mocking strategies, analyzes code coverage, designs test architectur… |
 | `/test-orchestrator-a` | Test orchestrator — spawns test-orchestrator-b and test-orchestrator-c in parallel, collects their… |
 | `/test-orchestrator-b` | Test orchestrator B — receives a number, spawns test-worker-double to compute N*2, returns result … |
@@ -11467,6 +11623,39 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/vb-database` | ADO.NET patterns, Entity Framework, database best practices |
 | `/vb-winforms` | Windows Forms development patterns, UI threading, data binding |
 | `/vb6-legacy` | Classic VB6 patterns, COM interop, migration strategies |
+| `/vc-agent-browser` | AI-optimized browser automation CLI with context-efficient snapshots. Use for long autonomous sess… |
+| `/vc-agent-strategy-compare` | Evaluate 4 execution strategies (sequential, parallel-subagents, workflow, agent-team) for a phase… |
+| `/vc-audit-context` | Audit project context routing, shared-skill discoverability, and Claude/Codex wiring. Use when con… |
+| `/vc-audit-plans` | Audit active project plan files for staleness, completion, and routing truth. Use when cleaning up… |
+| `/vc-audit-vc` | Audit agent harness health: Claude/Codex agent parity, skill registry consistency, README.md sync,… |
+| `/vc-autopilot` | Emit and validate the provisional goal block for Autopilot Mode. Owns the 9-field format and resum… |
+| `/vc-autoresearch` | Loop: find gaps → fix → repeat until agents find no gaps or a metric goal is hit. Shared loop prim… |
+| `/vc-context-discovery` | Discover and load all relevant context for the current task. Lists feature group nested files with… |
+| `/vc-debug` | Debug systematically with root-cause analysis before fixes. Use for bugs, test failures, unexpecte… |
+| `/vc-docs-seeker` | Search library/framework documentation via llms.txt (context7.com). Use for API docs, GitHub repos… |
+| `/vc-feasibility-test` | Use when a SPEC, INNOVATE, or VALIDATE (Layer 2) approach hinges on an unverified runtime/library/… |
+| `/vc-frontend-design` | Create polished frontend interfaces from designs/screenshots/videos. Use for web components, 3D ex… |
+| `/vc-generate-closeout` | Generate the post-EXECUTE closeout packet for a plan or phase. Includes archive-readiness classifi… |
+| `/vc-generate-context` | Generate or update the project's authoritative repository context at process/context/all-context.m… |
+| `/vc-generate-phase-program` | Generate kickoff artifacts for a multi-phase program: umbrella plan, Program Goal Charter, session… |
+| `/vc-generate-plan` | Create or update implementation plans in the repo's SIMPLE or COMPLEX format. Use when turning an … |
+| `/vc-generate-spec` | Create or update a product-discovery SPEC (requirements doc) for user review. Use when turning RES… |
+| `/vc-intent-clarify` | Clarify intent before RIPER-5 phase delegation. Scores ambiguity (4 signals); generates structured… |
+| `/vc-plan-discovery` | Discover related plans for the current task: same feature folder full depth, other features active… |
+| `/vc-predict` | 5 expert personas debate proposed changes before implementation. Catches architectural, security, … |
+| `/vc-problem-solving` | Apply systematic problem-solving techniques when stuck. Use for complexity spirals, innovation blo… |
+| `/vc-publish` | Use when publishing harness improvements to the remote kit repo. Diffs managed files, shows what c… |
+| `/vc-review-situation` | Use when you need a read-only situation review and handoff summary of current branch state, local/… |
+| `/vc-risk-evidence-pack` | Define and generate the manual-first evidence pack for high-risk work. Covers 6 high-risk class de… |
+| `/vc-scenario` | Generate comprehensive edge cases and test scenarios by decomposing features across 12 dimensions.… |
+| `/vc-scout` | Fast codebase scouting using shell search and optional parallel research agents. Use for file disc… |
+| `/vc-security` | STRIDE + OWASP-based security audit with optional auto-fix. Scans code for vulnerabilities, catego… |
+| `/vc-sequential-thinking` | Apply step-by-step analysis for complex problems with revision capability. Use for multi-step reas… |
+| `/vc-setup` | Interactive harness setup for any project. Detects stack, scaffolds process dirs, deep-scans the c… |
+| `/vc-test-coverage-plan` | Use when creating a test plan for a blast radius. Assigns all 4 tiers (fully-automated, hybrid, ag… |
+| `/vc-update` | Pull latest agent harness improvements from the remote kit repository. Shows a dry-run diff summar… |
+| `/vc-validate-findings` | Use when running VALIDATE V2-V3 fan-out. Two-layer investigation (4 dimension agents + per-section… |
+| `/vc-web-testing` | Web testing with Playwright, Vitest, k6. E2E/unit/integration/load/security/visual/a11y testing. U… |
 | `/vcp-screener` | Screen S&P 500 stocks for Mark Minervini's Volatility Contraction Pattern (VCP) and detect histori… |
 | `/vector` | Expert guidance for Vector, the high-performance observability data pipeline built in Rust by Data… |
 | `/vector-cluster` | Cluster code by graph community detection via npx ruvector@0.2.25 hooks graph-cluster (spectral / … |
@@ -11552,9 +11741,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/viboscope` | Psychological compatibility matching — find cofounders, collaborators, and friends through validat… |
 | `/victoriametrics` | Deploy and configure VictoriaMetrics as a high-performance time-series database for metrics storag… |
 | `/video` | When the user wants to create, generate, or produce video content using AI tools or programmatic f… |
+| `/video-assemble` | Assemble a final recap video: mux narration audio over the source video, duck the original audio u… |
 | `/video-comparer` | This skill should be used when comparing two videos to analyze compression results or quality diff… |
 | `/video-content-extractor` | Extract key frames from MP4 videos at configurable intervals, run Tesseract OCR, and generate stru… |
 | `/video-content-strategist` | Use when planning video content strategy, writing video scripts, optimizing YouTube channels, buil… |
+| `/video-cut` | Cut a long video down to selected source ranges (montage / clip assembly). Part of the video-recap… |
 | `/video-download` | Download video and audio from YouTube and 1000+ sites using yt-dlp. No API keys needed. Use when: … |
 | `/video-downloader` | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handl… |
 | `/video-edit` | Edit videos locally using ffmpeg. Trim, concat, resize, speed, overlay, extract audio, compress, a… |
@@ -11562,10 +11753,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/video-marketing` | When the user wants to plan video marketing, create video scripts, or optimize for short-form or l… |
 | `/video-outreach` | When the user wants to build video-first cold outreach, create personalized video at scale, implem… |
 | `/video-processor` | Download and process videos from YouTube and other platforms. Supports video download, audio extra… |
+| `/video-recap` | Generate a Chinese-narration recap video from an input video, end to end. Use when the user gives … |
+| `/video-script` | Write a timestamped Chinese narration script (解说词 / 旁白) for an already-analyzed video, then lint/v… |
 | `/video-toolkit` | Create professional videos autonomously using claude-code-video-toolkit — AI voiceovers, image gen… |
 | `/video-transcript` | 将视频链接转换为文字讲稿。支持 YouTube、Bilibili 等平台。自动提取字幕，非中文视频提供原文 + 中文翻译。当用户分享视频链接、要求获取视频文字稿/字幕/讲稿时使用此技能。 |
 | `/video-translate` | Translate and dub existing videos into multiple languages using HeyGen. Use when: (1) Translating … |
 | `/video-understand` | Understand video content locally using ffmpeg frame extraction and Whisper transcription. No API k… |
+| `/video-understanding` | Analyze a video into a structured understanding index: scene detection, ASR transcript, per-scene … |
+| `/video-voiceover` | Synthesize Chinese narration audio (TTS voiceover) from a timestamped narration.json. Use to turn … |
 | `/videodb` | Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/sp… |
 | `/videodb-skills` | Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK. |
 | `/viem` | You are an expert in Viem, the TypeScript interface for Ethereum that provides low-level, type-saf… |
@@ -11671,6 +11866,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/weaviate` | Weaviate is an open-source vector database with built-in vectorization modules. Learn schema defin… |
 | `/weaviate-cookbooks` | Use this skill when the user wants to build AI applications with Weaviate. It contains a high-leve… |
 | `/web-accessibility-wcag-compliance` | Deliver accessible UI that meets WCAG-oriented requirements with keyboard, screen reader, and cont… |
+| `/web-asset-generator` | Generate web assets including favicons, app icons (PWA), and social media meta images (Open Graph)… |
 | `/web-component-design` | Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and … |
 | `/web-design` | Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全… |
 | `/web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check a… |
@@ -11779,6 +11975,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/wix-to-react` | Convert a Wix website into a React or Next.js application. Use when a user asks to migrate off Wix… |
 | `/wiz-automation` | Automate Wiz tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/wolfram-alpha-api-automation` | Automate Wolfram Alpha API tasks via Rube MCP (Composio). Always search tools first for current sc… |
+| `/woo-guard` | Review generated or changed WooCommerce code — extensions, payment and shipping integrations, chec… |
 | `/woocommerce` | Build e-commerce stores with WooCommerce for WordPress. Use when a user asks to add a shop to Word… |
 | `/woocommerce-backend-dev` | Add or modify WooCommerce backend PHP code following project conventions. Use when creating new cl… |
 | `/woocommerce-code-review` | Review WooCommerce code changes for coding standards compliance. Use when reviewing code locally, … |
@@ -11832,8 +12029,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/worktree-qa` | Full QA loop for the current worktree: diff → host → test → handoff. Runs `git diff` to enumerate … |
 | `/worktrunk` | Manage Git worktrees for parallel AI agent workflows with Worktrunk CLI. Use when: running multipl… |
 | `/worldmonitor` | Build real-time intelligence dashboards that aggregate news, geopolitical events, and infrastructu… |
+| `/wp-guard` | Review generated or changed WordPress code — plugins, themes, and blocks — before it ships. Best u… |
 | `/wps-doc-scraper` | Faithfully archive public WPS/KDocs/金山文档 links, especially embedded ProcessOn .pof mind maps and c… |
 | `/wrangler` | Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyp… |
+| `/wrap-up` | Close out (or revisit) a Claude Managed Agent build — regenerate the overview page, recap every pr… |
 | `/wrike-automation` | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, … |
 | `/write` | Invoke only when explicitly asked to write, edit, or polish prose in Chinese or English. Strips AI… |
 | `/write-a-skill` | Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use … |
@@ -12510,7 +12709,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - 本次请求技能（去重）：**226** 个
 - 已成功安装：**209** 个
-- 全局技能总数：**11339** 个
+- 全局技能总数：**11538** 个
 - 支持斜杠调用：**190** 个
 
 ---

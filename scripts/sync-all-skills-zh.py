@@ -103,7 +103,7 @@ def main() -> None:
         if not folder.is_dir():
             continue
         name = folder.name
-        if not re.fullmatch(r"[a-z0-9-]+", name):
+        if not re.fullmatch(r"[a-z0-9._-]+", name):
             skipped += 1
             continue
         if name in existing:

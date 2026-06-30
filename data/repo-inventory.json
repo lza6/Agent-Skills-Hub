@@ -1,0 +1,3376 @@
+{
+  "total_repos": 525,
+  "repos": [
+    {
+      "repo": "0xbigboss/claude-code",
+      "waves": [
+        24
+      ]
+    },
+    {
+      "repo": "0xmergen/laravel-best-practices-skill",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "10up/localwp-agent-tools",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "1Mangesh1/dev-skills-collection",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "2048Nemo/electron-web-monorepo-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "45ck/pentest-security-testing-skills",
+      "waves": [
+        51
+      ]
+    },
+    {
+      "repo": "45ck/refactoring-code-smells-skills",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "4hum-ai/slide-deck-skill",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "609844066/documentation-skill-pack",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "Aaronontheweb/dotnet-skills",
+      "waves": [
+        46,
+        68,
+        72
+      ]
+    },
+    {
+      "repo": "Aedelon/claude-code-blueprint",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "Agentchengfeng/chengfeng-videocut-skills",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-cybersecurity",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "Aidas-dev/k8s-agent-skills",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "Alisa0808/vibe-creating-skill",
+      "waves": [
+        49
+      ]
+    },
+    {
+      "repo": "AlterLab-IEU/AlterLab-Academic-Skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Amanbh997/Urban-Design-Skills-Claude",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Artemxtech/personal-os-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "Asif2BD/xCloud-Docker-Deploy-Skill",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "AurelienRibon/skills",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "AureliustechandTalentSolutions/DocumentationSkillGenerator",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "AvdLee/Swift-Concurrency-Agent-Skill",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "AvdLee/SwiftUI-Agent-Skill",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "BagelHole/DevOps-Security-Agent-Skills",
+      "waves": [
+        9,
+        10,
+        14
+      ]
+    },
+    {
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "CharlesWiltgen/Axiom",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "Cocoon-AI/architecture-diagram-generator",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "CrazySwami/wordpress-dev-skills",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "Critical666/fullstack-skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "DanMcInerney/architect-loop",
+      "waves": [
+        68,
+        69,
+        73
+      ]
+    },
+    {
+      "repo": "DenisSergeevitch/agents-best-practices",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "EfanWang/skills-manager",
+      "waves": [
+        49,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Fokkyp/claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "FrancyJGLisboa/agent-skill-creator",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "Frun1753/claude-codecraft-toolkit",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "GXLooong/claude-learning-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "Hao0321/claude-skill-code-cleanup",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "Haojae/scipilot-figure-skill",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "HermeticOrmus/git-workflow-skills",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "Impertio-Studio/React-Claude-Skill-Package",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "IncomeStreamSurfer/claude-api-tester",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "IoIqq/ftb-quests-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "IveTian/google-api-design-skill",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "J-nowcow/awesome-korean-agent-skills",
+      "waves": [
+        49,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "JEFF7712/nix-agent",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "JSONbored/awesome-claude",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "Jack-Pision/agentic-AI-development-skills-claude-code",
+      "waves": [
+        69
+      ]
+    },
+    {
+      "repo": "Jeffallan/claude-skills",
+      "waves": [
+        11,
+        15,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        35
+      ]
+    },
+    {
+      "repo": "JimLiu/baoyu-design",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "Jojo252511/claude-skill-codereview",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "JunSeo99/claude-skill-codex-imagegen",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "K-Dense-AI/claude-skills-mcp",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "KHammer404/project-setup-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "KKKKhazix/khazix-skills",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "KalebCole/cli-toolkit-skills",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "KewkLW/codex-testflight-skill",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "LambdaTest/agent-skills",
+      "waves": [
+        16,
+        17
+      ]
+    },
+    {
+      "repo": "LeastBit/Claude_skills_zh-CN",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "Lexus2016/claude-code-studio",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "Linalab-io/unity-design-patterns-skills",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "Linux9505/claude-code-skill-activator",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "LiuDaZheng/express-api-design-skill",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "Lombiq/Tailwind-Agent-Skills",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "Lord1Egypt/awesome-skill-forge",
+      "waves": [
+        49
+      ]
+    },
+    {
+      "repo": "LukeRenton/explore-claude-code",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "MCKRuZ/claude-code-mastery",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "MickLife/python-vibeperf",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "MonadWorks/agentify",
+      "waves": [
+        59,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Mosweed/design-patterns-skill",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "MuhiminOsim/code-refactoring-skill",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "MyuriKanao/src-hunter-skill",
+      "waves": [
+        68,
+        73
+      ]
+    },
+    {
+      "repo": "NTCoding/claude-skillz",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "NVIDIA/skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "NeoLabHQ/context-engineering-kit",
+      "waves": [
+        68,
+        72
+      ]
+    },
+    {
+      "repo": "Nexa-Language/Skill-Compiler",
+      "waves": [
+        49
+      ]
+    },
+    {
+      "repo": "NousC/gtm-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "O0000-code/CC-Workshop",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "OPENSPHERE-Inc/agent-sequencer",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "Olderdriver/mcp-skill-server",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "OrionArchitekton/orion-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "OzTamir/skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "P4nda0s/reverse-skills",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "PabloNAX/visual-docs",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "PaulGiletich/skills-ref-ts",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "PaulRBerg/dot-agents",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "PaymobAccept/Paymob-Claude-Integration-Skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "PhAlves23/prompt-engineering-skill",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "Pluviobyte/jiepi-skill",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "Sanskar015/claude-skills-supercharged",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "Security-Phoenix-demo/security-skills-claude-code",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Shamnick/fullstack-skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "Skyinfi/frontend-architecture-designer-skill",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "Smetools/odoo-demo-architect",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "StarRocks/starrocks-debug-skills",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "StrongAI/claude-skills-programming",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "Syncause/debug-skill",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "TashanGKD/tashan-cursor-skills",
+      "waves": [
+        46,
+        72
+      ]
+    },
+    {
+      "repo": "TechNickAI/openclaw-config",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "TimBroddin/skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "Venkatesh-6921/skill-blast",
+      "waves": [
+        49
+      ]
+    },
+    {
+      "repo": "VicKayro/claude-security-audit",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "VoDaiLocz/Design-Patterns",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "VoltAgent/awesome-agent-skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "Wechat-ggGitHub/wechat-claude-code",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "Wha1eChai/auto-cleanup-skill",
+      "waves": [
+        49
+      ]
+    },
+    {
+      "repo": "WordPress/agent-skills",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "XeldarAlz/off-the-shelf",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "aaronontheweb/dotnet-skills",
+      "waves": [
+        24
+      ]
+    },
+    {
+      "repo": "abassaf/plan-review-hub",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "abubakarsiddik31/claude-skills-collection",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "waves": [
+        8,
+        14,
+        15
+      ]
+    },
+    {
+      "repo": "affaan-m/everything-claude-code",
+      "waves": [
+        2,
+        4,
+        20,
+        24
+      ]
+    },
+    {
+      "repo": "agamm/claude-code-owasp",
+      "waves": [
+        7,
+        68,
+        69
+      ]
+    },
+    {
+      "repo": "agenticloops-ai/claude-code-insights",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "agi-now/buffett-skills",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "ahmedasmar/devops-claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "aiguicai/MCP-Gateway",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "aj-geddes/useful-ai-prompts",
+      "waves": [
+        20,
+        21,
+        25,
+        26,
+        27,
+        37,
+        38
+      ]
+    },
+    {
+      "repo": "akin-ozer/cc-devops-skills",
+      "waves": [
+        18,
+        28
+      ]
+    },
+    {
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "waves": [
+        58,
+        72
+      ]
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "waves": [
+        5,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "repo": "aliyun/alibabacloud-agent-toolkit",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "allshaks/paper2blogpost",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "alonw0/web-asset-generator",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "amElnagdy/guard-skills",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "analogjs/angular-skills",
+      "waves": [
+        5
+      ]
+    },
+    {
+      "repo": "andrelandgraf/fullstackrecipes",
+      "waves": [
+        2,
+        39
+      ]
+    },
+    {
+      "repo": "antfu/skills",
+      "waves": [
+        4,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "repo": "anthropics/launch-your-agent",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "anthropics/skills",
+      "waves": [
+        7
+      ]
+    },
+    {
+      "repo": "apify/agent-skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "apollographql/skills",
+      "waves": [
+        2,
+        3,
+        5,
+        23,
+        27
+      ]
+    },
+    {
+      "repo": "araguaci/cursor-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "ariegoldkin/ai-agent-hub",
+      "waves": [
+        2
+      ]
+    },
+    {
+      "repo": "arize-ai/phoenix",
+      "waves": [
+        23
+      ]
+    },
+    {
+      "repo": "artwist-polyakov/polyakov-claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "arvindrk/extract-design-system",
+      "waves": [
+        7,
+        49,
+        69
+      ]
+    },
+    {
+      "repo": "aryaxt/aryaxt-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "astrolicious/agent-skills",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "asynkron/asynkron-skills",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "asyrafhussin/agent-skills",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "atsushi-green/ds-ai-coding-skills",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "audn-ai/skills",
+      "waves": [
+        51
+      ]
+    },
+    {
+      "repo": "aussiegingersnap/cursor-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "auth0/agent-skills",
+      "waves": [
+        2,
+        9
+      ]
+    },
+    {
+      "repo": "avdlee/swiftui-agent-skill",
+      "waves": [
+        6
+      ]
+    },
+    {
+      "repo": "awesome-skills/code-review-skill",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "aws/agent-toolkit-for-aws",
+      "waves": [
+        3,
+        46,
+        59
+      ]
+    },
+    {
+      "repo": "axelv/claude-skill-code-walkthrough",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "bacoco/ShipGuard",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "balin-ar/pkm-documentation",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "bassimeledath/dispatch",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "better-auth/skills",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "bidah/skill-set",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "biocontext-ai/skill-to-mcp",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "blader/humanizer",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "bobmatnyc/claude-mpm-skills",
+      "waves": [
+        2,
+        18,
+        23,
+        37,
+        38
+      ]
+    },
+    {
+      "repo": "browserwing/browserwing",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "buer2233/ai-api-test-skill",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "bzd6661/wechat-article-for-ai",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "callstackincubator/agent-skills",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "carmahhawwari/ui-design-brain",
+      "waves": [
+        44,
+        72
+      ]
+    },
+    {
+      "repo": "catyiqian/claude-design-style",
+      "waves": [
+        49,
+        69
+      ]
+    },
+    {
+      "repo": "cbruyndoncx/obsidian-skills-manager",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "ccheney/robust-skills",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "chenShengBiao/cocos-ai-mcp",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "chencodeX/he-kaiming-style-research-skill",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "chenhanlu569-ship-it/LLM-Awesome-Skills",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "chrisbanes/skills",
+      "waves": [
+        25
+      ]
+    },
+    {
+      "repo": "chrisboden/cursor-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "chrisvoncsefalvay/claude-d3js-skill",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "cisco-ai-defense/skill-scanner",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "claude-dev-suite/claude-dev-suite",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "claude-office-skills/skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "claude-skills/sveltekit-svelte5-tailwind-skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "clawdbot58-pixel/cue-skill",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "clerk/skills",
+      "waves": [
+        2,
+        9,
+        19
+      ]
+    },
+    {
+      "repo": "clickhouse/agent-skills",
+      "waves": [
+        12
+      ]
+    },
+    {
+      "repo": "cloudai-x/threejs-skills",
+      "waves": [
+        20
+      ]
+    },
+    {
+      "repo": "cloudflare/skills",
+      "waves": [
+        4,
+        15
+      ]
+    },
+    {
+      "repo": "cminn10/ecc2cursor",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "codecell-germany/sevdesk-agent-skill",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "coleam00/second-brain-skills",
+      "waves": [
+        67,
+        72
+      ]
+    },
+    {
+      "repo": "cookiesen77-rgb/security-testing-skill",
+      "waves": [
+        51
+      ]
+    },
+    {
+      "repo": "cosmonic-labs/skills",
+      "waves": [
+        20
+      ]
+    },
+    {
+      "repo": "craigkitterman/cross-model-code-review-skill",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "crazyss/linux-kernel-crash-debug",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "currents-dev/playwright-best-practices-skill",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "cypress-io/ai-toolkit",
+      "waves": [
+        16
+      ]
+    },
+    {
+      "repo": "cyydark/prompt-engineering-skill",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "czlonkowski/n8n-skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "dalestudy/skills",
+      "waves": [
+        19
+      ]
+    },
+    {
+      "repo": "databricks-solutions/ai-dev-kit",
+      "waves": [
+        13
+      ]
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
+      "waves": [
+        8,
+        19,
+        24
+      ]
+    },
+    {
+      "repo": "davegomez/gemini-documentation-skills",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "davidcastagnetoa/skills",
+      "waves": [
+        26
+      ]
+    },
+    {
+      "repo": "daviidarr/deepweb",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "davila7/claude-code-templates",
+      "waves": [
+        20
+      ]
+    },
+    {
+      "repo": "daydaydream233/multi-agent-architect",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "daymade/claude-code-skills",
+      "waves": [
+        46,
+        68,
+        72
+      ]
+    },
+    {
+      "repo": "dbt-labs/dbt-agent-skills",
+      "waves": [
+        13
+      ]
+    },
+    {
+      "repo": "denoland/skills",
+      "waves": [
+        17
+      ]
+    },
+    {
+      "repo": "dgreenheck/webgpu-claude-skill",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "diegojohnsonl/trpc-tanstack-nextjs",
+      "waves": [
+        2
+      ]
+    },
+    {
+      "repo": "different-ai/openwork",
+      "waves": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "repo": "digitalocean-labs/do-app-platform-skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "dimdasci/vps-setup",
+      "waves": [
+        26
+      ]
+    },
+    {
+      "repo": "distil-labs/distil-cli-skill",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "diy777/web-security-testing-skills",
+      "waves": [
+        51
+      ]
+    },
+    {
+      "repo": "dominikmartn/nothing-design-skill",
+      "waves": [
+        44,
+        72
+      ]
+    },
+    {
+      "repo": "dotdc/cursor-workshop",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "dotnet/skills",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "dpconde/claude-android-skill",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "dreamybot/prompt-engineering-skill",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "dualform-labs/.github",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "ejirocodes/agent-skills",
+      "waves": [
+        19
+      ]
+    },
+    {
+      "repo": "elastic/agent-skills",
+      "waves": [
+        4,
+        18
+      ]
+    },
+    {
+      "repo": "emotixco/claude-skills-founder",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "existential-birds/beagle",
+      "waves": [
+        21
+      ]
+    },
+    {
+      "repo": "expo/skills",
+      "waves": [
+        6,
+        17
+      ]
+    },
+    {
+      "repo": "facebook/relay",
+      "waves": [
+        27
+      ]
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "waves": [
+        17
+      ]
+    },
+    {
+      "repo": "feicaoclub/video-spec-builder",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "ferdousbhai/cloud-fullstack-skills",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "figma/mcp-server-guide",
+      "waves": [
+        7
+      ]
+    },
+    {
+      "repo": "firebase/agent-skills",
+      "waves": [
+        7,
+        43
+      ]
+    },
+    {
+      "repo": "flutter/skills",
+      "waves": [
+        6
+      ]
+    },
+    {
+      "repo": "fluxcd/agent-skills",
+      "waves": [
+        9
+      ]
+    },
+    {
+      "repo": "folkss/plan-then-code",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "footnote42/claude-mcp-skills-server",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "forvaidya/fastapi-microservice-skills",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "foxj77/mcp-skills-server",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "freeman983/git-workflow-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "freshtechbro/claudedesignskills",
+      "waves": [
+        20,
+        68
+      ]
+    },
+    {
+      "repo": "gastonmorixe/software-best-design-patterns-skill",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "getsentry/sentry-for-ai",
+      "waves": [
+        23,
+        25,
+        28,
+        37
+      ]
+    },
+    {
+      "repo": "getsentry/skills",
+      "waves": [
+        8
+      ]
+    },
+    {
+      "repo": "geut/fullstack-skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "ginobefun/deep-reading-analyst-skill",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "waves": [
+        5,
+        6,
+        7,
+        8,
+        13,
+        19,
+        20,
+        22
+      ]
+    },
+    {
+      "repo": "github/copilot-plugins",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "giuseppe-trisciuoglio/developer-kit",
+      "waves": [
+        2,
+        18
+      ]
+    },
+    {
+      "repo": "gnurio/nurijanian-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "waves": [
+        7
+      ]
+    },
+    {
+      "repo": "google/skills",
+      "waves": [
+        19,
+        20,
+        43
+      ]
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "googs1025/clean-code-reviewer-skills",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "grafana/skills",
+      "waves": [
+        23
+      ]
+    },
+    {
+      "repo": "haidang1810/md2html",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "hajekim/agentic-design-patterns-skills",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "handharr-labs/software-dev-agentic",
+      "waves": [
+        69
+      ]
+    },
+    {
+      "repo": "haoyu-haoyu/stata-ai-fusion",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "harikrishna8121999/antigravity-workflows",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "harrychuang/cursor-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "hashgraph-online/hol-claude-skills",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "hashicorp/agent-skills",
+      "waves": [
+        6,
+        11,
+        57
+      ]
+    },
+    {
+      "repo": "hazamashoken/api-design-ai-skills",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "hcaiano/skills",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "heilcheng/awesome-agent-skills",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "helloianneo/awesome-claude-code-skills",
+      "waves": [
+        47,
+        68,
+        70
+      ]
+    },
+    {
+      "repo": "helsonzhao/SkillsForAndroidPerformance",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "waves": [
+        2,
+        19
+      ]
+    },
+    {
+      "repo": "hireblackout/code-performance-optimizer-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "honeycombio/agent-skill",
+      "waves": [
+        23
+      ]
+    },
+    {
+      "repo": "hoodini/ai-agents-skills",
+      "waves": [
+        7
+      ]
+    },
+    {
+      "repo": "hookdeck/webhook-skills",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "hosseinmirzapur/opencode-skills",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "howarewoo/woo-review",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "hyf0/vue-skills",
+      "waves": [
+        19
+      ]
+    },
+    {
+      "repo": "iamzhihuix/happy-claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "inekipelov/apple-platform-project-setup-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "instavm/open-skills",
+      "waves": [
+        67,
+        73
+      ]
+    },
+    {
+      "repo": "intellectronica/agent-skills",
+      "waves": [
+        8,
+        10
+      ]
+    },
+    {
+      "repo": "ithiria894/awesome-claude-code-workflows",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "itsSIGI/ag-design-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "itsfromgaurav/grand-slam-offer-skill",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "itsmostafa/aws-agent-skills",
+      "waves": [
+        14
+      ]
+    },
+    {
+      "repo": "ivogabriel19/git-github-workflow-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "jaballer/react-claude-skills",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "jamessawle/skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "jasperdevs/github-documentation-skills",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "jassics/awesome-claude-security",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "jcc-ne/mcp-skill-server",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "jchaselubitz/drill-app",
+      "waves": [
+        23
+      ]
+    },
+    {
+      "repo": "jeanpaulsio/nunchuck-skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "jeffallan/claude-skills",
+      "waves": [
+        4,
+        5,
+        9
+      ]
+    },
+    {
+      "repo": "jeremylongshore/claude-code-plugins-plus-skills",
+      "waves": [
+        27
+      ]
+    },
+    {
+      "repo": "jezweb/claude-skills",
+      "waves": [
+        10,
+        17,
+        18,
+        19,
+        22,
+        30,
+        32,
+        33,
+        34,
+        35,
+        67
+      ]
+    },
+    {
+      "repo": "jfboisvenue/pd-mcp-server",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "jimdawdy-hub/claude-skill-code-memory",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "joomcode/joompulse-skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "josuediazflores/ios-performance-optimizer-skill",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "jpoindexter/tufte-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "jtaub/claude-code-github-workflow-skills",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "justvinhhere/bigquery-expert",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "jwynia/agent-skills",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "kadajett/agent-nestjs-skills",
+      "waves": [
+        2,
+        18
+      ]
+    },
+    {
+      "repo": "kepano/obsidian-skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "kevvykevwin/kevin-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "krutikjain/android-agent-skills",
+      "waves": [
+        23
+      ]
+    },
+    {
+      "repo": "ksimback/tech-debt-skill",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "kyrelldixon/kyrell-os-marketplace",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "kzhekov/Prompt-Engineering-Skill",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "l-mb/python-refactoring-skills",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "laborany/laborany",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "lackeyjb/playwright-skill",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "lampd-2157/documentation-skills-toolkit",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "langchain-ai/langchain-skills",
+      "waves": [
+        13
+      ]
+    },
+    {
+      "repo": "langchain-ai/langsmith-skills",
+      "waves": [
+        13
+      ]
+    },
+    {
+      "repo": "langfuse/skills",
+      "waves": [
+        19
+      ]
+    },
+    {
+      "repo": "laolaoshiren/claude-code-skills-zh",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "lapbrian2/extreme-optimizer",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "larksuite/cli",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "leokemp223/embed-ai-tool",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "leonardomso/rust-skills",
+      "waves": [
+        5
+      ]
+    },
+    {
+      "repo": "leonluo2008-ops/hermes-skill-toolkit",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "levnikolaevich/claude-code-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "lifedever/claudecode-debug-mode",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "lihao0318/ai-nl2ui-automation",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "lingxling/awesome-skills-cn",
+      "waves": [
+        67,
+        68,
+        70
+      ]
+    },
+    {
+      "repo": "lionw/go-mcp-skill-server-sse",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "liuqi1024/keepup-ai-tools",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "liustack/modsearch",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "lucasbrisolla/accounting-ops",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "lucasbrisolla/internal-audit-ops",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "lunashia/code-generation-skill",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "luoling8192/software-design-philosophy-skill",
+      "waves": [
+        68,
+        69
+      ]
+    },
+    {
+      "repo": "luxie47/DailyForge",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "m-esm/3d-print-modeling",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "m-esm/bambu-3mf-export",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "mabebrahimi/deployment-skills",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "makfly/superpowers-symfony",
+      "waves": [
+        23,
+        24,
+        25,
+        26,
+        36
+      ]
+    },
+    {
+      "repo": "markpitt/claude-skills",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "martinholovsky/claude-skills-generator",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "martinvidec/github-workflow-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "matee911/claude-skill-vscode-theme",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "mateo-khalil/monorepo-skills",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "matthewp/astro-monorepo-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "mcpware/cross-code-organizer",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "membranedev/application-skills",
+      "waves": [
+        24,
+        26
+      ]
+    },
+    {
+      "repo": "metabase/metabase",
+      "waves": [
+        24
+      ]
+    },
+    {
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "michaelshimeles/code-review-analyzer",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "michalparkola/tapestry-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "microsoft/azure-skills",
+      "waves": [
+        4,
+        8,
+        20,
+        23,
+        36
+      ]
+    },
+    {
+      "repo": "microsoft/playwright-cli",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "microsoft/skills",
+      "waves": [
+        12
+      ]
+    },
+    {
+      "repo": "midudev/autoskills",
+      "waves": [
+        46
+      ]
+    },
+    {
+      "repo": "mindrally/skills",
+      "waves": [
+        2,
+        3,
+        4,
+        5,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        37,
+        38
+      ]
+    },
+    {
+      "repo": "minimax-ai/skills",
+      "waves": [
+        39
+      ]
+    },
+    {
+      "repo": "mobiusquant/OpenMobius-skill",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "mohdhaji87/security-skills-marketplace",
+      "waves": [
+        51
+      ]
+    },
+    {
+      "repo": "mohitmishra786/low-level-dev-skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "molefrog/skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "mongodb/agent-skills",
+      "waves": [
+        4,
+        13
+      ]
+    },
+    {
+      "repo": "mrgoonie/claudekit-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "mukul975/anthropic-cybersecurity-skills",
+      "waves": [
+        25,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "nelsonwerd/idea-to-ship-skills",
+      "waves": [
+        49,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "neo4j-contrib/neo4j-skills",
+      "waves": [
+        12
+      ]
+    },
+    {
+      "repo": "neondatabase/agent-skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "netlify/context-and-tools",
+      "waves": [
+        15
+      ]
+    },
+    {
+      "repo": "netresearch/cli-tools-skill",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "netresearch/git-workflow-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "netresearch/go-development-skill",
+      "waves": [
+        4
+      ]
+    },
+    {
+      "repo": "nexu-io/html-anything",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "nguyenchilong/claude-skills-fullstacks",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "nicepkg/vsync",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "nickcrew/claude-ctx-plugin",
+      "waves": [
+        27
+      ]
+    },
+    {
+      "repo": "nimrodfisher/data-analytics-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "nowork-studio/NotFair",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "nuxt/ui",
+      "waves": [
+        4
+      ]
+    },
+    {
+      "repo": "oalders/kitchen-sink",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "ognjengt/founder-skills",
+      "waves": [
+        67,
+        70
+      ]
+    },
+    {
+      "repo": "oil-oil/draw-ui",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "oimiragieo/agent-studio",
+      "waves": [
+        5
+      ]
+    },
+    {
+      "repo": "ombulabs/claude-code_rails-upgrade-skill",
+      "waves": [
+        68,
+        69
+      ]
+    },
+    {
+      "repo": "omry/agent_tools",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "op7418/Humanizer-zh",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "op7418/guizang-social-card-skill",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "openagent-uno/openagent-mcp-template",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "openai/skills",
+      "waves": [
+        7,
+        8,
+        19
+      ]
+    },
+    {
+      "repo": "ordiy/aws-cli-skills",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "paipeline/auto-routines",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "palkan/skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "patricio0312rev/skills",
+      "waves": [
+        26
+      ]
+    },
+    {
+      "repo": "paulrberg/agent-skills",
+      "waves": [
+        19,
+        28
+      ]
+    },
+    {
+      "repo": "penspanic/webgpu-metal-debug-kit",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "penumbraforge/mcp-librarian",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "peopleforrester/claude-dotfiles",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "personamanagmentlayer/pcl",
+      "waves": [
+        21,
+        27
+      ]
+    },
+    {
+      "repo": "petrkindlmann/qa-skills",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "philippasigl/psg-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "pinecone-io/skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "pjt3591oo/react-design-patterns-skills-for-agent",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "pmarreck/llm_skills",
+      "waves": [
+        50
+      ]
+    },
+    {
+      "repo": "ponyodong2026/claude-prompt-engineering-skills",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "posit-dev/skills",
+      "waves": [
+        67,
+        68,
+        73
+      ]
+    },
+    {
+      "repo": "pppeee861005/claude-github-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "pproenca/dot-skills",
+      "waves": [
+        18,
+        21
+      ]
+    },
+    {
+      "repo": "prabhatp75/windows-optimize",
+      "waves": [
+        55
+      ]
+    },
+    {
+      "repo": "prepfinders/seedance2-api",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "prisma/skills",
+      "waves": [
+        2,
+        10
+      ]
+    },
+    {
+      "repo": "prismatic-io/prismatic-skills",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "proficientlyjobs/proficiently-claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "pulumi/agent-skills",
+      "waves": [
+        6,
+        20
+      ]
+    },
+    {
+      "repo": "qdrant/skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "rahmanef63/si-coder-agent",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "rampstackco/claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "react-native-community/skills",
+      "waves": [
+        17
+      ]
+    },
+    {
+      "repo": "realrossmanngroup/no_ai_slop_writing_rules",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "redis/agent-skills",
+      "waves": [
+        5
+      ]
+    },
+    {
+      "repo": "refly-ai/refly",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "remix-run/agent-skills",
+      "waves": [
+        3,
+        15
+      ]
+    },
+    {
+      "repo": "remotion-dev/skills",
+      "waves": [
+        4
+      ]
+    },
+    {
+      "repo": "ricocc/rico-skills",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "rikouu/task-tracker",
+      "waves": [
+        63
+      ]
+    },
+    {
+      "repo": "rm3-pro/claude-toaster-mode",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "robzilla1738/htmlshop",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "rollysys/cpp-perf-skills",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "rshankras/claude-code-apple-skills",
+      "waves": [
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "rubber-ducks-syndicate/obsidian-documentation-skill",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "saifoelloh/golang-best-practices-skill",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "saitoco/wholework",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "sales-skills/sales",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "samber/cc-skills-golang",
+      "waves": [
+        4
+      ]
+    },
+    {
+      "repo": "sandpl/architecture-design-skill",
+      "waves": [
+        53
+      ]
+    },
+    {
+      "repo": "sanyuan0704/sanyuan-skills",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "sayanthns/frappe-react-fullstack-skill",
+      "waves": [
+        61
+      ]
+    },
+    {
+      "repo": "schpet/linear-cli",
+      "waves": [
+        8
+      ]
+    },
+    {
+      "repo": "secondsky/claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "seranking/seo-skills",
+      "waves": [
+        69
+      ]
+    },
+    {
+      "repo": "sfrangulov/claude-code-handbook-ru",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "shadcn/ui",
+      "waves": [
+        2,
+        19
+      ]
+    },
+    {
+      "repo": "shoaibmalick/development-claude-skills",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "shopify/shopify-ai-toolkit",
+      "waves": [
+        21
+      ]
+    },
+    {
+      "repo": "shubhamsaboo/awesome-llm-apps",
+      "waves": [
+        39,
+        40
+      ]
+    },
+    {
+      "repo": "shuolsure/code-learning-tutorial-skill",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "waves": [
+        2,
+        5,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        24,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "repo": "simonw/claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "sinemcu/FAE_embedded_code_generation_SKILL",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "sirius-zuo/design-pattern-skill",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "sivaprasadreddy/sivalabs-agent-skills",
+      "waves": [
+        20
+      ]
+    },
+    {
+      "repo": "skills-directory/skill-codex",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "smallnest/goskills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "snowflake-labs/subagent-cortex-code",
+      "waves": [
+        13
+      ]
+    },
+    {
+      "repo": "sonimanish180/nextjs-skill",
+      "waves": [
+        70
+      ]
+    },
+    {
+      "repo": "spences10/svelte-claude-skills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "spences10/svelte-skills-kit",
+      "waves": [
+        4
+      ]
+    },
+    {
+      "repo": "staruhub/ClaudeSkills",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "stevederico/skills",
+      "waves": [
+        50,
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "stripe/ai",
+      "waves": [
+        2,
+        8
+      ]
+    },
+    {
+      "repo": "sukilll/prompt-improver",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "sunbigfly/ppt-agent-skills",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "supabase/agent-skills",
+      "waves": [
+        2,
+        7,
+        57
+      ]
+    },
+    {
+      "repo": "suryavirkapur/skills",
+      "waves": [
+        17
+      ]
+    },
+    {
+      "repo": "sveltejs/ai-tools",
+      "waves": [
+        6,
+        19
+      ]
+    },
+    {
+      "repo": "syedmohammeda12-spec/react-performance-skill",
+      "waves": [
+        54
+      ]
+    },
+    {
+      "repo": "sypsyp97/claude-skill-codex",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "teachingai/full-stack-skills",
+      "waves": [
+        21
+      ]
+    },
+    {
+      "repo": "tech-leads-club/agent-skills",
+      "waves": [
+        37,
+        38,
+        39,
+        57
+      ]
+    },
+    {
+      "repo": "temporalio/skill-temporal-cloud",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "temporalio/skill-temporal-developer",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "thebushidocollective/han",
+      "waves": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "repo": "thehotwireclub/hotwire_club-skills",
+      "waves": [
+        21
+      ]
+    },
+    {
+      "repo": "thoughtbot/rails-audit-thoughtbot",
+      "waves": [
+        67
+      ]
+    },
+    {
+      "repo": "threerocks/hand-drawn-styles",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "tigicion/dao-code",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "timescale/pg-aiguide",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "waves": [
+        45,
+        68
+      ]
+    },
+    {
+      "repo": "trailofbits/skills",
+      "waves": [
+        14,
+        16,
+        22,
+        68,
+        72
+      ]
+    },
+    {
+      "repo": "treylom/prompt-engineering-skills",
+      "waves": [
+        52
+      ]
+    },
+    {
+      "repo": "tursodatabase/turso",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "twostraws/Swift-Agent-Skills",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "twostraws/SwiftUI-Agent-Skill",
+      "waves": [
+        57
+      ]
+    },
+    {
+      "repo": "twostraws/swift-concurrency-agent-skill",
+      "waves": [
+        6
+      ]
+    },
+    {
+      "repo": "twostraws/swiftui-agent-skill",
+      "waves": [
+        6
+      ]
+    },
+    {
+      "repo": "tylergibbs1/autorefactor",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "u7079256/paperjury",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "vaquarkhan/Fullstack-development-agent-skills",
+      "waves": [
+        36
+      ]
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "waves": [
+        6,
+        36
+      ]
+    },
+    {
+      "repo": "vercel/ai",
+      "waves": [
+        7
+      ]
+    },
+    {
+      "repo": "vercel/turborepo",
+      "waves": [
+        6
+      ]
+    },
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "waves": [
+        44,
+        71
+      ]
+    },
+    {
+      "repo": "vitorpamplona/amethyst",
+      "waves": [
+        24
+      ]
+    },
+    {
+      "repo": "vuejs-ai/skills",
+      "waves": [
+        43
+      ]
+    },
+    {
+      "repo": "vyredo/Agent-skill-typescript",
+      "waves": [
+        66
+      ]
+    },
+    {
+      "repo": "waybarrios/opencode-power-pack",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "wayne45/claude-skill-code-review-router",
+      "waves": [
+        58
+      ]
+    },
+    {
+      "repo": "weaviate/agent-skills",
+      "waves": [
+        18
+      ]
+    },
+    {
+      "repo": "wellcaffeinated/well-cafe-skills",
+      "waves": [
+        71
+      ]
+    },
+    {
+      "repo": "werkamsus/claude-metaskill",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "withkynam/vibecode-pro-max-kit",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "woocommerce/woocommerce",
+      "waves": [
+        21
+      ]
+    },
+    {
+      "repo": "worldwonderer/video-recap-skills",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "wshobson/agents",
+      "waves": [
+        2,
+        5,
+        6,
+        22
+      ]
+    },
+    {
+      "repo": "wshuyi/x-article-publisher-skill",
+      "waves": [
+        45
+      ]
+    },
+    {
+      "repo": "wwwzhouhui/skills_collection",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "xiaopu-ai/web-design",
+      "waves": [
+        68
+      ]
+    },
+    {
+      "repo": "xie-tj/DesignPattern-skill",
+      "waves": [
+        64
+      ]
+    },
+    {
+      "repo": "xiehust/awesome-skills-claude-agents",
+      "waves": [
+        69,
+        70
+      ]
+    },
+    {
+      "repo": "xixu-me/skills",
+      "waves": [
+        8
+      ]
+    },
+    {
+      "repo": "xuliang2024/video_skills",
+      "waves": [
+        45,
+        72
+      ]
+    },
+    {
+      "repo": "yangsi7/nextjs-intelligence-toolkit",
+      "waves": [
+        62
+      ]
+    },
+    {
+      "repo": "yilansun416-design/cursor-skills",
+      "waves": [
+        72
+      ]
+    },
+    {
+      "repo": "ykotik/cli-power-skills",
+      "waves": [
+        60
+      ]
+    },
+    {
+      "repo": "ylongw/embedded-review",
+      "waves": [
+        48
+      ]
+    },
+    {
+      "repo": "ylongw/jlink-debug-skill",
+      "waves": [
+        56
+      ]
+    },
+    {
+      "repo": "yuhaoliu7456/pdf2md-skill",
+      "waves": [
+        44,
+        72
+      ]
+    },
+    {
+      "repo": "yuque/yuque-ecosystem",
+      "waves": [
+        59
+      ]
+    },
+    {
+      "repo": "yusukebe/hono-skill",
+      "waves": [
+        3
+      ]
+    },
+    {
+      "repo": "zLanqing/codex-claude-academic-skills",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "zapier/gtm-cheat-codes",
+      "waves": [
+        73
+      ]
+    },
+    {
+      "repo": "zarazhangrui/codebase-to-course",
+      "waves": [
+        44
+      ]
+    },
+    {
+      "repo": "zate/cc-godot",
+      "waves": [
+        22
+      ]
+    },
+    {
+      "repo": "zeke/preview-deployments-skill",
+      "waves": [
+        65
+      ]
+    },
+    {
+      "repo": "zgsm-ai/everything-ai-coding",
+      "waves": [
+        47
+      ]
+    },
+    {
+      "repo": "zhinkgit/embeddedskills",
+      "waves": [
+        56
+      ]
+    }
+  ]
+}

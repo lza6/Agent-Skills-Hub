@@ -17,3 +17,4 @@ skills-lock.json
 
 # Ignore local install batch file if personal
 # install-all.bat
+.codegraph/
