@@ -71,6 +71,7 @@ Agent-Skills-Hub/
 │   ├── INSTALL-CN.md                  # 给他人电脑的一键安装指南
 │   ├── SKILLS-GUIDE-CN.md             # 高效使用技巧指南
 │   ├── PATHS-CN.md                    # 完整路径映射说明
+│   ├── WAVE-INSTALL-SUMMARY.md        # 各波次安装结果汇总
 │   └── SKILLS-CATEGORY-REPORT.md      # 技能分类报告
 ├── data/
 │   ├── skills_zh_data.py              # 中文元数据字典（15000+ 条，核心数据源）
@@ -89,8 +90,7 @@ Agent-Skills-Hub/
 │   ├── retry-failed-skills.ps1             # 失败重试
 │   └── final-retry-skills.ps1              # 最终补跑
 └── logs/
-    ├── WAVE-INSTALL-SUMMARY.md        # 各波次安装结果汇总
-    └── waveNN-global.log              # 各波次详细日志（本机生成）
+    └── waveNN-global.log              # 各波次详细日志（本机生成，已 gitignore）
 ```
 
 ---
@@ -110,7 +110,7 @@ Agent-Skills-Hub/
 **标准循环**：新技能入库 → `.\update-docs.ps1` 刷新手册。
 **新波次闭环**：搜索 → `waveN-global.ps1`（后台 schtasks）→ 元数据 → 手册 → 总账 → 推送。
 
-各波次安装结果汇总见 [`logs/WAVE-INSTALL-SUMMARY.md`](logs/WAVE-INSTALL-SUMMARY.md)。
+各波次安装结果汇总见 [`docs/WAVE-INSTALL-SUMMARY.md`](docs/WAVE-INSTALL-SUMMARY.md)。
 
 ---
 
