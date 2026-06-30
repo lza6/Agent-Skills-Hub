@@ -1,5 +1,5 @@
 {
-  "total_repos": 595,
+  "total_repos": 608,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -1156,7 +1156,8 @@
         18,
         23,
         37,
-        38
+        38,
+        78
       ]
     },
     {
@@ -1175,6 +1176,12 @@
       "repo": "bzd6661/wechat-article-for-ai",
       "waves": [
         45
+      ]
+    },
+    {
+      "repo": "caffeinelabs/skills",
+      "waves": [
+        78
       ]
     },
     {
@@ -1428,7 +1435,8 @@
     {
       "repo": "davila7/claude-code-templates",
       "waves": [
-        20
+        20,
+        78
       ]
     },
     {
@@ -1774,7 +1782,8 @@
       "repo": "giuseppe-trisciuoglio/developer-kit",
       "waves": [
         2,
-        18
+        18,
+        78
       ]
     },
     {
@@ -2042,6 +2051,12 @@
       "repo": "jabrena/cursor-rules-java",
       "waves": [
         76
+      ]
+    },
+    {
+      "repo": "jamditis/claude-skills-journalism",
+      "waves": [
+        78
       ]
     },
     {
@@ -2755,7 +2770,8 @@
     {
       "repo": "oimiragieo/agent-studio",
       "waves": [
-        5
+        5,
+        78
       ]
     },
     {
@@ -2810,6 +2826,12 @@
       ]
     },
     {
+      "repo": "opensearch-project/opensearch-agent-skills",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "ordiy/aws-cli-skills",
       "waves": [
         60
@@ -2831,6 +2853,12 @@
       "repo": "palkan/skills",
       "waves": [
         67
+      ]
+    },
+    {
+      "repo": "partme-ai/full-stack-skills",
+      "waves": [
+        78
       ]
     },
     {
@@ -2933,6 +2961,12 @@
       ]
     },
     {
+      "repo": "popup-studio-ai/bkit-claude-code",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "posit-dev/skills",
       "waves": [
         67,
@@ -2987,6 +3021,12 @@
       ]
     },
     {
+      "repo": "promptadvisers/n8n-powerhouse",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "pulumi/agent-skills",
       "waves": [
         6,
@@ -3009,6 +3049,12 @@
       "repo": "rampstackco/claude-skills",
       "waves": [
         67
+      ]
+    },
+    {
+      "repo": "rand/cc-polymath",
+      "waves": [
+        78
       ]
     },
     {
@@ -3053,6 +3099,12 @@
       "repo": "ricocc/rico-skills",
       "waves": [
         68
+      ]
+    },
+    {
+      "repo": "rightnow-ai/openfang",
+      "waves": [
+        78
       ]
     },
     {
@@ -3142,6 +3194,12 @@
       ]
     },
     {
+      "repo": "sanity-io/agent-toolkit",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "sanyuan0704/sanyuan-skills",
       "waves": [
         48
@@ -3228,7 +3286,8 @@
         39,
         40,
         41,
-        42
+        42,
+        78
       ]
     },
     {
@@ -3313,6 +3372,12 @@
       ]
     },
     {
+      "repo": "sugarforever/01coder-agent-skills",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "sukilll/prompt-improver",
       "waves": [
         72
@@ -3322,6 +3387,12 @@
       "repo": "sunbigfly/ppt-agent-skills",
       "waves": [
         58
+      ]
+    },
+    {
+      "repo": "sundial-org/awesome-openclaw-skills",
+      "waves": [
+        78
       ]
     },
     {
@@ -3547,6 +3618,12 @@
       ]
     },
     {
+      "repo": "vladm3105/aidoc-flow-framework",
+      "waves": [
+        78
+      ]
+    },
+    {
       "repo": "vuejs-ai/skills",
       "waves": [
         43
@@ -3626,6 +3703,12 @@
       "repo": "wshuyi/x-article-publisher-skill",
       "waves": [
         45
+      ]
+    },
+    {
+      "repo": "wsimmonds/claude-nextjs-skills",
+      "waves": [
+        78
       ]
     },
     {

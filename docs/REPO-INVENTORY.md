@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（595 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（608 个唯一仓库，wave2–73）
 
-**唯一仓库数: 595** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 608** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -82,3 +82,4 @@
 | 75 | 16 | `404kidwiz/claude-supercode-skills`, `addyosmani/agent-skills`, `ailabs-393/ai-labs-claude-skills`, `cap-go/capacitor-skills`, `dotneet/claude-code-marketplace`, `hairyf/skills`, `josiahsiegel/claude-plugin-marketplace`, `langgenius/dify`, `leonxlnx/taste-skill`, `manutej/luxor-claude-marketplace`, `mcollina/skills`, `pbakaus/impeccable`, `samhvw8/dotfiles`, `yaklang/hack-skills`, `yonatangross/orchestkit`, `zhanghandong/rust-skills` |
 | 76 | 20 | `alinaqi/claude-bootstrap`, `aradotso/trending-skills`, `asyrafhussin/agent-skills`, `blogic-cz/blogic-marketplace`, `deepgram/skills`, `evanca/flutter-ai-rules`, `iii-hq/skills`, `jabrena/cursor-rules-java`, `margelo/react-native-skills`, `mhagrelius/dotfiles`, `modu-ai/moai-adk`, `oakoss/agent-skills`, `omer-metin/skills-for-antigravity`, `ovachiever/droid-tings`, `patricio0312rev/skills`, `pixijs/pixijs-skills`, `pluginagentmarketplace/custom-plugin-java`, `thebeardedbearsas/claude-craft`, `toss/es-toolkit`, `wshaddix/dotnet-skills` |
 | 77 | 18 | `adobe/skills`, `alphaonedev/openclaw-graph`, `ancoleman/ai-design-components`, `ashchupliak/dream-team`, `encoredev/skills`, `eng0ai/eng0-template-skills`, `erichowens/some_claude_skills`, `eyadsibai/ltk`, `geoffjay/claude-plugins`, `hack23/homepage`, `mlflow/skills`, `neondatabase/agent-skills`, `prisma/skills`, `redis/agent-skills`, `ruvnet/ruflo`, `wshobson/agents`, `yoanbernabeu/grepai-skills`, `zechenzhangagi/ai-research-skills` |
+| 78 | 18 | `bobmatnyc/claude-mpm-skills`, `caffeinelabs/skills`, `davila7/claude-code-templates`, `giuseppe-trisciuoglio/developer-kit`, `jamditis/claude-skills-journalism`, `oimiragieo/agent-studio`, `opensearch-project/opensearch-agent-skills`, `partme-ai/full-stack-skills`, `popup-studio-ai/bkit-claude-code`, `promptadvisers/n8n-powerhouse`, `rand/cc-polymath`, `rightnow-ai/openfang`, `sanity-io/agent-toolkit`, `sickn33/antigravity-awesome-skills`, `sugarforever/01coder-agent-skills`, `sundial-org/awesome-openclaw-skills`, `vladm3105/aidoc-flow-framework`, `wsimmonds/claude-nextjs-skills` |
