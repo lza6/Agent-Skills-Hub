@@ -1,5 +1,5 @@
 {
-  "total_repos": 525,
+  "total_repos": 548,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -158,6 +158,12 @@
       ]
     },
     {
+      "repo": "BrownFineSecurity/iothackbot",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "CharlesWiltgen/Axiom",
       "waves": [
         72
@@ -228,6 +234,12 @@
       ]
     },
     {
+      "repo": "Gabberflast/academic-pptx-skill",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "Hao0321/claude-skill-code-cleanup",
       "waves": [
         58
@@ -261,6 +273,12 @@
       "repo": "IoIqq/ftb-quests-skills",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "ItsssssJack/power-design",
+      "waves": [
+        74
       ]
     },
     {
@@ -588,6 +606,12 @@
       ]
     },
     {
+      "repo": "SawyerHood/dev-browser",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "Security-Phoenix-demo/security-skills-claude-code",
       "waves": [
         69,
@@ -619,6 +643,12 @@
       ]
     },
     {
+      "repo": "SnailSploit/Claude-Red",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "StarRocks/starrocks-debug-skills",
       "waves": [
         56
@@ -628,6 +658,12 @@
       "repo": "StrongAI/claude-skills-programming",
       "waves": [
         67
+      ]
+    },
+    {
+      "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+      "waves": [
+        74
       ]
     },
     {
@@ -724,6 +760,12 @@
       ]
     },
     {
+      "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "addyosmani/agent-skills",
       "waves": [
         8,
@@ -774,6 +816,12 @@
       ]
     },
     {
+      "repo": "aiwithremy/claude-skills-llm-council",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "aj-geddes/useful-ai-prompts",
       "waves": [
         20,
@@ -790,6 +838,12 @@
       "waves": [
         18,
         28
+      ]
+    },
+    {
+      "repo": "alchaincyf/huashu-md-html",
+      "waves": [
+        74
       ]
     },
     {
@@ -1015,6 +1069,12 @@
       ]
     },
     {
+      "repo": "bevibing/tutor-skills",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "bidah/skill-set",
       "waves": [
         68
@@ -1127,6 +1187,12 @@
       "repo": "chrisvoncsefalvay/claude-d3js-skill",
       "waves": [
         67
+      ]
+    },
+    {
+      "repo": "chujianyun/skills",
+      "waves": [
+        74
       ]
     },
     {
@@ -1280,6 +1346,12 @@
       ]
     },
     {
+      "repo": "davepoon/buildwithclaude",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "davidcastagnetoa/skills",
       "waves": [
         26
@@ -1416,6 +1488,18 @@
       "waves": [
         4,
         18
+      ]
+    },
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "waves": [
+        74
+      ]
+    },
+    {
+      "repo": "elementalsouls/Claude-OSINT",
+      "waves": [
+        74
       ]
     },
     {
@@ -1584,6 +1668,12 @@
       ]
     },
     {
+      "repo": "glitternetwork/pinme",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "gnurio/nurijanian-skills",
       "waves": [
         72
@@ -1747,6 +1837,12 @@
       ]
     },
     {
+      "repo": "huangserva/skill-prompt-generator",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "hyf0/vue-skills",
       "waves": [
         19
@@ -1894,6 +1990,12 @@
       ]
     },
     {
+      "repo": "joeseesun/qiaomu-anything-to-notebooklm",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "joomcode/joompulse-skills",
       "waves": [
         69,
@@ -1923,6 +2025,12 @@
       "waves": [
         69,
         70
+      ]
+    },
+    {
+      "repo": "jwangkun/claude-for-financial-services-cn",
+      "waves": [
+        74
       ]
     },
     {
@@ -2292,6 +2400,12 @@
       ]
     },
     {
+      "repo": "mohitagw15856/pm-claude-skills",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "mohitmishra786/low-level-dev-skills",
       "waves": [
         18
@@ -2398,6 +2512,12 @@
       "repo": "nickcrew/claude-ctx-plugin",
       "waves": [
         27
+      ]
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "waves": [
+        74
       ]
     },
     {
@@ -2723,6 +2843,12 @@
       "repo": "robzilla1738/htmlshop",
       "waves": [
         72
+      ]
+    },
+    {
+      "repo": "rokpiy/auto-commenter",
+      "waves": [
+        74
       ]
     },
     {
@@ -3288,6 +3414,12 @@
       ]
     },
     {
+      "repo": "yctimlin/mcp_excalidraw",
+      "waves": [
+        74
+      ]
+    },
+    {
       "repo": "yilansun416-design/cursor-skills",
       "waves": [
         72
@@ -3346,6 +3478,12 @@
       "repo": "zarazhangrui/codebase-to-course",
       "waves": [
         44
+      ]
+    },
+    {
+      "repo": "zarazhangrui/youtube-to-ebook",
+      "waves": [
+        74
       ]
     },
     {
