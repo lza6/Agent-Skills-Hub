@@ -9,19 +9,19 @@
 
 | 维度 | 数值 |
 |------|------|
-| 唯一仓库数（去重） | 634 |
-| 全局技能数 `~/.claude/skills/` | 13000+ |
+| 唯一仓库数（去重） | 646 |
+| 全局技能数 `~/.claude/skills/` | 14000+ |
 | 中文元数据条目 | 16000+ |
-| 中文手册行数 | 45200+ |
+| 中文手册行数 | 45600+ |
 | 英文手册行数 | 17000+ |
-| Wave 脚本数 | 84（Wave 2–80） |
+| Wave 脚本数 | 85（Wave 2–81） |
 
 仓库明细见 [`docs/REPO-INVENTORY.md`](../docs/REPO-INVENTORY.md)（人读）与
 [`data/repo-inventory.json`](../data/repo-inventory.json)（机读）。
 
 ---
 
-## 近期波次结果（Wave 73–80）
+## 近期波次结果（Wave 73–81）
 
 | Wave | 成功 | 失败 | 主要方向 | 失败仓库 |
 |------|------|------|----------|----------|
@@ -33,6 +33,7 @@
 | 78 | 17 | 1 | Python/NextJS/Supabase/WASM/Desktop/搜索/工作流 | partme-ai/full-stack-skills |
 | 79 | 18 | 0 | Rust/Go/Python数据/Tauri/GSAP/官方库刷新(supabase/clerk/apollo/stripe) | — |
 | 80 | 18 | 0 | 多语言栈(Phoenix/Rails/Laravel/Swift/Kotlin) + Bevy + Grafana/Cloudflare/Mongo | — |
+| 81 | 18 | 0 | Windmill/Litestar/Angular生态/Go全套(samber)/搜索队列 + 官方库刷新 | — |
 
 失败原因统一为 `exit 1`（仓库无有效 SKILL.md 或结构不符 `npx skills` 规范）。
 

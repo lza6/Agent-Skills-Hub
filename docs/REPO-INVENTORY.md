@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（634 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（646 个唯一仓库，wave2–73）
 
-**唯一仓库数: 634** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 646** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -85,3 +85,4 @@
 | 78 | 18 | `bobmatnyc/claude-mpm-skills`, `caffeinelabs/skills`, `davila7/claude-code-templates`, `giuseppe-trisciuoglio/developer-kit`, `jamditis/claude-skills-journalism`, `oimiragieo/agent-studio`, `opensearch-project/opensearch-agent-skills`, `partme-ai/full-stack-skills`, `popup-studio-ai/bkit-claude-code`, `promptadvisers/n8n-powerhouse`, `rand/cc-polymath`, `rightnow-ai/openfang`, `sanity-io/agent-toolkit`, `sickn33/antigravity-awesome-skills`, `sugarforever/01coder-agent-skills`, `sundial-org/awesome-openclaw-skills`, `vladm3105/aidoc-flow-framework`, `wsimmonds/claude-nextjs-skills` |
 | 79 | 18 | `apollographql/skills`, `borghei/claude-skills`, `clerk/skills`, `danielmiessler/personal_ai_infrastructure`, `dchuk/claude-code-tauri-skills`, `greensock/gsap-skills`, `haydenbleasel/ultracite`, `henriqueatila/golang-gin-clean-arch`, `insforge/agent-skills`, `jorgealves/agent_skills`, `majesticlabs-dev/majestic-marketplace`, `mem0ai/mem0`, `nice-wolf-studio/claude-code-supabase-skills`, `open-circle/agent-skills`, `reown-com/skills`, `spanora/skills`, `stripe/ai`, `supabase/agent-skills` |
 | 80 | 18 | `bfollington/terma`, `cloudflare/skills`, `dpearson2699/swift-ios-skills`, `drjacky/claude-android-ninja`, `fusengine/agents`, `getsentry/sentry-for-ai`, `grafana/skills`, `iliaal/ai-skills`, `jackspace/claudeskillz`, `jeffallan/claude-skills`, `laurigates/claude-plugins`, `mindrally/skills`, `mongodb/agent-skills`, `oliver-kriska/claude-elixir-phoenix`, `onewave-ai/claude-skills`, `sergiodxa/agent-skills`, `spatie/guidelines-skills`, `travisjneuman/.claude` |
+| 81 | 18 | `0xdarkmatter/claude-mods`, `alti3/litestar-skills`, `anthropics/skills`, `besoeasy/open-skills`, `damusix/skills`, `davila7/claude-code-templates`, `different-ai/openwork`, `gopherguides/gopher-ai`, `johnlindquist/claude`, `llama-farm/llamafarm`, `manifoldhiker/typesense-skill`, `mikkelkrogsholm/dev-skills`, `oguzhan18/angular-ecosystem-skills`, `samber/cc-skills-golang`, `shipshitdev/library`, `sickn33/antigravity-awesome-skills`, `windmill-labs/windmill`, `wshobson/agents` |

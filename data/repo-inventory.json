@@ -1,10 +1,16 @@
 {
-  "total_repos": 634,
+  "total_repos": 646,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
       "waves": [
         24
+      ]
+    },
+    {
+      "repo": "0xdarkmatter/claude-mods",
+      "waves": [
+        81
       ]
     },
     {
@@ -913,6 +919,12 @@
       ]
     },
     {
+      "repo": "alti3/litestar-skills",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "amElnagdy/guard-skills",
       "waves": [
         73
@@ -955,7 +967,8 @@
     {
       "repo": "anthropics/skills",
       "waves": [
-        7
+        7,
+        81
       ]
     },
     {
@@ -1111,6 +1124,12 @@
       "repo": "bassimeledath/dispatch",
       "waves": [
         68
+      ]
+    },
+    {
+      "repo": "besoeasy/open-skills",
+      "waves": [
+        81
       ]
     },
     {
@@ -1410,6 +1429,12 @@
       ]
     },
     {
+      "repo": "damusix/skills",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "danielmiessler/personal_ai_infrastructure",
       "waves": [
         79
@@ -1457,7 +1482,8 @@
       "repo": "davila7/claude-code-templates",
       "waves": [
         20,
-        78
+        78,
+        81
       ]
     },
     {
@@ -1515,7 +1541,8 @@
       "waves": [
         6,
         7,
-        8
+        8,
+        81
       ]
     },
     {
@@ -1868,6 +1895,12 @@
       "repo": "googs1025/clean-code-reviewer-skills",
       "waves": [
         48
+      ]
+    },
+    {
+      "repo": "gopherguides/gopher-ai",
+      "waves": [
+        81
       ]
     },
     {
@@ -2229,6 +2262,12 @@
       ]
     },
     {
+      "repo": "johnlindquist/claude",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "joomcode/joompulse-skills",
       "waves": [
         69,
@@ -2468,6 +2507,12 @@
       ]
     },
     {
+      "repo": "llama-farm/llamafarm",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "lucasbrisolla/accounting-ops",
       "waves": [
         63
@@ -2530,6 +2575,12 @@
         25,
         26,
         36
+      ]
+    },
+    {
+      "repo": "manifoldhiker/typesense-skill",
+      "waves": [
+        81
       ]
     },
     {
@@ -2661,6 +2712,12 @@
       "repo": "midudev/autoskills",
       "waves": [
         46
+      ]
+    },
+    {
+      "repo": "mikkelkrogsholm/dev-skills",
+      "waves": [
+        81
       ]
     },
     {
@@ -2875,6 +2932,12 @@
       "waves": [
         67,
         70
+      ]
+    },
+    {
+      "repo": "oguzhan18/angular-ecosystem-skills",
+      "waves": [
+        81
       ]
     },
     {
@@ -3318,7 +3381,8 @@
     {
       "repo": "samber/cc-skills-golang",
       "waves": [
-        4
+        4,
+        81
       ]
     },
     {
@@ -3390,6 +3454,12 @@
       ]
     },
     {
+      "repo": "shipshitdev/library",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "shoaibmalick/development-claude-skills",
       "waves": [
         70
@@ -3433,7 +3503,8 @@
         40,
         41,
         42,
-        78
+        78,
+        81
       ]
     },
     {
@@ -3832,6 +3903,12 @@
       ]
     },
     {
+      "repo": "windmill-labs/windmill",
+      "waves": [
+        81
+      ]
+    },
+    {
       "repo": "withkynam/vibecode-pro-max-kit",
       "waves": [
         73
@@ -3862,7 +3939,8 @@
         5,
         6,
         22,
-        77
+        77,
+        81
       ]
     },
     {
