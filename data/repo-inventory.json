@@ -1,5 +1,5 @@
 {
-  "total_repos": 581,
+  "total_repos": 595,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -781,6 +781,12 @@
       ]
     },
     {
+      "repo": "adobe/skills",
+      "waves": [
+        77
+      ]
+    },
+    {
       "repo": "affaan-m/everything-claude-code",
       "waves": [
         2,
@@ -901,6 +907,12 @@
       ]
     },
     {
+      "repo": "alphaonedev/openclaw-graph",
+      "waves": [
+        77
+      ]
+    },
+    {
       "repo": "amElnagdy/guard-skills",
       "waves": [
         73
@@ -910,6 +922,12 @@
       "repo": "analogjs/angular-skills",
       "waves": [
         5
+      ]
+    },
+    {
+      "repo": "ancoleman/ai-design-components",
+      "waves": [
+        77
       ]
     },
     {
@@ -998,6 +1016,12 @@
       "repo": "aryaxt/aryaxt-skills",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "ashchupliak/dream-team",
+      "waves": [
+        77
       ]
     },
     {
@@ -1559,6 +1583,24 @@
       ]
     },
     {
+      "repo": "encoredev/skills",
+      "waves": [
+        77
+      ]
+    },
+    {
+      "repo": "eng0ai/eng0-template-skills",
+      "waves": [
+        77
+      ]
+    },
+    {
+      "repo": "erichowens/some_claude_skills",
+      "waves": [
+        77
+      ]
+    },
+    {
       "repo": "evanca/flutter-ai-rules",
       "waves": [
         76
@@ -1575,6 +1617,12 @@
       "waves": [
         6,
         17
+      ]
+    },
+    {
+      "repo": "eyadsibai/ltk",
+      "waves": [
+        77
       ]
     },
     {
@@ -1668,6 +1716,12 @@
       "repo": "gastonmorixe/software-best-design-patterns-skill",
       "waves": [
         64
+      ]
+    },
+    {
+      "repo": "geoffjay/claude-plugins",
+      "waves": [
+        77
       ]
     },
     {
@@ -1765,6 +1819,12 @@
       "repo": "grafana/skills",
       "waves": [
         23
+      ]
+    },
+    {
+      "repo": "hack23/homepage",
+      "waves": [
+        77
       ]
     },
     {
@@ -2504,6 +2564,12 @@
       ]
     },
     {
+      "repo": "mlflow/skills",
+      "waves": [
+        77
+      ]
+    },
+    {
       "repo": "mobiusquant/OpenMobius-skill",
       "waves": [
         73
@@ -2585,7 +2651,8 @@
     {
       "repo": "neondatabase/agent-skills",
       "waves": [
-        18
+        18,
+        77
       ]
     },
     {
@@ -2902,7 +2969,8 @@
       "repo": "prisma/skills",
       "waves": [
         2,
-        10
+        10,
+        77
       ]
     },
     {
@@ -2958,7 +3026,8 @@
     {
       "repo": "redis/agent-skills",
       "waves": [
-        5
+        5,
+        77
       ]
     },
     {
@@ -3028,6 +3097,12 @@
       "repo": "rubber-ducks-syndicate/obsidian-documentation-skill",
       "waves": [
         53
+      ]
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "waves": [
+        77
       ]
     },
     {
@@ -3543,7 +3618,8 @@
         2,
         5,
         6,
-        22
+        22,
+        77
       ]
     },
     {
@@ -3633,6 +3709,12 @@
       ]
     },
     {
+      "repo": "yoanbernabeu/grepai-skills",
+      "waves": [
+        77
+      ]
+    },
+    {
       "repo": "yonatangross/orchestkit",
       "waves": [
         75
@@ -3685,6 +3767,12 @@
       "repo": "zate/cc-godot",
       "waves": [
         22
+      ]
+    },
+    {
+      "repo": "zechenzhangagi/ai-research-skills",
+      "waves": [
+        77
       ]
     },
     {
