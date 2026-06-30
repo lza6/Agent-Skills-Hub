@@ -1,5 +1,5 @@
 {
-  "total_repos": 548,
+  "total_repos": 563,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -29,6 +29,12 @@
       "repo": "2048Nemo/electron-web-monorepo-skill",
       "waves": [
         62
+      ]
+    },
+    {
+      "repo": "404kidwiz/claude-supercode-skills",
+      "waves": [
+        75
       ]
     },
     {
@@ -770,7 +776,8 @@
       "waves": [
         8,
         14,
-        15
+        15,
+        75
       ]
     },
     {
@@ -813,6 +820,12 @@
       "repo": "aiguicai/MCP-Gateway",
       "waves": [
         59
+      ]
+    },
+    {
+      "repo": "ailabs-393/ai-labs-claude-skills",
+      "waves": [
+        75
       ]
     },
     {
@@ -1125,6 +1138,12 @@
       "repo": "callstackincubator/agent-skills",
       "waves": [
         57
+      ]
+    },
+    {
+      "repo": "cap-go/capacitor-skills",
+      "waves": [
+        75
       ]
     },
     {
@@ -1454,6 +1473,12 @@
       ]
     },
     {
+      "repo": "dotneet/claude-code-marketplace",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "dotnet/skills",
       "waves": [
         22
@@ -1715,6 +1740,12 @@
       "repo": "haidang1810/md2html",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "hairyf/skills",
+      "waves": [
+        75
       ]
     },
     {
@@ -2003,6 +2034,12 @@
       ]
     },
     {
+      "repo": "josiahsiegel/claude-plugin-marketplace",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "josuediazflores/ios-performance-optimizer-skill",
       "waves": [
         55
@@ -2125,6 +2162,12 @@
       ]
     },
     {
+      "repo": "langgenius/dify",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "laolaoshiren/claude-code-skills-zh",
       "waves": [
         68
@@ -2158,6 +2201,12 @@
       "repo": "leonluo2008-ops/hermes-skill-toolkit",
       "waves": [
         62
+      ]
+    },
+    {
+      "repo": "leonxlnx/taste-skill",
+      "waves": [
+        75
       ]
     },
     {
@@ -2264,6 +2313,12 @@
       ]
     },
     {
+      "repo": "manutej/luxor-claude-marketplace",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "markpitt/claude-skills",
       "waves": [
         22
@@ -2297,6 +2352,12 @@
       "repo": "matthewp/astro-monorepo-skill",
       "waves": [
         62
+      ]
+    },
+    {
+      "repo": "mcollina/skills",
+      "waves": [
+        75
       ]
     },
     {
@@ -2640,6 +2701,12 @@
       ]
     },
     {
+      "repo": "pbakaus/impeccable",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "penspanic/webgpu-metal-debug-kit",
       "waves": [
         50
@@ -2893,6 +2960,12 @@
       "repo": "samber/cc-skills-golang",
       "waves": [
         4
+      ]
+    },
+    {
+      "repo": "samhvw8/dotfiles",
+      "waves": [
+        75
       ]
     },
     {
@@ -3408,6 +3481,12 @@
       ]
     },
     {
+      "repo": "yaklang/hack-skills",
+      "waves": [
+        75
+      ]
+    },
+    {
       "repo": "yangsi7/nextjs-intelligence-toolkit",
       "waves": [
         62
@@ -3441,6 +3520,12 @@
       "repo": "ylongw/jlink-debug-skill",
       "waves": [
         56
+      ]
+    },
+    {
+      "repo": "yonatangross/orchestkit",
+      "waves": [
+        75
       ]
     },
     {
@@ -3502,6 +3587,12 @@
       "repo": "zgsm-ai/everything-ai-coding",
       "waves": [
         47
+      ]
+    },
+    {
+      "repo": "zhanghandong/rust-skills",
+      "waves": [
+        75
       ]
     },
     {

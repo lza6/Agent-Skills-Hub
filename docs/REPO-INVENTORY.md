@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（548 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（563 个唯一仓库，wave2–73）
 
-**唯一仓库数: 548** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 563** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -79,3 +79,4 @@
 | 72 | 28 | `Aaronontheweb/dotnet-skills`, `CharlesWiltgen/Axiom`, `NeoLabHQ/context-engineering-kit`, `Pluviobyte/jiepi-skill`, `TashanGKD/tashan-cursor-skills`, `alirezarezvani/claude-code-skill-factory`, `araguaci/cursor-skills`, `aussiegingersnap/cursor-skills`, `browserwing/browserwing`, `carmahhawwari/ui-design-brain`, `chenShengBiao/cocos-ai-mcp`, `chencodeX/he-kaiming-style-research-skill`, `chrisboden/cursor-skills`, `coleam00/second-brain-skills`, `daymade/claude-code-skills`, `dominikmartn/nothing-design-skill`, `dotdc/cursor-workshop`, `gnurio/nurijanian-skills`, `harrychuang/cursor-skills`, `lackeyjb/playwright-skill`, `lihao0318/ai-nl2ui-automation`, `prepfinders/seedance2-api`, `robzilla1738/htmlshop`, `sukilll/prompt-improver`, `trailofbits/skills`, `xuliang2024/video_skills`, `yilansun416-design/cursor-skills`, `yuhaoliu7456/pdf2md-skill` |
 | 73 | 25 | `DanMcInerney/architect-loop`, `DenisSergeevitch/agents-best-practices`, `Haojae/scipilot-figure-skill`, `JimLiu/baoyu-design`, `MyuriKanao/src-hunter-skill`, `alonw0/web-asset-generator`, `amElnagdy/guard-skills`, `anthropics/launch-your-agent`, `feicaoclub/video-spec-builder`, `googleworkspace/cli`, `haidang1810/md2html`, `instavm/open-skills`, `larksuite/cli`, `mobiusquant/OpenMobius-skill`, `nexu-io/html-anything`, `op7418/guizang-social-card-skill`, `posit-dev/skills`, `realrossmanngroup/no_ai_slop_writing_rules`, `refly-ai/refly`, `tigicion/dao-code`, `u7079256/paperjury`, `withkynam/vibecode-pro-max-kit`, `worldwonderer/video-recap-skills`, `zLanqing/codex-claude-academic-skills`, `zapier/gtm-cheat-codes` |
 | 74 | 23 | `BrownFineSecurity/iothackbot`, `Gabberflast/academic-pptx-skill`, `ItsssssJack/power-design`, `SawyerHood/dev-browser`, `SnailSploit/Claude-Red`, `Sushegaad/Claude-Skills-Governance-Risk-and-Compliance`, `adamlyttleapps/claude-skill-app-onboarding-questionnaire`, `aiwithremy/claude-skills-llm-council`, `alchaincyf/huashu-md-html`, `bevibing/tutor-skills`, `chujianyun/skills`, `davepoon/buildwithclaude`, `elementalsouls/Claude-BugHunter`, `elementalsouls/Claude-OSINT`, `glitternetwork/pinme`, `huangserva/skill-prompt-generator`, `joeseesun/qiaomu-anything-to-notebooklm`, `jwangkun/claude-for-financial-services-cn`, `mohitagw15856/pm-claude-skills`, `nidhinjs/prompt-master`, `rokpiy/auto-commenter`, `yctimlin/mcp_excalidraw`, `zarazhangrui/youtube-to-ebook` |
+| 75 | 16 | `404kidwiz/claude-supercode-skills`, `addyosmani/agent-skills`, `ailabs-393/ai-labs-claude-skills`, `cap-go/capacitor-skills`, `dotneet/claude-code-marketplace`, `hairyf/skills`, `josiahsiegel/claude-plugin-marketplace`, `langgenius/dify`, `leonxlnx/taste-skill`, `manutej/luxor-claude-marketplace`, `mcollina/skills`, `pbakaus/impeccable`, `samhvw8/dotfiles`, `yaklang/hack-skills`, `yonatangross/orchestkit`, `zhanghandong/rust-skills` |
