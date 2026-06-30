@@ -112,6 +112,21 @@ Agent-Skills-Hub/
 
 各波次安装结果汇总见 [`docs/WAVE-INSTALL-SUMMARY.md`](docs/WAVE-INSTALL-SUMMARY.md)。
 
+### ⭐ "继续"模糊触发约定
+
+> 在本项目里，新会话中只要说一句**"继续"**（或"继续哈"/"接着装"/"继续推进"等含"继续"语义的话），
+> 即自动接上**全栈技能搜索 + 安装 + 记录闭环**，无需重复说明要做什么。
+
+AI 应自动执行：
+1. 读 `docs/WAVE-INSTALL-SUMMARY.md` + `data/repo-inventory.json` 确认当前 Wave 编号与已装仓库
+2. `npx skills search <全栈方向>` 筛选**未装**的全栈仓库（只取前端/后端/数据库/DevOps/各语言栈/工程实践，不装其他领域）
+3. 写 `scripts/wave<N+1>-global.ps1`，`schtasks` 后台安装
+4. 走完元数据 → 中英文手册 → 仓库总账 → 更新 `WAVE-INSTALL-SUMMARY.md` + `README.md` 数字
+5. `git commit + push`（每波必推送到仓库）
+
+约束：**只装全栈方向**；**每波完成必推送**。详细 SOP 见记忆 `skill-management-workflow` 与 `continue-trigger-workflow`。
+
+
 ---
 
 ## 📖 常用操作
