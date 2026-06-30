@@ -1,5 +1,5 @@
 {
-  "total_repos": 608,
+  "total_repos": 622,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -971,7 +971,8 @@
         3,
         5,
         23,
-        27
+        27,
+        79
       ]
     },
     {
@@ -1161,6 +1162,12 @@
       ]
     },
     {
+      "repo": "borghei/claude-skills",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "browserwing/browserwing",
       "waves": [
         72
@@ -1299,7 +1306,8 @@
       "waves": [
         2,
         9,
-        19
+        19,
+        79
       ]
     },
     {
@@ -1395,6 +1403,12 @@
       ]
     },
     {
+      "repo": "danielmiessler/personal_ai_infrastructure",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "databricks-solutions/ai-dev-kit",
       "waves": [
         13
@@ -1457,6 +1471,12 @@
       "repo": "dbt-labs/dbt-agent-skills",
       "waves": [
         13
+      ]
+    },
+    {
+      "repo": "dchuk/claude-code-tauri-skills",
+      "waves": [
+        79
       ]
     },
     {
@@ -1831,6 +1851,12 @@
       ]
     },
     {
+      "repo": "greensock/gsap-skills",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "hack23/homepage",
       "waves": [
         77
@@ -1893,6 +1919,12 @@
       ]
     },
     {
+      "repo": "haydenbleasel/ultracite",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "hazamashoken/api-design-ai-skills",
       "waves": [
         63
@@ -1922,6 +1954,12 @@
       "repo": "helsonzhao/SkillsForAndroidPerformance",
       "waves": [
         55
+      ]
+    },
+    {
+      "repo": "henriqueatila/golang-gin-clean-arch",
+      "waves": [
+        79
       ]
     },
     {
@@ -1995,6 +2033,12 @@
       "repo": "inekipelov/apple-platform-project-setup-skill",
       "waves": [
         62
+      ]
+    },
+    {
+      "repo": "insforge/agent-skills",
+      "waves": [
+        79
       ]
     },
     {
@@ -2149,6 +2193,12 @@
       "waves": [
         69,
         70
+      ]
+    },
+    {
+      "repo": "jorgealves/agent_skills",
+      "waves": [
+        79
       ]
     },
     {
@@ -2421,6 +2471,12 @@
       ]
     },
     {
+      "repo": "majesticlabs-dev/majestic-marketplace",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "makfly/superpowers-symfony",
       "waves": [
         23,
@@ -2488,6 +2544,12 @@
       "repo": "mcpware/cross-code-organizer",
       "waves": [
         47
+      ]
+    },
+    {
+      "repo": "mem0ai/mem0",
+      "waves": [
+        79
       ]
     },
     {
@@ -2707,6 +2769,12 @@
       ]
     },
     {
+      "repo": "nice-wolf-studio/claude-code-supabase-skills",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "nicepkg/vsync",
       "waves": [
         47
@@ -2809,6 +2877,12 @@
       "repo": "op7418/guizang-social-card-skill",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "open-circle/agent-skills",
+      "waves": [
+        79
       ]
     },
     {
@@ -3096,6 +3170,12 @@
       ]
     },
     {
+      "repo": "reown-com/skills",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "ricocc/rico-skills",
       "waves": [
         68
@@ -3339,6 +3419,12 @@
       ]
     },
     {
+      "repo": "spanora/skills",
+      "waves": [
+        79
+      ]
+    },
+    {
       "repo": "spences10/svelte-claude-skills",
       "waves": [
         67
@@ -3368,7 +3454,8 @@
       "repo": "stripe/ai",
       "waves": [
         2,
-        8
+        8,
+        79
       ]
     },
     {
@@ -3400,7 +3487,8 @@
       "waves": [
         2,
         7,
-        57
+        57,
+        79
       ]
     },
     {

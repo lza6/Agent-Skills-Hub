@@ -9,11 +9,13 @@
 
 ## ✨ 特性
 
-- 🚀 **一键总安装**：基础技能 + Wave 1–71 全栈扩展，一条命令搞定
-- 🌐 **国内网络友好**：内置 GitHub 镜像加速，无需代理也能装
-- 📚 **中文手册自动生成**：272+ 技能的中文说明，安装后自动同步到 `~/.claude/`
-- 🔧 **元数据补全**：自动为新技能生成中文 stub 说明
-- 🔄 **失败重试机制**：断点续装，支持单波次补跑
+- 🚀 **一键总安装**：基础技能 + Wave 2–79 全栈扩展，一条命令搞定
+- 📚 **大规模技能库**：622 唯一仓库，全局 12000+ 技能，中文元数据 15000+ 条
+- 📖 **中文手册自动生成**：44400+ 行中文技能手册，安装后自动同步到 `~/.claude/`
+- 🗂️ **仓库总账**：`docs/REPO-INVENTORY.md` 去重汇总所有已装仓库（按 Wave 分组）
+- 🔧 **元数据补全**：自动从 SKILL.md 抽取 description 生成中文 stub
+- 🔄 **断点续装**：`wave<N>-resume.ps1` 从失败仓库续跑；后台 `schtasks` 调度
+- 🌐 **国内网络友好**：内置 GitHub 镜像加速
 
 ---
 
@@ -26,7 +28,7 @@
 git clone https://github.com/lza6/Agent-Skills-Hub.git
 cd Agent-Skills-Hub
 
-# 2. 执行总安装（基础 + Wave 1–71 + 文档同步）
+# 2. 执行总安装（基础 + Wave 2–79 全栈扩展 + 文档同步）
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install-all-skills-total.ps1
 ```
 
@@ -45,7 +47,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install-all-skills-total.p
 ### 单波次安装
 
 ```powershell
-.\scripts\install-fullstack-skills-waveN.ps1   # N = 1..71
+.\scripts\install-fullstack-skills-waveN.ps1   # 全栈 Wave 1–42
+.\scripts\install-new-skills-waveN.ps1          # 新技能 Wave 43–72
+.\scripts\waveNN-global.ps1                     # 后台波次 Wave 73–79（schtasks 调度）
 ```
 
 ---
@@ -55,30 +59,38 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install-all-skills-total.p
 ```text
 Agent-Skills-Hub/
 ├── README.md
-├── install-all-skills-total.ps1       # 总安装入口（14 步骤）
+├── install-all-skills-total.ps1       # 总安装入口（基础 + Wave 2–79）
 ├── install-all.bat                    # Windows 双击入口
 ├── install-fullstack-and-update.ps1   # 仅 Wave 扩展 + 文档
+├── install-all-new-skills.ps1         # 新技能 Wave 43–72 总入口
 ├── update-docs.ps1                    # 文档更新入口
 ├── docs/
-│   ├── SKILLS-REFERENCE-CN.md         # 中文技能手册（核心，推荐）
-│   ├── SKILLS-REFERENCE.md            # 英文简要版
+│   ├── SKILLS-REFERENCE-CN.md         # 中文技能手册（44400+ 行，核心）
+│   ├── SKILLS-REFERENCE.md            # 英文手册（17000+ 行）
+│   ├── REPO-INVENTORY.md              # 仓库总账（622 去重仓库，按 Wave 分组）
 │   ├── INSTALL-CN.md                  # 给他人电脑的一键安装指南
-│   ├── SKILLS-GUIDE-CN.md             # 高效使用技巧指南（新增）
+│   ├── SKILLS-GUIDE-CN.md             # 高效使用技巧指南
 │   ├── PATHS-CN.md                    # 完整路径映射说明
 │   └── SKILLS-CATEGORY-REPORT.md      # 技能分类报告
 ├── data/
-│   ├── skills_zh_data.py              # 技能中文元数据字典（核心数据源）
-│   └── fullstack-skills-manifest.txt  # 全栈扩展技能清单（Wave 1–71）
+│   ├── skills_zh_data.py              # 中文元数据字典（15000+ 条，核心数据源）
+│   ├── repo-inventory.json            # 仓库总账（机读 {repo, waves[]}）
+│   └── fullstack-skills-manifest.txt  # 全栈扩展技能清单
 ├── scripts/
-│   ├── install-all-skills.ps1         # 基础技能批量安装
-│   ├── install-fullstack-skills-wave*.ps1  # Wave 1–71 各波次脚本
-│   ├── github-mirror.ps1              # GitHub 镜像（国内网络加速）
-│   ├── sync-skills-zh-data.py         # 自动补全新技能中文说明
-│   ├── generate-skills-reference-zh.py # 中文手册生成
-│   ├── generate-skills-reference.py    # 英文手册生成
-│   ├── retry-failed-skills.ps1        # 失败重试
-│   └── final-retry-skills.ps1         # 最终补跑
-└── logs/                              # 安装日志（已 gitignore，本机生成）
+│   ├── install-fullstack-skills-wave*.ps1  # 全栈 Wave 1–42
+│   ├── install-new-skills-wave*.ps1        # 新技能 Wave 43–72
+│   ├── waveNN-global.ps1                   # 后台波次 Wave 73–79
+│   ├── waveNN-resume.ps1                   # 断点续装
+│   ├── github-mirror.ps1                   # GitHub 镜像（国内网络加速）
+│   ├── sync-all-skills-zh.py               # 元数据补全
+│   ├── generate-skills-reference-zh.py     # 中文手册生成
+│   ├── generate-skills-reference.py        # 英文手册生成
+│   ├── extract-repo-inventory.py           # 仓库总账提取（去重）
+│   ├── retry-failed-skills.ps1             # 失败重试
+│   └── final-retry-skills.ps1              # 最终补跑
+└── logs/
+    ├── WAVE-INSTALL-SUMMARY.md        # 各波次安装结果汇总
+    └── waveNN-global.log              # 各波次详细日志（本机生成）
 ```
 
 ---
@@ -86,14 +98,19 @@ Agent-Skills-Hub/
 ## 🛠️ 核心工作流
 
 ```
-技能安装 (scripts/*.ps1)
-    → sync-skills-zh-data.py         # 元数据补全
-    → generate-skills-reference-zh.py # 中文手册生成
-    → generate-skills-reference.py    # 英文手册生成
+技能安装 (scripts/waveNN-global.ps1 / install-*-wave*.ps1)
+    → sync-all-skills-zh.py              # 元数据补全（从 SKILL.md 抽 description）
+    → generate-skills-reference-zh.py    # 中文手册生成
+    → generate-skills-reference.py       # 英文手册生成
+    → extract-repo-inventory.py          # 刷新仓库总账（去重）
     → 拷贝 SKILLS-REFERENCE-CN.md → ~/.claude/
+    → git commit + push                  # 推送
 ```
 
 **标准循环**：新技能入库 → `.\update-docs.ps1` 刷新手册。
+**新波次闭环**：搜索 → `waveN-global.ps1`（后台 schtasks）→ 元数据 → 手册 → 总账 → 推送。
+
+各波次安装结果汇总见 [`logs/WAVE-INSTALL-SUMMARY.md`](logs/WAVE-INSTALL-SUMMARY.md)。
 
 ---
 
