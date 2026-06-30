@@ -1,6 +1,6 @@
 # Claude Code 全局技能总览手册
 
-> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **16300** 个全局技能
+> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **17079** 个全局技能
 
 ---
 
@@ -390,8 +390,8 @@ Universal coding standards, best practices, and patterns for TypeScript, JavaScr
 #### `/python-code-review` ✅ 💬自动
 Reviews Python code for type safety, async patterns, error handling, and common mistakes. Use when reviewing .py files, checking type hints, async/await usage, or exception handling.
 
-#### `/python-code-quality` ❌ 不可用
-源仓库中技能已移除或 SKILL.md 无效，无法安装。
+#### `/python-code-quality` ✅ 💬自动
+Python code quality with ruff and ty. Use when the user mentions ruff, ty, linting, formatting, type checking, or Python code style.
 
 #### `/python-pro` ✅ 💬自动
 Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
@@ -859,7 +859,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 ### Wave 71 全量已安装技能索引（按字母排序）
 
-> 以下 **16088** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
+> 以下 **16866** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
 > 仅展示**已安装**技能，未安装的不收录。
 
 | Skill | Description |
@@ -997,6 +997,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/808-regulations-eu-digital-markets-act` | Use when reviewing, designing, or modifying Java enterprise systems that may support EU Digital Ma… |
 | `/A/B Test Analysis` | Design and analyze A/B tests, calculate statistical significance, and determine sample sizes for c… |
 | `/AI Governance` | Comprehensive AI risk management, EU AI Act compliance, and LLM usage governance |
+| `/APEX Methodology` | Systematic development workflow: Analyze → Plan → Execute → eLicit → eXamine. Use for ANY developm… |
 | `/API Fuzzing for Bug Bounty` | This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulne… |
 | `/API Integration Specialist` | Expert in integrating third-party APIs with proper authentication, error handling, rate limiting, … |
 | `/AWS CloudWatch Investigation` | Reusable investigation patterns for AWS CloudWatch: Logs Insights query templates, alarm-to-deploy… |
@@ -1039,6 +1040,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/BrightData` | 4-tier progressive scraping with automatic escalation: Tier 1 WebFetch (fast, built-in), Tier 2 cu… |
 | `/Broken Authentication Testing` | This skill should be used when the user asks to "test for broken authentication vulnerabilities", … |
 | `/Browser` | Headless browser automation via agent-browser — Rust CLI daemon with persistent auth profiles for … |
+| `/Browser Daemon` | Persistent browser automation via Playwright daemon. Keep a browser window open and send it comman… |
 | `/Build & Deploy` | This skill should be used when the user asks to "build the project", "run the build", "deploy to p… |
 | `/Burp Suite Web Application Testing` | This skill should be used when the user asks to "intercept HTTP traffic", "modify web requests", "… |
 | `/CI-CD` | CI/CD 自动化 - 跨 Web、移动和后端应用的自动化构建、测试和部署。 |
@@ -1051,7 +1053,6 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/Claudeisms Operational Guidelines` | Apply strict operational protocols for AI task execution including sequential processing, minimal … |
 | `/Clockify Automation` | Automate time tracking workflows in Clockify -- create and manage time entries, workspaces, and us… |
 | `/Cloud Penetration Testing` | This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure… |
-| `/Cloudflare` | Deploy and manage Cloudflare Workers, Pages, and services via Code Mode MCP (API queries) + wrangl… |
 | `/Cloudflare Manager` | Comprehensive Cloudflare account management for deploying Workers, KV Storage, R2, Pages, DNS, and… |
 | `/Cloudinary Automation` | Automate Cloudinary media management including folder organization, upload presets, asset lookup, … |
 | `/Clustering Analysis` | Identify groups and patterns in data using k-means, hierarchical clustering, and DBSCAN for cluste… |
@@ -1112,6 +1113,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/File Path Traversal Testing` | This skill should be used when the user asks to "test for directory traversal", "exploit path trav… |
 | `/Firecrawl Automation` | Automate web crawling and data extraction with Firecrawl -- scrape pages, crawl sites, extract str… |
 | `/FirstPrinciples` | Physics-based reasoning framework (Musk/Elon methodology) that deconstructs problems to irreducibl… |
+| `/Fluxwing Component Creator` | Create uxscii components with ASCII art and structured metadata when user wants to create, build, … |
+| `/Fluxwing Component Expander` | Add interaction states like hover, focus, disabled, active, error to existing uxscii components. U… |
+| `/Fluxwing Component Viewer` | View detailed information about a specific uxscii component including metadata, states, props, and… |
+| `/Fluxwing Library Browser` | Browse and view all available uxscii components including bundled templates, user components, and … |
+| `/Fluxwing Screen Scaffolder` | Build complete UI screens by composing multiple uxscii components. Use when working with .uxm file… |
+| `/Fluxwing Screenshot Importer` | Import UI screenshots and generate uxscii components automatically using vision analysis. Use when… |
 | `/FreshBooks Automation` | FreshBooks Automation: manage businesses, projects, time tracking, and billing in FreshBooks cloud… |
 | `/Funnel Analysis` | Analyze user conversion funnels, identify drop-off points, and optimize conversion rates for conve… |
 | `/Geek-skills-a-share-analyst` | A股专业分析师助手，提供每日股价分析、选股策略和投资建议。适用于：(1) 获取A股实时行情和历史数据，(2) 技术面分析（K线形态、MACD、KDJ、RSI、布林带等），(3) 基本面分析（财务指… |
@@ -1154,7 +1161,6 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/Hunter Automation` | Automate Hunter.io email intelligence -- search domains for email addresses, find specific contact… |
 | `/IDOR Vulnerability Testing` | This skill should be used when the user asks to "test for insecure direct object references," "fin… |
 | `/ISA` | Owns the Ideal State Artifact — the universal primitive that holds the articulated ideal state of … |
-| `/Ideate` | Evolutionary ideation engine — loop-controlled multi-cycle idea generation through 9 phases (CONSU… |
 | `/Instantly Automation` | Automate Instantly cold email outreach -- manage campaigns, sending accounts, lead lists, bulk lea… |
 | `/Interceptor` | Real Chrome browser automation via Interceptor extension — controls the actual browser from inside… |
 | `/Interview` | Runs a phased conversational interview across all PAI context files using InterviewScan.ts, which … |
@@ -1172,6 +1178,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/Lemlist Automation` | Automate Lemlist multichannel outreach -- manage campaigns, enroll leads, add personalization vari… |
 | `/Lemon Squeezy Automation` | Automate Lemon Squeezy store management -- products, orders, subscriptions, customers, discounts, … |
 | `/Lever Automation` | Automate recruiting workflows in Lever ATS -- manage opportunities, job postings, requisitions, pi… |
+| `/Lightning CSS` | Lightning CSS transpilation, bundling, and minification. Use when configuring CSS in Vite, replaci… |
 | `/Linear Todo Sync` | This skill fetches open tasks assigned to the user from the Linear API and generates a markdown to… |
 | `/Linux Privilege Escalation` | This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vect… |
 | `/Linux Production Shell Scripts` | This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "mo… |
@@ -1194,6 +1201,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/Model Hyperparameter Tuning` | Optimize hyperparameters using grid search, random search, Bayesian optimization, and automated ML… |
 | `/Model Monitoring` | Monitor model performance, detect data drift, concept drift, and anomalies in production using Pro… |
 | `/Monday.com Automation` | Automate Monday.com workflows, board management, team collaboration, and cross-board integrations |
+| `/Multi-AI Consultant` | Consult external AIs (Gemini 2.5 Pro, OpenAI Codex, fresh Claude) for second opinions when stuck o… |
 | `/Natural Language Processing` | Build NLP applications using transformers library, BERT, GPT, text classification, named entity re… |
 | `/Neon Automation` | Automate Neon serverless Postgres operations -- manage projects, branches, databases, roles, and c… |
 | `/NetSuite Automation` | NetSuite Automation: manage customers, sales orders, invoices, inventory, and records via Oracle N… |
@@ -1263,7 +1271,6 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/QuickBooks Automation` | QuickBooks Automation: manage invoices, customers, accounts, and payments in QuickBooks Online for… |
 | `/Ramp Automation` | Ramp Automation: manage corporate card transactions, reimbursements, users, and expense tracking v… |
 | `/Razor Pages Patterns` | Best practices for building production-grade ASP.NET Core Razor Pages applications. Focuses on str… |
-| `/React` | This skill should be used when the user asks about "React", "React components", "React hooks", "us… |
 | `/ReasoningBank Intelligence` | Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and… |
 | `/ReasoningBank with AgentDB` | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes tra… |
 | `/Recommendation Engine` | Build recommendation systems using collaborative filtering, content-based filtering, matrix factor… |
@@ -1290,7 +1297,6 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/SQLAlchemy ORM Expert` | Comprehensive SQLAlchemy skill for customer support tech enablement, covering ORM patterns, sessio… |
 | `/SQLMap Database Penetration Testing` | This skill should be used when the user asks to "automate SQL injection testing," "enumerate datab… |
 | `/SSH Penetration Testing` | This skill should be used when the user asks to "pentest SSH services", "enumerate SSH configurati… |
-| `/Sales` | Transforms product documentation into sales-ready narrative packages combining story explanation, … |
 | `/Scala Collections` | Use when scala collections including immutable/mutable variants, List, Vector, Set, Map operations… |
 | `/Scala Functional Patterns` | Use when functional programming patterns in Scala including higher-order functions, immutability, … |
 | `/Scala Type System` | Use when scala's advanced type system including generics, variance, type bounds, implicit conversi… |
@@ -1331,6 +1337,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/UI/UX Design` | This skill should be used when the user asks about "UI design", "UX design", "user interface", "us… |
 | `/USMetrics` | 68 US economic indicators from FRED, EIA, Treasury, BLS, Census APIs with trend analysis and cross… |
 | `/Universal Wisdom Weaving` | Deep dive into specific wisdom traditions (Hebrew, Aramaic, Buddhist, Hermetic, Ubuntu, Shamanic) … |
+| `/UnoCSS` | UnoCSS atomic CSS engine for on-demand utility classes. Use when setting up utility-first CSS, con… |
 | `/Uploadcare Automation` | Automate Uploadcare file management including listing, storing, inspecting, downloading, and organ… |
 | `/Utilities` | Developer utilities and tools — CLI generation, skill scaffolding, agent delegation, system upgrad… |
 | `/V3 CLI Modernization` | CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts,… |
@@ -1423,12 +1430,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/accessibility-compliance` | Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and … |
 | `/accessibility-compliance-accessibility-audit` | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive t… |
 | `/accessibility-fix` | Scan an AEM Edge Delivery Services page for WCAG 2.1 AA accessibility violations and generate spec… |
+| `/accessibility-implementation` | WCAG 2.1/2.2 compliance, ARIA patterns, keyboard nav, focus management, a11y testing. Use when imp… |
 | `/accessibility-test-plan` | Create accessibility testing plans covering assistive technologies and WCAG criteria. |
 | `/accessibility-testing` | Test web applications for WCAG compliance and ensure usability for users with disabilities. Use fo… |
 | `/accessibility-wcag` | WCAG 2.1 AA compliance requirements including semantic markup, keyboard navigation, ARIA labels, a… |
 | `/accesslint-audit` | Find and fix WCAG 2.2 accessibility issues. Two modes — report (sweep a codebase or page, produce … |
 | `/accesslint-diff` | Diff a live page's accessibility violations against a baseline — by default compares uncommitted c… |
 | `/accesslint-scan` | Audit a live page for accessibility issues, locate each WCAG violation precisely, and return a sel… |
+| `/accessorysetupkit` | Discover and configure Bluetooth and Wi-Fi accessories using AccessorySetupKit. Use when presentin… |
 | `/accint-solve` | Route agent work through AccInt's MCP memory loop: retrieve prior outcomes, resolve frames, and cl… |
 | `/accli` | This skill should be used when interacting with Apple Calendar on macOS. Use it for listing calend… |
 | `/account-abstraction` | Comprehensive expertise in ERC-4337 account abstraction, smart contract wallets, paymasters, bundl… |
@@ -1463,6 +1472,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/activecampaign` | ActiveCampaign CRM integration for lead management, deal tracking, and email automation. Use for s… |
 | `/activecampaign-automation` | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, … |
 | `/activepieces` | Build workflow automations with Activepieces. Use when a user asks to self-host a Zapier alternati… |
+| `/activitykit` | Implement, review, or improve Live Activities and Dynamic Island experiences in iOS apps using Act… |
 | `/activitypub-testing` | Testing patterns for PHPUnit and Playwright E2E tests. Use when writing tests, debugging test fail… |
 | `/actix-web` | Actix Web is a powerful, high-performance web framework for Rust. It provides async handlers, type… |
 | `/actual-budget` | Query and manage personal finances via the official Actual Budget Node.js API. Use for budget quer… |
@@ -1472,8 +1482,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ad-copy` | Write platform-native paid ad copy with multiple angles to test. Use when asked to write ad copy, … |
 | `/ad-creative` | When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they… |
 | `/adapt` | Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures cons… |
+| `/adaptive-metrics` | Reduce Grafana Cloud Metrics costs by managing cardinality with Adaptive Metrics aggregation rules… |
 | `/adaptive-suite` | A continuously adaptive skill suite that empowers Clawdbot to act as a versatile coder, business a… |
 | `/adaptyv` | How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, a… |
+| `/adattributionkit` | Measure ad effectiveness with privacy-preserving attribution using AdAttributionKit. Use when regi… |
 | `/add-config-field` | Add new field to .agents.yml config schema (updates init.md templates, version, migration) |
 | `/add-ecosystem` | Add a new ecosystem and base model to basemodel.constants.ts. Use when onboarding a new model fami… |
 | `/add-educational-comments` | Add educational comments to the file specified, or prompt asking for file to comment if one is not… |
@@ -1484,6 +1496,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/add-training-support` | Wire an existing ecosystem into the LoRA training system so it appears as a trainable base model i… |
 | `/add-uint-support` | Add unsigned integer (uint) type support to PyTorch operators by updating AT_DISPATCH macros. Use … |
 | `/adding-a-trigger` | Checklist for adding a new TriggerCrud-based trigger type to Windmill (Azure, GCP, Kafka, etc.). U… |
+| `/adding-animations` | Phase 4: Add Framer Motion scroll reveals (IntersectionObserver), hover scale/opacity transitions,… |
 | `/adding-tauri-splashscreen` | Guides the user through adding a Tauri splashscreen, splash screen, loading screen, or startup scr… |
 | `/adding-tauri-system-tray` | Guides the user through implementing Tauri system tray functionality, including tray icon setup, t… |
 | `/address-github-comments` | Use when you need to address review or issue comments on an open GitHub Pull Request using the gh … |
@@ -1496,11 +1509,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/adhd-daily-planner` | Time-blind friendly planning, executive function support, and daily structure for ADHD brains. Spe… |
 | `/adhd-design-expert` | Designs digital experiences for ADHD brains using neuroscience research and UX principles. Expert … |
 | `/adhx` | Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com link… |
+| `/admin` | Manage Grafana Cloud accounts — organizations, stacks, RBAC roles and assignments, SSO/SAML/OAuth/… |
 | `/admin-dashboard` | Extend and modify the admin dashboard, developer portal, and operations console. Use when adding n… |
 | `/administer-ams` | 施测学术动机量表（AMS-GSR 28），采集科研人员的内在动机、外在动机和无动机数据。当用户选择填写量表、或画像中AMS数据缺失时使用。 |
 | `/administer-mini-ipip` | 施测大五人格量表（Mini-IPIP，20题），评估外向性、宜人性、尽责性、神经质和开放性。当用户选择填写量表、或画像中人格数据缺失时使用。 |
 | `/administer-rcss` | 施测科研人员认知风格量表（RCSS），评估横向整合 vs 垂直深度的认知偏好。当用户选择填写量表、或画像中RCSS数据缺失时使用。 |
 | `/administering-linux` | Manage Linux systems covering systemd services, process management, filesystems, networking, perfo… |
+| `/admission-control` | Use when the user asks to "write a validator", "add validation", "implement admission control", "w… |
 | `/ado-pipeline-best-practices` | Azure DevOps pipeline best practices, patterns, and industry standards. PROACTIVELY activate for: … |
 | `/ado-windows-git-bash-compatibility` | Windows and Git Bash compatibility for Azure Pipelines. PROACTIVELY activate for: (1) pipelines th… |
 | `/adobe-automation` | Automate Adobe tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -1513,6 +1528,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/adr-discovery` | This skill should be used before drafting an ADR when context, components, relationships, deciders… |
 | `/adr-drafting` | Creates new Architecture Decision Record (ADR) documents for significant architectural changes usi… |
 | `/adr-index` | Build or rebuild the ADR index + dependency graph by running scripts/import.mjs (handles v3-style … |
+| `/adr-relationships` | Domain analysis, conflict detection, and relationship validation for Architecture Decision Records… |
 | `/adr-review` | Review code changes against accepted ADRs for compliance violations |
 | `/adr-roadmap` | Generate a phased implementation roadmap from a set of Architecture Decision Records, with depende… |
 | `/adr-verify` | Read back adr-patterns + adr-edges namespaces, surface dangling refs / supersede cycles / status m… |
@@ -1615,6 +1631,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agent-creator` | Create custom AI subagents with proper plugin structure, persona generation, and companion routing… |
 | `/agent-data-ml-model` | Agent skill for data-ml-model - invoke with $agent-data-ml-model |
 | `/agent-deck` | Управление сессиями AI агентов через agent-deck CLI. Триггеры (RU): "запусти агента", "запусти саб… |
+| `/agent-design` | Design AI agents with recommended patterns and architectures |
 | `/agent-design-review` | Review an LLM agent design and find where it will be unreliable, expensive, or unsafe. Use when as… |
 | `/agent-designer` | Use when the user asks to design a multi-agent system, pick an orchestration pattern (supervisor/s… |
 | `/agent-dev-backend-api` | Agent skill for dev-backend-api - invoke with $agent-dev-backend-api |
@@ -1651,6 +1668,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agent-messaging` | Send and receive cryptographically signed messages between AI agents using the Agent Messaging Pro… |
 | `/agent-migration-plan` | Agent skill for migration-plan - invoke with $agent-migration-plan |
 | `/agent-multi-repo-swarm` | Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm |
+| `/agent-native-architecture` | Design agent-native applications where agents replace UI users as the primary actor. Use when desi… |
 | `/agent-neural-network` | Agent skill for neural-network - invoke with $agent-neural-network |
 | `/agent-ops-cicd-github` | Agent skill for ops-cicd-github - invoke with $agent-ops-cicd-github |
 | `/agent-optimizer` | Agent 设计顾问与审查工具。基于 12-Factor AgentOps 最佳实践，用于：(1) 探讨 Agent 架构设计方案；(2) 审查现有 Agent/Skill/工作流的设计，发现问题… |
@@ -1725,7 +1743,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agent-sync-coordinator` | Agent skill for sync-coordinator - invoke with $agent-sync-coordinator |
 | `/agent-tdd-london-swarm` | Agent skill for tdd-london-swarm - invoke with $agent-tdd-london-swarm |
 | `/agent-team-builder` | Designs and deploys custom agent teams for specific business workflows. Interactive discovery of b… |
-| `/agent-teams` | Guide for coordinating multiple Claude Code instances as a team using Agent Teams. Covers Teammate… |
+| `/agent-teams` | Configure Claude Code agent teams (implicit team, SendMessage, TaskUpdate). Use when running paral… |
 | `/agent-test-long-runner` | Agent skill for test-long-runner - invoke with $agent-test-long-runner |
 | `/agent-tester` | Agent skill for tester - invoke with $agent-tester |
 | `/agent-to-agent` | Agent-to-Agent (A2A) communication protocol. Connect two or more Claude agents that pass messages,… |
@@ -1769,6 +1787,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agentphone` | Build AI phone agents with AgentPhone API. Use when the user wants to make phone calls, send/recei… |
 | `/agentql-automation` | Automate Agentql tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/agents` | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, … |
+| `/agents-analyze` | Audit plugins for sub-agent opportunities — verbose skills, coverage gaps, over-permissions. Use w… |
 | `/agents-best-practices` | Use this skill when designing, generating an MVP blueprint for, auditing, refactoring, or explaini… |
 | `/agents-context-management` | Use to create or polish repo agent context files: README.md, AGENTS.md/CLAUDE.md symlinks, and exi… |
 | `/agents-introspection` | Use to retrospect on a task against historical Codex and Claude Code chat transcripts in the curre… |
@@ -1828,6 +1847,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ai-md` | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 mod… |
 | `/ai-ml` | AI and machine learning workflow covering LLM application development, RAG implementation, agent a… |
 | `/ai-ml-api-automation` | Automate AI ML API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/ai-ml-development` | AI and machine learning development with PyTorch, TensorFlow, and LLM integration. Use when buildi… |
 | `/ai-ml-expert` | AI and ML expert covering PyTorch, TensorFlow, Hugging Face, scikit-learn, LLM integration, RAG pi… |
 | `/ai-ml-security` | AI/ML security playbook. Use when assessing model supply chain attacks (pickle RCE, poisoned weigh… |
 | `/ai-models` | Latest AI models reference - Claude, OpenAI, Gemini, Eleven Labs, Replicate |
@@ -1837,6 +1857,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ai-observability` | Implement comprehensive observability for LLM applications including tracing (Langfuse/Helicone), … |
 | `/ai-pdf-builder` | Generate professional PDFs from Markdown using Pandoc and LaTeX with AI-powered content generation… |
 | `/ai-pentesting` | Run autonomous AI-driven penetration tests on web applications using tools like Shannon, PentAGI, … |
+| `/ai-policy-generator` | AI governance policy creation for nonprofits and enterprises with frameworks, risk assessment, eth… |
 | `/ai-pricing` | When the user wants to price an AI product, choose a charge metric, design pricing tiers, or optim… |
 | `/ai-product` | Every product will be AI-powered. The question is whether you'll build it right or ship a demo tha… |
 | `/ai-product-canvas` | Structure AI and ML product decisions with the rigour of any product decision. Use when building A… |
@@ -1898,6 +1919,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/alert-optimizer` | Restructure and optimize alert rules for monitoring platforms (Sentry, PagerDuty, Datadog, OpsGeni… |
 | `/alert-triage` | Triage a SIEM/EDR alert end-to-end — validate it's real, enrich and scope it, reach a consistent v… |
 | `/alerting-dashboard-builder` | Creates SLO-based alerts and operational dashboards with key charts, alert thresholds, and runbook… |
+| `/alerting-irm` | Configure Grafana Alerting, Incident Response Management (IRM), and SLOs end-to-end — provisions G… |
 | `/alex-hormozi-pitch` | Create irresistible offers and pitches using Alex Hormozi's methodology from $100M Offers. Guides … |
 | `/alexa-cli` | Control Amazon Alexa devices and smart home via the `alexacli` CLI. Use when a user asks to speak/… |
 | `/algo-trading` | Build algorithmic trading systems — backtesting, strategy development, live execution, and risk ma… |
@@ -1910,6 +1932,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/algorithmic-trading` | Use when building trading systems, backtesting strategies, implementing execution algorithms, or a… |
 | `/aliyun-clawscan` | Analyzes the security posture of a user's OpenClaw environment and installed skills. Use when a us… |
 | `/all-images-ai-automation` | Automate All Images AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/alloy` | Grafana Alloy OpenTelemetry collector and telemetry pipeline configuration. Covers the Alloy confi… |
 | `/alloydb-basics` | Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB m… |
 | `/alltuu-downloader` | 喔图(alltuu.com)云摄影相册批量下载工具。当用户需要从 alltuu.com / m.alltuu.com 相册批量下载原图时使用此技能。支持下载原图（6720x4480 级别），自动处… |
 | `/alpha-finder` | Market Oracle for prediction market intelligence - Polymarket and Kalshi research, probability ass… |
@@ -2415,6 +2438,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/api-test-suite-generator` | Generates comprehensive API test suites using Jest, Vitest, or Supertest from Express, Next.js, Fa… |
 | `/api-tester` | Test REST and GraphQL API endpoints with structured assertions and reporting. Use when a user asks… |
 | `/api-testing-observability-api-mock` | You are an API mocking expert specializing in realistic mock services for development, testing, an… |
+| `/api-tests` | API contract testing with Pact, OpenAPI validation, and Zod/AJV schemas. Use when setting up contr… |
 | `/api-versioning` | Version REST and GraphQL APIs. Use when a user asks to version an API, handle breaking changes, im… |
 | `/api-versioning-deprecation-planner` | Plans safe API evolution with versioning strategies, client migration guides, deprecation timeline… |
 | `/api-versioning-strategy` | Implements API versioning using URL paths, headers, or query parameters with backward compatibilit… |
@@ -2456,16 +2480,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/apollo-server-patterns` | Use when building GraphQL APIs with Apollo Server requiring resolvers, data sources, schema design… |
 | `/apology-letter` | Write a sincere, effective apology to a customer, group, or the public. Use when asked to write an… |
 | `/app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requ… |
+| `/app-clips` | Build iOS App Clips with invocation URLs, App Clip Codes, NFC, QR codes, Safari banners, Maps, Mes… |
 | `/app-docs` | Generate complete user documentation for a web app with screenshots. Browses the app via browser a… |
+| `/app-intents` | Implement App Intents for Siri, Shortcuts, Spotlight, widgets, Control Center, and Apple Intellige… |
+| `/app-observability` | Grafana Cloud Application Observability (APM), Frontend Observability (RUM/Faro), and AI Observabi… |
 | `/app-onboarding-questionnaire` | Design and build a high-converting questionnaire-style onboarding flow for your app, modelled on p… |
 | `/app-planner` | Produces a design-plan (living document like an exec-plan) that maps an app domain to feature grou… |
 | `/app-platform-router` | Routes DigitalOcean App Platform tasks to specialized sub-skills. Use when working with App Platfo… |
 | `/app-router` | This skill should be used when the user asks to "create a Next.js route", "add a page", "set up la… |
+| `/app-sdk-concepts` | Use when: user asks to create a Grafana app, initialize a grafana-app-sdk project, set up a Grafan… |
 | `/app-store` | App Store optimization and marketing skills for descriptions, screenshots, keywords, review respon… |
 | `/app-store-aso` | Generate optimized Apple App Store metadata recommendations with ASO best practices. Use this skil… |
 | `/app-store-changelog` | Generate App Store release notes from git history. Use when: creating release changelogs, App Stor… |
 | `/app-store-deployment` | Publishes mobile applications to iOS App Store and Google Play with code signing, versioning, and … |
 | `/app-store-optimization` | App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, gene… |
+| `/app-store-review` | Prepare for App Store review and prevent rejections. Covers App Store review guidelines, app rejec… |
 | `/app-store-screenshots-generator` | Generate production-ready App Store screenshots for iOS apps using AI agents, Next.js, and html-to… |
 | `/app-ui-guardian-zh` | App 运行时 Guardian：L0 规则 + LLM 分诊关弹窗/重试。默认开启。触发词：guardian、弹窗救场、LLM 分诊、--no-guardian。 |
 | `/app-ui-heal-zh` | 子 Skill：App 失败后自愈，改 draft/run_code_app 重跑。默认最多 20 轮（HEAL_MAX_ROUNDS 可调）。触发词：App 自愈、定位失败、登录失败、剪贴板、u… |
@@ -2502,6 +2531,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/apple-music-2` | Apple Music integration via AppleScript (macOS) or MusicKit API |
 | `/apple-notes` | Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and expo… |
 | `/apple-notes-search` | Semantic + keyword search and connection-discovery across the user's own Apple Notes via the apple… |
+| `/apple-on-device-ai` | Integrate on-device AI using Foundation Models framework, Core ML, and open-source LLM runtimes on… |
 | `/apple-photos` | Apple Photos.app integration for macOS. List albums, browse photos, search by date/person/content,… |
 | `/apple-remind-me` | Natural language reminders that create actual Apple Reminders.app entries (macOS-native) |
 | `/apple-reminders` | Use when user asks to manage Apple Reminders on macOS — create, list, update, complete, or delete … |
@@ -2509,17 +2539,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/application-form-filler` | Fill out job application form fields with context-aware, tailored answers drawn from the candidate… |
 | `/application-logging` | Implement structured logging across applications with log aggregation and centralized analysis. Us… |
 | `/application-performance-performance-optimization` | Optimize end-to-end application performance with profiling, observability, and backend/frontend tu… |
-| `/application-security` | Application security covering threat modeling (STRIDE), OWASP Top 10 (2025), OWASP API Security To… |
+| `/application-security` | OWASP Top 10 with code examples, SAST/DAST tools, dependency scanning, CSP headers, and input vali… |
 | `/apply` | Fill out a job application on Greenhouse, Lever, or Workday |
 | `/apply-anthropic-skill-best-practices` | Comprehensive guide for skill development based on Anthropic's official best practices - use for c… |
 | `/apply-coding-rules` | Stamp a managed coding-discipline rules block into a project's CLAUDE.md (or AGENTS.md / GEMINI.md… |
 | `/applying-brand-guidelines` | This skill applies consistent corporate branding and styling to all generated documents including … |
+| `/appmigrationkit` | Transfer app data to or from other platforms using AppMigrationKit. Use when implementing system-o… |
 | `/appointo-automation` | Automate Appointo tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/appsflyer-automation` | Automate Appsflyer tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/appsmith` | Build internal tools, admin panels, and dashboards with Appsmith. Use when a user asks to create C… |
 | `/appveyor-automation` | Automate Appveyor tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/appwrite` | Build backends with Appwrite — open-source Backend-as-a-Service. Use when a user asks to set up us… |
 | `/ar-vr-design` | Designs interactive AR/VR experiences using 3D modeling, spatial computing, and user interface opt… |
+| `/ar-vr-xr` | AR/VR/XR development with Unity XR, WebXR, ARKit, ARCore, Meta Quest SDK, and spatial computing. U… |
 | `/ara-compiler` | Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, … |
 | `/ara-research-manager` | Records research provenance as a post-task epilogue, scanning conversation history at the end of a… |
 | `/ara-rigor-reviewer` | Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring si… |
@@ -2592,6 +2624,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/argocd` | Argo CD for GitOps continuous delivery on Kubernetes. Use when the user needs to define applicatio… |
 | `/argocd-expert` | Expert-level ArgoCD GitOps deployment, application management, sync strategies, and production ope… |
 | `/argocd-gitops` | Implement GitOps with ArgoCD for declarative Kubernetes deployments. Configure applications, manag… |
+| `/argocd-login` | ArgoCD CLI auth with SSO and gRPC-Web. Use when the user mentions ArgoCD login, argocd authenticat… |
 | `/arize` | You are an expert in Arize and its open-source Phoenix library for AI observability. You help deve… |
 | `/arize-ai-provider-integration` | Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials use… |
 | `/arize-annotation` | Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annot… |
@@ -2635,6 +2668,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/asana-automation` | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always… |
 | `/ascii-visualizer` | ASCII diagram patterns for architecture, workflows, file trees, and data visualizations. Use when … |
 | `/ascora-automation` | Automate Ascora tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/ash-framework` | Ash Framework — resources, actions, policies, aggregates, calculations, AshPhoenix.Form, LiveView,… |
 | `/ashare-news-fetcher` | 抓取 A 股消息面情报：从财联社、华尔街见闻、金十、新浪 7x24、东财快讯、 证监会/央行/上交所/财政部政策公告、东方财富股吧等公开来源抓取与股票相关的 新闻、政策、情绪，输出结构化 JSON… |
 | `/asin-data-api-automation` | Automate Asin Data API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ask` | Process-first advisor routing for Claude, Codex, Gemini, Antigravity, Grok, or Cursor via `omc ask… |
@@ -2655,12 +2689,27 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/assessing-vector-and-embedding-weaknesses` | Test vector stores for embedding inversion, cross-tenant leakage, and poisoning. |
 | `/asset-manager` | Organize design assets, optimize images and fonts, maintain brand asset libraries, implement versi… |
 | `/assimilate` | Benchmark external agent frameworks, auto-detect source type, scan for prompt injection, and conve… |
+| `/assistant-mcp` | Connect AI coding agents (Claude Code, Cursor, VS Code, OpenAI Codex) to Grafana Cloud via the `mc… |
 | `/assumption-mapper` | Extract and risk-rate hidden assumptions in a product brief or PRD. Use when asked to review a pro… |
 | `/ast-grep` | ast-grep rule writing and usage best practices. This skill should be used when writing, reviewing,… |
+| `/ast-grep-search` | Find and replace code patterns structurally with ast-grep. Use when matching code by AST structure… |
 | `/aster-bot-trading` | Automated perpetual futures trading bot for AsterDEX with dual strategies, risk management, and Ty… |
 | `/astica-ai-automation` | Automate Astica AI tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/astro` | Assists with building content-driven websites using Astro's island architecture. Use when creating… |
+| `/astro-6` | Expert Astro 6 framework — routing, output modes, middleware, Vite Environment API, Rust compiler,… |
+| `/astro-actions` | Expert Astro Server Actions — defineAction, astro:actions, Zod validation, ActionError, HTML form … |
+| `/astro-assets` | Image and asset optimization in Astro 6 — <Image />, <Picture />, getImage(), remote images, @astr… |
+| `/astro-content` | Expert Astro Content Layer API — content.config.ts, glob/file loaders, custom loaders, getCollecti… |
+| `/astro-db` | Astro DB — defineDb, defineTable, column types, CRUD with db.select/insert/update/delete, db/confi… |
+| `/astro-deployment` | Deploying Astro 6 apps — @astrojs/cloudflare (Workers, D1, KV, R2), @astrojs/vercel (Serverless/Ed… |
 | `/astro-expert` | Astro framework expert including components, content collections, and integrations |
+| `/astro-i18n` | Use when implementing internationalization in Astro, configuring i18n routing, setting up locale s… |
+| `/astro-integrations` | Expert Astro UI framework integrations — @astrojs/react, @astrojs/vue, @astrojs/svelte, @astrojs/s… |
+| `/astro-islands` | Expert Astro Islands Architecture — client:load, client:idle, client:visible, client:media, client… |
+| `/astro-security` | Use when configuring Content Security Policy (CSP) in Astro 6, setting security headers, managing … |
+| `/astro-seo` | SEO for Astro sites — meta tags, Open Graph, Twitter Cards, JSON-LD structured data, sitemap, RSS,… |
+| `/astro-starlight` | Astro Starlight documentation theme — setup, sidebar config, Pagefind search, dark/light mode, plu… |
+| `/astro-styling` | Use when styling Astro components with scoped CSS, CSS Modules, Tailwind CSS, UnoCSS, or Sass. Cov… |
 | `/astro-supabase-netlify` | Astro with Supabase integration for Netlify. |
 | `/astropy` | Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including uni… |
 | `/astrowind` | Astro 5.0 + Tailwind CSS landing page with blog, dark mode, and perfect PageSpeed scores. |
@@ -2697,13 +2746,18 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/attacking-oauth-with-device-code-phishing` | Run OAuth 2.0 device-code and illicit-consent phishing against Microsoft Entra ID to steal access … |
 | `/attio` | Attio CRM integration for managing companies, people, deals, notes, tasks, and custom objects. Use… |
 | `/attributed-string` | AttributedString patterns for rich text formatting, alignment, selection, and SwiftUI integration.… |
+| `/attributes-collect` | Collect codebase health attributes as structured JSON. Use when assessing project health before ro… |
+| `/attributes-dashboard` | Codebase health dashboard with scores and severity for docs, testing, security, and CI/CD. Use whe… |
+| `/attributes-route` | Route to specialized agents (security, test, refactor, docs) based on codebase health attributes b… |
 | `/atuin` | You are an expert in Atuin, the Rust-based shell history tool that replaces your shell's built-in … |
 | `/atxp` | Access ATXP paid API tools for web search, AI image generation, music creation, video generation, … |
 | `/aube-package-manager` | Expert guidance for using aube, a fast Rust-based Node.js package manager compatible with pnpm, np… |
 | `/audio-gen` | Generate audiobooks, podcasts, or educational audio content on demand. User provides an idea or to… |
+| `/audio-production` | Professional audio production for music, podcasts, and sound design. Use when working with audio r… |
 | `/audio-reply` | Generate audio replies using TTS. Trigger with "read it to me [URL]" to fetch and read content alo… |
 | `/audio-transcriber` | Transform audio recordings into professional Markdown documentation with intelligent summaries usi… |
 | `/audio-voice-recovery` | Audio forensics and voice recovery guidelines for CSI-level audio analysis. This skill should be u… |
+| `/audioaccessorykit` | Support audio accessory features like automatic switching using AudioAccessoryKit. Use when implem… |
 | `/audiocraft-audio-generation` | PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGe… |
 | `/audiowaveform` | Generate waveform visualizations from audio files. Use when a user asks to create waveform images,… |
 | `/audit` | Perform comprehensive audit of interface quality across accessibility, performance, theming, and r… |
@@ -2731,9 +2785,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/auri-core` | Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, per… |
 | `/aussie-business-english` | Australian business English writing style for professional communications — warm, direct, EN-AU sp… |
 | `/auth` | Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup … |
+| `/auth-audit` | Audit authentication and authorization patterns. Checks JWT, sessions, OAuth2, PKCE implementation… |
 | `/auth-better-auth` | Better Auth integration for Next.js 16 with Drizzle adapter. This skill should be used when connec… |
 | `/auth-checker` | Audit authentication flows for security vulnerabilities |
 | `/auth-implementation-patterns` | Build secure, scalable authentication and authorization systems using industry-standard patterns a… |
+| `/auth-js` | Production-ready Auth.js v5 setup for Next.js and Cloudflare Workers. Use when: setting up authent… |
 | `/auth-module-builder` | Implements secure authentication patterns including login/registration, session management, JWT to… |
 | `/auth-patterns` | This skill should be used when the user asks about "authentication in Next.js", "NextAuth", "Auth.… |
 | `/auth-sec` | Entry P1 category router for authentication and authorization. Use when testing login flows, sessi… |
@@ -2745,16 +2801,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/auth0-automation` | Automate Auth0 tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/auth0-nextjs` | Use when adding Auth0 login, logout, protected pages, or middleware to a Next.js application. Supp… |
 | `/authbypass-authentication-flaws` | Authentication bypass testing playbook. Use when assessing login flows, password reset logic, acco… |
+| `/authentication` | Implement iOS authentication flows with AuthenticationServices and LocalAuthentication. Use when b… |
 | `/authentication-and-authorization-fullstack` | Implement end-to-end authentication and authorization across frontend and backend with secure sess… |
 | `/authentication-best-practices` | Read sessions client- and server-side, guard routes, and run sign in/up/out with Better Auth. Use … |
 | `/authentication-flow-rules` | OAuth 2.1 compliant authentication flows (MANDATORY Q2 2026). PKCE required for ALL clients, Impli… |
 | `/authentication-oauth` | Expert guidance on authentication implementation including OAuth 2.0/OIDC, JWT tokens, session man… |
+| `/authentication-patterns` | OAuth 2.0, JWT, SSO, MFA, NextAuth/Clerk/Supabase Auth implementation patterns |
 | `/authjs` | You are an expert in Auth.js (formerly NextAuth.js), the authentication library for web frameworks… |
 | `/authoring-analysis` | Analyze content sequences and determine authoring approach (default content vs blocks). Validates … |
 | `/authoring-conventions` | House authoring conventions for this marketplace's skills — a thin delta over superpowers' writing… |
 | `/authoring-recipes` | Guidelines for authoring fullstackrecipes content - setup recipes, exposed skills (in ./skills/), … |
 | `/auto` | Autonomous execution (`/auto 123`). Runs spec (when needed)→code→review→merge→verify in sequence. … |
 | `/auto-animate` | AutoAnimate (@formkit/auto-animate) zero-config animations for React. Use for list transitions, ac… |
+| `/auto-claude` | Autonomous multi-agent coding with git worktree isolation, QA validation, and memory. Use for comp… |
 | `/auto-decision-framework` | Framework for automated decision-making during multi-step planning workflows. Classifies planning … |
 | `/auto-recall` | Use when you need semantic retrieval from perpetual memory at query time. Parses query intent, sea… |
 | `/auto-repo-setup` | 自动化代码库环境配置、故障诊断与修复。当非技术人员（剪辑、商务、运营）拿到仓库说"跑不起来"、"怎么启动"、"环境怎么配"、"帮我设置代码库"、"初始化项目"、"提交代码"、"冲突了怎么办"时，自… |
@@ -2797,6 +2856,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/avalonia-viewmodels-zafiro` | Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI. |
 | `/avalonia-zafiro-development` | Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro t… |
 | `/avatar-video` | Create AI avatar videos with precise control over avatars, voices, scripts, scenes, and background… |
+| `/avkit` | Create media playback experiences using AVKit. Use when adding video players with AVPlayerViewCont… |
 | `/avo-coder` | Use when building Avo admin interfaces. Creates resources, actions, filters, and dashboards follow… |
 | `/avoid-ai-writing` | Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replaceme… |
 | `/award-application` | Write compelling award submissions, grant applications, and competition entries. Maps achievements… |
@@ -3102,6 +3162,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/background-job-orchestrator` | Expert in background job processing with Bull/BullMQ (Redis), Celery, and cloud queues. Implements… |
 | `/background-job-processing` | Implement background job processing systems with task queues, workers, scheduling, and retry mecha… |
 | `/background-jobs-designer` | Designs background job processing systems with queue integration (BullMQ/Celery), job definitions,… |
+| `/background-processing` | Schedule and execute background work on iOS using BGTaskScheduler. Use when registering BGAppRefre… |
 | `/background-services` | Hosted services, background jobs, outbox patterns, and graceful shutdown handling for ASP.NET Core… |
 | `/backlink-analyzer` | Use when the user asks to "analyze backlinks" or "外链分析"; profiles external referring domains, anch… |
 | `/backlog-manager` | 需求池管理。用户随时抛出想法/痛点，AI 负责追问、整理、合并、归档到需求池文件。用户准备开新版本时，协助从池中筛选。痛点驱动，不做提前排期。 |
@@ -3132,6 +3193,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/base-ui-react` | MUI Base UI unstyled React components with Floating UI. Use for accessible components, Radix UI mi… |
 | `/basecamp-automation` | Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Ru… |
 | `/basecamp-cli` | Manage Basecamp (via bc3 API / 37signals Launchpad) projects, to-dos, messages, and campfires via … |
+| `/basedpyright-type-checking` | Basedpyright static type checker for Python. Use when setting up type checking, configuring LSP, o… |
 | `/baseline-restorer` | Use when multiple fix attempts fail and you need to systematically restore to a working baseline a… |
 | `/baseline-ui` | Validates animation durations, enforces typography scale, checks component accessibility, and prev… |
 | `/baselinker-automation` | Automate Baselinker tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -3144,6 +3206,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bash-master` | Expert bash/shell scripting across environments where Bash is available (Linux, macOS, Git Bash on… |
 | `/bash-pro` | Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilitie… |
 | `/bash-script-generator` | Create, generate, write, or scaffold bash/shell scripts (.sh), automation, or CLI tools. |
+| `/bash-script-helper` | Expert helper for bash scripting, debugging, and best practices |
 | `/bash-script-validator` | Validate, lint, audit, or fix bash/shell/.sh scripts via ShellCheck. |
 | `/basin-automation` | Automate Basin tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/batch-api-orchestrator` | This skill should be used when the user asks to "batch LLM requests", "should I use the batch API"… |
@@ -3152,6 +3215,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/batch-processing-jobs` | Implement robust batch processing systems with job queues, schedulers, background tasks, and distr… |
 | `/batch-processor` | Process multiple documents in bulk with parallel execution. Use when a user asks to batch process … |
 | `/bats-testing-patterns` | Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writi… |
+| `/battle-card-builder` | Competitive battle card creation for sales teams combining competitive intelligence, sales enablem… |
 | `/battlenet-automation` | Automate Battlenet tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/bazel-build-optimization` | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote e… |
 | `/bazi-skill-chinese-astrology` | Claude Code skill for 四柱八字 (BaZi) Chinese astrology chart reading and destiny analysis using nine … |
@@ -3220,7 +3284,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/better-proposals-automation` | Automate Better Proposals tasks via Rube MCP (Composio). Always search tools first for current sch… |
 | `/better-stack-automation` | Automate Better Stack tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/betterstack` | Expert guidance for Better Stack (formerly Better Uptime + Logtail), the observability platform co… |
+| `/bevy` | This skill should be used when working on Bevy game engine projects. It provides specialized knowl… |
 | `/bevy-ecs-expert` | Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and par… |
+| `/bevy-ecs-patterns` | Advanced Bevy ECS: complex queries, system scheduling, change detection, and performance tuning. U… |
+| `/bevy-game-engine` | Bevy game engine: ECS, rendering, input, and asset management. Use when building Bevy games, worki… |
+| `/beyla` | Grafana Beyla eBPF auto-instrumentation for application observability without code changes. Covers… |
 | `/bff-architecture-and-api-aggregation` | Build Backend-for-Frontend services that aggregate APIs for specific clients while preserving doma… |
 | `/bfl-api` | BFL FLUX API integration guide covering endpoints, async polling patterns, rate limiting, error ha… |
 | `/bgpt-paper-search` | Search scientific papers and retrieve structured experimental data extracted from full-text studie… |
@@ -3250,6 +3318,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/billing-automation` | Automate invoice generation, billing workflows, payment tracking, and revenue recognition for SaaS… |
 | `/binance` | Binance exchange integration. Trade spot, futures, and manage portfolio on the world's largest cry… |
 | `/binance-futures-signal-bot` | Professional automated trading bot for Binance, Bybit, and OKX Futures with multi-strategy engine,… |
+| `/binary-analysis` | Binary analysis: strings, binwalk, hexdump, xxd, file, objdump. Use when identifying unknown files… |
 | `/binary-analysis-patterns` | Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code… |
 | `/binary-protection-bypass` | Binary protection bypass playbook. Use when identifying and bypassing ASLR, PIE, NX/DEP, stack can… |
 | `/bindingdb-database` | Query BindingDB for measured drug-target binding affinities (Ki, Kd, IC50, EC50). Search by target… |
@@ -3257,6 +3326,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/biome-configuration` | Use when biome configuration including biome.json setup, schema versions, VCS integration, and pro… |
 | `/biome-formatting` | Use when formatting JavaScript/TypeScript code with Biome's fast formatter including patterns, opt… |
 | `/biome-linting` | Use when applying Biome's linting capabilities, rule categories, and code quality enforcement to J… |
+| `/biome-tooling` | Biome all-in-one JS/TS formatter and linter, 15-20x faster than ESLint/Prettier. Use when setting … |
 | `/biomni` | Autonomous biomedical AI agent framework for executing complex research tasks across genomics, dru… |
 | `/biopython` | Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBan… |
 | `/biorxiv-database` | Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life… |
@@ -3279,6 +3349,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bkit-explore` | Browse installed bkit skills, agents, and evals via lib/discovery/explorer.js (filesystem scan, no… |
 | `/bkit-rules` | Core rules for bkit — PDCA methodology, level detection, agent triggering, quality standards, Spri… |
 | `/bkit-templates` | PDCA + Sprint document templates — Plan, Design, Analysis, Report for individual features plus tem… |
+| `/black-to-ruff-format` | Migrate Python formatting from black to ruff-format. Use when psf/black is in .pre-commit-config.y… |
 | `/blackbaud-automation` | Automate Blackbaud tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/blackboard-automation` | Automate Blackboard tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/blazor` | Guidelines for Blazor development including component lifecycle, state management, and performance… |
@@ -3305,6 +3376,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/blockchain-defi` | Use when building DeFi protocols, implementing AMMs, yield farming strategies, or integrating with… |
 | `/blockchain-developer` | Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements D… |
 | `/blockchain-privacy` | Expert in on-chain privacy technologies - ZK-SNARKs, ZK-STARKs, mixers, stealth addresses, ring si… |
+| `/blockchain-web3` | Solidity smart contracts, Web3 development, DeFi protocols, NFTs, EVM chains, Hardhat/Foundry tool… |
 | `/blocknative-automation` | Automate Blocknative tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/blockrun` | BlockRun works with Claude Code and Google Antigravity. |
 | `/blog` | Full-lifecycle blog engine with 30 sub-skills, 12 content templates, 5-category 100-point scoring,… |
@@ -3333,6 +3405,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/blog-post` | Writes and structures long-form blog posts, creates tutorial outlines, and optimizes content for S… |
 | `/blog-post-counter` | Counts and compares blog posts across a target and competitors, audits content freshness via sitem… |
 | `/blog-post-writer` | Use whenever Oz asks for help writing, drafting, or "writing up" a post for his blog (posts.oztami… |
+| `/blog-post-writing` | Style guide for technical blog posts — updates, retrospectives, tutorials, deep dives. Use when wr… |
 | `/blog-repurpose` | Repurpose blog posts for social media, email, YouTube, Reddit, and LinkedIn. Generates Twitter/X t… |
 | `/blog-rewrite` | Rewrite and optimize existing blog posts for Google rankings (December 2025 Core Update, E-E-A-T) … |
 | `/blog-schema` | Generate complete JSON-LD schema markup for blog posts including BlogPosting, Person, Organization… |
@@ -3350,8 +3423,36 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bluebubbles` | Build or update the BlueBubbles external channel plugin for Clawdbot (extension package, REST send… |
 | `/bluehammer-vulnerability-poc` | Skill for working with the BlueHammer vulnerability proof-of-concept repository, covering build, u… |
 | `/blueprint` | Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold.… |
+| `/blueprint-adr-list` | List ADRs as a markdown table with title, status, date, domain. Use when generating an ADR index, … |
+| `/blueprint-adr-validate` | Validate ADR relationships and domain consistency. Use when auditing ADRs before release, finding … |
+| `/blueprint-claude-md` | Generate or update CLAUDE.md from blueprint artifacts. Use when adding team instructions, converti… |
+| `/blueprint-curate-docs` | Curate docs into ai_docs entries for AI context. Use when documenting library gotchas for PRP reus… |
+| `/blueprint-derive-plans` | Derive PRDs, ADRs, PRPs from git history, docs, and codebase. Use when onboarding a project to blu… |
+| `/blueprint-derive-rules` | Derive Claude rules from git commit history. Use when extracting implicit decisions from commits o… |
+| `/blueprint-derive-tests` | Derive test regression plans from git history by finding commits lacking tests. Use when finding u… |
+| `/blueprint-development` | Generate project-specific rules from PRDs for Blueprint Development. Use when generating architect… |
 | `/blueprint-discovery` | Discovery phase for blueprint workflow - interview triggers, acceptance criteria, and feature clas… |
+| `/blueprint-docs-currency` | Enforce same-commit landing of code and docs (APIs, formats, ADRs). Use when committing API/format… |
+| `/blueprint-docs-list` | List blueprint documents (ADRs, PRDs, PRPs) with frontmatter metadata. Use when listing docs, audi… |
+| `/blueprint-execute` | Blueprint meta command: determine and execute the next logical action. Use when asked 'what's next… |
+| `/blueprint-feature-tracker-status` | Display feature tracker stats, phase progress, and completion summary. Use when checking feature s… |
+| `/blueprint-feature-tracker-sync` | Sync feature tracker with TODO.md, taskwarrior sidecars, and PRDs. Use when reconciling TODO.md vs… |
+| `/blueprint-generate-rules` | Generate project-specific rules from PRDs with path-scoped frontmatter. Use when auto-creating arc… |
+| `/blueprint-init` | Initialize Blueprint Development structure. Use when bootstrapping docs/blueprint/ with manifest, … |
+| `/blueprint-migration` | Versioned migration procedures for blueprint format upgrades (v1.x to v3.3). Use when blueprint-up… |
+| `/blueprint-promote` | Move generated artifact to custom layer to preserve manual edits. Use when promoting a generated r… |
+| `/blueprint-prp-create` | Create a PRP (Product Requirement Prompt) with research, context, and validation gates. Use when p… |
+| `/blueprint-prp-execute` | Execute a PRP with validation loop, TDD, and quality gates. Use when asked to execute a PRP, run a… |
 | `/blueprint-research` | Research phase for blueprint workflow - toolbox resolution, lessons discovery, and parallel resear… |
+| `/blueprint-rules` | Manage modular rules in .claude/rules/ with path-specific globs. Use when adding or listing rules,… |
+| `/blueprint-status` | Show blueprint version, config, PRD/ADR/PRP counts, and feature tracker progress. Use when auditin… |
+| `/blueprint-story-audit` | Audit user stories against codebase and tests for tier-ranked coverage gaps. Use when running stor… |
+| `/blueprint-story-reconcile` | Reconcile PRD requirements with a story-audit drift report. Use when marking PRD entries implement… |
+| `/blueprint-sync` | Check for stale generated content and offer regeneration or promotion. Use when syncing blueprint … |
+| `/blueprint-sync-ids` | Scan blueprint docs and assign missing PRD/ADR/PRP/WO IDs. Use when assigning IDs to docs; --dry-r… |
+| `/blueprint-upgrade` | Upgrade blueprint structure to the latest format version. Use when migrating between format versio… |
+| `/blueprint-work-order` | Create a work-order for isolated subagent execution, optionally linked to a GitHub issue. Use when… |
+| `/blueprint-workspace-scan` | Discover child blueprint workspaces and refresh the manifest. Use when adding/removing a child blu… |
 | `/blueprints-maintenance` | Use after modifying existing systems to update blueprint documentation. Read blueprints before cha… |
 | `/blueprints-organization` | Use when managing blueprints directory structure and avoiding duplication. Always search existing … |
 | `/blueprints-writing` | Use when creating or updating technical blueprint documentation for new features, API changes, or … |
@@ -3396,6 +3497,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/book-to-skill` | Converts books and documents (PDF, EPUB, DOCX, HTML, Markdown, plain text, RTF, MOBI/AZW with Cali… |
 | `/bookingmood-automation` | Automate Bookingmood tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/bookkeeping-automation` | Automate bookkeeping workflows by parsing bank statements (CSV/OFX/QIF), categorizing transactions… |
+| `/bookmarks` | Obsidian bookmarks: list and add file/folder/heading/saved-search/URL bookmarks. Use when starring… |
 | `/boomi-migration` | This skill should be used when the user needs to analyze a Dell Boomi export, parse Boomi Componen… |
 | `/booqable-automation` | Automate Booqable tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/boost-prompt` | Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies fina… |
@@ -3464,6 +3566,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/breakdown-epic-arch` | Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirem… |
 | `/breakdown-feature-prd` | Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic. |
 | `/breakdown-plan` | Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Featur… |
+| `/breaking-changes` | Detect breaking changes in Claude Code updates by comparing current API surface against changelog.… |
 | `/breakout-trade-planner` | Generate Minervini-style breakout trade plans from VCP screener output with worst-case risk calcul… |
 | `/breeze-automation` | Automate Breeze tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/breezy-hr-automation` | Automate Breezy HR tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -3509,6 +3612,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/browser-use-2` | Cloud browser automation via Browser Use API. Use when you need AI-driven web browsing, scraping, … |
 | `/browserbase` | You are an expert in BrowserBase, the cloud platform for running headless browsers at scale. You h… |
 | `/browserbase-tool-automation` | Automate Browserbase Tool tasks via Rube MCP (Composio). Always search tools first for current sch… |
+| `/browserenginekit` | Build alternative browser engines using BrowserEngineKit. Use when developing a non-WebKit browser… |
 | `/browserhub-automation` | Automate Browserhub tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/browserless-automation` | Automate Browserless tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/browserstack` | Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing"… |
@@ -3541,6 +3645,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/build-agent` | Builds new Claude Code agents with consistent structure, enforced standards, and project-aware con… |
 | `/build-backlinks` | Finds free backlink and brand mention opportunities across Hacker News, Quora, GitHub, directories… |
 | `/build-dashboard` | Build an interactive, self-contained HTML dashboard with multiple charts, KPI cards, filters, and … |
+| `/build-distribution` | App build, code signing, TestFlight, and App Store distribution for all Apple platforms. Use when … |
 | `/build-fix` | Diagnose and fix build errors systematically. Invokes the build-resolver agent for type errors, de… |
 | `/build-graph` | Build or update the code review knowledge graph. Run this first to initialize, or let hooks keep i… |
 | `/build-loop` | Drive a build to actually-works, near-finish-line craft by looping build → see → exercise → check … |
@@ -3614,8 +3719,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bump-deps` | Use for dependency updates: update/bump deps, npm/pnpm/yarn/bun package upgrades, outdated checks,… |
 | `/bump-release` | Use for release versioning: bump/cut/tag a release, bump version, create a release, changelog upda… |
 | `/bun` | Assists with using Bun as an all-in-one JavaScript/TypeScript runtime, package manager, bundler, a… |
+| `/bun-add` | Bun add: install a package, add dev dependency, pin exact version, or target a workspace. Use when… |
+| `/bun-build` | Bun build: bundle or compile JS/TS to production bundle or standalone binary. Use when the user wa… |
 | `/bun-bundler` | This skill should be used when the user asks about "bun build", "Bun.build", "bundling with Bun", … |
 | `/bun-cloudflare-workers` | This skill should be used when the user asks about "Cloudflare Workers with Bun", "deploying Bun t… |
+| `/bun-debug` | Bun debugger via --inspect. Use when the user wants to debug a TS/JS file interactively, break at … |
 | `/bun-development` | Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](htt… |
 | `/bun-docker` | Use for Docker with Bun, Dockerfiles, oven/bun image, containerization, and deployments. |
 | `/bun-drizzle-integration` | Use when integrating Drizzle ORM with Bun's SQLite driver for type-safe schema definitions and mig… |
@@ -3624,11 +3732,16 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bun-hono-integration` | Use when building APIs with Hono framework on Bun, including routing, middleware, REST APIs, conte… |
 | `/bun-hot-reloading` | Use when implementing hot reloading with Bun (--hot, --watch), HMR, or automatic code reloading du… |
 | `/bun-http-server` | Use when building HTTP servers with Bun.serve, handling requests/responses, implementing routing, … |
+| `/bun-install` | Bun install: install all deps from package.json. Use when bootstrapping a checkout, running a repr… |
 | `/bun-jest-migration` | Use when migrating from Jest to Bun's test runner, import compatibility, mocks, and config. |
+| `/bun-lockfile-update` | Bun lockfile update (bun.lock): bun update, regeneration, security audits. Use when updating depen… |
 | `/bun-macros` | Evaluate JavaScript at bundle time and inline results. Use when optimizing compile-time code gener… |
 | `/bun-nextjs` | This skill should be used when the user asks about "Next.js with Bun", "Bun and Next", "running Ne… |
 | `/bun-nuxt` | Use when running Nuxt 3 with Bun runtime, building Vue/Nuxt apps with Bun, or configuring Nuxt pro… |
+| `/bun-outdated` | Bun outdated: check which deps have newer versions. Use when auditing freshness, spotting major up… |
 | `/bun-package-manager` | Bun package manager commands (install, add, remove, update), workspaces, lockfiles, npm/yarn/pnpm … |
+| `/bun-publish` | Bun publish to npm. Use when the user wants to release to npm, preview with --dry-run, publish a s… |
+| `/bun-publishing` | Publish npm packages built with Bun: package.json config, CLI tool packaging, provenance signing, … |
 | `/bun-react-ssr` | Use when building server-rendered React with Bun, including streaming SSR, hydration, renderToStri… |
 | `/bun-redis` | Use when working with Redis in Bun (ioredis, Upstash), caching, pub/sub, session storage, or key-v… |
 | `/bun-runtime` | Bun — fast all-in-one JavaScript runtime, bundler, test runner, and package manager. Use when spee… |
@@ -3636,6 +3749,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bun-sqlite` | Use for bun:sqlite, SQLite operations, prepared statements, transactions, and queries. |
 | `/bun-sveltekit` | Use when building or running SvelteKit apps on Bun, including SSR, adapters, and Bun-specific APIs |
 | `/bun-tanstack-start` | TanStack Start full-stack React framework with Bun runtime. Use for TanStack Router, server functi… |
+| `/bun-test` | Bun test runner with compact agent-friendly output. Use when running bun tests, targeting a patter… |
 | `/bun-test-basics` | Use for bun:test syntax, assertions, describe/it, test.skip/only/each, and basic patterns. |
 | `/bun-test-coverage` | Use for test coverage with Bun, --coverage flag, lcov reports, thresholds, and CI integration. |
 | `/bun-test-lifecycle` | Use for test lifecycle hooks: beforeAll, afterAll, beforeEach, afterEach, fixtures, preload. |
@@ -3669,7 +3783,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/business-model-canvas` | Build, evaluate, and stress-test a Business Model Canvas (Osterwalder) across all 9 blocks. Use wh… |
 | `/business-model-design` | Expert in business model design - the architecture of how a company creates, delivers, and capture… |
 | `/business-operations-skills` | Use when running, diagnosing, or designing internal business operations — process documentation, v… |
-| `/business-strategy` | Strategic business growth, market positioning, client acquisition, partnership development, and re… |
+| `/business-strategy` | Business strategy expertise for strategic planning, competitive analysis, market entry, M&A strate… |
 | `/busybox-on-windows` | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
 | `/bux-claude-agent` | Deploy a 24/7 Claude Code agent with persistent Chromium browser on any Ubuntu VPS, controllable v… |
 | `/buywhere-product-catalog` | Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to… |
@@ -3732,6 +3846,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/calling-frontend-from-tauri-rust` | Guides developers through Tauri v2 event system for calling frontend from Rust, covering emit func… |
 | `/calling-rust-from-tauri-frontend` | Guides the user through calling Rust backend functions from the Tauri frontend using the invoke fu… |
 | `/callingly-automation` | Automate Callingly tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/callkit` | Implement VoIP calling with CallKit and PushKit. Use when building incoming/outgoing call flows, r… |
 | `/callpage-automation` | Automate Callpage tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/camelcamelcamel-alerts` | Monitor CamelCamelCamel price drop alerts via RSS and send Telegram notifications when items go on… |
 | `/camofox-cloaked-browser` | Use Camofox/Camoufox as an opt-in anti-detection browser server for agent workflows that need cloa… |
@@ -3812,16 +3927,24 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/career-ladder-map` | Map where you are against the next level and build a concrete plan to close the gap. Use when aske… |
 | `/career-ops` | AI job search command center -- evaluate offers, generate CVs, scan portals, track applications |
 | `/career-ops-job-search` | AI-powered job search pipeline built on Claude Code with 14 skill modes, Go dashboard, PDF generat… |
+| `/career-path-planner` | Career goal mapping with skill gap analysis, actionable development plans, and milestone tracking.… |
 | `/cargo-fuzz` | cargo-fuzz is the de facto fuzzing tool for Rust projects using Cargo. Use for fuzzing Rust code w… |
+| `/cargo-llvm-cov` | cargo-llvm-cov: Rust code coverage with LLVM instrumentation. Use when measuring coverage, enforci… |
+| `/cargo-machete` | cargo-machete: detect unused Rust dependencies. Use when auditing Cargo.toml, optimizing build tim… |
+| `/cargo-nextest` | cargo-nextest: fast Rust test runner with parallel execution and advanced filtering. Use when runn… |
 | `/cargo-release` | PM-invocable protocol for Cargo publish and release operations in the trusty-tools Rust monorepo: … |
+| `/cargo-worktree-builds` | Share one CARGO_TARGET_DIR across parallel git-worktree agents so Rust deps compile once. Use when… |
+| `/carplay` | Build CarPlay-enabled apps using the CarPlay framework. Use when creating navigation, audio, commu… |
 | `/carrier-relationship-management` | Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier pe… |
 | `/case-for-support` | Write a fundraising case for support that makes donors want to give. Use when asked to write a cas… |
+| `/case-interview-practice` | Interactive consulting case interview practice with structured frameworks, feedback mechanisms, an… |
 | `/case-radar` | 案例雷达。给一个新东西（新工具/新概念/新生态），扫一遍生态找好玩的真实案例，重点是抓"真物"（截图/源码/演示）而不是 GitHub 主页，输出可浏览的 HTML 案例集。当用户说"看看大家用 … |
 | `/case-study` | Craft portfolio-ready case studies that tell the story of a design project. |
 | `/case-study-writeup` | Write a client case study that sells future work — challenge, approach, results. Use when asked to… |
 | `/cassandra` | Apache Cassandra is a distributed NoSQL database designed for high availability and linear scalabi… |
 | `/castingwords-automation` | Automate Castingwords tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/cat-fact` | Random cat facts and breed information from catfact.ninja (free, no API key) |
+| `/catchup` | Summarize and review what changed while you were away. Use after a weekend, vacation, or flight to… |
 | `/category-monitor` | Monitor of one Mercado Livre (Brasil) category's aggregate health, using JoomPulse — estimated sal… |
 | `/category-opportunity-index` | Reports the JoomPulse opportunity index (low, medium, or high) for one Mercado Livre (Brasil) cate… |
 | `/cats-automation` | Automate Cats tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -3838,6 +3961,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/caveman-stats` | Show real token usage and estimated savings for the current session. Reads directly from the Claud… |
 | `/caveman-token-optimizer` | Claude Code skill that makes AI agents respond in caveman-speak, cutting ~65-75% of output tokens … |
 | `/cbioportal-database` | Query cBioPortal for cancer genomics data including somatic mutations, copy number alterations, ge… |
+| `/cc-changelog` | CONTRIBUTOR TOOL - Track CC changelog, extract new versions since last check, analyze impact on pl… |
 | `/cc-connect` | Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Sla… |
 | `/cc-connect-ai-bridge` | Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Fei… |
 | `/cc-design-html-prototyping` | High-fidelity HTML design and prototype creation skill for AI coding agents — slide decks, interac… |
@@ -3891,6 +4015,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/changelog-gen` | Changelog 生成器 - 从 Git 历史自动生成 CHANGELOG |
 | `/changelog-generator` | Produce consistent, auditable release notes from Conventional Commits. Separates commit parsing, s… |
 | `/changelog-maintenance` | Maintain comprehensive changelogs and release notes following Keep a Changelog format. Use when do… |
+| `/changelog-review` | Claude Code changelog analysis for plugin impact. Use when checking new features, breaking changes… |
+| `/changelog-scan` | Scan Claude Code changelog for new versions, features, and changes. Fetches official docs, parses … |
 | `/changelog-writer` | Use when a release is being prepared and a human-readable changelog must be generated from merged … |
 | `/changesets` | Assists with managing versioning and changelogs in JavaScript/TypeScript monorepos using Changeset… |
 | `/channel-bridge` | Cross-channel routing: Signal/TG/Discord formatting, message vs sessions_send, broadcast, reactions |
@@ -3932,6 +4058,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/checkov` | Expert guidance for Checkov, the static analysis tool for infrastructure-as-code that scans Terraf… |
 | `/checkpoint` | Save current verification state for resumption |
 | `/checkpoint-resume` | Rate-limit-resilient pipeline with checkpoint/resume for long multi-phase sessions. Saves progress… |
+| `/checkpoint-workflow-builder` | Build resumable state-machine workflows with checkpoint patterns, progress preservation, and autom… |
 | `/checkstyle-configuration` | Use when configuring Checkstyle for Java projects with XML config, custom checks, properties, and … |
 | `/checkstyle-custom` | Use when developing custom Checkstyle checks, filters, and plugin integrations for project-specifi… |
 | `/checkstyle-rules` | Use when applying Checkstyle built-in checks for Java code including naming conventions, code metr… |
@@ -4039,6 +4166,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ci-debug` | Diagnose a failing CI run against an 11-pattern playbook. Classifies the failure, cites the releva… |
 | `/ci-gen` | Generate GitHub Actions workflows from your project. Use when setting up CI/CD from scratch. |
 | `/ci-sentinel` | Hourly autonomous classifier for failing PRs across your repos. Runs /ci-debug headless against ev… |
+| `/ci-workflows` | GitHub Actions workflow standards. Use when checking CI/CD compliance, referencing canonical workf… |
 | `/cicd-automation-workflow-automate` | You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Ac… |
 | `/cicd-gitops-and-progressive-deployment` | Deliver fullstack changes with CI/CD pipelines, GitOps promotion, and progressive deployment strat… |
 | `/cicd-pipeline` | Generate and optimize CI/CD pipelines for GitLab CI and CircleCI. Use when a user asks to set up G… |
@@ -4088,9 +4216,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-agent-sdk-context-management` | Use when managing agent context, memory, and conversation state in Claude AI agents using the Agen… |
 | `/claude-agent-sdk-tool-integration` | Use when integrating tools, permissions, and MCP servers with Claude AI agents using the Agent SDK. |
 | `/claude-ally-health` | A health assistant skill for medical information analysis, symptom tracking, and wellness guidance. |
+| `/claude-android-ninja` | Build and migrate Android apps with Kotlin, Jetpack Compose, MVVM, Hilt, Room 3 (KSP, SQLiteDriver… |
 | `/claude-api` | Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MC… |
 | `/claude-automation-recommender` | Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP s… |
 | `/claude-better-cli` | Compatibility-first Claude CLI reimplementation with faster startup, lower memory, and drop-in com… |
+| `/claude-blog-sources` | Fetch Claude Blog and official Claude Code docs. Use when researching Claude Code capabilities, CL… |
 | `/claude-coach` | Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a us… |
 | `/claude-code` | Build software with Claude Code, the AI-powered CLI coding agent. Use when a user asks to set up C… |
 | `/claude-code-analyzer` | Analyzes Claude Code usage patterns and provides comprehensive recommendations. Runs usage analysi… |
@@ -4099,6 +4229,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-code-commands` | Expert in creating custom slash commands for Claude Code. Slash commands encode repeatable workflo… |
 | `/claude-code-config` | Expert guidance for configuring Claude Code including creating skills, subagents, hooks, permissio… |
 | `/claude-code-expert` | Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade com atalhos, hooks… |
+| `/claude-code-github-workflows` | Claude Code GitHub Actions workflow patterns — PR reviews, issue triage, CI/CD integration. Use wh… |
 | `/claude-code-guide` | To provide a comprehensive reference for configuring and using Claude Code (the agentic coding too… |
 | `/claude-code-history-files-finder` | Finds and recovers content from Claude Code session history files. This skill should be used when … |
 | `/claude-code-hooks` | Expert in Claude Code hooks - user-defined shell commands that execute at specific points in Claud… |
@@ -4119,6 +4250,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-devfleet` | Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents… |
 | `/claude-ecosystem` | ALWAYS invoke this skill when the user asks about Claude Code features, configuration, extensibili… |
 | `/claude-ecosystem-promoter` | Marketing and promotion specialist for Claude ecosystem technology - MCP servers, skills, plugins,… |
+| `/claude-git-branching` | Expert Git workflow management for Claude Code sessions with branch naming conventions, push retry… |
 | `/claude-hook-writer` | Expert guidance for writing secure, reliable, and performant Claude Code hooks - validates design … |
 | `/claude-hud` | Build heads-up display (HUD) dashboards for AI coding agents — show context usage, active tools, r… |
 | `/claude-hud-statusline` | A Claude Code plugin that displays a real-time HUD showing context usage, active tools, running ag… |
@@ -4134,6 +4266,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-peers-mcp` | Enable multiple Claude Code instances to discover each other and exchange messages in real-time vi… |
 | `/claude-scientific-skills` | Scientific research and analysis skills |
 | `/claude-sdk-integration-patterns` | Expert integration patterns for Claude API and TypeScript SDK covering Messages API, streaming res… |
+| `/claude-security-settings` | Claude Code security settings: permission wildcards, shell operator protections, project-level all… |
 | `/claude-session-manager` | Manage Claude Code session transcripts from local JSONL storage, including listing candidate sessi… |
 | `/claude-settings-audit` | Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setti… |
 | `/claude-skill-app-onboarding-questionnaire` | Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows… |
@@ -4225,6 +4358,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cli-mastery` | Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and… |
 | `/cli-power-tools` | Performs advanced CLI operations, structured data transformation, and Unix forensics with modern R… |
 | `/cli-review-runner` | Black-box CLI grading harness — runs a test suite against a target CLI and reports per-rule pass/f… |
+| `/cli-smoke-recipes` | CLI smoke recipes: expose pure-function modules via subcommands with a bulk-smoke justfile recipe.… |
 | `/cli-to-js-api-wrapper` | Turn any CLI tool into a fully typed JavaScript/TypeScript API using cli-to-js |
 | `/cli-tool-design` | Guidelines for designing LLM-friendly command-line tools — structured output, help text with examp… |
 | `/cli-ux-patterns` | CLI user experience best practices for error messages, colors, progress indicators, and output for… |
@@ -4272,6 +4406,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/clipboard` | Copy the last meaningful output from the conversation to the macOS clipboard via pbcopy. Use when … |
 | `/clipit` | The master tool for all advanced audio/video processing. Use this to trim, cut, find segments, iso… |
 | `/clippy` | Microsoft 365 / Outlook CLI for calendar and email. Use when managing Outlook calendar (view, crea… |
+| `/clippy-advanced` | Advanced Clippy configuration for Rust — custom rules, pedantic/nursery lints, clippy.toml, IDE an… |
 | `/clippy-configuration` | Use when configuring Clippy for Rust projects with TOML config, lint groups, attributes, and works… |
 | `/clippy-custom` | Use when developing custom Clippy lints, implementing lint passes, and contributing to Clippy for … |
 | `/clippy-lints` | Use when applying Clippy lint categories for Rust code including correctness, performance, style, … |
@@ -4290,6 +4425,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cloud-iam-deep` | Cloud IAM red-team attack chain across AWS, Azure, GCP — focused on EXTERNAL exploitation paths an… |
 | `/cloud-iam-review` | Audit cloud IAM (AWS/Azure/GCP) for least privilege: over-permissioned identities, wildcard/admin … |
 | `/cloud-init-coder` | This skill guides writing cloud-init configurations for VM provisioning. Use when creating user_da… |
+| `/cloud-integrations` | Set up, configure, and troubleshoot Grafana Cloud integrations for AWS, Azure, and other cloud pro… |
 | `/cloud-migration-planning` | Plan and execute cloud migrations with assessment, database migration, application refactoring, an… |
 | `/cloud-misconfig-scan` | Scan a cloud environment (AWS/Azure/GCP) for high-impact misconfigurations and exposures — public … |
 | `/cloud-penetration-testing` | Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon … |
@@ -4322,6 +4458,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cloudflare-durable-objects` | Cloudflare Durable Objects for stateful coordination and real-time apps. Use for chat, multiplayer… |
 | `/cloudflare-email-routing` | Cloudflare Email Routing for receiving/sending emails via Workers. Use for email workers, forwardi… |
 | `/cloudflare-email-service` | Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing… |
+| `/cloudflare-full-stack-integration` | Production-tested integration patterns for connecting React frontends to Cloudflare Worker backend… |
+| `/cloudflare-full-stack-scaffold` | Production-ready starter project for React + Cloudflare Workers + Hono with core services (D1, KV,… |
 | `/cloudflare-hyperdrive` | Cloudflare Hyperdrive for Workers-to-database connections with pooling and caching. Use for Postgr… |
 | `/cloudflare-images` | This skill should be used when the user asks to "upload images to Cloudflare", "implement direct c… |
 | `/cloudflare-knowledge` | Cloudflare platform knowledge — Workers, Pages, R2, D1, KV, Durable Objects, AI, and Zero Trust. P… |
@@ -4339,7 +4477,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cloudflare-turnstile` | This skill should be used when the user asks to "add turnstile", "implement bot protection", "vali… |
 | `/cloudflare-vectorize` | Serverless vector database at the edge with Cloudflare Vectorize. Use when: building semantic sear… |
 | `/cloudflare-worker` | Build edge-first TypeScript applications on Cloudflare Workers. Covers Workers API, Hono framework… |
-| `/cloudflare-worker-base` | Set up Cloudflare Workers with Hono routing, Vite plugin, and Static Assets using production-teste… |
+| `/cloudflare-worker-base` | Production-tested setup for Cloudflare Workers with Hono, Vite, and Static Assets. Use when: creat… |
 | `/cloudflare-worker-builder` | Scaffold and deploy Cloudflare Workers with Hono routing, Vite plugin, and Static Assets. Describe… |
 | `/cloudflare-worker-dev` | Cloudflare Workers, KV, Durable Objects, and edge computing development. Use for serverless APIs, … |
 | `/cloudflare-workers` | Assists with building and deploying applications on Cloudflare Workers edge computing platform. Us… |
@@ -4360,6 +4498,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cloudformation` | AWS CloudFormation infrastructure as code for stack management. Use when writing templates, deploy… |
 | `/cloudformation-best-practices` | CloudFormation template optimization, nested stacks, drift detection, and production-ready pattern… |
 | `/cloudinary` | Manage images and videos with Cloudinary. Use when a user asks to optimize images, add image trans… |
+| `/cloudkit` | Implement, review, or improve CloudKit and iCloud sync in iOS/macOS apps. Use when working with CK… |
 | `/cloudlayer-automation` | Automate Cloudlayer tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/cloudpress-automation` | Automate Cloudpress tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/cloudwatch` | AWS CloudWatch monitoring for logs, metrics, alarms, and dashboards. Use when setting up monitorin… |
@@ -4387,16 +4526,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/code` | Local implementation (`/code 123`). Size auto-detection routes XS/S→patch (direct commit to main),… |
 | `/code-analyzer` | Static code analysis and complexity metrics |
 | `/code-annotation-patterns` | Use when annotating code with structured metadata, tags, and markers for AI-assisted development w… |
+| `/code-antipatterns` | Analyze a codebase for anti-patterns using ast-grep. Use when finding magic numbers, console.logs,… |
 | `/code-architect` | Design a feature architecture by analyzing existing codebase patterns and conventions, then provid… |
 | `/code-architecture` | Application architecture patterns and code organization — clean architecture, hexagonal architectu… |
 | `/code-architecture-review` | Review code architecture for maintainability, catch structural issues before they become debtUse w… |
 | `/code-assessment` | [BETA] Detect, review, and fix code-quality and correctness issues in an AEM as a Cloud Service pr… |
 | `/code-auditor` | Performs comprehensive codebase analysis covering architecture, code quality, security, performanc… |
 | `/code-comments-improve` | Use when user asks to improve, add, or clean up code comments, focusing on WHY over WHAT. Reads sp… |
+| `/code-complexity` | Analyze code complexity metrics (cyclomatic, cognitive, function length, coupling). Use when ident… |
 | `/code-complexity-scanner` | Measures cyclomatic complexity, cognitive complexity, and function length across codebases to iden… |
 | `/code-count` | Count Claude Code tokens and estimate API cost from local JSONL transcripts. Use when the user ask… |
+| `/code-dead-code` | Detect dead code, unused exports, unreachable branches, and orphaned files. Use when reducing main… |
 | `/code-deduplication` | Prevent semantic code duplication with capability index and check-before-write |
+| `/code-dep-audit` | Audit dependencies for security vulnerabilities, outdated packages, and license compliance. Use wh… |
 | `/code-distill` | On-demand pattern extraction from a specific GitHub codebase, given a focused query — "how does sh… |
+| `/code-docs-quality` | Analyze docs quality across PRDs, ADRs, PRPs, CLAUDE.md, .claude/rules/. Use when auditing documen… |
 | `/code-documentation` | Write comprehensive code documentation including JSDoc, Python docstrings, inline comments, functi… |
 | `/code-documentation-analyzer` | Code Documentation Analyzer - Auto-activating skill for Technical Documentation. Triggers on: code… |
 | `/code-documentation-code-explain` | You are a code education expert specializing in explaining complex code through clear narratives, … |
@@ -4410,6 +4554,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/code-generation-template` | Generate code from templates and patterns including scaffolding, boilerplate generation, AST-based… |
 | `/code-graph` | AST-based code graph for fast symbol lookup, dependency analysis, and blast radius via codebase-me… |
 | `/code-graph-context` | Structural code graph queries via CodeGraphContext MCP (tree-sitter + KuzuDB). Find callers, calle… |
+| `/code-hidden-failures` | Scan for hidden failures: swallowed errors (empty catch, ／／ true, 2>/dev/null) and silent degradat… |
+| `/code-lint` | Universal linter that auto-detects ruff/eslint/clippy/gofmt for the project language. Use when lin… |
 | `/code-map-visualization` | Rendering and perception layer for codebase-as-geohash-map visualisations — choosing what to encod… |
 | `/code-maturity-assessor` | Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase f… |
 | `/code-metrics-analysis` | Analyze code complexity, cyclomatic complexity, maintainability index, and code churn using metric… |
@@ -4446,6 +4592,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/code-slop` | Detect AI-generated code patterns ("slop") in PHP/Laravel and TypeScript/React source — comment na… |
 | `/code-structural-search` | Use ast-grep for AST-based code pattern matching. |
 | `/code-style-validator` | Programmatic code style validation using AST analysis. Complements (not replaces) code-style rules… |
+| `/code-test-quality` | Analyze test quality: smells, empty assertions, flaky patterns, coverage gaps. Use when tests are … |
 | `/code-to-prd` | Reverse-engineer any codebase into a complete Product Requirements Document (PRD). Analyzes routes… |
 | `/code-tour` | Use when the user asks to create a CodeTour .tour file — persona-targeted, step-by-step walkthroug… |
 | `/code-transfer` | Transfer code between files with line-based precision. Use when users request copying code from on… |
@@ -4552,6 +4699,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cold-email` | When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospect… |
 | `/cold-email-sequence-generator` | Generate personalized cold email sequences (7-14 emails) with A/B test subject lines, follow-up ti… |
 | `/cold-email-writer` | Write personalized cold outreach emails to hiring managers and founders — specific, human, not a p… |
+| `/cold-read-gate` | Gate outward-bound text (upstream issues, docs, PR bodies) through isolated haiku fresh-reader cri… |
 | `/collab-proof` | Use when you want to understand what Claude contributed vs what you drove in a session. Triggers o… |
 | `/collage-layout-expert` | Expert in ALL computational collage composition: photo mosaics, grid layouts, scrapbook/journal st… |
 | `/collect-basic-info` | 采集科研数字分身的基础信息（研究阶段、学科领域、方法范式、技术能力、科研流程能力）。当用户开始建立科研数字分身、或基础信息尚未填写时使用。 |
@@ -4573,10 +4721,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/combat-design` | Expert in designing and implementing visceral, satisfying combat systems. Masters hitbox/hurtbox d… |
 | `/comet-ml` | Expert guidance for Comet ML, the platform for tracking machine learning experiments, managing mod… |
 | `/comfy-cli` | Install, manage, and run ComfyUI instances. Use when setting up ComfyUI, launching servers, instal… |
+| `/comfy-node` | Orchestrate a ComfyUI node pack from idea to registry: scaffold, create + seed the repo, open the … |
 | `/comfyui` | Node-based graphical interface for Stable Diffusion workflows. Build complex image generation pipe… |
 | `/comfyui-gateway` | REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, r… |
+| `/comfyui-node-scaffold` | Scaffold a new ComfyUI custom-node repo (TypeScript + bun build, CI, release-please, vitest+pytest… |
+| `/comfyui-screenshot-pipeline` | Containerized README-screenshot pipeline (Docker + Playwright) for ComfyUI custom-node packs. Use … |
 | `/command-creator` | This skill should be used when creating a Claude Code slash command. Use when users ask to "create… |
 | `/command-development` | This skill should be used when the user asks to "create a slash command", "add a command", "write … |
+| `/command-palette` | Run, list, and inspect Obsidian commands and hotkeys from the CLI. Use when triggering a command, … |
 | `/commander` | Build CLI tools with Commander.js. Use when creating command-line applications, parsing arguments,… |
 | `/comment` | Add a comment to a ClickUp task |
 | `/comment-code-generate-a-tutorial` | Transform this Python script into a polished, beginner-friendly project by refactoring the code, a… |
@@ -4584,11 +4736,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/commercial-policy` | Use when designing or revising a company's commercial policy — the rules of engagement governing d… |
 | `/commercial-skills` | Use when reviewing, approving, or designing commercial motion — pricing models, deal review, disco… |
 | `/commit` | Use only when explicitly invoked for Git commit workflows: stage intended changes, craft Conventio… |
+| `/commit-detection` | Detects optimal commit type from git changes. Use when analyzing commits, determining commit type,… |
 | `/commit-helper` | Write clear, conventional commit messages. Use when the user asks to commit changes, needs help wi… |
 | `/commit-hygiene` | Atomic commits, PR size limits, commit thresholds, stacked PRs |
 | `/commit-message` | Ship workflow: review changes, generate conventional commit messages, push, and create PRs. MUST B… |
 | `/commit-message-storyteller` | Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a ch… |
 | `/commit-msg` | Suggests 3 commit messages based on git diff and project conventions. Use when the user asks for c… |
+| `/commit-optimization` | Optimization guide for fuse-commit-pro commit workflow. Documents settings to reduce token usage. |
 | `/commit-security-scan` | Analyze code changes (commits, PRs, diffs) for security vulnerabilities using STRIDE analysis and … |
 | `/commit-smart` | Analyze staged/unstaged changes and create semantic conventional commits with context about WHY, n… |
 | `/commit-validator` | Validates commit messages against Conventional Commits specification using programmatic validation… |
@@ -4600,6 +4754,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/community-management-playbook` | Build a community management playbook for a brand's social media channels. Use when asked to creat… |
 | `/community-marketing` | Build and leverage online communities to drive product growth and brand loyalty. Use when the user… |
 | `/community-operations` | Expert in running the day-to-day operations of thriving communities. Covers moderation systems, on… |
+| `/community-pulse` | Monitor community feedback on Claude Code via Exa search. Gathers sentiment, real-world usage patt… |
 | `/community-strategy` | Expert in designing community strategies that align with business goals while creating genuine val… |
 | `/community-tooling` | Expert in community tool selection and implementation - Discord bots, community platforms, analyti… |
 | `/compaction-detector` | Detect Claude Code context compaction events in session JSONL logs. Identifies compaction boundari… |
@@ -4649,6 +4804,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/compliance-automation` | Use when implementing policy-as-code, continuous compliance monitoring, automated evidence collect… |
 | `/compliance-checker` | Audits a codebase or business process for regulatory compliance across GDPR, HIPAA, SOC2, CCPA, an… |
 | `/compliance-checklist` | Comprehensive compliance checklist for ISO 27001, NIST CSF, CIS Controls, GDPR, and NIS2 across al… |
+| `/compliance-engineering` | SOC2, HIPAA, GDPR, PCI-DSS, FedRAMP compliance implementation in code. Audit logging, data encrypt… |
 | `/compliance-gdpr-and-data-privacy-fullstack` | Implement GDPR-oriented privacy controls including consent, retention, export, and deletion across… |
 | `/compliance-os` | Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COM… |
 | `/compliance-policy-check` | Validate planned changes against local framework rules and policy guardrails before implementation… |
@@ -4665,6 +4821,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/component-search` | Search 21st.dev component registry for production-ready React components. Finds components by natu… |
 | `/component-spec` | Write a detailed component specification including props, states, variants, accessibility requirem… |
 | `/component-template-generator` | Generates starter component code using design tokens. Creates React/Vue/Svelte components with pro… |
+| `/components-version-badge` | Version badge with build-info tooltip (version, commit, changelog). Use when adding version displa… |
 | `/compose-gen` | Generate docker-compose.yml by scanning your project. Use when containerizing an existing app. |
 | `/compose-multiplatform-patterns` | Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation… |
 | `/compose-patterns-2025` | Docker Compose production patterns for 2025 (multi-environment, health checks, modern features). P… |
@@ -4706,14 +4863,57 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/conductor-validator` | Validates Conductor project artifacts for completeness, consistency, and correctness. Use after se… |
 | `/conference-talk-builder` | Create conference talk outlines and iA Presenter markdown slides using the Story Circle narrative … |
 | `/confidence-honesty` | Force honest confidence assessment before claiming conclusions. Triggers on 'root cause identified… |
+| `/confidence-scoring` | Assess quality of PRPs and work-orders using systematic confidence scoring. Use when evaluating re… |
 | `/config-gc` | Garbage collection for your Claude Code configuration. Periodically scans ~/.claude (skills, memor… |
 | `/config-guardian` | Validate and safeguard OpenClaw config updates (openclaw.json or openclaw config set/apply). Use t… |
 | `/config-reader` | Read project config from .agents.yml and .agents.local.yml with local overrides. Supports dot nota… |
 | `/config-security-scan` | Statically review a Claude Code / AI-agent setup for security misconfigurations — risky hooks, ove… |
+| `/config-sync` | Config sync across FVH repos: extract, diff, propagate tooling improvements. Use when syncing work… |
 | `/configuration-management` | Manage application configuration including environment variables, settings management, configurati… |
 | `/configure` | Set up the Discord channel — save the bot token and review access policy. Use when the user pastes… |
+| `/configure-all` | Run all infrastructure standards checks and fixes. Use when onboarding a new project, doing a full… |
+| `/configure-api-tests` | API contract testing: Pact, OpenAPI validation, JSON Schema/Zod. Use when adding consumer/provider… |
+| `/configure-argocd-automerge` | ArgoCD auto-merge: configure GitHub Actions for image-updater-** branches. Use when setting up arg… |
+| `/configure-cache-busting` | Cache-busting for Next.js and Vite: content hashing, CDN cache headers. Use when adding Vercel/Clo… |
+| `/configure-claude-plugins` | Claude plugins marketplace setup: .claude/settings.json, GitHub Actions, plugin pinning. Use when … |
+| `/configure-container` | Container infrastructure: GHCR builds, Trivy/Grype scanning, devcontainer. Use when setting up mul… |
+| `/configure-coverage` | Code coverage: thresholds and reporters for Vitest, Jest, pytest, Rust. Use when setting threshold… |
+| `/configure-dead-code` | Dead-code detection: Knip, Vulture, cargo-machete, deadcode. Use when setting up unused-code scann… |
+| `/configure-dockerfile` | Dockerfile standards: Alpine/slim base, non-root user, multi-stage builds. Use when creating a Doc… |
+| `/configure-docs` | Code docs: TSDoc, JSDoc, pydoc, rustdoc, TypeDoc, MkDocs, Sphinx. Use when setting up docstrings, … |
 | `/configure-ecc` | Interactive installer for Everything Claude Code — guides users through selecting and installing s… |
+| `/configure-editor` | EditorConfig and VS Code workspace settings for team consistency. Use when setting up format-on-sa… |
+| `/configure-feature-flags` | Feature flags with OpenFeature and providers (GOFF, flagd, LaunchDarkly). Use when setting up the … |
+| `/configure-formatting` | Biome formatter for JS/TS/JSON/CSS — the modern Prettier/ESLint replacement. Also Ruff (Python) an… |
+| `/configure-gitattributes` | Configure .gitattributes: union-merge for append-only tables, linguist-generated for build output,… |
+| `/configure-github-pages` | GitHub Pages deployment workflows for docs sites. Use when setting up Pages, migrating to actions/… |
+| `/configure-gitignore` | Manage .gitignore's Claude Code block — worktrees, scheduled-task lock, local settings. Use when o… |
+| `/configure-integration-tests` | Integration testing: Supertest, pytest, Testcontainers. Use when setting up integration tests, cre… |
+| `/configure-justfile` | Check and configure Justfiles with standard recipes. Use when setting up a Justfile, auditing for … |
+| `/configure-linting` | Modern linters: Biome, Ruff, Clippy. Use when setting up linting, migrating ESLint/Prettier to Bio… |
+| `/configure-load-tests` | Load testing: k6, Artillery, Locust. Use when setting up load tests, auditing smoke/stress/spike/s… |
+| `/configure-makefile` | Makefile with standard targets (help, test, build, clean, lint). Use when setting up a Makefile, a… |
+| `/configure-mcp` | Check and configure MCP servers for project integration. Use when setting up MCP servers, checking… |
+| `/configure-memory-profiling` | Memory profiling with pytest-memray for Python. Use when setting up memory profiling, adding CI me… |
+| `/configure-mise` | mise runtime/tool version manager - mise.toml, backends (pipx/aqua/npm/cargo/go), tasks, env, lock… |
 | `/configure-notifications` | Configure notification integrations (Telegram, Discord, Slack) via natural language |
+| `/configure-package-management` | Package managers: uv (Python), bun (TypeScript). Use when setting up uv or bun, migrating from pip… |
+| `/configure-pre-commit` | pre-commit hooks setup and validation. Use when installing hooks, configuring frontend/infrastruct… |
+| `/configure-readme` | README.md with logo, badges, features, tech stack sections. Use when creating a README, auditing m… |
+| `/configure-release-please` | release-please workflow setup and auditing. Use when configuring release-please, upgrading release… |
+| `/configure-repo` | Repo onboarding driver: .claude/ directory, SessionStart hook, install_pkgs.sh. Use when onboardin… |
+| `/configure-reusable-workflows` | Reusable GitHub Actions workflows for security, quality, accessibility. Use when adding OWASP/secr… |
+| `/configure-security` | Security scanning: dependency audits, SAST, secrets detection. Use when setting up Dependabot, Cod… |
+| `/configure-select` | Interactive selector for infrastructure standards. Use when setting up specific components or buil… |
+| `/configure-sentry` | Sentry error tracking setup. Use when installing the Sentry SDK, fixing hardcoded DSNs, or adding … |
+| `/configure-skaffold` | Skaffold for Kubernetes: port forwarding, dotenvx hooks, API version. Use when fixing 0.0.0.0 bind… |
+| `/configure-status` | Infrastructure compliance status (read-only). Use when checking overall compliance, generating a r… |
+| `/configure-surface` | Surface doc-drift gate: scaffold surf.toml + hubs, wire the SHA-pinned pre-commit/Action. Use when… |
+| `/configure-tests` | Test frameworks: Vitest, Jest, pytest, cargo-nextest. Use when setting up test infrastructure, mig… |
+| `/configure-ux-testing` | UX testing: Playwright E2E, axe-core a11y, visual regression. Use when setting up E2E testing, scr… |
+| `/configure-web-session` | SessionStart hook for Claude Code web sessions to install tools (helm, terraform, gitleaks, just).… |
+| `/configure-workflows` | GitHub Actions CI/CD workflows for container builds, tests, releases. Use when updating outdated a… |
+| `/configure-worktreeinclude` | Generate a .worktreeinclude so Claude Code copies gitignored env/secret/config files into new work… |
 | `/configuring-firewalls` | Configure host-based firewalls (iptables, nftables, UFW) and cloud security groups (AWS, GCP, Azur… |
 | `/configuring-nginx` | Configure nginx for static sites, reverse proxying, load balancing, SSL/TLS termination, caching, … |
 | `/configuring-tauri-apps` | Guides developers through Tauri v2 configuration including tauri.conf.json structure, Cargo.toml s… |
@@ -4744,8 +4944,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/consul` | HashiCorp Consul for service discovery, health checking, and service mesh. Use when the user needs… |
 | `/consulting-proposal` | Write a consulting proposal that wins the engagement — outcomes over hours. Use when asked to writ… |
 | `/contact-hunter` | Search and extract contact information for people or companies including names, phone numbers, ema… |
+| `/contacts-framework` | Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fet… |
 | `/container-apps-gpu-2025` | Azure Container Apps with GPU support, serverless capabilities, and Foundry Models. PROACTIVELY ac… |
 | `/container-debugging` | Debug Docker containers and containerized applications. Diagnose deployment issues, container life… |
+| `/container-development` | Container development — Docker, multi-stage builds, Skaffold, non-root users, Alpine/slim images, … |
 | `/container-escape-techniques` | Container escape playbook. Use when operating inside a Docker container, LXC, or Kubernetes pod an… |
 | `/container-expert` | Container orchestration expert including Docker, Kubernetes, Helm, and service mesh |
 | `/container-registry-management` | Manage container registries (Docker Hub, ECR, GCR) with image scanning, retention policies, and ac… |
@@ -4786,7 +4988,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/content-quality-auditor` | Use when auditing content quality, E-E-A-T, or publish readiness; runs 80-item CORE-EEAT scoring w… |
 | `/content-refresh-system` | Systematic content refresh discipline. Quarterly audits, refresh prioritization (which pieces, whe… |
 | `/content-refresher` | Use when the user asks to "update outdated content" or "fix traffic/ranking decay"; scores decay, … |
-| `/content-repurposer` | Turn one piece of content into a full multi-platform pack — X/Twitter thread, LinkedIn post, newsl… |
+| `/content-repurposer` | Adapt content across platforms with tone/format shifting — blog to social, long to short, text to … |
 | `/content-repurposing` | Cross-format content adaptation. Turning one substantial piece into many derivative formats (blog … |
 | `/content-research-writer` | Assists in writing high-quality content by conducting research, adding citations, improving hooks,… |
 | `/content-security-scan` | Automated security scanner for external skill/agent content fetched from GitHub or web sources. Ru… |
@@ -4887,15 +5089,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cordova-to-capacitor` | Complete guide for migrating from Apache Cordova to Capacitor. Use this skill when users need to m… |
 | `/core-actionbook` | Internal support skill for actionbook MCP selectors used by Rust documentation research workflows.… |
 | `/core-agent-browser` | Internal support skill for agent-browser CLI workflows used by rust-learner, docs-researcher, and … |
+| `/core-bluetooth` | Build direct Bluetooth Low Energy workflows with Core Bluetooth. Use when implementing BLE central… |
 | `/core-brainstorm` | Collaborative brainstorming mode for thinking through problems, ideas, and features before plannin… |
 | `/core-components` | Core component library and design system patterns. Use when building UI, using design tokens, or w… |
+| `/core-data` | Build, review, or improve Core Data persistence in apps that have not adopted SwiftData. Use when … |
 | `/core-dynamic-skills` | Internal command support for dynamic Rust crate skill management. Use only when explicitly invoked… |
 | `/core-fix-skill-docs` | Internal maintenance support for checking and fixing generated Rust skill documentation references… |
 | `/core-ml` | Core ML, Create ML, Vision framework, Natural Language framework, on-device ML integration. Use wh… |
+| `/core-motion` | Access Core Motion accelerometer, gyroscope, magnetometer, device-motion, pedometer, activity-reco… |
+| `/core-nfc` | Read and write NFC tags using CoreNFC. Use when scanning NDEF tags, reading ISO7816/ISO15693/FeliC… |
 | `/core-pa-admin-exec-support` | Generates exec-support outputs (plan, prioritized tasks, comms drafts, meeting prep/follow-ups). U… |
 | `/core-protocols` | Debug errors systematically by searching first, then analyzing, then proposing verified solutions.… |
 | `/core-web-vitals` | Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when a… |
 | `/core-web-vitals-tuner` | Systematically improves Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumul… |
+| `/core-workflow` | Detailed development workflow patterns, checklists, and standards. Auto-loads for complex tasks, p… |
+| `/coreml` | Integrate Core ML models in iOS apps for on-device machine learning inference. Covers model loadin… |
 | `/corporate-misalignment-finder` | Find, diagnose, and fix misalignment in corporate settings. Use this skill when teams are stuck, d… |
 | `/correlation-tracing` | Implement distributed tracing with correlation IDs, trace propagation, and span tracking across mi… |
 | `/corrently-automation` | Automate Corrently tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -4925,6 +5133,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cost-federation` | Consumer-side wiring for ADR-097 Phase 3 federation_spend events — per-peer rolling windows + susp… |
 | `/cost-health` | Composite CI gate — runs cost-budget-check + cost-burn + cost-anomaly + cost-projection in paralle… |
 | `/cost-latency-optimizer` | Reduces LLM costs and improves response times through caching, model selection, batching, and prom… |
+| `/cost-management` | Grafana Cloud cost management — usage monitoring, cost attribution by label, usage alerts, invoice… |
 | `/cost-optimization` | Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP. |
 | `/cost-optimize` | Analyze token usage patterns and recommend cost optimizations with estimated savings |
 | `/cost-optimizer` | Tracks cumulative LLM costs across DAG execution and makes real-time decisions to stay within budg… |
@@ -4944,6 +5153,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/coupling-analysis` | Analyzes coupling between modules using the three-dimensional model (strength, distance, volatilit… |
 | `/course-creation` | Expert in designing and structuring online courses - curriculum architecture, learning outcomes, m… |
 | `/course-distiller` | 把一場你有權重看的工作坊／課程／諮詢回放（或它的逐字稿、一份長文字），消化成 「一條一條的步驟」，再渲染成一份套品牌色、可離線閱讀的學習 PDF。最後的重組刻意 交還給人腦。當使用者說「把這場回放… |
+| `/course-material-creator` | Create custom educational materials including syllabi, lesson plans, assessments, reading lists, a… |
 | `/cover` | Generate and run comprehensive test suites — unit tests, integration tests with real services (tes… |
 | `/cover-design` | Design typography-driven video cover images using HTML/CSS + Chrome DevTools screenshot. Generates… |
 | `/cover-image` | Generate elegant cover images for articles. Analyzes content and creates eye-catching hand-drawn s… |
@@ -5133,6 +5343,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/crypto-wallet` | Multi-chain cryptocurrency wallet management. Check balances, send tokens, view transaction histor… |
 | `/cryptocurrency-trader` | Production-grade AI trading agent for cryptocurrency markets with advanced mathematical modeling, … |
 | `/cryptography` | Approved cryptographic algorithms, TLS enforcement, key management, and certificate handling per H… |
+| `/cryptokit` | Use Apple CryptoKit for Swift cryptographic primitives. Use when hashing with SHA-2 or SHA-3, gene… |
+| `/cryptotokenkit` | Access security tokens and smart cards using CryptoTokenKit. Use when building TKTokenDriver or TK… |
 | `/crystal-concurrency` | Use when implementing concurrent programming in Crystal using fibers, channels, and parallel execu… |
 | `/crystal-engineer` | Use when working with Crystal language development including WebSocket communication, TLS/SSL conf… |
 | `/crystal-macros` | Use when implementing compile-time metaprogramming in Crystal using macros for code generation, DS… |
@@ -5191,6 +5403,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cucumber-fundamentals` | Core Cucumber concepts, Gherkin syntax, and feature file structure |
 | `/cucumber-step-definitions` | Writing effective step definitions and organizing test code |
 | `/cudf-analytics` | Use for GPU-accelerated data analysis on datasets, CSVs, or tabular data using NVIDIA cuDF. Trigge… |
+| `/cue-kind-definition` | Author CUE kind definitions for grafana-app-sdk apps - schemas, versioning, field constraints, nam… |
 | `/cuelist` | Import a song's cue-list CSV (section markers like PGM IN / INTRO / VER 1 / CHOR 1 with a number, … |
 | `/cuimao-translator` | Claude Code skill for translating English PDF books into fluent, natural Chinese using a multi-mod… |
 | `/cults-automation` | Automate Cults tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -5204,6 +5417,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cursor-agent` | A comprehensive skill for using the Cursor CLI agent for various software engineering tasks (updat… |
 | `/cursor-ai` | Build software with Cursor, the AI-powered code editor. Use when a user asks to configure Cursor r… |
 | `/cursor-subagent-creator` | Creates Cursor-specific AI subagents with isolated context for complex multi-step workflows. Use w… |
+| `/custom-agent-definitions` | Write and configure custom agent definitions in Claude Code agents/ directory. Use when creating a… |
 | `/custom-prompt-engineer` | Optimize and rewrite user-provided prompts into high-performance prompts for AI models. Trigger th… |
 | `/customer-billing-ops` | Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal re… |
 | `/customer-deck-builder` | Build tailored customer-facing sales or customer success decks from approved account context and g… |
@@ -5213,6 +5427,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/customer-journey-mapper` | Maps the full customer journey from first touch to advocacy. Generates a comprehensive customer-jo… |
 | `/customer-outage-notice` | Write clear customer-facing outage and service-disruption notifications. Use when asked to write a… |
 | `/customer-panel-of-experts` | Build a panel of your real buyer personas (from a deep scan of any tools you allow it to connect t… |
+| `/customer-persona-builder` | Data-driven customer persona development combining market research, user behavior analysis, and se… |
 | `/customer-psychographic-profiler` | One sentence - what this skill does and when to invoke it |
 | `/customer-research` | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentio… |
 | `/customer-review-aggregator` | Aggregate and analyze customer reviews from G2, Capterra, Trustpilot, App Store, and other platfor… |
@@ -5231,6 +5446,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cv-creator` | Professional CV and resume builder transforming career narratives into ATS-optimized, multi-format… |
 | `/cv-generator` | Generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-so… |
 | `/cve-2026-31431-copy-fail` | Detector and proof-of-concept LPE toolkit for CVE-2026-31431 ("Copy Fail"), a Linux kernel algif_a… |
+| `/cve-research` | Research CVEs and security advisories for project dependencies. Uses Exa, NVD API, OSV.dev, and Gi… |
 | `/cvss` | Score a vulnerability with CVSS v3.1: derive the base metric vector, compute the score and severit… |
 | `/cyber-risk-quantification` | Translate technical security risk into business and financial terms — top risk scenarios, likeliho… |
 | `/cybersecurity` | Security engineering that protects applications, data, and users from real-world threatsUse when "… |
@@ -5249,6 +5465,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/d1-database` | Build serverless applications with Cloudflare D1 — SQLite at the edge. Use when someone asks to "s… |
 | `/d1-drizzle-schema` | Generate Drizzle ORM schemas for Cloudflare D1 databases with correct D1-specific patterns. Produc… |
 | `/d1-migration` | Cloudflare D1 migration workflow: generate with Drizzle, inspect SQL for gotchas, apply to local a… |
+| `/d2-diagrams` | Generate diagrams from text using D2 with automatic layouts and themes. Use when creating architec… |
 | `/d2lbrightspace-automation` | Automate D2lbrightspace tasks via Rube MCP (Composio). Always search tools first for current schem… |
 | `/d3` | Assists with building custom interactive data visualizations using D3.js. Use when creating charts… |
 | `/d3-viz` | Creating interactive data visualisations using d3.js. This skill should be used when creating cust… |
@@ -5306,7 +5523,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/data-contract` | Define a data contract between a producer and consumers of a dataset/event/API. Use when asked to … |
 | `/data-encryption` | Implement strong encryption using AES, RSA, TLS, and proper key management. Use when securing data… |
 | `/data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Impl… |
-| `/data-engineering` | Use when "data pipelines", "ETL", "data warehousing", "data lakes", or asking about "Airflow", "Sp… |
+| `/data-engineering` | ETL/ELT pipelines, data warehousing (BigQuery, Snowflake, Redshift), stream processing (Kafka, Spa… |
 | `/data-engineering-data-driven-feature` | Build features guided by data insights, A/B testing, and continuous measurement using specialized … |
 | `/data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective… |
 | `/data-expert` | Data processing expert including parsing, transformation, and validation |
@@ -5341,7 +5558,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/data-reproducibility` | Infrastructure and practices for reproducible computational research. Covers environment managemen… |
 | `/data-retention-archiving-planner` | Plans and implements data retention policies with archival strategies, compliance requirements, au… |
 | `/data-retention-policy` | Build a data retention and deletion schedule grounded in legal basis. Use when asked to create a d… |
-| `/data-science` | Use when "statistical modeling", "A/B testing", "experiment design", "causal inference", "predicti… |
+| `/data-science` | Data science and analytics expertise for statistical analysis, machine learning pipelines, data go… |
 | `/data-scientist` | Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles … |
 | `/data-scraper-agent` | Build a fully automated AI-powered data collection agent for any public source — job boards, price… |
 | `/data-seeding-fixtures-builder` | Generates deterministic seed data for development and testing with factory functions, realistic fi… |
@@ -5364,7 +5581,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/database-design` | Relational database design and SQL best practices for building software applications. Covers schem… |
 | `/database-design-patterns` | Schema design, normalization decisions, indexing strategies, and migration safety for relational d… |
 | `/database-designer` | Use when the user asks to design database schemas, plan data migrations, optimize queries, choose … |
-| `/database-expert` | Database expert including Prisma, Supabase, SQL, and NoSQL patterns |
+| `/database-expert` | Advanced database design and administration for PostgreSQL, MongoDB, and Redis. Use when designing… |
 | `/database-indexing-strategy` | Design and implement database indexing strategies. Use when creating indexes, choosing index types… |
 | `/database-lookup` | Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, … |
 | `/database-management-patterns` | Comprehensive guide for database management patterns covering PostgreSQL and MongoDB including sch… |
@@ -5378,6 +5595,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/database-migrations-zero-downtime` | Plan and execute zero-downtime schema and data migrations for fullstack applications. Use when evo… |
 | `/database-migrator` | Migrates databases between providers (Postgres, MySQL, Supabase, PlanetScale, MongoDB). Reads sour… |
 | `/database-monitoring` | Monitor database performance and health. Use when setting up monitoring, analyzing metrics, or tro… |
+| `/database-observability` | Grafana Cloud Database Observability — query-level performance insights for MySQL and PostgreSQL. … |
 | `/database-optimizer` | Expert database optimizer specializing in modern performance tuning, query optimization, and scala… |
 | `/database-patterns` | Deep reference for PostgreSQL schema design, query optimization, indexing, migration safety, and d… |
 | `/database-performance` | Database access patterns for performance. Separate read/write models, avoid N+1 queries, use AsNoT… |
@@ -5403,6 +5621,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/datarobot-automation` | Automate Datarobot tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/dataset-datasheet` | Document a dataset so others know what it is, how it was made, and when not to use it. Use when as… |
 | `/datasets-models-sources` | Kaggle datasets, models, sources, and kagglehub workflows. PROACTIVELY activate for: (1) downloadi… |
+| `/datasource-provisioning` | Generate a copy-paste Grafana data source provisioning file (YAML or Terraform) for any plugin fro… |
 | `/dataverse-python-advanced-patterns` | Generate production code for Dataverse SDK using advanced patterns, error handling, and optimizati… |
 | `/dataverse-python-production-code` | Generate production-ready Python code using Dataverse SDK with error handling, optimization, and b… |
 | `/dataverse-python-quickstart` | Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns. |
@@ -5439,24 +5658,29 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/de-ai-ify` | Remove AI-generated jargon and restore human voice to text |
 | `/de-slopify` | Removes AI writing artifacts from documentation and code. Use when editing LLM-generated prose, re… |
 | `/de-sloppify` | Two-agent cleanup pattern. Implementer works freely, then a dedicated cleanup agent removes unused… |
+| `/deadbranch` | deadbranch CLI for stale-branch cleanup — dry-run preview, TUI or non-interactive delete, protects… |
 | `/deadline-funnel-automation` | Automate Deadline Funnel tasks via Rube MCP (Composio). Always search tools first for current sche… |
 | `/deadline-prep` | Generate a structured demo outline from your session's change log and git history. Reads .claude/c… |
 | `/deal-closer-playbook` | Analyzes a deal in progress and generates a comprehensive closing strategy. Researches the target … |
 | `/deal-desk` | Use when reviewing a specific inbound deal before close — when sales has asked for a discount that… |
 | `/deal-momentum-analyzer` | Score deal velocity based on email response times, meeting frequency, and stakeholder engagement. … |
 | `/deal-review-framework` | Structured deal assessment using MEDDIC, BANT. Risk scoring, required evidence by stage, red flag … |
+| `/debate-practice-coach` | Interactive debate and argument practice with structured feedback, counterargument generation, log… |
 | `/debian-linux-triage` | Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance. |
 | `/debrief` | Use for debriefs or saved findings/reports from the current task. Creates `.ai/debriefs/<slug>/ind… |
 | `/debug-buttercup` | Debugs the Buttercup CRS (Cyber Reasoning System) running on Kubernetes. Use when diagnosing pod c… |
 | `/debug-cli` | Use when users need to debug, modify, or extend the code-forge application's CLI commands, argumen… |
 | `/debug-log-analysis` | Structured debug log analysis for Claude Code sessions — auto-discovers most recent log, runs redu… |
 | `/debug-methodical` | Debugging méthodique en 4 phases (reproduce → isolate → fix → verify). Use when investigating a bu… |
+| `/debug-systematic` | Systematic 4-phase debugging methodology for complex, intermittent, or mysterious issues. Use when… |
 | `/debugging` | Systematic debugging frameworks for finding and fixing bugs - includes root cause analysis, defens… |
 | `/debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match … |
 | `/debugging-assistant` | Systematic debugging approach for identifying and fixing bugs. Use when the user reports a bug, er… |
 | `/debugging-capacitor` | Comprehensive debugging guide for Capacitor applications. Covers WebView debugging, native debuggi… |
+| `/debugging-instruments` | Debug iOS apps and profile performance using LLDB, Memory Graph Debugger, and Instruments. Use whe… |
 | `/debugging-log-analyser` | Parse error logs, stack traces, and crash reports into a structured root cause diagnosis. Use when… |
 | `/debugging-master` | Systematic debugging methodology - scientific method, hypothesis testing, and root cause analysis … |
+| `/debugging-methodology` | Systematic debugging for memory, performance, and system-level issues. Use when diagnosing memory … |
 | `/debugging-network-issues` | Evidence-driven investigation for network, streaming, and protocol-layer bugs where symptoms don't… |
 | `/debugging-strategies` | Transform debugging from frustrating guesswork into systematic problem-solving with proven strateg… |
 | `/debugging-tauri-apps` | Helps users debug Tauri v2 applications across VS Code, RustRover, IntelliJ, and Neovim. Covers co… |
@@ -5485,6 +5709,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/declarative-agents` | Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive wor… |
 | `/decomposition-planning-roadmap` | Creates step-by-step decomposition plans and migration roadmaps for breaking apart monolithic appl… |
 | `/deel-automation` | Automate Deel tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/deep-agents` | Build hierarchical AI agents with the deepagents npm package. Use when creating orchestrators that… |
 | `/deep-agents-core` | INVOKE THIS SKILL when building ANY Deep Agents application. Covers create_deep_agent(), harness a… |
 | `/deep-agents-memory` | INVOKE THIS SKILL when your Deep Agent needs memory, persistence, or filesystem access. Covers Sta… |
 | `/deep-agents-orchestration` | INVOKE THIS SKILL when using subagents, task planning, or human approval in Deep Agents. Covers Su… |
@@ -5495,6 +5720,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/deep-interview` | Socratic deep interview with mathematical ambiguity gating before explicit execution approval |
 | `/deep-learning` | Comprehensive deep learning guidelines for neural network development, training, and optimization. |
 | `/deep-learning-python` | Guidelines for deep learning development with PyTorch, Transformers, Diffusers, and Gradio for LLM… |
+| `/deep-learning-pytorch` | Expert guidance for deep learning, transformers, diffusion models, and LLM development with PyTorc… |
 | `/deep-live-cam` | Real-time face swap and video deepfake using a single source image. Use when: building face-swap a… |
 | `/deep-reading-analyst` | Comprehensive framework for deep analysis of articles, papers, and long-form content using 10+ thi… |
 | `/deep-research` | Generate format-controlled research reports with evidence tracking, citations, source governance, … |
@@ -5562,6 +5788,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dependency-vulnerability-triage` | Turns npm audit/Snyk results into prioritized patch plans with severity assessment, safe upgrade p… |
 | `/deploy` | Guide through a safe deployment process with verification |
 | `/deploy-agent` | Multi-step deployment agent for full-stack apps. Build → Test → GitHub → Cloudflare Pages with hum… |
+| `/deploy-handoff` | Generate deployment handoff docs — tech stack, access URLs, config, monitoring, dev checklist. Use… |
+| `/deploy-release` | Create and publish releases via release-please or manual GitHub releases. Use when cutting a relea… |
 | `/deploy-status` | Check civitai PROD deployment status across the live Tekton -> Flux -> Flagger chain on the DataPa… |
 | `/deploy-to-vercel` | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "de… |
 | `/deployer` | Railway platform deployment with optimal configuration and troubleshooting. Also use when the user… |
@@ -5583,6 +5811,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/deployments-cicd` | Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecti… |
 | `/depmap` | Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency scores (CRISPR Chron… |
 | `/deprecation-and-migration` | Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migr… |
+| `/deps-install` | Deps install: auto-detect package manager (uv, bun, npm, yarn, pnpm, cargo, go) and run the right … |
 | `/derivatives-pricing` | Use when pricing options, calculating Greeks, implementing exotic derivatives, or building pricing… |
 | `/describe-design` | Research a codebase and create architectural documentation describing how features or systems work… |
 | `/deserialization-insecure` | Insecure deserialization playbook. Use when Java, PHP, or Python applications deserialize untruste… |
@@ -5592,6 +5821,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-an-interface` | Generate multiple radically different interface designs for a module using parallel sub-agents. Us… |
 | `/design-and-user-experience-guidelines` | Specifies design and user experience guidelines, including dark mode compatibility, responsive des… |
 | `/design-archivist` | Long-running design anthropologist that builds comprehensive visual databases from 500-1000 real-w… |
+| `/design-audit` | Phase 5: Verify contrast >= 4.5:1 text / 3:1 UI in both light+dark, check no Inter/Roboto/Arial/Op… |
 | `/design-auditor` | Audit UI/UX designs for quality, AI-generated slop, and accessibility. Use when reviewing designs,… |
 | `/design-brief` | Write a comprehensive design brief that defines the problem space, constraints, audience, and succ… |
 | `/design-by-contract` | Automated contract verification, detection, and remediation across multiple languages using formal… |
@@ -5600,6 +5830,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-critic` | Aesthetic assessment and remix partner with trained visual taste. Provides structured design criti… |
 | `/design-critique` | Facilitate structured design critiques with clear feedback frameworks and actionable outcomes. |
 | `/design-debt-audit` | Identify, categorize, and prioritize accumulated design inconsistencies and structural problems ac… |
+| `/design-deep-modules` | Judge interface depth — deep modules hide complexity behind small interfaces. Use when designing a… |
 | `/design-evaluation` | Evaluate urban designs against comprehensive criteria drawn from all major global standards, certi… |
 | `/design-exploration` | 新功能设计探索流程。当用户有模糊想法要做新功能/新模块时使用。通过"需求收敛 → 技术调研 → ASCII 批量探索 → HTML 设计稿 → 全状态覆盖 → 需求总结"的结构化流程，从模糊想法产… |
 | `/design-guidelines` | Applies the Dezernat Zukunft (Institut für Makrofinanzen) visual identity — Wortmarke, Farbwelt/Co… |
@@ -5609,6 +5840,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-import` | Imports a Claude Design (claude.ai/design) handoff bundle and scaffolds the proposed components in… |
 | `/design-it` | Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI c… |
 | `/design-justice` | Digital equity and trauma-informed design for marginalized populations. Activate on "accessibility… |
+| `/design-legacy-seams` | Get legacy code under test before changing it — find seams, write characterization tests. Use when… |
 | `/design-loop` | Autonomous multi-page site builder using a baton-passing loop. Each iteration reads a task from .d… |
 | `/design-master` | 平面设计主控 - 自动生成平面设计提示词，支持海报、logo、插画等多种设计类型 |
 | `/design-md` | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files |
@@ -5616,8 +5848,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-mirror` | Replicate the visual style of any website and apply it to your existing codebase. Use this skill w… |
 | `/design-negotiation` | Advocate for design quality, scope, and time with cross-functional partners and leadership using e… |
 | `/design-orchestration` | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execu… |
+| `/design-patterns` | Select a design pattern from a symptom — strategy, observer, factory, adapter, decorator. Use when… |
 | `/design-patterns-implementation` | Apply appropriate design patterns (Singleton, Factory, Observer, Strategy, etc.) to solve architec… |
 | `/design-principles` | Define a set of actionable design principles that guide decision-making and resolve trade-offs. |
+| `/design-pseudocode` | Design a routine by stepwise refinement — pseudocode the intent before coding, then promote it to … |
 | `/design-qa-checklist` | Create QA checklists for verifying design implementation accuracy. |
 | `/design-rationale` | Write clear design rationale connecting decisions to user needs, business goals, and principles. |
 | `/design-review` | 7-phase frontend design review with accessibility (WCAG 2.1 AA), responsive testing, visual polish… |
@@ -5650,6 +5884,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-to-react-algorithms` | Reverse-engineering a Sketch file (or Figma export with similar shape) into pixel-perfect React + … |
 | `/design-token` | Define and organize design tokens (color, spacing, typography, elevation) with naming conventions … |
 | `/design-token-audit` | Audit design token usage across a product for consistency and coverage. |
+| `/design-tokens` | Design tokens and CSS custom properties: theme systems, dark mode, component libraries. Use when i… |
 | `/design-tool-picker` | Help choose the right design tool based on your current task. Use when unsure whether to use front… |
 | `/design-trend-analyzer` | Analyze design trends and recommend appropriate styles, color palettes, and typography systems for… |
 | `/design-vercel-shadcn` | Minimalist design systems inspired by Vercel and shadcn/ui. Also use when the user mentions 'desig… |
@@ -5659,6 +5894,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/designing-layouts` | Designs layout systems and responsive interfaces including grid systems, flexbox patterns, sidebar… |
 | `/designing-python-apis` | Designs intuitive Python library APIs following principles of simplicity, consistency, and discove… |
 | `/designing-sdks` | Design production-ready SDKs with retry logic, error handling, pagination, and multi-language supp… |
+| `/designing-systems` | Phase 1: Browse 4 catalog sites via fuse-browser, write CSS-precise observations (oklch values, fo… |
 | `/designing-workflow-skills` | Guides the design and structuring of workflow-based Claude Code skills with multi-step phases, dec… |
 | `/designlang-design-extract` | Extract complete design systems from any website — colors, typography, spacing, shadows, and more … |
 | `/desktime-automation` | Automate Desktime tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -5685,6 +5921,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dev-rfc` | Create well-structured RFCs and technical proposals for software projects. Use this skill whenever… |
 | `/dev-server` | Manage Next.js dev servers across worktrees. Start, stop, and read logs from dev servers. Agents c… |
 | `/dev-slides` | Create developer-friendly presentations using Slidev. Build Vue-powered slides with live code exec… |
+| `/dev-tools` | Obsidian plugin/theme dev: DevTools, CDP, JS eval, console/error buffers, CSS/DOM inspection, mobi… |
 | `/devcontainer-setup` | Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persi… |
 | `/devcontainers` | Define reproducible development environments with Dev Containers. Use when a user asks to standard… |
 | `/devdocs-progress-update` | Automatically update DevDocs/progress.md after completing development steps. Use after any meaning… |
@@ -5739,10 +5976,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/development` | Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack… |
 | `/development-ai-tools` | Master the AI tools that supercharge software development. From code completion to full applicatio… |
 | `/development-pipeline` | Complete 9-phase development pipeline guide — from schema to deployment. Pipeline phases (1-schema… |
+| `/devex-sdk-design` | Developer experience (DX) engineering, SDK design patterns, API ergonomics, CLI tooling design, do… |
+| `/device-integrity` | Verify device legitimacy and app integrity using DeviceCheck (DCDevice per-device bits) and App At… |
 | `/devils-advocate` | Forces adversarial reasoning before committing to decisions. Triggers on architectural choices, ap… |
 | `/devops` | Deploy to Cloudflare (Workers, R2, D1), Docker, GCP (Cloud Run, GKE), Kubernetes (kubectl, Helm). … |
 | `/devops-automation` | DevOps and IT Ops automation - CI/CD, monitoring, incident management, and infrastructure workflows |
 | `/devops-automator` | Expert DevOps engineer for CI/CD, IaC, Kubernetes, and deployment automation. Activate on: CI/CD, … |
+| `/devops-cloud` | DevOps, cloud infrastructure, and platform engineering. Use when working with AWS, GCP, Azure, Kub… |
 | `/devops-deploy` | DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infr… |
 | `/devops-deployment` | Use when setting up CI/CD pipelines, containerizing applications, deploying to Kubernetes, or writ… |
 | `/devops-engineer` | Creates Dockerfiles, configures CI/CD pipelines, writes Kubernetes manifests, and generates Terraf… |
@@ -5910,6 +6150,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dns-management` | Manage DNS records, routing policies, and failover configurations for high availability and disast… |
 | `/dns-rebinding-attacks` | DNS rebinding attack playbook. Use when testing applications that trust DNS resolution for origin … |
 | `/dns-record-analyzer` | Audits and troubleshoots DNS records for domains including A, AAAA, CNAME, MX, TXT, SPF, DKIM, DMA… |
+| `/dns-tools` | DNS resolution and propagation debugging. Use when looking up A/AAAA/MX/TXT records, verifying DNS… |
 | `/dnsfilter-automation` | Automate Dnsfilter tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/dnshe-freedomains` | Use DNSHE to register, manage, and automate free subdomains (us.ci, cc.cd, de5.net, ccwu.cc) with … |
 | `/do-and-judge` | Execute a task with sub-agent implementation and LLM-as-a-judge verification with automatic retry … |
@@ -5998,21 +6239,28 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dockerfile-optimise` | Dockerfile optimization guidelines from official Docker documentation. This skill should be used w… |
 | `/dockerfile-optimizer` | Optimizes Dockerfiles for smaller images, faster builds, better caching, and security hardening us… |
 | `/dockerfile-validator` | Validate, lint, audit, or scan a Dockerfile for security and best practices. |
+| `/dockkit` | Control motorized camera docks and enable intelligent subject tracking using DockKit. Use when dis… |
 | `/docmosis-automation` | Automate Docmosis tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/docnify-automation` | Automate Docnify tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/docs` | API documentation writing in Stripe's style with complete examples. Also use when the user mention… |
 | `/docs-architect` | Creates comprehensive technical documentation from existing codebases. Analyzes architecture, desi… |
 | `/docs-auditor` | Audits any developer documentation site across 33 checks in 7 categories and produces a scored rep… |
+| `/docs-check` | CONTRIBUTOR TOOL - Validate plugin against latest Claude Code documentation. Catches breaking chan… |
 | `/docs-cleaner` | Consolidates redundant documentation while preserving all valuable content. This skill should be u… |
 | `/docs-consistency-checker` | Validate consistency across SEED Design component documentation layers (design guidelines in ./doc… |
+| `/docs-decommission` | Generate DECOMMISSION-<service>.md covering infra, data, access, DNS, dependencies, monitoring, an… |
 | `/docs-discovery` | Technical documentation discovery via context7 and web search. Capabilities: library/framework doc… |
 | `/docs-engineer` | Technical documentation specialist for API docs, tutorials, architecture docs, and developer exper… |
+| `/docs-generate` | Generate or update docs from code annotations, docstrings, and git history. Use when wanting API r… |
 | `/docs-guard` | Review generated or changed documentation before it ships — READMEs, API references, docstrings, P… |
+| `/docs-latex` | Convert Markdown to LaTeX with TikZ and compile to PDF. Use when wanting a presentation-quality PD… |
+| `/docs-refresh` | Refresh plugin catalog docs (README, PLUGIN-MAP, d2 diagram) so per-plugin skill/agent counts matc… |
 | `/docs-researcher` | Fetch and summarize API documentation from official sources before implementation. Covers Rails, T… |
 | `/docs-review` | Review documentation changes for compliance with the Metabase writing style guide. Use when review… |
 | `/docs-search` | Library-documentation lookup methodology — API behavior, version-specific changes, idiomatic usage… |
 | `/docs-seeker` | Searching internet for technical documentation using llms.txt standard, GitHub repositories via Re… |
 | `/docs-starter-kit` | Generates comprehensive documentation templates for open-source and internal projects including RE… |
+| `/docs-sync` | Sync docs with actual skills, commands, and agents. Use when docs are out of sync, updating the sk… |
 | `/docs-updater` | Provides automated documentation updates by analyzing git changes between the current branch and t… |
 | `/docs-write` | Write documentation following Metabase's conversational, clear, and user-focused style. Use when c… |
 | `/docs-writer` | Write, review, and edit documentation files with consistent structure, tone, and technical accurac… |
@@ -6025,10 +6273,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/documenso-automation` | Automate Documenso tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/document` | Generate or update documentation for code, APIs, or systems |
 | `/document-ai` | Comprehensive patterns for AI-powered document understanding including PDF parsing, OCR, invoice/r… |
+| `/document-detection` | Detect PRD/ADR/PRP opportunities in conversations and prompt for document creation. Use when the u… |
 | `/document-generation-pdf` | Generate, fill, and assemble PDF documents at scale. Handles legal forms, contracts, invoices, cer… |
+| `/document-linking` | Unified ID system for PRDs, ADRs, PRPs, and GitHub issues with bidirectional links. Use when linki… |
 | `/document-pipeline` | 统一写作流水线。任何文档/文章/报告均走此流程：研究→草稿→逻辑自检→真实性校对→画图规划→批量画图→图片自审→审稿→格式转换（HTML/LaTeX/MD）。可从任意阶段入场（已有草稿直接审核，已… |
 | `/document-processing` | Use when working with "PDF", "Excel", "Word", "PowerPoint", "XLSX", "DOCX", "PPTX", "spreadsheets"… |
 | `/document-refinement` | Use when reviewing brainstorms, plans, or PRDs for clarity and readiness before next workflow phas… |
+| `/document-review` | Structural review of documents for gaps, clarity, completeness, and organization. Use when a brain… |
+| `/document-skills` | Professional document creation, editing, and analysis for Office formats (docx, pdf, pptx, xlsx). … |
 | `/document-writer` | 专业文档编写技能。用于撰写技术文档、README、API文档、用户手册等。当用户需要编写或改进文档时使用此技能。 |
 | `/documentador` | Genera documentacion de proyectos de codigo analizando el repositorio. Agnostico al lenguaje. Agru… |
 | `/documentation` | Documentation generation workflow covering API docs, architecture docs, README files, code comment… |
@@ -6264,6 +6516,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dpd2-automation` | Automate Dpd2 tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/dpdpa` | Expert India Digital Personal Data Protection Act, 2023 (DPDPA) compliance advisor. Use this skill… |
 | `/dpia-assessment` | GDPR Art. 35 Data Protection Impact Assessment with threshold checking, risk registers, and EDPB c… |
+| `/dpm-finder` | Grafana Professional Services tool for identifying which Prometheus metrics drive high Data Points… |
 | `/draft-nda` | Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdic… |
 | `/draft-response` | Drafts professional customer-facing replies to inbound support tickets, escalations, billing issue… |
 | `/draftable-automation` | Automate Draftable tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -6300,12 +6553,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/drug-discovery-informatics` | Patterns for computer-aided drug discovery including virtual screening, molecular docking, ADMET p… |
 | `/drugbank-database` | Access and analyze comprehensive drug information from the DrugBank database including drug proper… |
 | `/drupal-development` | Expert guidance for Drupal 10 module development with PHP 8+, SOLID principles, and Drupal coding … |
+| `/dry-consolidation` | Find and extract duplicated code into shared abstractions. Use when seeing repeated utilities, cop… |
 | `/dry-principle` | This rule enforces the Don't Repeat Yourself principle to avoid code duplication and improve maint… |
 | `/ds-mapper` | 项目目录结构地图 - 生成带说明的可视化目录树，快速理解任意代码库 |
 | `/dspy` | You are an expert in DSPy, the Stanford framework that replaces prompt engineering with programmin… |
 | `/dspy-prompting` | Use when "DSPy", "declarative prompting", "automatic prompt optimization", "Stanford NLP", or aski… |
 | `/dto-conventions` | Sets standards for Data Transfer Objects (DTOs), typically records, including parameter validation… |
 | `/dual-axis-skill-reviewer` | Review skills in any project using a dual-axis method: (1) deterministic code-based checks (struct… |
+| `/dual-write` | Dual-write pattern for safe data store transitions. Use when planning DB migrations, switching sto… |
 | `/duckdb` | DuckDB is an in-process analytical database that runs embedded inside your application with zero e… |
 | `/duckdb-en` | DuckDB CLI specialist for SQL analysis, data processing and file conversion. Use for SQL queries, … |
 | `/dummy-dataset` | Generate realistic dummy datasets for testing with customizable columns, constraints, and output f… |
@@ -6349,13 +6604,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ecosystem-tools` | Third-party Claude Code token/context/code-review tools. Use when choosing or recommending an exte… |
 | `/ecs` | AWS ECS container orchestration for running Docker containers. Use when deploying containerized ap… |
 | `/ecto-changesets` | Use when validating and casting data with Ecto changesets including field validation, constraints,… |
+| `/ecto-constraint-debug` | Debug Ecto constraint violations - trace triggers, check migrations, find duplicate data. Use when… |
 | `/ecto-patterns` | Ecto patterns for Phoenix/Elixir apps. Covers schemas, changesets, migrations, queries, Ecto.Multi… |
 | `/ecto-query-patterns` | Use when querying data with Ecto.Query DSL including where clauses, joins, aggregates, preloading,… |
 | `/ecto-schema-patterns` | Use when defining data structures using Ecto schemas including fields, associations, embedded sche… |
 | `/ecto-schemas` | Use when defining and working with Ecto schemas including field types, associations, and embedded … |
+| `/ecto:n1-check` | Detect N+1 query anti-patterns specifically — Repo calls inside Enum/for loops, missing preloads o… |
 | `/edgartools` | Python library for accessing, analyzing, and extracting data from SEC EDGAR filings. Use when work… |
 | `/edge-candidate-agent` | Generate and prioritize US equity long-side edge research tickets from EOD observations, then expo… |
-| `/edge-computing` | Process data at the network edge near IoT devices to minimize latency and bandwidth |
+| `/edge-computing` | Edge computing with Cloudflare Workers, Deno Deploy, Bun, Vercel Edge Functions, AWS Lambda@Edge, … |
 | `/edge-concept-synthesizer` | Abstract detector tickets and hints into reusable edge concepts with thesis, invalidation signals,… |
 | `/edge-hint-extractor` | Extract edge hints from daily market observations and news reactions, with optional LLM ideation, … |
 | `/edge-pipeline-orchestrator` | Orchestrate the full edge research pipeline from candidate detection through strategy design, revi… |
@@ -6400,6 +6657,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/electric-sql` | Build local-first applications with ElectricSQL — sync Postgres data to client devices in real-tim… |
 | `/electricsql` | ElectricSQL real-time Postgres sync engine using Shapes for partial replication. Covers ShapeStrea… |
 | `/electron` | Assists with building cross-platform desktop applications using Electron. Use when architecting ma… |
+| `/electron-desktop` | Desktop application development with Electron for Windows, macOS, and Linux. Use when building cro… |
 | `/electron-dev` | Electron desktop application development with React, TypeScript, and Vite. Use when building deskt… |
 | `/electron-development` | Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-… |
 | `/electron-forge` | Package and distribute Electron apps with a full build pipeline. Use when scaffolding, configuring… |
@@ -6410,10 +6668,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/elevenlabs-music` | Generate music from text prompts using ElevenLabs Eleven Music API. Use when creating songs, sound… |
 | `/elevenlabs-stt` | Transcribe audio files using ElevenLabs Speech-to-Text (Scribe v2). |
 | `/elevenlabs-voices` | High-quality voice synthesis with 18 personas, 32 languages, sound effects, batch processing, and … |
+| `/elicitation` | Auto-review skill for expert agents. After coding, expert applies elicitation techniques to self-c… |
 | `/elite-memory` | 终极 AI 记忆系统 - WAL 协议 + 每日记忆 + 长期记忆 + GitHub 自动同步 + 飞书通知 |
 | `/elixir` | You are an expert in Elixir, the functional programming language built on the Erlang VM (BEAM). Yo… |
 | `/elixir-ecto-patterns` | Use when Elixir Ecto patterns including schemas, changesets, queries, and transactions. Use when b… |
 | `/elixir-expert` | Elixir and Phoenix expert including OTP, Ecto, and functional programming |
+| `/elixir-idioms` | OTP/BEAM patterns and Elixir idioms — GenServer, Supervisor, Task, Registry, pattern matching, wit… |
 | `/elixir-otp-patterns` | Use when Elixir OTP patterns including GenServer, Supervisor, Agent, and Task. Use when building c… |
 | `/elixir-pattern-matching` | Use when Elixir pattern matching including function clauses, case statements, with statements, and… |
 | `/elixir-pro` | Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters co… |
@@ -6446,6 +6706,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/emailoctopus-automation` | Automate Emailoctopus tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/emails` | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, … |
 | `/embedded-c` | C/C++ for embedded systems: microcontrollers, IoT, resource optimization |
+| `/embedded-iot` | Embedded systems firmware, microcontrollers (ESP32, STM32, Arduino, Raspberry Pi), RTOS (FreeRTOS,… |
 | `/embedded-patterns` | Reference documentation for embedding Prismatic's integration marketplace and workflow builder in … |
 | `/embedded-systems` | Use when developing firmware for microcontrollers, implementing RTOS applications, or optimizing p… |
 | `/embedding-optimization` | Optimizing vector embeddings for RAG systems through model selection, chunking strategies, caching… |
@@ -6503,9 +6764,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/encore-testing` | Write or run automated tests for Encore.ts code with `encore test` and vitest/jest. Covers isolate… |
 | `/encore-webhook` | Receive inbound webhooks from external services (Stripe, GitHub, Slack, Twilio, etc.) using `api.r… |
 | `/endorsal-automation` | Automate Endorsal tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/endpoint-security-cpu` | macOS EndpointSecurity/EDR high CPU & battery drain. Use when Kandji ESF / XProtect pegs a core; t… |
 | `/endurance-coach` | Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask… |
 | `/energy-procurement` | Codified expertise for electricity and gas procurement, tariff optimisation, demand charge managem… |
 | `/energy-systems` | Power systems engineering covering grid modeling, power flow analysis, energy storage dispatch, de… |
+| `/energykit` | Query grid electricity forecasts and submit load events using EnergyKit to help users optimize hom… |
 | `/engagement-retro` | Run a close-out retrospective on a client engagement — capture lessons, results, and the renewal/r… |
 | `/engineering-advanced-skills` | Index of 37 advanced engineering agent skills for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw… |
 | `/engineering-hiring-rubric` | Build an engineering hiring rubric and technical interview scorecard for evaluating software engin… |
@@ -6579,6 +6842,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/eslint-fix` | ESLint 自动修复专家 — 识别 ESLint 报错，批量修复，支持常见规则和自定义配置 |
 | `/eslint-prettier-config` | Configures ESLint and Prettier for consistent code quality with TypeScript, React, and modern best… |
 | `/eslint-rules` | Use when eSLint built-in rules including rule configuration, severity levels, and disabling strate… |
+| `/eslint-to-biome` | Migrate JS/TS linting from ESLint+Prettier to Biome. Use when .eslintrc* or eslint.config.* exists… |
 | `/esm` | Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inferenc… |
 | `/espocrm` | Comprehensive guide for developing on EspoCRM - metadata-driven CRM with service layer architecture |
 | `/espocrm-automation` | Automate Espocrm tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -6603,6 +6867,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/eval-harness-updater` | Refresh evaluation harnesses with live/fallback parser reliability, SLO gates, and regression chec… |
 | `/eval-mcp` | Measures whether Claude uses an MCP server's tools correctly — tests tool selection accuracy, anal… |
 | `/eval-rubric-designer` | Design a scoring rubric and LLM-as-judge prompt to evaluate the quality of an AI feature's output.… |
+| `/evaluate-improve` | Suggest improvements to SKILL.md content, descriptions, or tool config from eval results. Use when… |
+| `/evaluate-legibility` | Cold-read a SKILL.md with a zero-context agent reader to check its intent is legible. Use when val… |
+| `/evaluate-matrix` | Cross-model skill evals with real execution and grading — the executability gate. Use when checkin… |
+| `/evaluate-plugin-batch` | Batch evaluate every skill in a plugin and produce a plugin-level report. Use when auditing an ent… |
+| `/evaluate-report` | View evaluation results and benchmark reports for a skill or plugin. Use when reviewing past eval … |
+| `/evaluate-skill` | Evaluate a skill by running test cases and grading results. Use when testing whether a skill produ… |
 | `/evaluating-code-models` | Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k… |
 | `/evaluating-cosmos-policy` | Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up… |
 | `/evaluating-llms` | Evaluate LLM systems using automated metrics, LLM-as-judge, and benchmarks. Use when testing promp… |
@@ -6615,7 +6885,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/event-detection-temporal-intelligence-expert` | Expert in temporal event detection, spatio-temporal clustering (ST-DBSCAN), and photo context unde… |
 | `/event-driven` | Event Sourcing, CQRS, Saga patterns, event bus (Kafka, RabbitMQ, AWS EventBridge). Use when implem… |
 | `/event-driven-architect` | Designs event-driven architectures with event sourcing, CQRS, pub/sub patterns, and domain events … |
-| `/event-planner` | Plan events (night out, weekend, date night, team outing, meals, trips) by searching venues via Go… |
+| `/event-driven-architecture` | Kafka, RabbitMQ, SQS/SNS, event sourcing, CQRS, saga patterns, dead letter queues, and idempotency… |
+| `/event-planner` | Event planning with timelines, budgets, vendor coordination, logistics checklists, and post-event … |
 | `/event-sourcing` | Implement event sourcing and CQRS patterns using event stores, aggregates, and projections. Use wh… |
 | `/event-sourcing-architect` | Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design… |
 | `/event-sourcing-coder` | Record domain events and dispatch to inbox handlers for side effects, audit trails, and activity f… |
@@ -6624,6 +6895,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/event-store-design` | Design and implement event stores for event-sourced systems. Use when building event sourcing infr… |
 | `/eventbridge` | You are an expert in Amazon EventBridge, the serverless event bus for building event-driven archit… |
 | `/eventee-automation` | Automate Eventee tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/eventkit` | Create, read, and manage calendar events and reminders using EventKit and EventKitUI. Use when add… |
 | `/eventzilla-automation` | Automate Eventzilla tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/everhour-automation` | Automate Everhour tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/eversign-automation` | Automate Eversign tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -6669,12 +6941,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/excel-weekly-dashboard` | Designs refreshable Excel dashboards (Power Query + structured tables + validation + pivot reporti… |
 | `/exceljs` | Generate and parse Excel spreadsheets with ExcelJS — create workbooks with multiple sheets, styled… |
 | `/exception-handling` | Comprehensive exception handling patterns for ASP.NET Core Razor Pages applications. Covers global… |
+| `/exclusive-lock-dispatch` | Pre-dump-then-dispatch for tools holding an exclusive lock (Ghidra, migrations, single-writer cach… |
 | `/exe-dev` | Manage persistent VMs on exe.dev. Create VMs, configure HTTP proxies, share access, and set up cus… |
 | `/exec-plan` | Manage the lifecycle of ExecPlans — self-contained, living specifications for multi-step work. Cre… |
 | `/execute` | /cs:execute <decision> — Generate a 90-day execution plan with weekly milestones, DRIs, and check-… |
 | `/execute-plan` | Execute structured task plans with status tracking. Use when the user provides a plan file path in… |
 | `/executing-marketing-campaigns` | Plans, creates, and optimizes marketing campaigns including content strategy, social media, email,… |
 | `/execution-algorithms` | World-class trade execution - minimize market impact, optimize order routing, reduce slippage. The… |
+| `/execution-grounded-review` | Execution-grounded review: run tests first, trace each acceptance criterion to execution evidence.… |
 | `/execution-lifecycle-manager` | Manage DAG execution lifecycles including start, stop, pause, resume, and cleanup. Activate on 'ex… |
 | `/execution-plan-analysis` | This skill should be used when the user asks to analyze SQL Server execution plans, .sqlplan files… |
 | `/executive-dashboard-generator` | Transform raw data from CSVs, Google Sheets, or databases into executive-ready reports with visual… |
@@ -6712,6 +6986,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/explaining-code` | Explains code with visual diagrams and analogies. Use when explaining how code works, teaching abo… |
 | `/explicit-configuration` | Prefer explicit configuration over framework defaults to prevent environment-dependent failures |
 | `/explorador` | Investiga temas en profundidad, genera notas de conocimiento, descubre conexiones y mantiene los M… |
+| `/exploration` | Codebase exploration techniques for rapid discovery, architecture analysis, pattern detection, and… |
 | `/exploratory-data-analysis` | Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats.… |
 | `/explore` | Multi-angle codebase exploration spawning 3-5 parallel agents for code structure, data flow, archi… |
 | `/expo` | Build, deploy, and update React Native apps with Expo. Covers file-based routing with Expo Router … |
@@ -6852,6 +7127,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/fathom` | Connect to Fathom AI to fetch call recordings, transcripts, and summaries. Use when user asks abou… |
 | `/favicon` | Generate favicons from a source image |
 | `/favicon-gen` | Generate custom favicons from logos, text, or brand colours. Produces favicon.svg, favicon.ico, ap… |
+| `/fd-file-finding` | fd fast file finding: smart defaults, gitignore-aware, parallel. Use when searching for files by n… |
 | `/fda-consultant-specialist` | FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidan… |
 | `/fda-database` | Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA),… |
 | `/fda-food-safety-auditor` | Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility re… |
@@ -6881,6 +7157,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/feature-prioritization` | Expert in feature prioritization - the art and science of deciding what to build and in what order… |
 | `/feature-slicing` | Proactively apply when creating new features/components/pages or setting up frontend project struc… |
 | `/feature-spec` | Feature specification and planning guidelines for software engineers. This skill should be used wh… |
+| `/feature-tracking` | Track feature implementation against requirements with hierarchical FR codes and TODO.md sync. Use… |
 | `/featured-snippet-optimizer` | Use when you want to win a featured snippet for a keyword you already rank for. The agent checks t… |
 | `/federation-audit` | Query federation audit logs with compliance filtering |
 | `/federation-init` | Initialize federation on this node — generate keypair and configure peers |
@@ -6892,6 +7169,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/feedback-analysis` | Collect, categorize, and synthesize user feedback from multiple channels into actionable product i… |
 | `/feedback-mastery` | Navigate difficult conversations and deliver constructive feedback using structured frameworks. Co… |
 | `/feedback-patterns` | Design system feedback for user actions including confirmations, status updates, and notifications. |
+| `/feedback-session` | Analyze session for skill feedback and create GitHub issues. Use when a skill gave wrong guidance,… |
 | `/feishu-bitable` | 飞书多维表格（Bitable）的创建、查询、编辑和管理工具。包含 27 种字段类型支持、高级筛选、批量操作和视图管理。 **当以下情况时使用此 Skill**： (1) 需要创建或管理飞书多维表格… |
 | `/feishu-bridge` | Connect a Feishu (Lark) bot to Clawdbot via WebSocket long-connection. No public server, domain, o… |
 | `/feishu-calendar` | 飞书日历与日程管理工具集。包含日历管理、日程管理、参会人管理、忙闲查询。 |
@@ -6984,6 +7262,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/file-access-vuln` | Entry P1 category router for file access and upload workflows. Use when testing download endpoints… |
 | `/file-conversion` | Convert files between formats — PDF to Word, HEIC to JPG, MP4 to MP3, CSV to JSON, EPUB to MOBI, a… |
 | `/file-handling` | File uploads, streaming, storage abstractions, and secure file handling patterns for ASP.NET Core … |
+| `/file-history` | Obsidian File Recovery and Sync history: inspect, diff, restore previous note versions. Use when u… |
 | `/file-operations` | Analyze files and get detailed metadata including size, line counts, modification times, and conte… |
 | `/file-organization` | Use when "organizing files", "cleaning up folders", "finding duplicates", "structuring directories… |
 | `/file-organizer` | Intelligently organizes your files and folders across your computer by understanding context, find… |
@@ -7002,12 +7281,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/filmkit-fujifilm-camera` | Browser-based preset manager and RAW converter for Fujifilm X-series cameras using WebUSB and PTP … |
 | `/finage-automation` | Automate Finage tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/finalize-agent-prompt` | Finalize prompt file using the role of an AI agent to polish the prompt for the end user. |
+| `/finance` | Financial analysis expertise for financial modeling (DCF, LBO, M&A), valuation, financial statemen… |
 | `/finance-ai-tools` | Master the AI tools that transform financial operations. From bookkeeping to forecasting, manage m… |
 | `/finance-billing-ops` | Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. … |
 | `/finance-manager` | Comprehensive personal finance management system for analyzing transaction data, generating insigh… |
 | `/finance-news` | Market news briefings with AI summaries. Use when asked about stock news, market updates, portfoli… |
 | `/finance-skills` | Router/index for the 2 finance skills bundled in this plugin: financial-analyst (ratio analysis, D… |
 | `/finance-tracker` | Track personal expenses with natural language. Log spending, view reports, search transactions. Wo… |
+| `/financekit` | Access eligible Wallet financial data using FinanceKit and FinanceKitUI. Use when querying transac… |
 | `/financial-analyst` | Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast c… |
 | `/financial-data-collector` | Collect real financial data for any US publicly traded company from free public sources (yfinance)… |
 | `/financial-deep-research` | Conduct enterprise-grade financial research with multi-source synthesis, regulatory compliance tra… |
@@ -7018,6 +7299,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/financial-model-narrative` | Turn financial model outputs into a clear written narrative. Use when asked to write a financial n… |
 | `/financial-modeling` | Build integrated financial models with 3-statement projections. Create income statement, balance s… |
 | `/financial-reporting` | Generates and analyzes financial reports using data aggregation, visualization, and compliance too… |
+| `/financial-scenario-planner` | Stress-test financial plans across scenarios (bull/bear/base), sensitivity tables, and Monte Carlo… |
 | `/find-bugs` | Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when ask… |
 | `/find-community` | Find and build a community around your product — identify where your users gather, engage authenti… |
 | `/find-customer-social-proof` | Find approved customer proof for campaigns, pages, decks, emails, and sales conversations. Use whe… |
@@ -7038,6 +7320,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/finishing-a-development-branch` | Use when implementation is complete, all tests pass, and you need to decide how to integrate the w… |
 | `/finmei-automation` | Automate Finmei tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/finnish-humanizer` | Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish sp… |
+| `/finops-caches` | GitHub Actions cache analysis — size, prefix/branch breakdown, stale detection. Use when investiga… |
+| `/finops-compare` | FinOps metrics comparison across repos in an org. Use when benchmarking repos, identifying worst-p… |
+| `/finops-overview` | FinOps snapshot — org billing, workflow stats, cache usage. Use when you want a high-level view of… |
+| `/finops-waste` | Identify GitHub Actions waste — skipped runs, bot triggers, missing concurrency — and suggest fixe… |
+| `/finops-workflows` | Analyze workflow runs — frequency, duration, success rates, efficiency. Use when investigating slo… |
 | `/fintech-advisor` | Strategic advisory for fintech founders on US/EU regulatory triggers, license-vs-partner, KYC/AML,… |
 | `/fintech-engineer` | Fintech engineering expertise — payment processing (Stripe, Plaid), PCI DSS compliance, financial … |
 | `/fintech-integration` | Use when integrating Plaid, Stripe, payment processors, or financial APIs - covers account linking… |
@@ -7094,11 +7381,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/fixing-motion-performance` | Audit and fix animation performance issues including layout thrashing, compositor properties, scro… |
 | `/fizzy-cli` | Use the fizzy-cli tool to authenticate and manage Fizzy kanban boards, cards, comments, tags, colu… |
 | `/fl-studio-patcher-malware-warning` | WARNING - This project is malicious software disguised as an FL Studio crack/patcher |
+| `/flake8-to-ruff` | Migrate Python linting from flake8/isort to ruff. Use when pycqa/flake8 or PyCQA/isort is in .pre-… |
 | `/flaky-test-detective` | Diagnoses and fixes flaky tests by identifying root causes (timing issues, shared state, randomnes… |
 | `/flash-moe-inference` | Run 397B parameter Mixture-of-Experts LLMs on a MacBook using pure C/Metal with SSD streaming |
 | `/flashkda-delta-attention` | High-performance Kimi Delta Attention CUDA kernels built on CUTLASS for efficient recurrent state … |
 | `/flask` | Flask is a lightweight Python micro web framework that provides the essentials for web development… |
 | `/flask-api-development` | Develop lightweight Flask APIs with routing, blueprints, database integration, authentication, and… |
+| `/fleet-management` | Install, configure, and manage Grafana Alloy collector fleets using Fleet Management and remote co… |
 | `/flexisign-automation` | Automate Flexisign tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/flexlayout-react` | FlexLayout for React - Advanced docking layout manager with drag-and-drop, tabs, splitters, and co… |
 | `/flight-tracker` | Flight tracking and scheduling. Track live flights in real-time by region, callsign, or airport us… |
@@ -7166,6 +7455,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/fnox-security-best-practices` | Use when implementing secure secrets management with Fnox. Covers encryption, key management, acce… |
 | `/focal-point-finder` | This skill should be used when someone needs to find, propose, or evaluate a focal point in a coor… |
 | `/focus-deep-work` | Maximize deep work with focus sessions, distraction logging, and productivity tracking |
+| `/focus-engine` | Implements keyboard, directional, and scene-level focus behavior across SwiftUI and UIKit. Use whe… |
 | `/focus-mind` | 🚀 Agent 脑雾清除神器！让 AI 保持巅峰状态的神奇技能。 帮助 Agent 定期清除思维混乱，恢复清晰思考，就像给大脑做了一次深度 SPA！ 适用于：(1) 长时间工作后思路不清 (2) … |
 | `/focused-fix` | Use when the user asks to fix, debug, or make a specific feature/module/area work end-to-end. Trig… |
 | `/fog-of-war-js-ts` | Fog of war, field of view, line of sight, and tile visibility in JavaScript or TypeScript games — … |
@@ -7213,6 +7503,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/founder-operating-system` | Founders face unique challenges in how they work. Maker vs manager schedule conflicts. Default ali… |
 | `/foundry` | You are an expert in Foundry, the blazing-fast Ethereum development toolkit written in Rust. You h… |
 | `/foundry-agent-sync` | Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from … |
+| `/foundryvtt-module` | FoundryVTT module idea to gitops-adopted repo: scaffold, create + seed the repo, open the gitops a… |
+| `/foundryvtt-module-scaffold` | Scaffold a new FoundryVTT v13 module repo (Vite + TS + bun + biome, CI, release-please) with basic… |
 | `/foursquare-automation` | Automate Foursquare tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/fp-async` | Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real A… |
 | `/fp-backend` | Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither… |
@@ -7267,9 +7559,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/frontend` | React 19 + Tailwind CSS v4 + Vite 7.1 frontend development. Also use when the user mentions 'build… |
 | `/frontend-a11y` | Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyb… |
 | `/frontend-accessibility` | Implement WCAG compliance using semantic HTML, ARIA, keyboard navigation, and screen reader suppor… |
+| `/frontend-accessibility-best-practices` | Accessibility (a11y) best practices for React components. Use when creating UI components, forms, … |
 | `/frontend-api-integration-patterns` | Production-ready patterns for integrating frontend applications with backend APIs, including race … |
 | `/frontend-architect` | Frontend stack expert for Cloudflare deployment, shadcn/ui components, and internal tools architec… |
 | `/frontend-architecture` | Component architecture, design patterns, state management strategies, module systems, build tools,… |
+| `/frontend-async-best-practices` | Async/await and Promise optimization guidelines. Use when writing, reviewing, or refactoring async… |
 | `/frontend-blueprint` | AI frontend specialist and design consultant that guides users through a structured discovery proc… |
 | `/frontend-brand` | 他山前端品牌设计系统完整参考手册。包含技术框架选型、设计令牌（颜色/字体/圆角/阴影）、组件规范代码模板、响应式/无障碍约定。被 role-前端开发 和 role-UI设计师 主动调用；与 fro… |
 | `/frontend-builder` | Builds modern React and Next.js frontends. Use when creating web applications, choosing frontend s… |
@@ -7284,14 +7578,18 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/frontend-dev-guidelines` | You are a senior frontend engineer operating under strict architectural and performance standards.… |
 | `/frontend-developer` | Build React components, implement responsive layouts, and handle client-side state management. Mas… |
 | `/frontend-development` | Multi-framework frontend development. Frameworks: React 18+ (Suspense, hooks, TanStack), Vue 3 (Co… |
-| `/frontend-enhancer` | This skill should be used when enhancing the visual design and aesthetics of Next.js web applicati… |
+| `/frontend-enhancer` | This skill should be used when enhancing the visual design and aesthetics of web applications. It … |
 | `/frontend-expert` | Frontend development expert including UI/UX patterns, responsive design, and accessibility |
+| `/frontend-internationalization-best-practices` | Internationalization best practices for React Router framework mode using remix-i18next. Use when … |
+| `/frontend-js-best-practices` | JavaScript performance optimization guidelines. Use when writing, reviewing, or refactoring JavaSc… |
 | `/frontend-lighthouse` | Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, cat… |
 | `/frontend-load-balancing-and-global-delivery` | Scale frontend delivery with global load balancing, CDN strategy, cache control, and origin failov… |
 | `/frontend-mobile-development-component-scaffold` | You are a React component architecture expert specializing in scaffolding production-ready, access… |
 | `/frontend-mobile-security-xss-scan` | You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detect… |
 | `/frontend-patterns` | Frontend development patterns for React, Next.js, state management, performance optimization, and … |
 | `/frontend-performance` | Use when modifying layouts, adding assets, or optimizing page speed. Frontend performance patterns… |
+| `/frontend-react-best-practices` | React performance optimization guidelines. Use when writing, reviewing, or refactoring React compo… |
+| `/frontend-react-router-best-practices` | React Router performance and architecture patterns. Use when writing loaders, actions, forms, rout… |
 | `/frontend-refactor-planner` | Creates safe refactor plans for messy UI code including component splitting strategies, state simp… |
 | `/frontend-routing` | Implement client-side routing using React Router, Vue Router, and Angular Router. Use when buildin… |
 | `/frontend-security-coder` | Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, an… |
@@ -7299,7 +7597,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/frontend-skill` | Use when the task asks for a visually strong landing page, website, app, prototype, demo, or game … |
 | `/frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. |
 | `/frontend-state-management` | Manage application state using Redux, MobX, Zustand, and Context API. Use when centralizing state … |
+| `/frontend-tailwind-best-practices` | Tailwind CSS patterns and conventions for frontend apps. Use when writing component styles, layout… |
 | `/frontend-testing` | Implement comprehensive frontend testing using Jest, Vitest, React Testing Library, and Cypress. U… |
+| `/frontend-testing-best-practices` | Testing best practices for the frontend. Emphasizes E2E tests over unit tests, minimal mocking, an… |
 | `/frontend-to-backend-requirements` | Document frontend data needs for backend developers. Use when frontend needs to communicate API re… |
 | `/frontend-ui-dark-ts` | A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards… |
 | `/frontend-ui-engineering` | Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when cre… |
@@ -7322,9 +7622,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/fullstack-testing-and-quality-gates` | Define and enforce layered test strategy and quality gates for fullstack systems, including UI beh… |
 | `/function-calling` | Implement function/tool calling with LLMs — define tools, handle calls, and return results in a lo… |
 | `/function-length-and-responsibility` | This rule enforces the single responsibility principle, ensuring functions are short and focused. |
+| `/fundraising-analyzer` | Nonprofit fundraising performance analysis with donor segmentation, campaign ROI, retention metric… |
 | `/fundraising-faq` | Pressure-test a fundraise by anticipating the hard investor questions and arming the founder with … |
 | `/funnel-analysis` | Conversion funnel analysis with drop-off investigation. Use when analyzing multi-step processes, i… |
 | `/funnel-flow-architecture` | Architecting cross-tool conversion flows that match audience and stage. Landing page to lead magne… |
+| `/fusecore` | FuseCore Modular Architecture - Laravel 13 modular monolith with auto-discovery, React 19 integrat… |
 | `/future-agi-platform` | Expert skill for using Future AGI — the open-source end-to-end platform for evaluating, observing,… |
 | `/fuzzing-dictionary` | Fuzzing dictionaries guide fuzzers with domain-specific tokens. Use when fuzzing parsers, protocol… |
 | `/fuzzing-obstacles` | Techniques for patching code to overcome fuzzing obstacles. Use when checksums, global state, or o… |
@@ -7355,6 +7657,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/game-theory` | Advanced game theory analysis for crypto protocols, DeFi mechanisms, governance systems, and strat… |
 | `/game-ui-design` | World-class game UI design expertise combining the clarity of Nintendo's UI philosophy, the immers… |
 | `/gamedev-expert` | Game development expert including DragonRuby, Unity, and game mechanics |
+| `/gamekit` | Integrate Game Center features using GameKit. Use when authenticating GKLocalPlayer, checking play… |
 | `/gamification-loops` | Expert in gamification mechanics - points, badges, streaks, progress bars, and the psychology that… |
 | `/gamma` | Generate AI-powered presentations, documents, and social posts using Gamma.app API. Use when user … |
 | `/gamma-2` | Create presentations, documents, social posts, and websites using Gamma's AI API. Use when asked t… |
@@ -7451,11 +7754,28 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/generate-forum-profile` | 将科研数字分身各维度整合提取为他山论坛分身，格式为 Identity / Expertise / Thinking Style / Discussion Style 四节 Markdown，输出前… |
 | `/generate-image` | Generate or edit images using AI models (FLUX, Nano Banana 2). Use for general-purpose image gener… |
 | `/generate-import-html` | Generate structured HTML from authoring analysis for AEM Edge Delivery Services. Creates section s… |
+| `/generating-components` | Phase 3: Map design-system.md to 7 Gemini XML blocks (aesthetics, style_reference, typography, col… |
 | `/generating-documentation` | Generate comprehensive technical documentation including API docs (OpenAPI/Swagger), code document… |
 | `/generating-python-installer` | Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, D… |
 | `/generative-art` | Creative technologist specializing in algorithmic art, shaders, and generative systemsUse when "ge… |
 | `/generative-engine-optimization` | Optimize a website to be discovered, cited, and recommended by AI search engines — ChatGPT, Claude… |
 | `/generators` | Code generator skills that produce production-ready Swift code for common app components. Use when… |
+| `/generic-code-reviewer` | Review code for bugs, security vulnerabilities, performance issues, accessibility gaps, and CLAUDE… |
+| `/generic-design-system` | Complete design system reference for any project - colors, typography, spacing, components, animat… |
+| `/generic-feature-developer` | Guide feature development with architecture patterns for any tech stack. Covers frontend, backend,… |
+| `/generic-fullstack-code-reviewer` | Review full-stack code for bugs, security vulnerabilities, performance issues, accessibility gaps,… |
+| `/generic-fullstack-design-system` | Complete design system reference for full-stack applications. Covers colors, typography, spacing, … |
+| `/generic-fullstack-feature-developer` | Guide feature development for full-stack applications with architecture focus. Covers Next.js App … |
+| `/generic-fullstack-ux-designer` | Professional UI/UX design expertise for full-stack applications. Covers design thinking, user psyc… |
+| `/generic-react-code-reviewer` | Review React/TypeScript code for bugs, security vulnerabilities, performance issues, accessibility… |
+| `/generic-react-design-system` | Complete design system reference for React applications. Covers colors, typography, spacing, compo… |
+| `/generic-react-feature-developer` | Guide feature development for React applications with architecture focus. Covers Zustand/Redux pat… |
+| `/generic-react-ux-designer` | Professional UI/UX design expertise for React applications. Covers design thinking, user psycholog… |
+| `/generic-static-code-reviewer` | Review static site code for bugs, security issues, performance problems, accessibility gaps, and C… |
+| `/generic-static-design-system` | Complete design system reference for static HTML/CSS/JS sites. Covers colors, typography, componen… |
+| `/generic-static-feature-developer` | Guide feature development for static HTML/CSS/JS sites. Covers patterns, automation workflows, and… |
+| `/generic-static-ux-designer` | Professional UI/UX design expertise for static HTML/CSS/JS sites. Covers design thinking, user psy… |
+| `/generic-ux-designer` | Professional UX expertise for any project type. Covers user research, design thinking, interaction… |
 | `/geniml` | This skill should be used when working with genomic interval data (BED files) for machine learning… |
 | `/genome-analyzer` | Анализирует генетические данные пользователя из VCF файла. Используй когда пользователь спрашивает… |
 | `/genomics-pipelines` | Patterns for building robust, reproducible genomics analysis pipelines. Covers workflow managers, … |
@@ -7496,6 +7816,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/gh-address-comments` | Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; veri… |
 | `/gh-archive` | Capture the current state of a project by updating documentation at the end of a development sessi… |
 | `/gh-cli` | Enforces authenticated gh CLI workflows over unauthenticated curl/WebFetch patterns. Use when work… |
+| `/gh-cli-agentic` | gh CLI commands with JSON output for agent workflows. Use when querying PRs, issues, workflow runs… |
 | `/gh-comment` | Post formatted comments on GitHub PRs or issues, approve PRs, and merge PRs via gh CLI using purpo… |
 | `/gh-dev` | Create a branch linked to a GitHub issue via gh issue develop, then implement the work with regula… |
 | `/gh-fix` | Read unresolved review comments on a GitHub PR, deeply evaluate each suggestion, then either fix i… |
@@ -7507,6 +7828,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/gh-pr` | Open a GitHub pull request (draft or ready for review) from the current branch using the gh CLI. U… |
 | `/gh-pr-review` | Use when user asks to review a pull request by number, URL, or branch ("review this PR", "review P… |
 | `/gh-review-requests` | Fetch unread GitHub notifications for open PRs where review is requested from a specified team or … |
+| `/gh-workflow-monitoring` | Monitor GitHub Actions runs with blocking watch commands instead of polling loops. Use when waitin… |
 | `/gha-security-review` | Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concret… |
 | `/ghost` | You are an expert in Ghost, the open-source publishing platform for blogs, newsletters, and member… |
 | `/ghost-bits-cast-attack` | Java "Ghost Bits" / Cast Attack playbook (Black Hat Asia 2026). Use when attacking Java services w… |
@@ -7528,48 +7850,76 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/git-2025-features` | Git 2.49+ features and modern Git workflows (2025-2026). PROACTIVELY activate for: (1) Git 2.49+ f… |
 | `/git-advanced` | Advanced git operations including complex rebase strategies, interactive staging, commit surgery, … |
 | `/git-advanced-workflows` | Master advanced Git techniques to maintain clean history, collaborate effectively, and recover fro… |
+| `/git-api-pr` | GitHub API PR creation without local git. Use when submitting file changes as a PR without local c… |
 | `/git-branch-cleanup` | Delete merged branches and show branch status summary |
+| `/git-branch-naming` | Git branch naming conventions — type prefixes (feat/fix/chore), issue linking, kebab-case. Use whe… |
+| `/git-branch-pr-workflow` | Branch management and PR workflows — git switch/restore, GitHub MCP. Use when creating branches, o… |
 | `/git-city-3d-github-visualization` | Build and extend Git City — a 3D pixel art city where GitHub profiles become interactive buildings… |
 | `/git-cleanup` | Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squ… |
+| `/git-cli-agentic` | Git commands with porcelain and machine-readable output for agent workflows. Use when scripting st… |
 | `/git-commit-pro` | Write well-structured git commit messages following the Conventional Commits standard. Use when a … |
+| `/git-commit-push-pr` | End-to-end commit-to-PR workflow. Use when the user says "create pr", "commit and pr", "push and p… |
+| `/git-commit-trailers` | Git commit trailer conventions — BREAKING CHANGE, Co-authored-by, Signed-off-by. Use when composin… |
+| `/git-commit-workflow` | Conventional commit format, staging, and message conventions. Use when writing commit messages, st… |
+| `/git-conflicts` | Resolve merge conflicts file-by-file. Use when a merge/rebase has conflicts, a PR can't merge, "fi… |
 | `/git-conventions` | Git conventions and workflow best practices including Conventional Commits, branch naming, and com… |
+| `/git-coworker-check` | Detect coworker Claude agents in a shared checkout. Use when starting a session in a shared clone,… |
 | `/git-crypt-backup` | Backup Clawdbot workspace and config to GitHub with git-crypt encryption. Use for daily automated … |
+| `/git-derive-docs` | Derive ADRs, rules, PRDs from git commit history. Use when finding doc gaps, detecting unrecorded … |
 | `/git-diff-explain` | Use when user asks what changed, requests a diff summary, or says "explain my changes". Scans unco… |
 | `/git-essentials` | Essential Git commands and workflows for version control, branching, and collaboration. |
 | `/git-expert` | Git operations expert for branching, rebasing, conflicts, and workflows |
+| `/git-fix-pr` | Analyze and fix failing PR checks. Use when asked to fix a PR, resolve red CI checks, auto-fix lin… |
+| `/git-flow` | Use when committing, branching, opening PRs, or deciding merge strategy. Covers GitHub Flow (defau… |
 | `/git-flow-branch-creator` | Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches… |
+| `/git-fork-workflow` | Fork management and upstream sync. Use when working with forks, syncing with upstream, detecting d… |
 | `/git-guardrails` | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, et… |
 | `/git-guardrails-claude-code` | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, et… |
 | `/git-hooks-automation` | Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate cod… |
 | `/git-hooks-setup` | Implement Git hooks using Husky, pre-commit, and custom scripts. Enforce code quality, linting, an… |
 | `/git-hygiene-enforcer` | Establishes git workflow guardrails including conventional commits, commit message hooks, branch n… |
+| `/git-issue` | Process GitHub issues end-to-end with TDD and parallel work. Use when asked to work on an issue, f… |
+| `/git-issue-hierarchy` | Manage GitHub sub-issues and dependencies (blocked_by/blocking). Use when breaking issues into sub… |
+| `/git-issue-manage` | GitHub issue admin operations. Use when transferring issues, pinning, locking discussions, creatin… |
+| `/git-maintain` | Repo maintenance — gc, branch pruning, stash cleanup, fsck. Use when asked to clean up the repo, r… |
 | `/git-master` | Complete Git expertise system for ALL git operations. PROACTIVELY activate for: (1) ANY Git task (… |
 | `/git-notes` | Use when adding metadata to commits without changing history, tracking review status, test results… |
 | `/git-notes-memory` | Git-Notes-Based knowledge graph memory system. Claude should use this SILENTLY and AUTOMATICALLY -… |
+| `/git-pr` | Create pull requests with descriptions, labels, and issue references. Use when user says "create P… |
+| `/git-pr-feedback` | Address PR review comments and resolve threads. Use when CHANGES_REQUESTED is set, working through… |
 | `/git-pr-review` | Generate a concise and structured PR description from commit history with minimal token usage |
 | `/git-pr-reviewer` | Review pull requests for code quality, security issues, and best practices. Use when reviewing PRs… |
+| `/git-pr-sync-check` | Checks whether the current PR branch is still live and in sync (merged/behind/changes-requested). … |
+| `/git-pr-watch` | Subscribe to a PR's activity and react to reviews and CI as they arrive. Use when watching/monitor… |
 | `/git-pr-workflows-git-workflow` | Orchestrate a comprehensive git workflow from code review through PR creation, leveraging speciali… |
 | `/git-pr-workflows-onboard` | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience … |
 | `/git-pr-workflows-pr-enhance` | You are a PR optimization expert specializing in creating high-quality pull requests that facilita… |
 | `/git-push` | 一键推送项目到 GitHub。自动扫描大文件、生成 .gitignore、初始化 Git、创建仓库并推送。支持首次推送、日常更新、版本发布三种模式。当用户说"推到GitHub"、"推送到GitHu… |
 | `/git-pushing` | Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitl… |
+| `/git-rebase-patterns` | Advanced git rebase — linear history, stacked PRs, --update-refs, --onto. Use when rebasing branch… |
+| `/git-repo-detection` | Detect GitHub repo owner/name from git remotes. Use when needing the owner/repo identifier for Git… |
 | `/git-repository` | Repository management strategies including branch strategies (Git Flow, GitHub Flow, trunk-based),… |
 | `/git-researcher` | Analyze git history to trace code evolution, identify contributors, and understand commit patterns… |
 | `/git-security-2025` | Git security best practices for 2025-2026 (signed commits, zero-trust, secret scanning). PROACTIVE… |
+| `/git-security-checks` | Pre-commit security validation and secret detection via gitleaks. Use when scanning for secrets, s… |
 | `/git-squash` | Use to squash a feature branch into one commit and rebase onto base: squash commits/branch, clean … |
 | `/git-storytelling-branch-strategy` | Use when planning git branching strategies or managing branches for development. Helps create clea… |
 | `/git-storytelling-commit-messages` | Use when writing commit messages that clearly communicate changes and tell the story of developmen… |
 | `/git-storytelling-commit-strategy` | Use when planning commit strategies or determining when to commit changes. Helps developers commit… |
 | `/git-sync` | Automatically syncs local workspace changes to the remote GitHub repository. Use after significant… |
 | `/git-time-travel` | Expert in navigating and manipulating git history. Covers finding bugs with bisect, understanding … |
+| `/git-triage` | Triage GitHub issues and PRs — cross-link, flag stale items, recommend actions. Use when grooming … |
 | `/git-troubleshooter` | Diagnose a tangled git situation and give the exact, safe commands to fix it. Use when asked to un… |
 | `/git-troubleshooting` | Git troubleshooting techniques including recovering lost commits, fixing merge conflicts, resolvin… |
 | `/git-update` | Safely update branch by fetching, checking for conflicts, stashing, rebasing, and restoring changes |
+| `/git-upstream-pr` | Submit PRs to upstream repos from a fork — commit selection, squashing, cross-fork creation. Use w… |
+| `/git-upstream-pr-diverged` | Submit a diverged-fork commit to upstream as a clean PR via cherry-pick with re-derive fallback, m… |
 | `/git-workflow` | Git workflow best practices including commit messages, branching strategies, pull requests, and co… |
 | `/git-workflow-and-versioning` | Structures git workflow practices. Use when making any code change. Use when committing, branching… |
 | `/git-workflow-expert` | Git branching strategies, conflict resolution, rebase workflows, monorepo patterns, and advanced o… |
+| `/git-workflow-helper` | Expert guidance for Git workflows, troubleshooting, and best practices |
 | `/git-workflow-strategy` | Master Git workflows including GitFlow, GitHub Flow, Trunk-Based Development. Configure branches, … |
-| `/git-worktree` | Manage git worktrees for parallel development. Use when the user wants to work on multiple branche… |
+| `/git-worktree` | Manage Git worktrees for isolated parallel development. Use when creating, listing, switching, or … |
 | `/git-worktree-manager` | Run parallel feature work safely with Git worktrees. Standardizes branch isolation, port allocatio… |
 | `/git-worktrees` | Use when working on multiple branches simultaneously, context switching without stashing, reviewin… |
 | `/git-worktrees-worktree-management` | Manage git worktrees - list active worktrees, prune stale ones, and merge work back into the main … |
@@ -7580,14 +7930,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/github-actions` | Build CI/CD pipelines with GitHub Actions — workflows, jobs, steps, triggers, caching, artifacts, … |
 | `/github-actions-2025` | GitHub Actions 2025-2026 features and modernization. PROACTIVELY activate for: (1) 1 vCPU Linux ru… |
 | `/github-actions-advanced` | Design, debug, and harden GitHub Actions CI/CD workflows, including reusable workflows, matrix bui… |
+| `/github-actions-auth-security` | GitHub Actions auth and security for Claude Code — OIDC, AWS Bedrock, Vertex AI, secrets, permissi… |
+| `/github-actions-cache-optimization` | GitHub Actions cache analysis and optimization. Use when investigating cache bloat, finding stale … |
 | `/github-actions-cicd` | GitHub Actions workflow structure, security scanning integration (CodeQL, ZAP), Lighthouse audits,… |
 | `/github-actions-creator` | Use when the user wants to create, generate, or set up a GitHub Actions workflow. Handles CI/CD pi… |
 | `/github-actions-debugger` | Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsin… |
 | `/github-actions-docs` | Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actio… |
 | `/github-actions-efficiency` | Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs. |
+| `/github-actions-finops` | GitHub Actions billing, workflow efficiency, and waste analysis at org or repo level. Use when inv… |
 | `/github-actions-gen` | GitHub Actions CI/CD 流水线生成器：根据项目技术栈自动创建 workflows |
 | `/github-actions-generator` | Create, generate, or scaffold GitHub Actions workflows, action.yml, or .github/workflows CI/CD pip… |
 | `/github-actions-hardening` | Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml). Reasons a… |
+| `/github-actions-inspection` | Inspect GitHub Actions runs, analyze logs, debug failures. Use when investigating CI/CD failures, … |
+| `/github-actions-mcp-config` | MCP server config for GitHub Actions — tool permissions, env vars, multi-server setups. Use when c… |
 | `/github-actions-pipeline-builder` | Build production CI/CD pipelines with GitHub Actions. Implements matrix builds, caching, deploymen… |
 | `/github-actions-pipeline-creator` | Creates comprehensive GitHub Actions CI/CD workflows for linting, testing, building, and deploying… |
 | `/github-actions-runtime-upgrade-conventions` | Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflo… |
@@ -7596,6 +7951,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/github-actions-workflow` | Build comprehensive GitHub Actions workflows for CI/CD, testing, security, and deployment. Master … |
 | `/github-agentic-workflows` | GitHub Agentic Workflows (gh-aw) - markdown-based AI automation with 5-layer security, safe output… |
 | `/github-ai-features-2025` | GitHub AI-powered security and automation features (2025-2026). PROACTIVELY activate for: (1) GitH… |
+| `/github-auth` | Securely authenticate with GitHub using stored credentials for API operations and git commands |
 | `/github-automation` | Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP… |
 | `/github-best-practices` | GitHub workflow best practices for branches, commits, PRs, issues, Actions, releases, reviews, and… |
 | `/github-cli` | GitHub CLI workflows for repositories, issues, pull requests, actions, releases, projects, and API… |
@@ -7605,10 +7961,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/github-contributor` | End-to-end playbook for shipping high-quality pull requests to open-source projects you don't main… |
 | `/github-copilot` | GitHub Copilot is an AI-powered pair programming tool that integrates directly into your editor an… |
 | `/github-copilot-starter` | Set up complete GitHub Copilot configuration for a new project based on technology stack |
+| `/github-issue-autodetect` | Auto-detect GitHub issues that staged changes may fix or close. Analyzes diffs, paths, and issue m… |
 | `/github-issue-creator` | Turn error logs, screenshots, voice notes, and rough bug reports into crisp, developer-ready GitHu… |
+| `/github-issue-search` | Search GitHub issues for solutions and workarounds. Use when encountering errors with OSS librarie… |
 | `/github-issue-workflow` | Provides a structured 8-phase workflow for resolving GitHub issues in Claude Code. Covers fetching… |
+| `/github-issue-writing` | Create well-structured GitHub issues with clear titles, descriptions, and acceptance criteria. Use… |
 | `/github-issues` | Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create… |
 | `/github-kb` | Manage a local GitHub knowledge base and provide GitHub search capabilities via gh CLI. Use when u… |
+| `/github-labels` | Discover and apply GitHub labels via gh CLI. Use when asked to label a PR/issue, list available la… |
 | `/github-mcp` | GitHub API operations - repositories, issues, pull requests, actions, code security, discussions, … |
 | `/github-multi-repo` | Multi-repository coordination, synchronization, and architecture management with AI swarm orchestr… |
 | `/github-operations` | GitHub CLI operations for issues, PRs, milestones, and Projects v2. Covers gh commands, REST API p… |
@@ -7616,6 +7976,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/github-pages-deployer` | Automates end-to-end deployment to GitHub Pages using GitHub Actions. Handles Git initialization, … |
 | `/github-pages-publisher` | Publish static page artifacts from the publisher workspace to a GitHub Pages repository using a fi… |
 | `/github-pr` | Fetch, preview, merge, and test GitHub PRs locally. Great for trying upstream PRs before they're m… |
+| `/github-pr-title` | Craft PR titles using conventional commits format. Use when creating PRs or ensuring consistent PR… |
 | `/github-project-automation` | GitHub repository automation (CI/CD, issue templates, Dependabot, CodeQL). Use for project setup, … |
 | `/github-project-management` | Comprehensive GitHub project management with swarm-coordinated issue tracking, project board autom… |
 | `/github-readme-generator` | Generate professional GitHub project README.md with standard structure including project intro, fe… |
@@ -7625,9 +7986,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/github-sandbox-file-downloader` | Download files into a GitHub repository by writing special commit messages that trigger a GitHub A… |
 | `/github-search` | Search GitHub for repos, code, and usage examples using gh CLI. Capabilities: repo discovery, code… |
 | `/github-sensitive-data-cleanup` | Scan and remove sensitive data (secrets, API keys, private domains/IPs, PII) from GitHub repositor… |
+| `/github-social-preview` | Generate 1280x640 PNG social preview images for GitHub repos using nano-banana-pro. Use when asked… |
 | `/github-trending` | 获取 GitHub Trending 前五项目的 README 与摘要，并发送企业微信消息。适用于热门项目跟踪、技术趋势简报与团队分享。 |
 | `/github-triage` | This skill should be used when reviewing open issues, cleaning up a GitHub backlog, triaging incom… |
 | `/github-workflow` | GitHub best practices for pull requests, code reviews, issues, Actions workflows, and repository m… |
+| `/github-workflow-auto-fix` | Set up automated CI fixing with Claude Code. Use when adding a workflow that analyzes failures, ap… |
 | `/github-workflow-automation` | Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://gith… |
 | `/gitlab-automation` | Automate GitLab project management, issues, merge requests, pipelines, branches, and user operatio… |
 | `/gitlab-ci-artifacts-caching` | Use when configuring artifacts for inter-job data passing or caching for faster builds. Covers cac… |
@@ -7694,9 +8057,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/go-backend-microservices` | Go backend development best practices for microservices with clean architecture, observability, an… |
 | `/go-benchmark-testing` | Automates benchmark test creation for Go projects using the standard testing package with consiste… |
 | `/go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building c… |
+| `/go-containers` | Go container optimization — scratch/distroless images, static binaries, CGO, ldflags, trimpath (84… |
 | `/go-development` | Use when developing Go applications, implementing job schedulers or cron, Docker API integrations,… |
 | `/go-echo` | You are an expert in Echo, the high-performance, minimalist Go web framework. You help developers … |
 | `/go-expert` | Go programming expert including APIs, gRPC, concurrency, and best practices |
+| `/go-feature-flag` | GO Feature Flag (GOFF) self-hosted feature flags with OpenFeature integration — config, relay prox… |
 | `/go-fiber` | You are an expert in Fiber, the Express.js-inspired web framework for Go built on top of Fasthttp.… |
 | `/go-fuzz-testing` | Automates fuzz test creation for Go projects using Go's native fuzzing engine with consistent soft… |
 | `/go-grpc-service` | 生成标准go-zero gRPC服务:proto→pb→logic→handler→ent一站式脚手架 |
@@ -7723,6 +8088,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/godot-4-migration` | Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax chan… |
 | `/godot-development` | Expert Godot 4 game developer specializing in GDScript, the node/scene system, signals, resources,… |
 | `/godot-gdscript-patterns` | Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use … |
+| `/godot-interactive` | Interact with a running Godot game via MCP — launch, screenshot, click, inspect scene tree, get/se… |
 | `/godot-llm-integration` | Integrating local LLMs into Godot games using NobodyWho and other Godot-native solutionsUse when "… |
 | `/godot-ui` | Expert knowledge of Godot's UI system including Control nodes, themes, styling, responsive layouts… |
 | `/gog` | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs. |
@@ -7794,6 +8160,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/google-calendar` | Interact with Google Calendar via the Google Calendar API – list upcoming events, create new event… |
 | `/google-calendar-automation` | Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server requir… |
 | `/google-chat` | Send messages to Google Chat spaces and users via webhooks or OAuth. Use when you need to send not… |
+| `/google-chat-formatting` | Convert Markdown to Google Chat formatting. Use when formatting messages for Google Chat or conver… |
 | `/google-chat-messages` | Send Google Chat messages via incoming webhooks — text, rich cards (cardsV2), threaded replies. Ty… |
 | `/google-classroom-automation` | Automate Google Classroom tasks via Rube MCP (Composio). Always search tools first for current sch… |
 | `/google-cloud-auth` | Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, cove… |
@@ -7881,18 +8248,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/grafana-dashboards` | Create and manage production-ready Grafana dashboards for comprehensive system observability. |
 | `/grafana-oss` | Configure Grafana OSS — provisions dashboards from YAML, sets up data sources (Prometheus / Loki /… |
 | `/grafana-prometheus` | Use this skill for Grafana and Prometheus — PromQL query writing, dashboard design, alerting rules… |
+| `/grafana-scenes` | Build Grafana plugin pages using the @grafana/scenes framework. Use when creating new scene pages,… |
 | `/grafbase-automation` | Automate Grafbase tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/gram` | Instagram CLI for viewing feeds, posts, profiles, and engagement via cookies. |
 | `/grammar-check` | Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting th… |
 | `/grand-slam-offer` | Guided builder that turns a product or service into a "Grand Slam Offer" (an offer so good people … |
 | `/granola` | Query and sync Granola meetings to Obsidian vault. Use when user mentions Granola, meeting transcr… |
 | `/grant-proposal` | Write a structured grant proposal or funding application for any grant type. Use when asked to wri… |
+| `/grant-proposal-builder` | Nonprofit and research grant proposal assembly with structured sections, budget templates, and eva… |
 | `/grants` | NIH grant research skill for clinical researchers. Grill-me intake (research idea + career stage +… |
 | `/graph-engineer` | Knowledge graph specialist for entity and causal relationship modelingUse when "knowledge graph, g… |
 | `/graph-evolution` | Compares Trailmark code graphs at two source code snapshots (git commits, tags, or directories) to… |
 | `/graph-query` | Query the code graph database to understand component relationships, dependencies, and change impa… |
 | `/graph-schema` | Graph database schema design and data modeling expert. Use when designing, reviewing, or refactori… |
 | `/graphhopper-automation` | Automate Graphhopper tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/graphic-design` | Professional graphic design principles for digital and print media. Use when creating visual desig… |
 | `/graphify` | Use for any question about a codebase, its architecture, file relationships, or project content — … |
 | `/graphify-refresh` | Refresh a project's Graphify graph output. Use when graphify-out is stale; never hand-edit graphif… |
 | `/graphile-worker` | Graphile Worker expert for high-performance PostgreSQL job queues with trigger-based job creation … |
@@ -7903,7 +8273,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/graphql-architect` | Master modern GraphQL with federation, performance optimization, and enterprise security. Build sc… |
 | `/graphql-client-and-bff-integration` | Integrate GraphQL clients and BFF layers with schema governance, caching, and error normalization … |
 | `/graphql-development` | GraphQL development guidelines with type-safe clients, schema design, and integration with React a… |
-| `/graphql-expert` | GraphQL expert for schema design, resolvers, subscriptions, and performance optimization |
+| `/graphql-expert` | GraphQL API design and implementation. Use when building GraphQL APIs, designing schemas, implemen… |
 | `/graphql-implementation` | Builds GraphQL APIs with schema design, resolvers, error handling, and performance optimization us… |
 | `/graphql-inspector-audit` | Use when auditing GraphQL operations for complexity metrics, depth analysis, directive usage, or q… |
 | `/graphql-inspector-ci` | Use when setting up GraphQL Inspector in CI/CD pipelines, GitHub Actions, or GitLab CI for automat… |
@@ -7955,12 +8325,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/grok-search` | Search the web or X/Twitter using xAI Grok server-side tools (web_search, x_search) via the xAI Re… |
 | `/grokipedia-recommendations` | When the user wants to add recommendations, links, or content to Grokipedia. Also use when the use… |
 | `/groq` | Expert guidance for Groq, the LLM inference platform that provides the fastest token generation sp… |
+| `/ground-response` | Citation-backed responses with direct quotes from source documents. Use when analyzing long docs, … |
 | `/ground-station-ops` | Use when designing ground station networks, scheduling satellite contacts, processing telemetry, c… |
 | `/grounding-lite` | Google Maps Grounding Lite MCP for location search, weather, and routes via mcporter. |
 | `/grow-sustainably` | Grow a business sustainably without burning out — focus on profitability, retention, and organic g… |
 | `/growing-leaf-category-tracker` | Finds the fastest-growing deep sub-categories (leaf categories, deeper than the third level) under… |
 | `/growth` | Growth skills for indie Apple developers — user acquisition, analytics interpretation, press/media… |
 | `/growth-engine` | Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email market… |
+| `/growth-engineering` | A/B testing infrastructure, feature flags (LaunchDarkly, Unleash), experimentation platforms, PLG … |
 | `/growth-experiment-backlog` | Build and prioritise a growth experiment backlog. Use when asked to plan growth experiments, prior… |
 | `/growth-hacking` | Design and execute growth experiments for rapid user acquisition and retention. Use when tasks inv… |
 | `/growth-loops` | Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, … |
@@ -8078,6 +8450,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/gtm-technical-product-pricing` | Pricing strategy for technical products. Use when choosing usage-based vs seat-based, designing fr… |
 | `/guardrail` | Session-scoped safety guardrails — a user-invoked PreToolUse permission gate that pauses for confi… |
 | `/guardrail-review` | Review or design the content-safety guardrails of an AI system — input/output classifiers, refusal… |
+| `/guardrails` | Security techniques and quality control for prompts and agents |
 | `/guardrails-safety-filter-builder` | Implements content safety filters with PII redaction, policy constraints, prompt injection detecti… |
 | `/guidance` | You are an expert in Guidance, Microsoft's library for controlling LLM output with constrained gen… |
 | `/guide` | es-toolkit usage guide covering installation, import patterns, and setup for Node.js, Bun, Deno, a… |
@@ -8132,6 +8505,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/gws-workflow-meeting-prep` | Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs. |
 | `/gws-workflow-standup-report` | Google Workflow: Today's meetings + open tasks as a standup summary. |
 | `/gws-workflow-weekly-digest` | Google Workflow: Weekly summary: this week's meetings + unread email count. |
+| `/ha-automations` | Home Assistant automation creation and management. Use when working with HA triggers, conditions, … |
+| `/ha-configuration` | Home Assistant YAML configuration management. Use when editing configuration.yaml, setting up inte… |
+| `/ha-entities` | Home Assistant entity and domain management. Use when working with entity IDs, device classes, tem… |
+| `/ha-validate` | Validate Home Assistant YAML for syntax errors, undefined secrets, and duplicate keys. Use when va… |
 | `/habit-flow` | AI-powered atomic habit tracker with natural language logging, streak tracking, smart reminders, a… |
 | `/habit-tracker` | Build habits with streaks, reminders, and progress visualization |
 | `/habitica-automation` | Automate Habitica tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -8146,6 +8523,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/hand-gesture-recognition` | Computer vision expert specializing in real-time hand tracking and gesture interface designUse whe… |
 | `/hand-tracking` | Enables real-time detection and tracking of hand gestures using computer vision in AR/VR environme… |
 | `/handoff` | Compact the current conversation into a handoff document for another agent to pick up. References … |
+| `/handoff-review` | Phase 6: Serve via python3 -m http.server 8899, screenshot light mode (fullPage), screenshot dark … |
 | `/handoff-spec` | Create developer handoff specifications with measurements, behaviors, assets, and edge cases. |
 | `/handover` | Generate project handover documentation for AEM Edge Delivery Services projects. Creates comprehen… |
 | `/handover-admin` | Generate comprehensive admin documentation for AEM Edge Delivery Services project handover. Use wh… |
@@ -8197,14 +8575,20 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/headline-options` | Generate and pressure-test headline options across proven formulas. Use when asked for headlines, … |
 | `/headline-psychologist` | One sentence - what this skill does and when to invoke it |
 | `/health` | Invoke when Claude ignores instructions, behaves inconsistently, hooks malfunction, or MCP servers… |
+| `/health-agentic-audit` | Audit skills, commands, and agents for agentic output compliance — optimization tables, bare CLI c… |
 | `/health-audit` | Manually-triggered comprehensive codebase health audit covering security, architecture, documentat… |
+| `/health-check` | Claude Code health check — scans plugins, settings, hooks, MCP, runtime state, usage telemetry, pe… |
 | `/health-check-endpoints` | Health check endpoints for liveness, readiness, dependency monitoring. Use for Kubernetes, load ba… |
+| `/health-plugins` | Diagnose and fix Claude Code plugin registry corruption — orphaned entries, stale keys, scope conf… |
+| `/health-skill-audit` | Audit skill tree for overlap, split-pressure, and consolidation candidates. Use when finding confu… |
 | `/health-trend-analyzer` | 分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或"我的健康状… |
+| `/health-wellness` | Workplace health and wellness expertise for employee wellness programs, mental health initiatives,… |
 | `/healthcare-cdss-patterns` | Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose vali… |
 | `/healthcare-emr-patterns` | EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, pr… |
 | `/healthcare-eval-harness` | Patient safety evaluation harness for healthcare application deployments. Automated test suites fo… |
 | `/healthcare-phi-compliance` | Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patter… |
 | `/healthcheck` | STUB — installed at ~/openclaw/skills/healthcheck/SKILL.md |
+| `/healthkit` | Read, write, and query Apple Health data using HealthKit. Covers HKHealthStore authorization, samp… |
 | `/healthkit-sync` | iOS HealthKit data sync CLI commands and patterns. Use when working with healthsync CLI, fetching … |
 | `/healthtech-advisor` | Strategic advisory for digital health founders on HIPAA scope, FDA SaMD classification, EHR integr… |
 | `/healthy-eating` | Build healthy eating habits with meal logging, nutrition tracking, and food choices |
@@ -8221,14 +8605,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/helloleads-automation` | Automate Helloleads tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/helm` | Helm chart expert for Kubernetes package management, templating, and dependency management |
 | `/helm-chart-builder` | Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw… |
+| `/helm-chart-development` | Create, test, and package Helm charts — Chart.yaml, templates, dependencies, repo publishing. Use … |
 | `/helm-chart-patterns` | Helm chart development patterns for packaging and deploying Kubernetes applications. Use when crea… |
 | `/helm-chart-scaffolding` | Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploy… |
 | `/helm-charts` | Create, manage, and deploy Helm charts for Kubernetes package management. Build reusable chart tem… |
+| `/helm-debugging` | Debug Helm failures — template errors, dry-run, YAML parse errors, value type errors, resource con… |
 | `/helm-expert` | Expert-level Helm 3 package management, chart development, templating, and production operations |
 | `/helm-generator` | Create, scaffold, or generate Helm charts, Chart.yaml, values.yaml, templates, helpers. |
+| `/helm-release-management` | Manage Helm releases — install, upgrade, uninstall, list, inspect, history. Use when the user ment… |
+| `/helm-release-recovery` | Recover from failed Helm deployments — rollback, fix stuck states (pending-install/upgrade), atomi… |
 | `/helm-templates` | Use when working with Helm templates and template functions for generating Kubernetes manifests dy… |
 | `/helm-validator` | Validate, lint, audit, check Helm charts — Chart.yaml, templates, values.yaml, CRDs, schemas. |
 | `/helm-values` | Use when managing Helm values files and configuration overrides for customizing Kubernetes deploym… |
+| `/helm-values-management` | Manage Helm values — override precedence, multi-env configs, --set, schema validation, secrets. Us… |
 | `/help` | OrchestKit help directory with categorized skill listings. Use when discovering skills for a task,… |
 | `/help-center-article` | Write a help-center / knowledge-base article that actually resolves the issue and deflects tickets… |
 | `/helpdesk-automation` | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses,… |
@@ -8247,6 +8636,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/heuristic-evaluation` | Conduct expert heuristic evaluations using Nielsen's heuristics and domain-specific criteria. |
 | `/hevy` | Query workout data from Hevy including workouts, routines, exercises, and history. Use when user a… |
 | `/hexagonal-architecture` | Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency … |
+| `/hexdocs-fetcher` | Fetch HexDocs for Elixir libraries with HTML-to-markdown conversion. Use when looking up docs on h… |
 | `/heygen` | [DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise av… |
 | `/heygen-api` | HeyGen API for AI video generation — talking avatar videos, lip-sync, and video translation. Use w… |
 | `/heygen-best-practices` | Best practices for HeyGen - AI avatar video creation API |
@@ -8300,6 +8690,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/homeassistant` | Control Home Assistant - smart plugs, lights, scenes, automations. |
 | `/homebrew` | Homebrew package manager for macOS. Search, install, manage, and troubleshoot packages and casks. |
 | `/homebrew-formula-maintenance` | Homebrew formula maintenance workflows for Python CLIs and taps, including version bumps, SHA/reso… |
+| `/homekit` | Control smart-home accessories and commission Matter devices using HomeKit and MatterSupport. Use … |
 | `/homelab-network-readiness` | Readiness checklist for homelab VLAN segmentation, local DNS filtering, and WireGuard-style remote… |
 | `/homelab-network-setup` | Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP… |
 | `/homelab-pihole-dns` | Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS reco… |
@@ -8328,7 +8719,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/hook-writer` | Generate scroll-stopping hooks — the first line of a post, thread, video, or email that decides wh… |
 | `/hookdeck-automation` | Automate Hookdeck tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/hookify-rules` | This skill should be used when the user asks to create a hookify rule, write a hook rule, configur… |
+| `/hooks-configuration` | Claude Code hooks configuration and development. Use when the user mentions hooks, PreToolUse, Pos… |
 | `/hooks-explainer` | Documents the hook enforcement system, bypass mechanisms, and common failure patterns to help agen… |
+| `/hooks-permission-request-hook` | Generate a PermissionRequest hook with auto-approve/deny rules. Use when needing a safer alternati… |
+| `/hooks-session-end-issue-hook` | Configure a Stop hook that surfaces unfinished todos at session end. Use when you want deferred wo… |
+| `/hooks-session-start-hook` | Create a SessionStart hook for Claude Code on the web. Use when setting up a repo so dependencies … |
 | `/hoppscotch` | Test and debug APIs with Hoppscotch. Use when a user asks to test API endpoints, debug REST/GraphQ… |
 | `/horizon-track` | Track long-horizon objectives across multiple sessions with milestone checkpoints, progress persis… |
 | `/host-hardening-review` | Review a host/OS (Linux or Windows) or its baseline image against CIS Benchmark hardening — accoun… |
@@ -8348,6 +8743,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/hr-network-analyst` | Professional network graph analyst identifying Gladwellian superconnectors, mavens, and influence … |
 | `/hr-pro` | Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, c… |
 | `/hr-recruiting-ai-tools` | Master the AI tools that transform hiring and HR operations. From sourcing candidates to onboardin… |
+| `/hr-talent` | HR and talent management expertise for talent acquisition, performance management, compensation st… |
 | `/hrv-alexithymia-expert` | Heart rate variability biometrics and emotional awareness training. Expert in HRV analysis, intero… |
 | `/html` | Guidelines for semantic HTML markup, document structure, forms, accessibility attributes, and mode… |
 | `/html-animation-to-mp4` | Convert an HTML/CSS/JS animation — especially a Claude "Design" timeline artifact (a *.dc.html bun… |
@@ -8365,6 +8761,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/htop` | Monitor system resources with htop and related tools. Use when a user asks to check CPU/memory usa… |
 | `/http-client-resilience` | IHttpClientFactory patterns with Polly for retries, circuit breakers, timeouts, and resilient HTTP… |
 | `/http-host-header-attacks` | HTTP Host header injection and routing abuse playbook. Use when the application trusts the Host he… |
+| `/http-load-testing` | HTTP load testing with oha. Use when measuring latency percentiles, finding a server's breaking po… |
 | `/http-parameter-pollution` | HTTP Parameter Pollution (HPP): duplicate query/body keys parsed differently by servers, proxies, … |
 | `/http2-specific-attacks` | HTTP/2 protocol-specific attack playbook. Use when the target supports HTTP/2 and you need to expl… |
 | `/huashu-design-html-native` | HTML-native design skill for AI coding agents — high-fidelity prototypes, slides, animations, and … |
@@ -8533,6 +8930,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/identify-assumptions-new` | Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market,… |
 | `/identify-page-structure` | Identify section boundaries and content sequences within a scraped webpage for AEM Edge Delivery S… |
 | `/identity-mirror` | One sentence - what this skill does and when to invoke it |
+| `/identity-system` | Phase 0: Read sector template (creative/fintech/ecommerce/devtool), generate OKLCH palette with ch… |
 | `/identitycheck-automation` | Automate Identitycheck tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/idor-broken-object-authorization` | IDOR and broken object authorization testing playbook. Use when requests expose object identifiers… |
 | `/idor-testing` | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (… |
@@ -8573,6 +8971,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/imagegen-frontend-web` | Elite frontend image-direction skill for generating premium, conversion-aware website design refer… |
 | `/imagekit-io-automation` | Automate Imagekit IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/imagemagick` | You are an expert in ImageMagick, the powerful command-line tool for creating, editing, compositin… |
+| `/imagemagick-conversion` | ImageMagick image manipulation: format conversion, resizing, batch processing, quality. Use when c… |
 | `/imagen` | AI image generation skill powered by Google Gemini, enabling seamless visual content creation for … |
 | `/imagen-generation` | Google Imagen image generation via Vertex AI — text-to-image, image editing, inpainting, and upsca… |
 | `/imaging-data-commons` | Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use f… |
@@ -8587,6 +8986,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/immich-photo-manager` | Manage your self-hosted Immich photo library through conversation — natural language search, geogr… |
 | `/impact-quantification` | Estimate and communicate business impact of insights. Use when sizing opportunities discovered in … |
 | `/impact-report` | Write a compelling nonprofit impact or annual report that shows donors what their money achieved. … |
+| `/impact-report-writer` | Nonprofit/NGO impact report generation with data visualization suggestions, outcome metrics, narra… |
 | `/impeccable` | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, har… |
 | `/impediment-prioritization` | Ranks any list of impediments and their countermeasures using a value-stream scoring model (ROI, C… |
 | `/implement` | Orchestrates implementation of a plan file by delegating work to subagents in parallel. Verifies g… |
@@ -8666,10 +9066,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/infra-engineer` | Comprehensive infrastructure engineering covering DevOps, cloud platforms, FinOps, and DevSecOps. … |
 | `/infra-env` | Environment variable conventions and security practices for Next.js projects. This skill should be… |
 | `/infra-security-review` | Security patterns and checklists for reviewing Infrastructure-as-Code. Covers Terraform/OpenTofu s… |
+| `/infrastructure` | Grafana Cloud infrastructure monitoring — Kubernetes monitoring, cloud provider integrations (AWS,… |
 | `/infrastructure-as-code` | World-class infrastructure automation - Terraform, Pulumi, CloudFormation, and the battle scars fr… |
 | `/infrastructure-compliance-auditor` | Cross-framework infrastructure security audit across cloud, network, and CI/CD. Use for infrastruc… |
 | `/infrastructure-cost-optimization` | Optimize cloud infrastructure costs through resource rightsizing, reserved instances, spot instanc… |
 | `/infrastructure-monitoring` | Set up comprehensive infrastructure monitoring with Prometheus, Grafana, and alerting systems for … |
+| `/infrastructure-skill-builder` | Transform infrastructure documentation, runbooks, and operational knowledge into reusable Claude C… |
+| `/infrastructure-terraform` | Terraform IaC: HCL, state management, modules, plan-apply workflows. Use when the user mentions Te… |
 | `/ingest-youtube` | Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VT… |
 | `/ingesting-data` | Data ingestion patterns for loading data from cloud storage, APIs, files, and streaming sources in… |
 | `/inherit-legacy-style` | Legacy-project style inheritance skill. Use when the user types /inherit-legacy-style, or when onb… |
@@ -8685,6 +9088,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/inkos-multi-agent-novel-writing` | Multi-agent CLI system for autonomous novel writing, auditing, and revision with human review gates |
 | `/inngest` | You are an expert in Inngest, the event-driven durable workflow engine for TypeScript. You help de… |
 | `/inngest-nextjs-patterns` | Inngest event-driven functions in a Next.js (App Router) project — creating the client, the /api/i… |
+| `/innovation` | Innovation management expertise for innovation frameworks (Design Thinking, Stage-Gate), ideation … |
 | `/input-handling` | This skill should be used when the user asks about TUI input handling, raw mode, cbreak mode, term… |
 | `/input-validation` | Comprehensive input validation and output encoding practices to prevent injection attacks across a… |
 | `/input-validation-sanitization-auditor` | Identifies and fixes XSS, SQL injection, and command injection vulnerabilities with validation sch… |
@@ -8706,6 +9110,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/instagram-automation` | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insig… |
 | `/instagram-marketing` | Create, optimize, and automate Instagram content including Reels, Stories, carousels, and feed pos… |
 | `/instagram-post-downloader` | Download and save Instagram posts as high-resolution files. Use when asked to download, save, or a… |
+| `/install-native-hooks` | Install opt-in taskwarrior native on-add/on-modify/on-exit hooks: auto-stamp project, enforce clai… |
 | `/install-plugins` | 当用户想安装插件、增强 Claude Code 功能、配置开发环境时使用 -- 按需安装社区插件 |
 | `/install-zapier` | Install and connect Zapier, routing to the right surface (MCP, SDK, or CLI) for what the person ne… |
 | `/instinct-apply` | Surfaces relevant instincts during work. Use when starting a task to check if any learned behavior… |
@@ -8731,6 +9136,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/intelligent-prompt-generator` | 智能提示词生成器 v2.0 - 支持人像/跨domain/设计三种模式，语义理解、常识推理、一致性检查 |
 | `/intelliprint-automation` | Automate Intelliprint tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/intended-vs-implemented` | The method for finding the gap between what a system is supposed to do and what the code actually … |
+| `/intent-detection` | Route ambiguous Phoenix/LiveView/Ecto work requests to the correct /phx: workflow. Use when intent… |
 | `/intent-driven-development` | Turn ambiguous or high-impact product and engineering changes into scoped, verifiable acceptance c… |
 | `/intent-signal-aggregator` | Monitor buyer intent signals across the web including job postings, tech changes, funding rounds, … |
 | `/interaction-design` | Creates intuitive user experiences through feedback patterns, microinteractions, and accessible in… |
@@ -8778,6 +9184,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/investigate-errors` | Investigate recent errors and exceptions in your Sentry projects |
 | `/investigation` | OSINT and investigation including people search, company intel, domain lookup, social media discov… |
 | `/investment-memo` | Write professional investment memorandums for VC, PE, or public market investments. Structure thes… |
+| `/investment-memo-generator` | Investment memo creation combining financial analysis, document generation, and structured templat… |
 | `/investor-cold-email` | Write a cold or warm-intro email to an investor that actually gets a reply — short, specific, trac… |
 | `/investor-materials` | Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial mod… |
 | `/investor-outreach` | Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for f… |
@@ -8796,7 +9203,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ionic-appflow-migration` | Guides the agent through migrating an existing Ionic or Capacitor project away from Ionic Appflow.… |
 | `/ionic-design` | Guide to using Ionic Framework components for beautiful native-looking Capacitor apps. Covers comp… |
 | `/ionic-enterprise-sdk-migration` | Guides the agent through migrating Capacitor apps from Ionic Enterprise SDK plugins to Capgo and C… |
-| `/ios` | iOS root: SDK, app lifecycle scene-based, permissions NSUsageDescription, HIG guidelines |
+| `/ios` | iOS platform-specific development with XcodeBuildMCP tools for simulator, device, UI automation, a… |
+| `/ios-accessibility` | Implements, reviews, or improves accessibility in iOS/macOS apps with SwiftUI, UIKit, and AppKit. … |
 | `/ios-android-logs` | Guide to accessing device logs on iOS and Android for Capacitor apps. Covers command-line tools, G… |
 | `/ios-animations` | Clinic-architecture-aligned iOS animation craft guidelines for SwiftUI (iOS 26 / Swift 6.2) coveri… |
 | `/ios-application-dev` | iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, sa… |
@@ -8811,9 +9219,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ios-frameworks` | CoreData/SwiftData, CoreML, ARKit, CloudKit, StoreKit 2, HealthKit, CoreLocation, APNs push |
 | `/ios-hig` | Apple Human Interface Guidelines for iOS 26 / Swift 6.2 clinic-architecture apps. Covers navigatio… |
 | `/ios-hig-design-guide` | Build, update, and apply iOS design specifications using Apple Human Interface Guidelines (HIG) so… |
+| `/ios-localization` | Implement, review, or improve localization and internationalization in iOS/macOS apps — String Cat… |
 | `/ios-navigation` | Opinionated SwiftUI navigation enforcement for iOS 26 / Swift 6.2 clinic modular MVVM-C apps. Enfo… |
+| `/ios-networking` | Build, review, or improve networking code in iOS/macOS apps using URLSession with async/await, str… |
 | `/ios-pentesting-tricks` | iOS pentesting playbook. Use when testing iOS applications for keychain extraction, URL scheme hij… |
 | `/ios-sim-session` | Pin one agent session to one iOS Simulator + an isolated build so multiple concurrent sessions (Cl… |
+| `/ios-simulator` | Manages iOS Simulator devices and tests app behavior using xcrun simctl. Covers device lifecycle (… |
 | `/ios-simulator-skill` | 21 production-ready scripts for iOS app testing, building, and automation. Provides semantic UI na… |
 | `/ios-storyboard` | Legacy interoperability skill for Storyboard and Interface Builder maintenance in iOS 26 / Swift 6… |
 | `/ios-swift` | Swift for iOS: UIKit/SwiftUI basics, Swift concurrency in iOS, Xcode project structure, targets |
@@ -8842,6 +9253,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ip2location-io-automation` | Automate Ip2location IO tasks via Rube MCP (Composio). Always search tools first for current schem… |
 | `/ip2proxy-automation` | Automate Ip2proxy tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ip2whois-automation` | Automate Ip2whois tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/ipados` | iPadOS platform-specific development with adaptive layouts, keyboard shortcuts, multitasking, and … |
 | `/ipdata-co-automation` | Automate Ipdata co tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ipfs` | Store and retrieve files on IPFS (InterPlanetary File System). Use when a user asks to store files… |
 | `/ipinfo-io-automation` | Automate Ipinfo IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -8978,10 +9390,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/journey-mapping` | Build customer journey maps and service blueprints that visualize the end-to-end user experience i… |
 | `/jpa-patterns` | JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditin… |
 | `/jq` | Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical … |
+| `/jq-json-processing` | jq JSON processing: query, filter, transform JSON. Use when parsing JSON files, filtering arrays/o… |
 | `/js-google` | JavaScript style and best practices based on Google's official JavaScript Style Guide. This skill … |
 | `/jscodeshift` | jscodeshift codemod development best practices from Facebook/Meta. This skill should be used when … |
 | `/jsdoc-typescript-docs` | Documents TypeScript code with JSDoc comments, generates API documentation, and creates type-safe … |
 | `/json-canvas` | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when w… |
+| `/json-config-helper` | Validate, format, and work with JSON configuration files |
 | `/json-data-handling` | Working effectively with JSON data structures. |
 | `/json-render-catalog` | json-render component catalog patterns for AI-safe generative UI. Define Zod-typed catalogs that c… |
 | `/json-render-generative-ui` | Generative UI framework that renders AI-generated JSON specs into type-safe UI components across R… |
@@ -9007,13 +9421,16 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/jupyter-notebook-best-practices` | Guidelines for structuring and documenting Jupyter notebooks for reproducibility and clarity. |
 | `/just` | Run project commands with just (a modern make alternative). Use when a user asks to define project… |
 | `/just-fucking-cancel` | Find and cancel unwanted subscriptions by analyzing bank transactions. Detects recurring charges, … |
+| `/justfile-expert` | Just command runner expertise — Justfile syntax, recipes, parameters, modules, shebang recipes. Us… |
 | `/jwt-handler` | When the user needs to generate, validate, refresh, or debug JSON Web Tokens. Use when the user me… |
 | `/jwt-oauth-token-attacks` | JWT and OAuth token attack playbook. Use when validating token trust, signing algorithms, key hand… |
 | `/jwt-security` | Guidelines for implementing JWT authentication with security best practices for token creation, va… |
 | `/k-skill-korean-ai-tools` | AI 에이전트를 위한 한국 서비스 자동화 스킬 모음 — SRT/KTX 예매, KBO, 로또, 카카오톡, 지하철, HWP, 우편번호 등 |
 | `/k3s-kubernetes` | Use this skill for K3s Kubernetes — Deployments, Services, Traefik IngressRoute, ConfigMaps and Se… |
 | `/k6` | When the user wants to perform load testing, stress testing, or performance testing of APIs and we… |
+| `/k6-docs` | Write or review k6 documentation across the three k6 repositories - k6-DefinitelyTyped (TypeScript… |
 | `/k6-load-testing` | Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic loa… |
+| `/k6-perf-test-website` | Use when the user wants to performance-test, load-test, or stress-test a public website end-to-end… |
 | `/k8s` | Expertise in orchestrating and managing containerized applications at scale using Kubernetes. |
 | `/k8s-cluster-review` | Review a Kubernetes cluster's security across control plane, RBAC, workload configuration, network… |
 | `/k8s-cost-optimizer` | Analyzes Kubernetes cluster resource allocation versus actual usage to find waste and generate rig… |
@@ -9063,6 +9480,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kegg-database` | Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabo… |
 | `/kernel-exploitation` | Linux kernel exploitation playbook. Use when exploiting kernel vulnerabilities (UAF, OOB, race con… |
 | `/kernel-metadata` | Kaggle `kernel-metadata.json` setup and repair. PROACTIVELY activate for: (1) creating kernel-meta… |
+| `/ketchup` | Easter-egg alias for /catchup. Same return-from-absence briefing, squeezier name. Use exactly like… |
 | `/keychron-keyboards-hardware-design` | Work with Keychron's source-available CAD hardware design files (STEP/DXF/PDF) for keyboards and m… |
 | `/keycloak` | You are an expert in Keycloak, the open-source identity and access management solution by Red Hat.… |
 | `/keyid-agent-kit-mcp` | Give AI agents (Claude, Cursor) a real email address with 27 MCP tools for inbox, send, reply, con… |
@@ -9084,6 +9502,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kiro-skill` | Interactive feature development workflow from idea to implementation. Creates requirements (EARS f… |
 | `/kiss-dry-yagni` | Principes KISS, DRY, YAGNI. Use when reviewing code quality or refactoring. |
 | `/kit-automation` | Automate Kit tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/kitty-session-persistence` | Snapshot and restore kitty terminal sessions on macOS. Use when surviving WindowServer hangs witho… |
 | `/klaviyo` | Klaviyo email/SMS marketing - profiles, events, flows, segmentation |
 | `/klaviyo-automation` | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messa… |
 | `/klipfolio-automation` | Automate Klipfolio tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -9092,6 +9511,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kms-seed` | Seed the KMS ChromaDB from one or more knowledge sources. Supports seeding all available sources, … |
 | `/knex` | You are an expert in Knex.js, the flexible SQL query builder for Node.js that supports PostgreSQL,… |
 | `/knip` | Find and remove unused files, dependencies, and exports in JavaScript/TypeScript projects with Kni… |
+| `/knip-dead-code` | Knip dead-code detector for JS/TS: unused files, deps, exports, types. Use when cleaning up codeba… |
 | `/knip-deadcode` | Knip dead code detection best practices for JavaScript and TypeScript projects. Use when configuri… |
 | `/knot-theory-educator` | Expert in visualizing and explaining braid theory, knot mathematics, and topological concepts for … |
 | `/knowledge-absorber` | 深度解析链接/文档/代码，生成导师级教学笔记 + Wan 2.7 知识海报。 Use when user asks to: 学习、分析、解读、整理、吸收、读懂 任何文档或代码 Trigger ke… |
@@ -9134,6 +9554,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kraken-io-automation` | Automate Kraken IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/krea-api` | Generate images via Krea.ai API (Flux, Imagen, Ideogram, Seedream, etc.) |
 | `/kubecon-llm-k8s` | Slidev presentation about taming dependency chaos for LLM in Kubernetes. |
+| `/kubectl-debugging` | Debug K8s pods/nodes with kubectl debug — ephemeral containers, pod copying, debug profiles, inter… |
 | `/kubectl-skill` | Execute and manage Kubernetes clusters via kubectl commands. Query resources, deploy applications,… |
 | `/kubernetes` | Expert in Kubernetes and DevOps with infrastructure-as-code and cloud-native patterns |
 | `/kubernetes-architect` | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows… |
@@ -9144,6 +9565,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kubernetes-helm` | Manages Kubernetes clusters and Helm charts. Use when the user wants to write Kubernetes manifests… |
 | `/kubernetes-manifest-generator` | Generates Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, Ingress, and … |
 | `/kubernetes-manifests` | Use when writing and deploying Kubernetes manifests for container orchestration. |
+| `/kubernetes-operations` | Kubernetes operations — deployment, management, troubleshooting, kubectl mastery. Use when the use… |
 | `/kubernetes-operator` | Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on… |
 | `/kubernetes-ops` | Deploy, scale, and manage Kubernetes workloads. Create deployments, services, and configurations, … |
 | `/kubernetes-orchestration` | Comprehensive guide to Kubernetes container orchestration, covering workloads, networking, storage… |
@@ -9190,6 +9612,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/langchain-dependencies` | INVOKE THIS SKILL when setting up a new project or when asked about package versions, installation… |
 | `/langchain-development` | Expert guidance for LangChain and LangGraph development with Python, covering chain composition, a… |
 | `/langchain-fundamentals` | Create LangChain agents with create_agent, define tools, and use middleware for human-in-the-loop … |
+| `/langchain-init` | Initialize a new LangChain TypeScript project. Use when starting an LLM-powered app, scaffolding a… |
 | `/langchain-middleware` | INVOKE THIS SKILL when you need human-in-the-loop approval, custom middleware, or structured outpu… |
 | `/langchain-orchestration` | Comprehensive guide for building production-grade LLM applications using LangChain's chains, agent… |
 | `/langchain-rag` | INVOKE THIS SKILL when building ANY retrieval-augmented generation (RAG) system. Covers document l… |
@@ -9205,6 +9628,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/langchain4j-vector-stores-configuration` | Provides configuration patterns for LangChain4J vector stores in RAG applications. Use when buildi… |
 | `/langfuse` | You are an expert in Langfuse, the open-source LLM engineering platform. You help developers trace… |
 | `/langgraph` | Build stateful, multi-step AI agents and workflows with LangGraph. Use when a user asks to create … |
+| `/langgraph-agents` | LangGraph stateful AI agents with graph-based workflows. Use when creating state-machine agents wi… |
 | `/langgraph-cli` | INVOKE THIS SKILL when using the langgraph CLI to scaffold, develop, build, or deploy LangGraph ap… |
 | `/langgraph-docs` | Fetches and references LangGraph Python documentation to build stateful agents, create multi-agent… |
 | `/langgraph-fundamentals` | INVOKE THIS SKILL when writing ANY LangGraph code. Covers StateGraph, state schemas, nodes, edges,… |
@@ -9219,25 +9643,43 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/langtrace` | You are an expert in Langtrace, the open-source observability platform for LLM applications built … |
 | `/language-learning` | AI language tutor for learning ANY language through conversation, vocab drills, grammar lessons, f… |
 | `/laravel` | You are an expert in Laravel, the most popular PHP framework for building web applications and API… |
-| `/laravel-ai-sdk` | Laravel AI SDK for building AI-powered features. Use when creating agents, generating images or au… |
+| `/laravel-ai-sdk` | Use when integrating AI agents, tool calling, embeddings, structured output, or streaming in Larav… |
+| `/laravel-api` | Build RESTful APIs with Laravel using API Resources, Sanctum authentication, rate limiting, and ve… |
+| `/laravel-architecture` | Design Laravel app architecture with services, repositories, actions, and clean code patterns. Use… |
+| `/laravel-attributes` | Use when migrating Eloquent models, Jobs, Console commands, Controllers, API Resources, Validation… |
+| `/laravel-auth` | Use when implementing user authentication, API tokens, social login, or authorization. Covers Sanc… |
 | `/laravel-best-practices` | Laravel 13 conventions and best practices. Use when creating controllers, models, migrations, vali… |
+| `/laravel-billing` | Integrate Stripe and Paddle payments with Laravel Cashier. Use when implementing subscriptions, in… |
+| `/laravel-blade` | Create Blade templates with components, slots, layouts, and directives. Use when building views, r… |
 | `/laravel-cashier-paddle` | Laravel Cashier (Paddle) - Subscription billing and payment processing |
 | `/laravel-cashier-stripe` | Laravel Cashier (Stripe) - Subscription billing and payment processing |
 | `/laravel-database-optimization` | Laravel database optimization patterns. Use when writing Eloquent queries, creating migrations, co… |
 | `/laravel-development` | Expert guidance for Laravel PHP development following best practices, SOLID principles, and Larave… |
+| `/laravel-eloquent` | Complete Eloquent ORM for Laravel 13 - PHP Attributes (#[Table], |
 | `/laravel-expert` | Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. … |
+| `/laravel-i18n` | Laravel localization - __(), trans_choice(), lang files, JSON translations, pluralization, middlew… |
 | `/laravel-inertia-react` | Laravel + Inertia.js + React integration patterns. Use when building Inertia page components, hand… |
+| `/laravel-jsonapi` | Use when building JSON:API compliant endpoints in Laravel 13 using the first-party `JsonApiResourc… |
+| `/laravel-livewire` | Livewire 4 reactive components on Laravel 13 - wire:model, actions, events, Volt, Folio. Use when … |
 | `/laravel-mcp` | Laravel MCP server development. Use when building MCP servers, tools, prompts, or resources for AI… |
+| `/laravel-migrations` | Laravel 13 database migrations - Schema Builder, columns, indexes, foreign keys, seeders, pgvector… |
 | `/laravel-owasp-security` | OWASP Top 10 security audit and secure coding guidelines for Laravel + React/Inertia.js applicatio… |
 | `/laravel-patterns` | Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, … |
+| `/laravel-permission` | Spatie Laravel Permission - roles, permissions, middleware, Blade directives, teams, wildcards, su… |
 | `/laravel-plugin-discovery` | Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plu… |
-| `/laravel-queues` | Laravel 13 queue and job patterns — driver choice, job design (idempotency, ShouldQueue, model ser… |
+| `/laravel-queues` | Laravel 13 background jobs - PHP Attributes (#[Queue], |
+| `/laravel-reverb` | Implement real-time WebSocket communication with Laravel Reverb. Use when adding live updates, cha… |
+| `/laravel-scout` | Implement full-text search with Laravel Scout. Use when adding search to Eloquent models with Meil… |
 | `/laravel-security` | Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, … |
 | `/laravel-security-audit` | Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, a… |
 | `/laravel-specialist` | Build and configure Laravel 10+ applications, including creating Eloquent models and relationships… |
+| `/laravel-stripe-connect` | Build marketplaces and platforms with Stripe Connect. Use when implementing multi-vendor payments,… |
 | `/laravel-tdd` | Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and… |
-| `/laravel-testing` | Laravel 13 testing with Pest PHP 4 or PHPUnit 12. Use when writing feature tests, unit tests, or a… |
+| `/laravel-testing` | Write tests with Pest 4/PHPUnit 12, feature tests, unit tests, mocking, fakes, and factories. Use … |
+| `/laravel-upgrade-v13` | Use when upgrading a Laravel 12 application to Laravel 13.0. Covers PHP 8.3 requirement, composer … |
+| `/laravel-vector-search` | Use when implementing semantic / vector search in Laravel 13 with PostgreSQL + pgvector. Covers sc… |
 | `/laravel-verification` | 日本語翻訳：このファイルは laravel-verification 用の日本語翻訳が必要です |
+| `/laravel-vite` | Complete Vite bundling for Laravel - assets, HMR, SSR, frameworks, optimization. Use when configur… |
 | `/large-data-with-dask` | Specific optimization strategies for Python scripts working with larger-than-memory datasets via D… |
 | `/large-scale-map-visualization` | Master of high-performance web map implementations handling 5,000-100,000+ geographic data points.… |
 | `/lark-approval` | 飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lar… |
@@ -9289,8 +9731,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/launch-sub-agent` | Launch an intelligent sub-agent with automatic model selection based on task complexity, specializ… |
 | `/launch_darkly-automation` | Automate LaunchDarkly tasks via Rube MCP (Composio): feature flags, environments, segments, and ro… |
 | `/launchdarkly` | Manage feature flags with LaunchDarkly. Use when a user asks to implement feature flags, roll out … |
+| `/launchservices-health` | Diagnose macOS LaunchServices DB bloat and launchservicesd CPU spikes. Use when launchservicesd is… |
 | `/law-of-common-region` | Apply the Law of Common Region to group elements using containers, backgrounds, and boundaries. |
 | `/law-of-proximity` | Apply the Law of Proximity to group related elements through spatial relationships. |
+| `/layer2-discovery` | Layer 2 device discovery and topology mapping. Use when finding switch port assignments, enumerati… |
 | `/layer2-scaling` | Expert in Ethereum L2 solutions - Optimism, Arbitrum, zkSync, Base, and rollup architecture for sc… |
 | `/layered-rails` | Write, refactor, and review Rails code using layered architecture principles from "Layered Design … |
 | `/layoff-communication` | Plan and write the communications for a layoff or restructure with clarity and dignity. Use when a… |
@@ -9308,6 +9752,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/lead-researcher` | Qualify and prioritize sales leads against an ICP, score lead lists, and draft personalized outrea… |
 | `/lead-routing` | Intelligent lead assignment and routing - AI-powered scoring, territory mapping, round-robin distr… |
 | `/lead-scoring-model` | Builds a custom lead scoring model for a business. Takes ICP definition, historical win/loss data,… |
+| `/leadership` | Executive leadership expertise for decision-making, change management, crisis management, stakehol… |
 | `/leadfeeder-automation` | Automate Leadfeeder tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/leadoku-automation` | Automate Leadoku tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/leaflet` | Build interactive maps with Leaflet.js. Use when a user asks to create map-based applications, add… |
@@ -9320,6 +9765,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/learning-builder` | Create personalized learning tutorials from a learner profile and authority-first research. Use wh… |
 | `/learning-companion` | 自适应学习伴侣。当你学习新知识时，先扫描你的 LLM Wiki 了解你已掌握的内容， 然后用你已有的概念作为桥梁来讲解新内容，最后自动归档学习成果到 wiki。 Triggers: "教我", "… |
 | `/learning-experience` | Expert in designing engaging learning experiences - completion optimization, multimedia learning, … |
+| `/learning-gap-analyzer` | Map understanding, identify knowledge gaps, and build targeted learning plans with spaced repetiti… |
 | `/learning-opportunities` | Facilitates deliberate skill development during AI-assisted coding. Offers interactive learning ex… |
 | `/lefthook` | Fast Git hooks manager written in Go. Use when a user asks to set up Git hooks without Node.js dep… |
 | `/legacy-archaeology` | Expert in understanding and navigating legacy codebases. Covers code archaeology techniques, findi… |
@@ -9331,6 +9777,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/legal-advisor` | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant t… |
 | `/legal-brief` | Draft a structured legal brief, case summary, or legal argument outline. Use when asked to write a… |
 | `/legal-canned-responses` | Generate templated responses for common legal inquiries with escalation detection. Use when drafti… |
+| `/legal-compliance` | Legal and compliance expertise for corporate governance, contract analysis, regulatory compliance … |
 | `/legal-meeting-briefing` | Prepare structured briefings for meetings with legal relevance and track action items. Use when pr… |
 | `/legal-red-team` | Adversarial verification for AI-generated legal content. Use when fact-checking legal documents, v… |
 | `/legal-risk-assessment` | Assesses and classifies LEGAL risks (contract exposure, regulatory liability, IP, privacy, employm… |
@@ -9423,6 +9870,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/lint-fix` | Fix linting errors systematically across the codebase |
 | `/linting-neostandard-eslint9` | Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including… |
 | `/linux-admin` | Ubuntu Server 24.04 LTS: apt, user management, disk/filesystem, sysctl, log management |
+| `/linux-bash-scripting` | Defensive Bash scripting for Linux: safe foundations, argument parsing, production patterns, Shell… |
 | `/linux-cgroups` | cgroups v2: memory limits per OpenClaw instance, CPU quotas, OOM protection, systemd slices |
 | `/linux-docker` | Docker/Compose: Dockerfile, networking, volumes, container lifecycle, registry, security hardening |
 | `/linux-lateral-movement` | Linux lateral movement playbook. Use after gaining initial access to pivot across Linux hosts via … |
@@ -9443,6 +9891,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/litellm` | Call 100+ LLM APIs with one interface using LiteLLM — unified API proxy for OpenAI, Anthropic, Goo… |
 | `/liteparse` | Local document and PDF parsing with spatial text and bounding boxes. Use for extracting text from … |
 | `/literature-review` | Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, ar… |
+| `/literature-review-planner` | Structured literature review planning with systematic methodology, source evaluation, and synthesi… |
 | `/litestream-coder` | This skill guides configuring Litestream for continuous SQLite backup in Rails 8+ apps. Use when s… |
 | `/litreview` | Academic literature orientation skill that searches papers via Consensus, builds a strategic searc… |
 | `/littlesnitch-linux` | Open source eBPF-based network monitoring and blocking components for Little Snitch on Linux |
@@ -9450,6 +9899,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/liveblocks` | Expert guidance for Liveblocks, the platform for adding real-time collaboration features to web ap… |
 | `/livekit` | Build real-time audio and video applications with LiveKit. Use when a user asks to implement WebRT… |
 | `/livesession-automation` | Automate Livesession tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/liveview-patterns` | Build LiveView: async data (assign_async), PubSub (check connected?), phx-change events, form comp… |
 | `/llama-cpp` | Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge … |
 | `/llama-factory` | Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-… |
 | `/llamafile` | Expert guidance for llamafile, the tool that packages LLMs into single executable files that run o… |
@@ -9458,6 +9908,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/llamaindex-development` | Expert guidance for LlamaIndex development including RAG applications, vector stores, document pro… |
 | `/llava` | Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversatio… |
 | `/llm` | Large Language Model development, training, fine-tuning, and deployment best practices. |
+| `/llm-app-development` | LLM app development with RAG, prompt engineering, vector databases, and AI agents |
 | `/llm-app-patterns` | Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/lan… |
 | `/llm-application-dev-ai-assistant` | You are an AI assistant development expert specializing in creating intelligent conversational int… |
 | `/llm-application-dev-langchain-agent` | You are an expert LangChain agent developer specializing in production-grade AI systems using Lang… |
@@ -9689,6 +10140,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/logstash` | Configure Logstash for log ingestion, parsing, transformation, and output to Elasticsearch and oth… |
 | `/loki` | Loki is a horizontally scalable log aggregation system built by Grafana Labs. Unlike traditional l… |
 | `/loki-config-generator` | Generate/create Loki configs — ingester, querier, compactor, ruler, S3/GCS/Azure backends. |
+| `/loki-label-analyzer` | Expert evaluator for Grafana Loki label strategy. Audits, designs, and improves label schemas usin… |
 | `/loki-mode` | Version 2.35.0 ／ PRD to Production ／ Zero Human Intervention > Research-enhanced: OpenAI SDK, Deep… |
 | `/long-context` | Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation t… |
 | `/long-form-content-frameworks` | Patterns for individual long-form content pieces. Case studies, whitepapers, research reports, def… |
@@ -9711,6 +10163,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/lottie-bodymovin` | Use when implementing Disney's 12 animation principles with Lottie animations exported from After … |
 | `/lovable` | You are an expert in Lovable (formerly GPT Engineer), the AI app builder that generates production… |
 | `/lovable-cleanup` | Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps p… |
+| `/low-code-platforms` | Low-code and internal tool platforms including Retool, Supabase, Appsmith, Tooljet, n8n, and Zapie… |
 | `/loyverse-automation` | Automate Loyverse tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/lsfg-android-frame-generation` | Skill for building, configuring, and extending LSFG-Android — a Vulkan frame-generation overlay fo… |
 | `/lsp-navigator` | Compiler-level code intelligence via native LSP — definitions, references, types, call hierarchies… |
@@ -9722,6 +10175,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/luca-test` | Writes unit tests for LUCA Service and Store components using Swift Testing, with proper naming co… |
 | `/lucia-auth` | You are an expert in Lucia, the lightweight authentication library for TypeScript. You help develo… |
 | `/luma-imagegen` | Use when the user asks to generate images via the Luma AI API (Dream Machine / Photon); collects a… |
+| `/lv:assigns` | Inspect LiveView socket assigns for memory bloat — missing temporary_assigns, unused assigns, unbo… |
 | `/m01-ownership` | CRITICAL: Use for ownership/borrow/lifetime issues. Triggers: E0382, E0597, E0506, E0507, E0515, E… |
 | `/m02-resource` | CRITICAL: Use for smart pointers and resource management. Triggers: Box, Rc, Arc, Weak, RefCell, C… |
 | `/m03-mutability` | CRITICAL: Use for mutability issues. Triggers: E0596, E0499, E0502, cannot borrow as mutable, alre… |
@@ -9747,18 +10201,22 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mac-tts` | Text-to-speech using macOS built-in `say` command. Use for voice notifications, audio alerts, read… |
 | `/machine-learning` | Machine learning development with JAX, functional programming patterns, and high-performance compu… |
 | `/machine-learning-ops-ml-pipeline` | Design and implement a complete ML pipeline for: $ARGUMENTS |
-| `/macos` | macOS system overview and general orchestration |
+| `/macos` | macOS platform-specific development with menu bar apps, window management, AppKit integration, and… |
 | `/macos-admin` | System preferences, users, disk utility, SIP, Gatekeeper, FileVault, console logs |
 | `/macos-automation` | AppleScript, JXA, Shortcuts, Automator, osascript, System Events, accessibility API |
 | `/macos-brew` | Homebrew: formulae, casks, services, taps, PATH /opt/homebrew, pin versions, bundle |
 | `/macos-cleaner` | Analyze and reclaim macOS disk space through intelligent cleanup recommendations. This skill shoul… |
 | `/macos-design` | Design and build native-feeling macOS application UIs. Use this skill whenever the user asks to cr… |
 | `/macos-development` | Comprehensive macOS development guidance including Swift 6+, SwiftUI, SwiftData, architecture patt… |
+| `/macos-disk-usage` | macOS disk-usage forensics and space recovery on APFS. Use when df reports a disk near-full, hunti… |
+| `/macos-incident-postmortem` | Reconstruct macOS freeze, panic, or reboot from DiagnosticReports and shell history. Use when inve… |
 | `/macos-keychain` | Keychain: security CLI, API key storage, certificates, codesigning, Secure Enclave |
 | `/macos-launchd` | LaunchDaemons/LaunchAgents, plist, launchctl, login items, OpenClaw gateway service |
 | `/macos-menubar-tuist-app` | Build macOS menubar apps with Tuist and SwiftUI. Use when: creating LSUIElement menubar utilities,… |
+| `/macos-native` | Native macOS development with AppKit, Catalyst, and macOS-specific APIs. Use when building Mac-nat… |
 | `/macos-networking` | WiFi/Ethernet, DNS, proxy, VPN Tailscale, airport CLI, pfctl firewall |
 | `/macos-perf` | Activity Monitor, Instruments, top/htop, memory pressure, thermal state, powermetrics, profiling |
+| `/macos-performance-triage` | Live macOS/Apple-Silicon performance triage — find what's heating the Mac (hot WindowServer, GPU c… |
 | `/macos-process-injection` | macOS process injection playbook. Use when you need to inject code into running or launching macOS… |
 | `/macos-product-design` | macOS 产品设计专家。根据需求描述，输出符合 macOS 原生风格的 HTML/CSS 设计稿。当用户说"帮我设计一个界面"、"做个页面"、"产品设计"、"UI 设计"、"画个原型"时触发。 |
 | `/macos-screen-recorder` | macOS screen recorder that captures the main display PLUS system audio via ScreenCaptureKit — no B… |
@@ -9840,8 +10298,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/many-chat-automation` | Automate ManyChat tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/many_chat-automation` | Automate ManyChat tasks via Rube MCP (Composio): chatbot flows, subscribers, broadcasts, and messe… |
 | `/maoxuan-skill-cognitive-framework` | Install and use the 毛选.skill cognitive framework for Claude Code — applies Mao Zedong's strategic … |
+| `/map-ecosystem` | Enrich auto-generated .cartographer/ maps with full descriptions from source files. |
 | `/mapbox` | Build map-based applications with the Mapbox GL JS SDK. Use when a user asks to create interactive… |
 | `/mapbox-automation` | Automate Mapbox tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/mapkit` | Implement, review, or improve maps and location features in iOS/macOS apps using MapKit and CoreLo… |
 | `/maps-geolocation` | Build location-based features with mapping APIs. Use when a user asks to integrate Google Maps, Ma… |
 | `/mapulus-automation` | Automate Mapulus tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/markdown-converter` | Convert documents and files to Markdown using markitdown. Use when converting PDF, Word (.docx), P… |
@@ -9871,7 +10331,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/market-sizing` | Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizi… |
 | `/market-sizing-analysis` | Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Servicea… |
 | `/market-top-detector` | Detects market top probability using O'Neil Distribution Days, Minervini Leading Stock Deteriorati… |
-| `/marketing` | World-class marketing expertise combining Seth Godin's permission marketing philosophy, Neil Patel… |
+| `/marketing` | Marketing strategy expertise for brand strategy, market research, customer segmentation, digital m… |
 | `/marketing-analyst` | Marketing analytics covering campaign analysis, attribution and marketing mix modeling, ROI measur… |
 | `/marketing-campaign` | End-to-end marketing campaign planning and execution. Covers audience research, positioning, campa… |
 | `/marketing-content` | Content strategy, copywriting frameworks (AIDA/PAS/BAB/4Ps/FAB), editorial calendar management, pl… |
@@ -9930,6 +10390,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-builder-ms` | Use this skill when building MCP servers to integrate external APIs or services, whether in Python… |
 | `/mcp-cli` | Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with ext… |
 | `/mcp-client` | Connect to and consume MCP servers from applications. Use when: integrating MCP servers into your … |
+| `/mcp-code-execution` | Scaffold the code execution pattern for MCP-based agents. Use when agents call many MCP tools, int… |
 | `/mcp-copilot-studio-server-generator` | Generate a complete MCP server implementation optimized for Copilot Studio integration with proper… |
 | `/mcp-create-adaptive-cards` | Skill converted from mcp-create-adaptive-cards.prompt.md |
 | `/mcp-create-declarative-agent` | Skill converted from mcp-create-declarative-agent.prompt.md |
@@ -9950,6 +10411,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-product` | Build MCP tools that are sticky for vibe coders and powerful for developersUse when "Designing new… |
 | `/mcp-security` | Security patterns for MCP servers including OAuth 2.0, rate limiting, input validation, and audit … |
 | `/mcp-security-audit` | Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:… |
+| `/mcp-server-authoring` | FastMCP authoring for Python MCP servers — tools, resources, prompts, TDD, release-please. Use whe… |
 | `/mcp-server-builder` | Design and ship production-ready MCP (Model Context Protocol) servers from OpenAPI contracts inste… |
 | `/mcp-server-development` | Building production-ready Model Context Protocol servers that expose tools, resources, and prompts… |
 | `/mcp-server-integration` | Model Context Protocol (MCP) server integration, configuration, and usage patterns for GitHub Copi… |
@@ -9959,10 +10421,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-sheet-cache-bridge` | Keep Zapier Tables or another MCP-connected record store as the source of truth while Google Sheet… |
 | `/mcp-testing` | Testing strategies for MCP servers including unit tests, integration tests, schema validation, and… |
 | `/mcp-tool-developer` | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with… |
+| `/mcp-tools` | MCP tools for Xcode automation and Apple documentation access. XcodeBuildMCP for builds, apple-doc… |
 | `/mcp-urgent-caller-triage` | Prioritize inbound client calls by reading transcripts, classifying urgency, matching callers to l… |
 | `/mcp-visual-output` | Interactive MCP visual output via @json-render/mcp. Upgrade plain JSON tool responses to interacti… |
 | `/mcporter` | Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio)… |
 | `/mcporter-skill` | Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio)… |
+| `/md-docs` | Manages project documentation: CLAUDE.md, AGENTS.md, README.md, CONTRIBUTING.md. Use when asked to… |
 | `/md-document` | Converts long-form markdown (specs, RFCs, reports, plans, explainers) into a single-file, lightly-… |
 | `/md-preview-app-macos` | Native macOS Markdown viewer app with Quick Look extension, Mermaid diagrams, KaTeX math, document… |
 | `/md-review` | Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged … |
@@ -10067,12 +10531,17 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/messaging-framework` | Build a messaging framework (message house) that the whole company can use consistently. Use when … |
 | `/meta-agent-creator` | Creates custom subagents for Claude Code with YAML frontmatter configuration in Markdown files. Co… |
 | `/meta-agent-evolution` | 元迭代智能体的自省与修正框架。帮助Agent从理论学习到实践落地的进化路径，包含失败案例分析、肌肉记忆训练、时间感知校准和系统约束机制。实现从"知道"到"做到"的转变。 |
+| `/meta-assimilate` | Copy, generalize, or merge a project's .claude/{agents,commands} into user-scoped configuration. U… |
+| `/meta-audit` | Audit Claude subagent configs for completeness, security, and best practices. Use when reviewing a… |
 | `/meta-cognition-parallel` | EXPERIMENTAL: Three-layer parallel meta-cognition analysis. Triggers on: /meta-parallel, 三层分析, par… |
 | `/meta-command-creator` | Create custom slash commands for Claude Code with markdown and YAML frontmatter. Use when building… |
+| `/meta-context-diet` | Audit CLAUDE.md and .claude/rules for always-loaded content that should become an on-demand skill.… |
 | `/meta-harness-optimization` | Framework for automated search over task-specific model harnesses — the code around a fixed base m… |
 | `/meta-hook-creator` | Create event hooks for Claude Code that trigger on tool calls, prompts, and lifecycle events. Use … |
 | `/meta-plugin-creator` | Create plugins for Claude Code that bundle skills, agents, commands, hooks, and MCP servers. Use w… |
+| `/meta-promote` | Promote rules, skills, or agents from project scope to parent or user-global scope. Use when reorg… |
 | `/meta-prompt` | Meta-prompting framework for critiquing responses, analyzing solution trajectories, and evaluating… |
+| `/meta-prompting` | Structured reasoning modifiers (/think, /verify, /adversarial, /edge, /confidence, /assumptions, e… |
 | `/meta-skill-creator` | Create agent skills following the Agent Skills open standard. Use when building new skills for Cla… |
 | `/meta-tags-gen` | Scan pages and generate missing meta tags. Use when improving SEO. |
 | `/meta-tags-optimizer` | Use when the user asks to "optimize meta tags"; improves titles, descriptions, Open Graph, Twitter… |
@@ -10090,6 +10559,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/metric-semantic-layer` | Define a metric in a semantic layer so it means one thing everywhere. Use when asked to define a m… |
 | `/metric-tree-builder` | Decompose a north-star metric into a driver tree — the inputs and sub-inputs that actually move it… |
 | `/metric-validation-harness` | Empirically validates a software metric before trusting or optimizing it — point it at any candida… |
+| `/metrickit` | Collect and analyze on-device performance metrics and crash diagnostics using MetricKit. Use when … |
 | `/metricool` | Schedule and manage social media posts via Metricool API. Use when posting to multiple platforms (… |
 | `/metrics-collector` | Phase 1 Suspect: Discover cloud resources and apply idle detection signals to identify zombie cand… |
 | `/metrics-dashboard` | Define and design a product metrics dashboard with key metrics, data sources, visualization types,… |
@@ -10148,6 +10618,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mikrotik-routeros` | Use this skill for MikroTik RouterOS v7 — firewall chains (RAW/filter/mangle/NAT), Queue Tree and … |
 | `/miles-rl-training` | Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. … |
 | `/millers-law` | Apply Miller's Law — chunk information into groups of ~4 to work within working memory limits. |
+| `/mimir` | Grafana Mimir scalable long-term metrics storage. Covers architecture (distributor/ingester/compac… |
 | `/mind-map` | Turn a topic, brainstorm, or document into a structured mind map. Use when asked to brainstorm aro… |
 | `/mindmap` | Turn a security topic into a structured mindmap — recon surface, an attack chain, a framework brea… |
 | `/minecraft-bukkit-pro` | Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. |
@@ -10193,6 +10664,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mkdocs-translations` | Generate a language translation for a mkdocs documentation stack. |
 | `/mkfast-deploy` | 把 mkfast-template / TanStarter 系项目部署到 Cloudflare Workers —— 自动检测实际启用的组件（D1 / R2 / Email / Better A… |
 | `/ml-adoption-playbook` | End-to-end methodology for AI agents and software engineers to add machine learning algorithms to … |
+| `/ml-ai` | Grafana Cloud AI and ML features — Grafana Assistant (natural language queries, dashboard generati… |
 | `/ml-azureml-adf-automation` | This skill should be used when the user asks to automate Azure ML and Azure Data Factory productio… |
 | `/ml-cloud-deployment` | This skill should be used when the user asks to deploy, scale, or cost-optimize ML workloads on cl… |
 | `/ml-data-pipeline` | This skill should be used when the user asks to ingest, clean, validate, transform, version, monit… |
@@ -10270,6 +10742,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mobile-app` | Mobile app development guide — React Native, Flutter, Expo for cross-platform. Triggers: mobile ap… |
 | `/mobile-app-debugging` | Mobile app debugging for iOS, Android, cross-platform frameworks. Use for crashes, memory leaks, p… |
 | `/mobile-app-testing` | Mobile app testing with unit tests, UI automation, performance testing. Use for test infrastructur… |
+| `/mobile-cicd` | Fastlane, GitHub Actions for mobile, code signing (iOS provisioning, Android keystores), beta dist… |
 | `/mobile-debugging` | Remote JavaScript console access and debugging on mobile devices. Use when debugging web pages on … |
 | `/mobile-design` | (Mobile-First · Touch-First · Platform-Respectful) |
 | `/mobile-developer` | Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cr… |
@@ -10460,6 +10933,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/multi-plan` | Plan a complex task using multiple specialized agents |
 | `/multi-platform-apps-multi-platform` | Build and deploy the same feature consistently across web, mobile, and desktop platforms using API… |
 | `/multi-platform-launch` | When the user wants to launch a product across multiple platforms, plan a Product Hunt launch, bui… |
+| `/multi-repo-discipline` | Multi-repo workspace rules: read-only fixtures, upstream/downstream pairs. Use when dispatching ag… |
+| `/multi-repository-orchestrator` | Coordinate development workflows across multiple Git repositories with synchronized branching, bat… |
 | `/multi-reviewer-patterns` | Coordinate parallel code reviews across multiple quality dimensions with finding deduplication, se… |
 | `/multi-source-signal-synthesiser` | Synthesises user signals from multiple research sources into a unified, weighted insight brief. Us… |
 | `/multi-step-form-design` | Designing forms with multiple steps, progress indicators, conditional logic, and save-and-resume m… |
@@ -10480,6 +10955,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/muscle-gain` | Track muscle building with weight progression, protein tracking, and strength milestones |
 | `/music` | Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyric… |
 | `/music-to-video` | Use when the user has a music track (an audio file, or a video to pull audio from) and wants a bea… |
+| `/musickit` | Integrate Apple Music playback, catalog search, and Now Playing metadata using MusicKit and MediaP… |
 | `/mutation-testing` | Configures mewt or muton mutation testing campaigns — scopes targets, tunes timeouts, and optimize… |
 | `/mvp` | Build a Minimum Viable Product — scope ruthlessly, ship fast, learn from real users. Use when: pla… |
 | `/mvp-case-builder` | Construct statistical arguments for MVP/awards. Narrative framing, comparison to past winners, adv… |
@@ -10495,6 +10971,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/my-tesla` | Control Tesla vehicles from macOS via the Tesla Owner API using teslapy (auth, list cars, status, … |
 | `/my-tickets` | Show all Jira tickets assigned to you |
 | `/mypy` | mypy - Static type checker for Python with gradual typing, strict mode, Protocol support, and fram… |
+| `/mypy-to-ty` | Migrate Python type checking from mypy to ty (Astral). Use when mirrors-mypy is in .pre-commit-con… |
 | `/mysql` | MySQL is the world's most popular open-source relational database management system. Learn install… |
 | `/mysql-best-practices` | MySQL development best practices for schema design, query optimization, and database administration |
 | `/mysql-patterns` | MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns … |
@@ -10539,6 +11016,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nanogpt` | Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hacka… |
 | `/nanostores` | You are an expert in Nanostores, the tiny (< 1KB) state manager for framework-agnostic JavaScript.… |
 | `/napkin` | Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in y… |
+| `/narrow-bare-rescue` | Narrow bare rescue in Elixir so real errors like KeyError and typos propagate instead of being swa… |
 | `/nasa-automation` | Automate Nasa tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/nasdaq-automation` | Automate Nasdaq tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/native-app-designer` | Creates breathtaking iOS/Mac and web apps with organic, non-AI aesthetic. Expert in SwiftUI, React… |
@@ -10550,6 +11028,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nativewind` | Use Tailwind CSS in React Native with NativeWind — write className instead of StyleSheet. Use when… |
 | `/nativewind-and-tailwind-css-compatibility` | Provides specific version compatibility notes for NativeWind and Tailwind CSS to prevent common in… |
 | `/nats-messaging` | Build distributed messaging systems with NATS — pub/sub, request/reply, JetStream persistent messa… |
+| `/natural-language` | Tokenize, tag, and analyze natural language text using Apple's NaturalLanguage framework and trans… |
 | `/natural-language-postgres` | Chat app that lets you ask questions in plain English and query your PostgreSQL database. |
 | `/natural-language-postgres-presentation` | Presentation-focused Natural Language to SQL app with PPT-style visualizations. |
 | `/navigation` | Navigation - Expo Router. Use when implementing navigation. |
@@ -10628,9 +11107,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/network-bgp-diagnostics` | Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, A… |
 | `/network-config-validation` | Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate… |
 | `/network-debugging` | Debug network issues using browser tools and network analysis. Diagnose connection problems, laten… |
+| `/network-diagnostics` | Automated network troubleshooting and diagnostics for WSL/Linux environments |
+| `/network-discovery` | Network host and port discovery with nmap. Use when scanning TCP ports, enumerating hosts on a sub… |
 | `/network-engineer` | Use this skill for enterprise network engineering — OSI-layer troubleshooting methodology, BGP sta… |
 | `/network-forensics` | Investigates network traffic patterns to identify and mitigate security threats. |
 | `/network-interface-health` | Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and… |
+| `/network-monitoring` | Real-time network traffic and per-process bandwidth monitoring. Use when finding which app consume… |
 | `/network-pentest` | Run an authorized network penetration test: host discovery, port/service enumeration, vulnerabilit… |
 | `/network-protocol-attacks` | Network protocol attack playbook. Use when exploiting layer 2/3 protocols including ARP spoofing, … |
 | `/network-scan` | Scan your LinkedIn contacts' companies for matching job openings |
@@ -10662,6 +11144,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/news-sentiment-engine` | Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing o… |
 | `/news-summary` | This skill should be used when the user asks for news updates, daily briefings, or what's happenin… |
 | `/newsletter-creation-curation` | Industry-specific newsletter creation with cadence recommendations and automation workflows |
+| `/newsletter-creator` | Company newsletter and content roundup creation with consistent formatting, content curation, and … |
 | `/newsletter-digest` | Summarize newsletters and articles, extract key insights, create reading lists |
 | `/newsletter-publishing` | Email newsletter workflows for journalists and researchers. Use when creating, managing, or optimi… |
 | `/newsletter-writer` | Write a full creator newsletter issue — subject line, preview text, hook, body with a clear takeaw… |
@@ -10675,7 +11158,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nextauth-authentication` | Guidelines for implementing NextAuth.js (Auth.js v5) authentication in Next.js applications with s… |
 | `/nextdns-automation` | Automate Nextdns tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/nextflow` | Build, run, and debug Nextflow data pipelines and nf-core workflows end to end. Use whenever the u… |
-| `/nextjs-16` | Next.js 16 specific patterns including proxy.ts (replaces middleware), cache components, and App R… |
+| `/nextjs-16` | Expert Next.js 16 with Turbopack, App Router, Cache Components, proxy.ts, React 19. Use when build… |
 | `/nextjs-advanced-routing` | Guide for advanced Next.js App Router patterns including Route Handlers, Parallel Routes, Intercep… |
 | `/nextjs-app-router` | Use when next.js App Router with layouts, loading states, and streaming. Use when building modern … |
 | `/nextjs-app-router-and-streaming-ui` | Build production Next.js App Router experiences with streaming, suspense, caching, and performance… |
@@ -10696,6 +11179,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nextjs-development` | Comprehensive Next.js development skill covering App Router, Server Components, data fetching, rou… |
 | `/nextjs-dynamic-routes-params` | Guide for Next.js App Router dynamic routes and pathname parameters. Use when building pages that … |
 | `/nextjs-expert` | Next.js expert for App Router, SSR/SSG, API routes, middleware, and deployment |
+| `/nextjs-i18n` | Next.js 16 internationalization with next-intl or DIY. Use when implementing i18n, translations, l… |
 | `/nextjs-middleware` | Complete Next.js Middleware system (Next.js 15.5/16). PROACTIVELY activate for: (1) Creating middl… |
 | `/nextjs-modal-integration` | Modal.com integration patterns for Next.js applications. PROACTIVELY activate for: (1) Next.js + M… |
 | `/nextjs-pathname-id-fetch` | Focused pattern for fetching data using URL parameters in Next.js. Covers creating dynamic routes … |
@@ -10710,16 +11194,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nextjs-server-client-components` | Guide for choosing between Server Components and Client Components in Next.js App Router. CRITICAL… |
 | `/nextjs-server-components` | Use when next.js Server Components for optimal performance. Use when building data-intensive Next.… |
 | `/nextjs-server-navigation` | Guide for implementing navigation in Next.js Server Components using Link component and redirect()… |
+| `/nextjs-shadcn` | shadcn/ui for Next.js App Router with TanStack Form. Use when building UI components, forms, dialo… |
 | `/nextjs-shadcn-builder` | Build new Next.js applications or migrate existing frontends (React, Vue, Angular, vanilla JS, etc… |
 | `/nextjs-skill` | Build, extend, and maintain production-grade Next.js applications that don't rot. Use this skill w… |
+| `/nextjs-stack` | Next.js 16+ complete stack with App Router, Prisma 7, Better Auth, shadcn/ui, TanStack Form, Zusta… |
 | `/nextjs-stripe-integration` | Add Stripe payment processing to Next.js projects. Implement checkout sessions, payment handling, … |
 | `/nextjs-supabase` | Next.js full-stack application with Supabase backend. |
 | `/nextjs-supabase-auth` | Expert integration of Supabase Auth with Next.js App Router |
+| `/nextjs-tanstack-form` | TanStack Form v1 for Next.js 16 with Server Actions, Zod validation, and shadcn/ui integration. Us… |
+| `/nextjs-tanstack-query` | TanStack Query v5 integration with Next.js 16. Server-side prefetching, hydration, useQuery, useMu… |
 | `/nextjs-turbopack` | Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack… |
 | `/nextjs-turborepo` | Full-stack web development with Next.js and Turborepo. Stack: Next.js 14+ (App Router, RSC, Server… |
 | `/nextjs-typescript-tailwindcss-supabase` | Full-stack Next.js 14 development with TypeScript, TailwindCSS, and Supabase for building producti… |
 | `/nextjs-use-search-params-suspense` | Pattern for using useSearchParams hook with Suspense boundary in Next.js. Covers the required comb… |
 | `/nextjs-v16` | Next.js 16 migration guide (async request APIs, "use cache", Turbopack) |
+| `/nextjs-zustand` | Zustand v5 state management for Next.js 16 App Router. Use when implementing global state, stores,… |
 | `/nextra` | Build documentation and content sites with Nextra, the Next.js-based static site generator. Use wh… |
 | `/nft` | Skill for creating, managing, and interacting with Non-Fungible Tokens (NFTs) on blockchain networ… |
 | `/nft-engineer` | Battle-hardened NFT developer specializing in ERC-721/1155 implementations, gas-optimized minting,… |
@@ -10768,6 +11257,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nodejs-backend` | Node.js backend development with TypeScript, Express/Fastify servers, routing, middleware, and dat… |
 | `/nodejs-backend-patterns` | Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend a… |
 | `/nodejs-best-practices` | Node.js development principles and decision-making. Framework selection, async patterns, security,… |
+| `/nodejs-containers` | Node.js container optimization — Alpine, multi-stage builds, node_modules caching, BuildKit mounts… |
 | `/nodejs-core` | Debugs native module crashes, optimizes V8 performance, configures node-gyp builds, writes N-API/n… |
 | `/nodejs-development` | Node.js development guidelines covering Payload CMS, Vue.js with TypeScript, and general TypeScrip… |
 | `/nodejs-expert` | Node.js backend expert including Express, NestJS, and async patterns |
@@ -10835,6 +11325,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nuqs` | nuqs (type-safe URL query state) best practices for Next.js and other React frameworks. This skill… |
 | `/nuqs-codemod-runner` | Migrates a nuqs codebase off pre-v2.5 patterns — deprecated `throttleMs`, hand-rolled setTimeout/u… |
 | `/nuqs-scaffolder` | Scaffolds URL-state filters for a Next.js page — typed `searchParams.ts` parser map and a `<Filter… |
+| `/nushell-data-processing` | Structured data processing with nushell — native tables, multi-format parsing (JSON/YAML/TOML/CSV/… |
 | `/nutrient-document-processing` | Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works… |
 | `/nutrition-analyzer` | 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。 |
 | `/nutritional-specialist` | This skill should be used whenever users ask food-related questions, meal suggestions, nutrition a… |
@@ -10870,6 +11361,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/oauth2-oidc` | Assists with implementing OAuth 2.0 and OpenID Connect for secure authentication and authorization… |
 | `/oauth2-oidc-and-token-lifecycle` | Implement OAuth 2.0 and OpenID Connect flows with secure token lifecycle handling across frontend … |
 | `/oauth2-oidc-implementer` | Implements OAuth 2.0 and OpenID Connect authentication flows with secure token handling and provid… |
+| `/oban` | Oban job processing — workers, perform/1 (OSS) and process/1 (Pro), queues, cron, retries, unique … |
 | `/objection-pattern-detector` | Mine lost deal notes to identify recurring objection patterns. Create objection response playbooks… |
 | `/objection-preemptor` | One sentence - what this skill does and when to invoke it |
 | `/obliteratus-abliteration` | One-click model liberation toolkit for removing refusal behaviors from LLMs via surgical abliterat… |
@@ -10902,6 +11394,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ocrspace-automation` | Automate Ocrspace tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/octocat` | Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a l… |
 | `/octolens` | Query and analyze brand mentions from Octolens API. Use when the user wants to fetch mentions, tra… |
+| `/odiff-image-diffing` | odiff pixel-by-pixel image diffing. Use when comparing screenshots, detecting visual regressions, … |
 | `/odoo-accounting-setup` | Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes… |
 | `/odoo-automated-tests` | Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers… |
 | `/odoo-backup-strategy` | Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling,… |
@@ -11003,10 +11496,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/onboarding-checklist` | Generates customized client onboarding checklists with phased tasks, ownership assignments, depend… |
 | `/onboarding-cro` | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or … |
 | `/onboarding-design` | Design first-run experiences that get users to value quickly without overwhelming them. |
+| `/onboarding-guide-creator` | New hire onboarding guide generation with role-specific content, structured timelines, and resourc… |
 | `/onboarding-plan` | Create a structured 30/60/90-day onboarding plan for any new hire. Use when asked to write an onbo… |
 | `/onboarding-psychologist` | One sentence - what this skill does and when to invoke it |
 | `/onboarding-ux` | Audit and generate in-app user guidance — onboarding flows, empty states, tooltips, feature tours,… |
 | `/onboarding-wizard-design` | Designing first-run product onboarding wizards that get users to the ah-ha moment without overwhel… |
+| `/oncall-irm` | Grafana OnCall and Incident Response Management (IRM) — alert routing, escalation chains, on-call … |
 | `/oncall-runbook` | Write an on-call runbook for a service — covering alert definitions, escalation paths, common inci… |
 | `/oncehub-automation` | Automate Oncehub tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/onchain` | CLI for crypto portfolio tracking, market data, CEX history, and transaction lookups. Use when the… |
@@ -11042,7 +11537,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/open-redirect` | Open redirect playbook. Use when URL parameters, form actions, or JavaScript sinks control navigat… |
 | `/open-sea-automation` | Automate Open Sea tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/open-source` | 🔓 Open source governance demonstrating security excellence through transparent practices following… |
-| `/open-source-contributions` | Create maintainer-friendly pull requests for open source projects with clean code submissions and … |
+| `/open-source-contributions` | Use this skill when contributing code to open source projects. The skill covers proper pull reques… |
 | `/open-source-prep` | 帮用户把私有项目整理成可开源的仓库。核心能力：(1) 扫描源码和 git 历史中的密钥/token 泄漏；(2) 根据项目场景推荐开源协议（MIT / Apache 2.0 / GPL 等）并生成… |
 | `/open-source-readiness` | Use when auditing a public repository for open-source readiness before publishing it. |
 | `/open-swe` | Build asynchronous coding agents using LangChain's Open SWE framework — agents that plan, code, te… |
@@ -11100,6 +11595,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/opencv` | You are an expert in OpenCV (Open Source Computer Vision Library), the most popular library for re… |
 | `/opendataloader-pdf` | Parse PDFs into AI-ready structured data — extract text, tables, images, and metadata with high ac… |
 | `/openduck-distributed-duckdb` | OpenDuck — open-source distributed DuckDB with differential storage, hybrid dual execution, and tr… |
+| `/openfeature` | OpenFeature vendor-agnostic feature flag SDK: installation, evaluation, providers. Use when implem… |
 | `/opengame-agentic-game-creation` | OpenGame is an open-source agentic framework for end-to-end web game creation from a single text p… |
 | `/opengraph-io-automation` | Automate Opengraph IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/opengrep-rule-generator` | Use when the user wants to create opengrep/semgrep SAST rules, detect vulnerabilities in code, gen… |
@@ -11133,6 +11629,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/openwork` | The agent-only marketplace. Post jobs, complete work, earn $OPENWORK tokens on Base. Competitive b… |
 | `/openxr` | OpenXR is an open standard API for building cross-platform AR and VR applications with hardware ab… |
 | `/operating-kubernetes` | Operating production Kubernetes clusters effectively with resource management, advanced scheduling… |
+| `/operations` | Operations excellence expertise for supply chain optimization, process improvement (Lean, Six Sigm… |
 | `/operations-manager` | Operations management across process optimization, efficiency, and continuous improvement. Use whe… |
 | `/opinionated-nextjs-patterns` | Opinionated, backend-agnostic Next.js 16 (App Router) architecture — authorization at the data lay… |
 | `/opportunity-framework` | Identify, evaluate, and prioritize design opportunities using impact-effort frameworks and strateg… |
@@ -11175,6 +11672,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/optimizing-tauri-binary-size` | Guides users through Tauri binary size optimization techniques to produce small, efficient desktop… |
 | `/optimoroute-automation` | Automate Optimoroute tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/options-analysis` | Analyzes financial options using quantitative models like Black-Scholes for pricing and risk evalu… |
+| `/options-comparator` | Structured comparison of competing options with weighted scoring matrices, trade-off analysis, dec… |
 | `/options-flow-analyzer` | Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from de… |
 | `/options-strategy-advisor` | Options trading strategy analysis and simulation tool. Provides theoretical pricing using Black-Sc… |
 | `/ora` | Add terminal spinners with Ora. Use when showing loading indicators in CLI tools, displaying progr… |
@@ -11192,6 +11690,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/orchestrate` | Coordinate multi-agent workflow for complex tasks |
 | `/orchestrate-batch-refactor` | Plan and execute large refactor efforts with parallel multi-agent analysis. Use when: refactoring … |
 | `/orchestrate-pm-alignment` | PM alignment coach and router. Use this skill whenever a product manager (or someone managing prod… |
+| `/orchestrating-swarms` | Coordinate multi-agent swarms for parallel and pipeline workflows. Use when coordinating multiple … |
 | `/orchestration` | Coordinates skills, frameworks, and workflows throughout the project lifecycle using pattern-based… |
 | `/orchestrator` | Cloud infrastructure cost optimization lifecycle -- identifies idle and underutilized resources, o… |
 | `/ordercli` | Foodora-only CLI for checking past orders and active order status (Deliveroo WIP). |
@@ -11200,6 +11699,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/organic-growth-advisor` | Identify which organic growth path to pursue — new segments, geographies, channels, or products. U… |
 | `/organizador` | Mantiene la salud y consistencia del vault: limpia huerfanas, verifica tags, valida frontmatter, d… |
 | `/organize` | 帮助用户整理文件夹结构。扫描目录、分类归档、清理冗余，输出整理方案并执行。当用户说"整理文件"、"文件夹好乱"、"归档"、"清理目录"、"/organize"时触发。 |
+| `/orient` | Explore and understand a project's structure and functionality. Use when starting work on a new or… |
 | `/originality-ai` | Use Originality.ai API to detect AI-generated content and check for plagiarism simultaneously. Use… |
 | `/orphan-pages-internal-linking-opportunities` | Audit any domain for orphan blog pages, map internal links across all blog posts, generate keyword… |
 | `/ort` | ONNX Runtime in Rust via the `ort` crate (2.x): loading sessions, configuring CPU/CoreML/CUDA exec… |
@@ -11237,6 +11737,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/owasp-llm-top10` | Assess an LLM-backed application against the OWASP Top 10 for LLM Applications, producing a per-ca… |
 | `/owasp-reference` | Look up and map to the right OWASP Top 10 family — Web, API, LLM, or Mobile — and give the canonic… |
 | `/owasp-security` | Use when reviewing code for security vulnerabilities, implementing authentication/authorization, h… |
+| `/owasp-security-check` | Security audit guidelines for web applications and REST APIs based on OWASP Top 10 and web securit… |
 | `/owasp-web-top10` | Assess a web application against the OWASP Top 10 (2021), producing a per-category finding set wit… |
 | `/owasp-zap` | Assists with finding security vulnerabilities in web applications using OWASP ZAP. Use when config… |
 | `/owl-protocol-automation` | Automate Owl Protocol tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -11283,6 +11784,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/paper2blogpost` | Turn a scientific paper PDF into a warm, colloquial, beautifully designed HTML blog post that keep… |
 | `/paper2code-arxiv-implementation` | Agent skill to convert any arxiv paper into a citation-anchored, working Python implementation wit… |
 | `/paperclip-ai-orchestration` | Skill for using Paperclip — open-source orchestration platform for running autonomous AI-agent com… |
+| `/paperkit` | Add drawings, shapes, and a consistent markup experience using PaperKit. Use when integrating Pape… |
 | `/paperless` | Interact with Paperless-NGX document management system via ppls CLI. Search, retrieve, upload, and… |
 | `/paperless-ngx` | Interact with Paperless-ngx document management system via REST API. Use when users want to search… |
 | `/papers-skill` | Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, … |
@@ -11295,6 +11797,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/parakeet-mlx` | Local speech-to-text with Parakeet MLX (ASR) for Apple Silicon (no API key). |
 | `/parakeet-stt` | Local speech-to-text with NVIDIA Parakeet TDT 0.6B v3 (ONNX on CPU). 30x faster than Whisper, 25 l… |
 | `/parallel` | High-accuracy web search and research via Parallel.ai API. Optimized for AI agents with rich excer… |
+| `/parallel-agent-dispatch` | Dispatch contract for spawning parallel agents covering worktree collisions, scope overflow, and s… |
 | `/parallel-agents` | Multi-agent orchestration patterns. Use when multiple independent tasks can run with different dom… |
 | `/parallel-automation` | Automate Parallel tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/parallel-debugging` | Debug complex issues using competing hypotheses with parallel investigation, evidence collection, … |
@@ -11321,6 +11824,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pascal-editor` | Build and extend 3D building editor apps using Pascal Editor's architecture (React Three Fiber + Z… |
 | `/passcreator-automation` | Automate Passcreator tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/passive-recon` | Comprehensive passive reconnaissance covering WHOIS, DNS history, reverse IP, SSL certificates, Go… |
+| `/passkit` | Integrate Apple Pay payments and Wallet passes using PassKit. Use when adding Apple Pay buttons, c… |
 | `/passport-js` | Add authentication to Express with Passport.js. Use when implementing login with Google/GitHub/ema… |
 | `/passslot-automation` | Automate Passslot tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/pasta` | Run the PASTA (Process for Attack Simulation and Threat Analysis) seven-stage, risk-centric threat… |
@@ -11334,6 +11838,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/patient-communication` | Write clear, plain-English patient communications for any healthcare context. Use when asked to wr… |
 | `/patrol-e2e-testing` | Create, maintain, and run end-to-end tests for Flutter apps using Patrol 4.x. Use when writing E2E… |
 | `/pattern-library` | Structure a pattern library entry with problem context, solution pattern, usage examples, and rela… |
+| `/pattrns` | Guide for creating generative, emergent music with Pattrns, the Lua-based pattern sequencing engin… |
 | `/payhip-automation` | Automate Payhip tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/payload` | Use when working with Payload CMS projects (payload.config.ts, collections, fields, hooks, access … |
 | `/payload-cms` | Assists with building content management systems using Payload CMS with a code-first approach. Use… |
@@ -11387,6 +11892,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/peer-review` | Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer r… |
 | `/peer-review-template` | Structured peer review for analytical work. Use when reviewing teammates' analysis, providing cons… |
 | `/peft-fine-tuning` | Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when a user asks … |
+| `/pencilkit` | Add Apple Pencil drawing with PKCanvasView, PKToolPicker, PKDrawing serialization/export, stroke i… |
 | `/penetration-testing` | Perform basic penetration testing and security assessments. Use reconnaissance, vulnerability disc… |
 | `/pennylane` | Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum c… |
 | `/penpot-uiux-design` | Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this sk… |
@@ -11420,7 +11926,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/performance-benchmark-specialist` | Performance benchmarking expertise for shell tools, covering benchmark design, statistical analysi… |
 | `/performance-budget` | Define and document performance budgets for a web service or application. Use when asked to set pe… |
 | `/performance-budget-setter` | Defines measurable performance budgets for bundle size, API latency, database queries, and render … |
-| `/performance-engineering` | When validating system performance under load, identifying bottlenecks through profiling, or optim… |
+| `/performance-engineering` | Web Vitals, Lighthouse CI, bundle optimization, CDN, caching, and load testing |
 | `/performance-hunter` | Performance optimization specialist for profiling, caching, and latency optimizationUse when "perf… |
 | `/performance-optimization` | Optimizes application performance. Use when performance requirements exist, when you suspect perfo… |
 | `/performance-optimizer` | Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and aft… |
@@ -11442,6 +11948,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/perl-testing` | Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cov… |
 | `/permiso-accessibility-permissions` | Permission dialog UI for macOS accessibility and privacy settings, replicating the Codex Computer … |
 | `/permission-manager` | Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure… |
+| `/permissionkit` | Create child communication safety experiences using PermissionKit to request parental permission f… |
 | `/perpetual-memory` | Use when you need to auto-log all tool interactions into a self-organizing vector DB with instant … |
 | `/perpetuals-trading` | Comprehensive expertise in decentralized perpetual futures protocols, including GMX, dYdX, Hyperli… |
 | `/perplexity` | Web search and research using Perplexity AI. Use when user says "search", "find", "look up", "ask"… |
@@ -11498,6 +12005,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/phoenix` | Phoenix is an Elixir web framework built on the BEAM VM for fault-tolerant, real-time applications… |
 | `/phoenix-api-channels` | Phoenix controllers, JSON APIs, Channels, and Presence on the BEAM |
 | `/phoenix-cli` | Debug LLM applications using the Phoenix CLI. Fetch traces, analyze errors, structure trace review… |
+| `/phoenix-contexts` | Phoenix context design — creating/splitting contexts, Scope (1.8+), Ecto.Multi, PubSub, routers, p… |
 | `/phoenix-controllers` | Handle HTTP requests with Phoenix controllers including actions, parameters, rendering, flash mess… |
 | `/phoenix-evals` | Build and run evaluators for AI/LLM applications using Phoenix. |
 | `/phoenix-liveview` | Phoenix Framework with LiveView on the BEAM |
@@ -11512,13 +12020,47 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/photo-composition-critic` | Expert photography composition critic grounded in graduate-level visual aesthetics education, comp… |
 | `/photo-content-recognition-curation-expert` | Expert in photo content recognition, intelligent curation, and quality filtering. Specializes in f… |
 | `/photo-metadata` | Use when preparing photos or images for a news wire, publication, photo CMS, or archive — embeddin… |
+| `/photokit` | Implement, review, or improve photo picking, camera capture, and media handling in iOS apps using … |
 | `/photopea-embedded-editor` | Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, la… |
 | `/photoplus-downloader` | PhotoPlus相册批量下载原图工具。当用户需要从 photoplus.cn/live/ 相册批量下载原图时使用此技能。适用于 photoplus.cn 相册链接，支持多线程并发、自动跳过已下载… |
 | `/php-best-practices` | PHP 8.x modern patterns, PSR standards, and SOLID principles. Use when reviewing PHP code, checkin… |
 | `/php-development` | Expert guidance for PHP 8+ development with SOLID principles, PSR standards, and modern best pract… |
 | `/php-expert` | PHP expert including Laravel, WordPress, and Drupal development |
+| `/php-laravel` | Modern PHP 8.4 and Laravel patterns: architecture, Eloquent, queues, testing. Use when working wit… |
 | `/php-mcp-server-generator` | Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and … |
 | `/php-pro` | Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features.… |
+| `/phx:audit` | Project health audit and health check — architecture, performance, tests, dependencies, code quali… |
+| `/phx:boundaries` | Analyze Phoenix context boundaries and module coupling via mix xref. Use when checking cross-conte… |
+| `/phx:brainstorm` | Brainstorm Elixir/Phoenix features — explore ideas, compare approaches, gather requirements. Use w… |
+| `/phx:brief` | Interactive briefing of a plan file — explains reasoning, schema decisions, component choices. Use… |
+| `/phx:challenge` | Challenge mode reviews - rigorous questioning before approving changes. Use when you want thorough… |
+| `/phx:compound` | Capture solved problems as searchable solution docs. Use after fixing bugs, when "that worked", or… |
+| `/phx:deps-audit` | Audit Hex deps for supply-chain security risk — bidi chars, compile-time exec, maintainer changes,… |
+| `/phx:deps-update` | Bump outdated Hex deps — inventory, snapshot changelogs, update, fix breaks, split reviewable PRs … |
+| `/phx:deps-vet` | Record a vetted Hex package version in hex_vet.exs after a security review — manages the audit led… |
+| `/phx:document` | Generate @moduledoc and @doc strings for Elixir modules, contexts, and schemas. Use when explicitl… |
+| `/phx:examples` | Provide examples and walkthroughs for Phoenix, LiveView, Ecto, OTP patterns. Use when "how do I...… |
+| `/phx:full` | Use for large features spanning multiple contexts or autonomous end-to-end implementation. Runs th… |
+| `/phx:help` | Recommend the right /phx: command for planning, review, debug, deploy, or test tasks. Use when "wh… |
+| `/phx:init` | Initialize plugin in a project — install Iron Laws, auto-activation rules, and reference auto-load… |
+| `/phx:intro` | Walk through the Elixir/Phoenix plugin commands, workflow, and features in 6 interactive sections.… |
+| `/phx:investigate` | Investigate bugs and errors in Elixir/Phoenix — root-cause analysis for crashes, exceptions, stack… |
+| `/phx:learn-from-fix` | Capture lessons after fixing a bug or receiving a correction — ecto, liveview, oban, iron law mist… |
+| `/phx:mix-compression` | Reduce mix output noise (5-15% token savings) by installing rtk filters that compress mix test/cre… |
+| `/phx:perf` | Analyze Elixir/Phoenix performance — N+1 queries, assign bloat, ecto optimization, genserver bottl… |
+| `/phx:permissions` | Recommend safe Bash permissions for Elixir mix commands in settings.json. Use when permission prom… |
+| `/phx:plan` | Plan features spanning multiple domains: billing (Stripe), auth (RBAC), real-time (Presence), webh… |
+| `/phx:pr-review` | Address PR review threads on Elixir/Phoenix code — fetch unresolved threads, fix code, reply, and … |
+| `/phx:quick` | Implement small Phoenix changes without planning — add validations, update routes, fix components,… |
+| `/phx:recall` | Recall prior work from past sessions — how a bug was fixed, what was decided, where a pattern live… |
+| `/phx:research` | Research Elixir/Phoenix topics or evaluate Hex libraries (--library). Use when learning about libr… |
+| `/phx:review` | Review code with parallel agents — tests, security, Ecto, LiveView, Oban. Use after implementation… |
+| `/phx:techdebt` | Analyze Elixir/Phoenix technical debt — duplicates, refactoring opportunities, credo issues. Use w… |
+| `/phx:trace` | Trace Elixir call trees from entry points via mix xref. Use when debugging data flow, planning sig… |
+| `/phx:triage` | Triage review findings interactively — approve, skip, or prioritize each issue. Use after /phx:rev… |
+| `/phx:verify` | Verify Elixir/Phoenix changes — compile, format, and test in one loop. Use after implementation, b… |
+| `/phx:watch-pr` | Watch an Elixir/Phoenix PR for new review comments (bot + human) and CI results via a background w… |
+| `/phx:work` | Execute Elixir/Phoenix plan tasks with progress tracking. Use after /phx:plan to implement feature… |
 | `/phylogenetics` | Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likeliho… |
 | `/physics-rendering-expert` | Real-time rope/cable physics using Position-Based Dynamics (PBD), Verlet integration, and constrai… |
 | `/physics-simulation` | Patterns for physics-based simulation including numerical integration, rigid body dynamics, fluid … |
@@ -11531,6 +12073,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/picoclaw` | Set up, configure, and manage PicoClaw — an ultra-lightweight personal AI assistant built in Go. U… |
 | `/picoclaw-ai-assistant` | Ultra-lightweight AI assistant in Go that runs on $10 hardware with <10MB RAM, supporting multiple… |
 | `/picocom` | Use picocom to interact with IoT device UART consoles for pentesting operations including device e… |
+| `/pict-test-designer` | Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any pi… |
 | `/piggy-automation` | Automate Piggy tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/pii-detect` | Detect and flag personally identifiable information (PII) in text, code, and configurations |
 | `/pii-redaction-logging-policy-builder` | Prevents logging sensitive user data with redaction rules, logging policies, and safe log formatti… |
@@ -11544,6 +12087,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pinecone` | Pinecone is a managed vector database for AI and machine learning applications. Learn to create in… |
 | `/pinecone-docs` | Curated documentation reference for developers building with Pinecone. Contains links to official … |
 | `/pinecone-rag` | Build production RAG pipelines and persistent agent memory using Pinecone as the vector database b… |
+| `/pinescript` | Pine Script v6: syntax, performance, error diagnosis, backtesting, visualization. Use when writing… |
 | `/pingdom-automation` | Automate Pingdom tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/pinia` | Pinia official Vue state management library, type-safe and extensible. Use when defining stores, w… |
 | `/pinia-colada` | Pinia Colada data fetching for Vue/Nuxt with useQuery, useMutation. Use for async state, query cac… |
@@ -11680,12 +12224,16 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/plisio-automation` | Automate Plisio tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/plotly` | Create interactive scientific and statistical charts with Plotly. Use when a user asks to build da… |
 | `/plugin-audit` | Audit vercel-plugin performance on real-world projects. Extracts tool calls from Claude Code conve… |
+| `/plugin-bundle-size` | Optimise Grafana app plugin bundle size using React.lazy, Suspense, and webpack code splitting. Us… |
 | `/plugin-creator` | Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, opti… |
+| `/plugin-dev-workflow` | Guide plugin development workflow — editing skills, agents, hooks, or eval framework in this repo.… |
 | `/plugin-development` | Use when creating Claude Code plugins, writing skills, building commands, developing agents, or as… |
 | `/plugin-forge` | Create and manage Claude Code plugins with proper structure, manifests, and marketplace integratio… |
 | `/plugin-master` | Complete guide to Claude Code plugin development, architecture, directory layout, components, and … |
+| `/plugin-registry` | Claude Code plugin registry structure, installation scopes, and common issues. Use when troublesho… |
 | `/plugin-settings` | This skill should be used when the user asks about "plugin settings", "store plugin configuration"… |
 | `/plugin-structure` | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understan… |
+| `/plugins-themes` | Obsidian community plugins/themes/CSS snippets management. Use when installing, enabling, switchin… |
 | `/plunk` | Send transactional and marketing emails with Plunk. Use when a user asks to send emails from an ap… |
 | `/pm-1on1s` | Structured PM 1:1 templates by partner type — manager, engineering-manager partner, designer, IC r… |
 | `/pm-career-ladder` | PM career ladder rubrics from APM through VP/CPO across product sense, execution, leadership, stra… |
@@ -11703,6 +12251,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pocketbase` | Assists with building backends using PocketBase, a single-binary backend with embedded SQLite, rea… |
 | `/podcast-generation` | Generate real audio narratives from text content using Azure OpenAI's Realtime API. |
 | `/podcast-marketing` | When the user wants to plan, create, or market a podcast. Also use when the user mentions "podcast… |
+| `/podcast-producer` | Podcast production workflow including episode planning, show notes creation, transcript editing, g… |
 | `/podcast-studio` | Generate podcast scripts from text content. Use Tone.js and Howler.js for audio mixing. Create int… |
 | `/podcast-to-content-suite` | Transform podcast transcripts into comprehensive content marketing suites including blog posts, so… |
 | `/podman` | Manage containers using Podman, the daemonless container engine. Run rootless containers, create p… |
@@ -11763,6 +12312,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/positron-issue-creator` | This skill should be used when drafting GitHub issues for the Positron repository. It provides wor… |
 | `/posix-shell-pro` | Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes … |
 | `/post-at` | Manage Austrian Post (post.at) deliveries - list packages, check delivery status, set delivery pla… |
+| `/post-commit` | Universal post-commit actions. CHANGELOG update and git tag for all repos. Plugin version bumping … |
 | `/post-game-press-conference-simulator` | Generate realistic coach/player interview responses for wins, losses, controversies, injuries. Aut… |
 | `/post-mortem` | /cs:post-mortem <decision> — Honest retrospective on an executed decision, scored against original… |
 | `/postcss-best-practices` | PostCSS best practices and configuration guidelines for modern CSS processing and optimization |
@@ -11840,6 +12390,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pr-review-expert` | Use when the user asks to review pull requests, analyze code changes, check for security issues in… |
 | `/pr-screenshot-docs` | Capture and document UI changes with before/after screenshots for pull requests. Use when creating… |
 | `/pr-screenshots` | Embed before/after screenshots and annotated images in pull request descriptions. Covers PR descri… |
+| `/pr-summary` | Summarize current pull request with diff, comments, and changed files. Use when reviewing PRs or b… |
 | `/pr-template-builder` | Creates GitHub pull request templates, issue templates, and discussion templates with proper YAML … |
 | `/pr-threads-address` | Address PR review feedback by systematically working through every unresolved PR review thread on … |
 | `/pr-threads-resolve` | Bulk resolve unresolved PR review threads on the current branch’s PR — typically after threads hav… |
@@ -11857,6 +12408,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/prd-to-issues` | Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use wh… |
 | `/prd-to-plan` | Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a … |
 | `/prd-writing` | Expert guidance for writing Product Requirements Documents (PRDs), helping product managers create… |
+| `/pre-commit-standards` | Pre-commit hook standards and configuration. Use when configuring pre-commit hooks, checking hook … |
 | `/pre-compact` | Use when about to run /compact, when the context window is filling up or near its limit, when wrap… |
 | `/pre-merge` | Comprehensive verification workflow before merging changes to production. |
 | `/pre-mortem` | Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems… |
@@ -11917,6 +12469,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/prioritize-python-3-10-features` | Prioritizes the use of new features available in Python 3.12 and later versions. |
 | `/priority-judge` | 优先级判断助手 - 帮用户从混沌的待办事项中判断优先级，确定现在该做什么。当用户说"我有很多事要做"、"帮我理一下"、"排个优先级"、"今天该做什么"时触发。 |
 | `/prisma` | You are an expert in Prisma, the TypeScript ORM with a declarative schema, auto-generated type-saf… |
+| `/prisma-7` | Prisma 7 ORM with Rust-free client, 90% smaller bundles, TypedSQL, Omit API, and ESM-first archite… |
 | `/prisma-automation` | Automate Prisma tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/prisma-cli` | Prisma ORM CLI commands reference covering init, generate, migrate, db, dev, studio, validate, for… |
 | `/prisma-client-api` | Prisma Client API reference covering model queries, filters, operators, and client methods. Use wh… |
@@ -11941,6 +12494,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/privacy-policy-drafter` | Draft a clear, plain-language privacy policy tailored to what a product actually collects and does… |
 | `/privacy-reviewer` | Review PII handling, encryption, and GDPR/CCPA compliance in Rails applications. |
 | `/private-connect` | Access private services by name, from anywhere. No VPN or SSH tunnels. |
+| `/private-connectivity` | Grafana Cloud private network connectivity — AWS PrivateLink, Azure Private Link, and GCP Private … |
 | `/privilege-escalation-methods` | Provide comprehensive techniques for escalating privileges from a low-privileged user to root/admi… |
 | `/proactive-agent` | Transform AI agents from task-followers into proactive partners that anticipate needs and continuo… |
 | `/proactive-agent-lite` | Transform AI agents from task-followers into proactive partners with memory architecture, reverse … |
@@ -11950,6 +12504,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/procesador` | Captura y procesa cualquier recurso externo (articulos, papers, documentacion tecnica, presentacio… |
 | `/process-db-report` | This skill should be used when analyzing PostgreSQL performance reports, including pasted PostgreS… |
 | `/process-documentation` | Document any business process in a clear, structured format. Use when asked to document a process,… |
+| `/process-flowchart-designer` | Create process flowcharts and workflow diagrams from descriptions, with optimization suggestions a… |
 | `/process-mapper` | Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business… |
 | `/process-mapping` | Visualize and document current and future business processes. Identify inefficiencies, dependencie… |
 | `/process-spec` | This skill creates detailed process specifications for business processes. This skill should be us… |
@@ -12031,14 +12586,16 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/project-bootstrapper` | Sets up new projects or improves existing projects with development best practices, tooling, docum… |
 | `/project-bubble-automation` | Automate Project Bubble tasks via Rube MCP (Composio). Always search tools first for current schem… |
 | `/project-closeout` | 项目收尾检查。在项目完成后、再次打开前执行：多角色文档审查 + 追踪台核查 + 遗留事项清点，输出收尾报告。与 project-retrospective 的区别：本 Skill 检查文档一致性和… |
+| `/project-continue` | Resume development from current project state. Use when the user asks to continue work, pick up wh… |
 | `/project-convention-resolver` | 项目规范问题自动修复 Skill。当用户指出项目内的规范偏差时，自动分类问题类型，路由到对应角色Skill执行修复，并通过verifier验证修复效果。类比产品侧「问题追踪+修复」的完整闭环，是项… |
 | `/project-development` | This skill covers the principles for identifying tasks suited to LLM processing, designing effecti… |
+| `/project-discovery` | Project orientation for unfamiliar codebases. Use when entering a new project, exploring unknown r… |
 | `/project-docs` | Generate project documentation from codebase analysis — ARCHITECTURE.md, API_ENDPOINTS.md, DATABAS… |
 | `/project-estimation` | Estimate project scope, timeline, and resource requirements using multiple estimation techniques i… |
 | `/project-flow-ops` | Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking acti… |
 | `/project-guidelines-example` | Reference template for creating project-specific CLAUDE.md files. Shows how to structure project g… |
 | `/project-health` | All-in-one project configuration and health management. Sets up new projects (settings.local.json,… |
-| `/project-init` | Initialize a new (greenfield) project for the SDD flow - domain selection, folder scaffolding, and… |
+| `/project-init` | Scaffold a new project with base structure (git, README, LICENSE, CI, pre-commit). Use when starti… |
 | `/project-management-guru-adhd` | Expert project manager for ADHD engineers managing multiple concurrent projects. Specializes in hy… |
 | `/project-management-skills` | A governed project management OS for OpenClaw that applies to user requests involving planning, co… |
 | `/project-manager` | Project management expert for Agile, estimation, risk management, and stakeholder communication |
@@ -12054,15 +12611,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/project-session-management` | Track progress across work sessions using SESSION.md with git checkpoints and concrete next action… |
 | `/project-session-manager` | Worktree-first dev environment manager for issues, PRs, and features with optional tmux sessions |
 | `/project-skill-audit` | Analyze a project and recommend highest-value skills to create or update. Use when: auditing proje… |
+| `/project-skill-scripts` | Find and create supporting scripts for plugin skills. Use when auditing skills for script opportun… |
 | `/project-stage-detection` | Detect project maturity stage (new/early/mid/mature) from file structure and route to appropriate … |
 | `/project-status-report` | Write a structured project status report for any project. Use when asked to write a project update… |
 | `/project-structure` | Guidelines for organizing .NET projects, including solution structure, project references, folder … |
+| `/project-test-loop` | Automated TDD test-fix-refactor cycle until tests pass. Use when looping on failing tests, running… |
 | `/project-tooling` | gh, vercel, supabase, render CLI and deployment platform setup |
 | `/project-workflow-analysis-blueprint-generator` | Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflow… |
 | `/projection-patterns` | Build read models and projections from event streams. Use when implementing CQRS read sides, build… |
-| `/prometheus` | Prometheus monitoring expert for PromQL, alerting rules, Grafana dashboards, and observability |
+| `/prometheus` | Prometheus and Grafana Cloud Metrics overview including PromQL query language, Metrics Drilldown, … |
 | `/prometheus-alertmanager` | Configure Prometheus Alertmanager for alert routing, grouping, silencing, and notification deliver… |
+| `/prometheus-cardinality-troubleshooter` | Diagnostic guide for active Prometheus cardinality problems — slow queries, OOMing Prometheus, hig… |
 | `/prometheus-configuration` | Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. |
+| `/prometheus-label-strategy` | Expert evaluator for Prometheus label strategy on Grafana Cloud. Audits, designs, and improves lab… |
 | `/prometheus-monitoring` | Set up Prometheus monitoring for applications with custom metrics, scraping configurations, and se… |
 | `/promote` | Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanen… |
 | `/promote-post` | Write a promotional tweet for a published article. Takes a post URL (Substack, X Article, blog) an… |
@@ -12070,6 +12631,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/prompt-analyzer` | 提示词分析与洞察 - 查看Prompt详情、对比差异、推荐相似提示词、元素库统计 |
 | `/prompt-architect` | Create and enhance prompts, system instructions, SKILL.md content, and principle files. Capabiliti… |
 | `/prompt-caching` | Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (… |
+| `/prompt-creation` | Techniques and templates for creating optimal prompts following Anthropic conventions |
 | `/prompt-defense` | Detect and block prompt injection attacks in emails. Use when reading, processing, or summarizing … |
 | `/prompt-editor` | Create and edit AI-facing prompts (agent / skill / rule / command, etc.) and self-check / fix them… |
 | `/prompt-engineer` | Disena, itera y versiona prompts de LLM. Documenta el proceso de optimizacion con metricas y varia… |
@@ -12090,11 +12652,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/prompt-library` | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://… |
 | `/prompt-log` | Extract conversation transcripts from AI coding session logs (Clawdbot, Claude Code, Codex). Use w… |
 | `/prompt-master` | 提示词主控 - 智能选择合适的领域skill并生成提示词，支持自动领域分类和调度 |
+| `/prompt-optimization` | Analyze and improve existing prompts for better performance |
 | `/prompt-optimizer` | Transform vague prompts into precise, well-structured specifications using EARS (Easy Approach to … |
 | `/prompt-pack` | Author and execute "prompt packs" — a big job broken into a sequence of self-contained, independen… |
 | `/prompt-regression-tester` | Compares old vs new prompts across test cases with diff summaries, stability metrics, breakage ana… |
 | `/prompt-template-builder` | Creates reusable prompt templates with strict output contracts, style rules, few-shot examples, an… |
 | `/prompt-tester` | Design, test, and iterate on AI prompts systematically using structured evaluation criteria. Use w… |
+| `/prompt-testing` | A/B testing and performance metrics for prompts |
 | `/prompt-to-game` | Master the art of "vibe coding" - creating playable games through natural language prompts to AI. … |
 | `/prompt-xray` | 提示词X光透视 - 从优秀提示词中逆向提取"如何做X"的知识，让黑盒变透明 |
 | `/promptfoo` | Test and evaluate LLM prompts systematically with Promptfoo — open-source eval framework. Use when… |
@@ -12107,10 +12671,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/proof-composer` | Validates entire engineering proof chain. Verifies architecture, backend maps, backend code, stand… |
 | `/proof-of-work` | Use automatically during development workflows when making claims about tests, builds, verificatio… |
 | `/proofly-automation` | Automate Proofly tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/properties` | Obsidian YAML frontmatter properties: read, set, remove on notes. Use when user mentions frontmatt… |
 | `/property-based-testing` | Provides guidance for property-based testing across multiple languages and smart contracts. Use wh… |
 | `/proposal-writer` | Create compelling business proposals that win deals and partnerships. Use when a user asks to writ… |
 | `/propose-hypotheses` | Execute complete FPF cycle from hypothesis generation to decision |
 | `/proptech-advisor` | Strategic advisory for proptech founders on real-estate segments, MLS/brokerage models, licensing,… |
+| `/prose-distill` | Prose distill: condense verbose text to its essence. Use when asked to condense, tighten, shorten,… |
+| `/prose-synthesize` | Prose synthesize: turn unstructured notes into a structured, actionable plan. Use when given brain… |
 | `/prospect-panel-simulator` | Simulate a panel of your real prospects and buyers to pressure-test sales and marketing before it … |
 | `/prospect-research-compiler` | Aggregate prospect intelligence from multiple sources including news, social media, company websit… |
 | `/prospecting` | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B S… |
@@ -12144,6 +12711,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/publish-finding-to-jira` | Turn a security finding (vuln, pentest issue, review item) into a well-formed Jira issue — mapped … |
 | `/publish-report-to-confluence` | Publish a security report, runbook, threat model, or assessment writeup to Confluence — correct sp… |
 | `/publish-substack-article` | Publish Markdown articles to Substack as drafts. Use when user wants to publish a Markdown file to… |
+| `/publish-sync` | Obsidian Publish and Sync operations. Use when publishing notes, managing change sets, pausing/res… |
 | `/publish-to-pages` | Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides … |
 | `/publish-x-article` | Publish Markdown articles to X (Twitter) Articles editor with proper formatting. Use when user wan… |
 | `/publish-zsxq-article` | Publish Markdown articles to Zsxq (知识星球) as drafts. Use when user wants to publish a Markdown file… |
@@ -12173,6 +12741,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/puremac-macos-cleaner` | Free open-source macOS cleaner built with SwiftUI — CleanMyMac alternative with zero telemetry, sc… |
 | `/purple-team-exercise` | Plan and run a purple-team exercise: collaboratively emulate specific ATT&CK techniques and measur… |
 | `/push-notification-setup` | Implements push notifications across iOS, Android, and web using Firebase Cloud Messaging and nati… |
+| `/push-notifications` | Implement, review, or debug push notifications in iOS/macOS apps — local notifications, remote (AP… |
 | `/pushbullet-automation` | Automate Pushbullet tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/pusher` | You are an expert in Pusher Channels, the hosted real-time messaging platform. You help developers… |
 | `/pushover-automation` | Automate Pushover tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -12202,6 +12771,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pyqt6-ui-development-rules` | PyQt6 desktop GUI development rules -- signal/slot architecture, QSS theming, QThread concurrency,… |
 | `/pyre-code-ml-practice` | Self-hosted ML coding practice platform with 68 problems covering Transformers, diffusion, RLHF, a… |
 | `/pyright` | Pyright fast Python type checker from Microsoft with VS Code integration and strict type checking … |
+| `/pyroscope` | Grafana Pyroscope continuous profiling platform. Covers instrumentation of Go/Java/Python/Ruby/Nod… |
 | `/pysam` | Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences,… |
 | `/pytdc` | Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, sca… |
 | `/pytest` | Test Python code with pytest. Use when a user asks to write unit tests, set up test fixtures, mock… |
@@ -12229,6 +12799,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/python-coder` | Modern Python 3.12+ development with uv, ruff, and production-ready practices. Routes to specializ… |
 | `/python-config-manager` | Generate and validate environment-based configuration for Python apps using Pydantic or Dynaconf. … |
 | `/python-configuration` | Python configuration management via environment variables and typed settings. Use when externalizi… |
+| `/python-containers` | Python container optimization — slim images (not Alpine), virtualenv, multi-stage, pip/poetry/uv, … |
 | `/python-craftsman` | Python excellence specialist for type safety, async patterns, packaging, and idiomatic production … |
 | `/python-cybersecurity-tool-development` | Guidelines for building Python cybersecurity tools with secure coding practices, async scanning, a… |
 | `/python-data-classes` | Use when Python data modeling with dataclasses, attrs, and Pydantic. Use when creating data struct… |
@@ -12272,6 +12843,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/python-resource-management` | Python resource management with context managers, cleanup patterns, and streaming. Use when managi… |
 | `/python-reviewer` | Review Python code with high quality bar for type hints, Pythonic patterns, and maintainability. |
 | `/python-security-scanner` | Detect common Python vulnerabilities such as SQL injection, unsafe deserialization, and hardcoded … |
+| `/python-services` | Python patterns for CLI tools, async concurrency, and backend services. Use when working with Pyth… |
 | `/python-setup` | Set up and maintain Python projects with uv, ruff, ty, pytest, pre-commit hooks, and GitHub Action… |
 | `/python-style` | Use this when creating, editing, or reviewing Python code — including type hints, docstrings, nami… |
 | `/python-testing-patterns` | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven develop… |
@@ -12458,12 +13030,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/rayden-use` | Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design token … |
 | `/rbac-permissions-builder` | Implements role-based access control with permission matrix, route guards, policy functions, and U… |
 | `/rbac-policy-tester` | Creates comprehensive permission tests ensuring RBAC doesn't regress with test matrices, CI gating… |
+| `/rd-management` | R&D management expertise for R&D portfolio management, technology roadmapping, research methodolog… |
 | `/rdkit` | Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, L… |
 | `/rds` | AWS RDS relational database service for managed databases. Use when provisioning databases, config… |
 | `/re-amaze-automation` | Automate Re Amaze tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/re-create` | Completely delete and rewrite a file or module from scratch when structural rot makes patching imp… |
 | `/react` | React 19/19.2 modern patterns for concurrent rendering, Server Components, actions, ref-as-prop, d… |
+| `/react-19` | React 19.2 features - use(), useOptimistic, useActionState, useEffectEvent, Activity component, Re… |
 | `/react-19-component-scaffolder` | Scaffolds React 19 / React 19.2 code in TypeScript — components, Server Component pages, client is… |
+| `/react-19-plugin-migration` | Migrate a Grafana plugin to React 19 compatibility. Use when the user asks to update a plugin for … |
 | `/react-a11y` | React accessibility (WCAG 2.2 AA) — semantic HTML first, ARIA only when needed, focus management, … |
 | `/react-advanced` | Modern React 19 platform features and rendering architecture - the React Compiler (auto-memoizatio… |
 | `/react-agents-project-scaffolder` | Use when scaffolding a new React project, adding React to an existing project, or generating a fea… |
@@ -12492,6 +13067,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/react-development` | Comprehensive React development with hooks, components, state management, context, effects, and pe… |
 | `/react-docs-writing` | Documentation patterns for React take-home projects and interview builds where documentation is an… |
 | `/react-doctor` | This skill should be used when reviewing React components, hooks, and rendering behavior, then tri… |
+| `/react-effects-audit` | Audit React components for unnecessary useEffect patterns. Detects 9 anti-patterns from "You Might… |
 | `/react-email` | You are an expert in React Email, the library for building responsive HTML emails using React comp… |
 | `/react-embeds` | Provider-specific patterns for embedding third-party media in React — YouTube (incl. nocookie), So… |
 | `/react-error-handling` | React error boundaries and fallback UIs for catching rendering errors. Use when handling component… |
@@ -12503,8 +13079,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/react-fetch-cache-patterns` | React data-fetching patterns at scale — recommender carousels, infinite feeds, pages with many par… |
 | `/react-flow-architect` | Build production-ready ReactFlow applications with hierarchical navigation, performance optimizati… |
 | `/react-flow-node-ts` | Create React Flow node components following established patterns with proper TypeScript types and … |
-| `/react-forms` | Complete React forms system. PROACTIVELY activate for: (1) Controlled form patterns, (2) React Hoo… |
+| `/react-forms` | TanStack Form v1 - type-safe forms with Zod/Yup/Valibot validation, async validation, arrays, nest… |
 | `/react-forms-validation` | Comprehensive form patterns for React 19 / Next 15 — Zod schemas with type inference, Server Actio… |
+| `/react-frontend` | React architecture patterns, TypeScript, Next.js, hooks, and testing. Use when working with React … |
 | `/react-fundamentals-19` | Complete React 19 fundamentals system. PROACTIVELY activate for: (1) React 19 new features and cha… |
 | `/react-hook-builder` | Creates custom React hooks for common patterns including data fetching, forms, authentication, loc… |
 | `/react-hook-form` | Build performant forms in React with React Hook Form. Use when a user asks to handle form validati… |
@@ -12514,6 +13091,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/react-hooks-composition` | Advanced React hooks composition patterns - SWR integration, debounced search, memoized contexts, … |
 | `/react-hooks-patterns` | Use when React Hooks patterns including useState, useEffect, useContext, useMemo, useCallback, and… |
 | `/react-html-platform` | Modern HTML platform APIs that delete React code — native `<dialog>` for modals (ships focus trap … |
+| `/react-i18n` | react-i18next for React 19 - useTranslation hook, TypeScript Selector API, namespaces, pluralizati… |
 | `/react-impl-data-fetching` | Use when fetching data from APIs, managing server state, implementing loading and error states, or… |
 | `/react-impl-performance` | Use when optimizing render performance, profiling components, reducing bundle size, or implementin… |
 | `/react-impl-project-setup` | Use when creating a new React project, configuring Vite, setting up TypeScript, or establishing pr… |
@@ -12577,7 +13155,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/react-senior-ux` | Senior UX Engineer-level React orchestrator — opening moves, decision framework, and routing to sp… |
 | `/react-server-components` | Implements React Server Components (RSC) patterns with Next.js App Router including data fetching,… |
 | `/react-server-components-framework` | Use when building Next.js 16+ apps with React Server Components. Covers App Router, Cache Componen… |
+| `/react-shadcn` | shadcn/ui for React with TanStack Form. Use when building UI components, forms, dialogs, tables, t… |
 | `/react-spring-physics` | Physics-based animation library combining React Spring (spring dynamics, gesture integration, 60fp… |
+| `/react-state` | Zustand v5 state management for React. Use when implementing global state, stores, persist, or cli… |
 | `/react-state-machine` | Building reusable React state machine skills with XState v5 and the actor model |
 | `/react-state-management` | Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when… |
 | `/react-styling` | React styling, design tokens, responsive layout, and motion — Tailwind, CSS Modules, CSS-in-JS, de… |
@@ -12589,6 +13169,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/react-syntax-hooks-basic` | Use when using any core React hook, writing side effects, managing component state, or optimizing … |
 | `/react-syntax-jsx` | Use when writing JSX/TSX, rendering lists, implementing conditional rendering, or typing component… |
 | `/react-syntax-refs` | Use when accessing DOM elements, forwarding refs to child components, implementing imperative APIs… |
+| `/react-tanstack-router` | TanStack Router - 100% type-safe routing, file-based routes, loaders, search params. Use when impl… |
 | `/react-testing` | Testing strategy for React apps — when to reach for Playwright (E2E) vs Vitest (unit/component) vs… |
 | `/react-testing-library` | React Testing Library best practices for writing maintainable, user-centric tests. Use when writin… |
 | `/react-three-fiber` | You are an expert in React Three Fiber (R3F), the React renderer for Three.js that lets developers… |
@@ -12627,12 +13208,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/readme-craft` | Production-grade README.md patterns for any project type. Use when creating project documentation,… |
 | `/readme-gen` | 当用户想写 README、生成项目文档、补充项目说明时使用 — 自动从代码中提取生成专业 README |
 | `/readme-generator` | Generate comprehensive README.md files for projects. Use when the user asks to create a README, do… |
+| `/readme-standards` | README.md templates and standards. Use when generating or improving README files, checking README … |
 | `/readme-updater` | Keep README files current with project changes. Use when project structure changes, features added… |
 | `/readonly` | Enter or leave a structural READ-ONLY session mode for audit/research/census work. Sets the marker… |
 | `/readwise` | Access Readwise highlights and Reader saved articles |
+| `/real-estate-analyzer` | Property valuation, market analysis, investment ROI calculations, comparable analysis, and rental … |
 | `/real-time-collaboration-engine` | Build real-time collaborative editing with WebSockets, OT/CRDT conflict resolution, and presence a… |
 | `/real-time-content` | The speed layer of AI-native marketing. This skill covers creating and deploying content in real-t… |
 | `/real-time-features` | Implement real-time functionality using WebSockets, Server-Sent Events (SSE), or long polling. Use… |
+| `/realitykit` | Build iOS augmented reality and 3D experiences with RealityKit and ARKit. Use when adding RealityV… |
 | `/realphonevalidation-automation` | Automate Realphonevalidation tasks via Rube MCP (Composio). Always search tools first for current … |
 | `/realtime-analytics` | Build real-time analytics pipelines from scratch. Use when someone asks to "set up analytics", "bu… |
 | `/realtime-database` | When the user needs to design database schemas and queries optimized for real-time applications. U… |
@@ -12651,6 +13235,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/recipe-batch-invite-to-event` | Add a list of attendees to an existing Google Calendar event and send notifications. |
 | `/recipe-block-focus-time` | Create recurring focus time blocks on Google Calendar to protect deep work hours. |
 | `/recipe-bulk-download-folder` | List and download all files from a Google Drive folder. |
+| `/recipe-card-creator` | Formatted digital recipe card generation with ingredient scaling, nutritional information, and org… |
 | `/recipe-collect-form-responses` | Retrieve and review responses from a Google Form. |
 | `/recipe-compare-sheet-tabs` | Read data from two tabs in a Google Sheet to compare and identify differences. |
 | `/recipe-copy-sheet-for-new-month` | Duplicate a Google Sheets template tab for a new month of tracking. |
@@ -12698,6 +13283,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/recon` | Run scope-bounded reconnaissance for a penetration test: enumerate the authorized attack surface (… |
 | `/recon-and-methodology` | Reconnaissance and methodology playbook. Use when mapping assets, discovering endpoints, fingerpri… |
 | `/recon-for-sec` | Entry P1 category router for reconnaissance and methodology. Use when mapping scope, discovering a… |
+| `/reconciler-logic` | Implement reconcilers and watchers for grafana-app-sdk apps — write `TypedReconciler[*MyKind]` rec… |
 | `/recovery` | Workflow recovery protocol for resuming workflows after context loss, session interruption, or err… |
 | `/recruitee-automation` | Automate Recruitee tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/recruitment` | Zero-Hassle Crafted Recruitment Automation - From job spec to candidate evaluation in seconds. Aut… |
@@ -12764,10 +13350,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/referral-program-design` | Design a referral or viral-loop program that actually drives growth. Use when asked to design a re… |
 | `/referrals` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word… |
 | `/refine` | Build data-intensive React applications with Refine. Use when a user asks to create admin panels, … |
+| `/refine-prompt` | Transforms vague prompts into precise, structured AI instructions. Use when asked to refine, impro… |
 | `/refiner-automation` | Automate Refiner tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/reflect` | Mid-conversation reflection skill that pauses execution and zooms out from detail-mode to honestly… |
 | `/reflect-2` | Append to daily notes and create notes in Reflect. Use for capturing thoughts, todos, or syncing i… |
 | `/refly` | Base skill for Refly ecosystem: creates, discovers, and runs domain-specific skills bound to workf… |
+| `/refocus` | Refresh the plan to focus on the task at hand. Use when context grew, completed steps muddy it, or… |
 | `/regex-builder` | Build a regular expression from a plain-English description, or explain an existing one. Use when … |
 | `/regex-expert` | Regular expression expert for crafting, debugging, and explaining patterns |
 | `/regex-visual-debugger` | Debug regex patterns with visual breakdowns, plain English explanations, test case generation, and… |
@@ -12794,10 +13382,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/release-notes` | Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summ… |
 | `/release-orchestrator` | Orchestrate end-to-end release pipelines. Use when running pre-release validation, generating chan… |
 | `/release-planning` | Plan, coordinate, and execute software releases across environments. Manage versioning, rollout st… |
+| `/release-please-configuration` | release-please monorepo config — component tags, per-package extra-files, tag migration. Use when … |
+| `/release-please-pr-workflow` | Manage release-please PR merging for monorepos — batch merging, conflict resolution via PR closure… |
+| `/release-please-protection` | Block manual edits to release-please files (CHANGELOG, version fields). Use when editing changelog… |
+| `/release-please-standards` | release-please standards and configuration reference. Use when configuring release workflows, chec… |
 | `/release-post` | Create professional package release blog posts following Tidyverse or Shiny blog conventions. Use … |
 | `/release-review` | Senior developer-level release review for macOS/iOS apps. Identifies security, privacy, UX, and di… |
 | `/release-skills` | Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, R… |
 | `/release-sync` | Syncs latest release content to NotebookLM and HQ Knowledge Base after version tagging. Reads CHAN… |
+| `/relevancekit` | Increase widget visibility on Apple Watch using RelevanceKit. Use when providing contextual releva… |
 | `/reliability-strategy-builder` | Implements reliability patterns including circuit breakers, retries, fallbacks, bulkheads, and SLO… |
 | `/remarkety-automation` | Automate Remarkety tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/remediation-planner` | 整改计划制定 Skill。将差距报告、审核发现、或不兼容分析转化为有优先级、有验收标准的可执行整改计划。每个步骤配对验证方法，防止「计划没有验证」的情况。触发词：「基于这个分析制定整改计划」「怎么… |
@@ -12874,6 +13467,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/research-ops-skills` | Use when planning, funding, scoping, or synthesizing enterprise research across workstreams — clin… |
 | `/research-output` | 对任何主题进行系统调研，自动产出图文并茂的 Markdown 文档（含 Mermaid 结构图 + qwen-image 可视化），保存到认知结构对应维度的知识库，并自动注册到文档分类清单和知识图… |
 | `/research-paper-writer` | Creates formal academic research papers following IEEE/ACM formatting standards with proper struct… |
+| `/research-presenter` | Turn research findings into presentation outlines with narrative arc, data visualization suggestio… |
 | `/research-protocol` | Conduct rigorous research with proper citations (DOI, arXiv, PMID) and source triangulation. MUST … |
 | `/research-repository` | Build and maintain a research repository that makes findings findable, reusable, and cumulative ac… |
 | `/research-summarizer` | Structured research summarization agent skill for non-dev users. Handles academic papers, web arti… |
@@ -12980,6 +13574,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/rfc-writer` | Write an engineering RFC (Request for Comments) for a technical decision, architectural change, or… |
 | `/rfp-responder` | Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arriv… |
 | `/rfp-writer` | Write a clear Request for Proposal that gets comparable, high-quality vendor bids. Use when asked … |
+| `/rg-code-search` | ripgrep (rg) fast code search: smart defaults, regex, file filtering. Use when searching for text … |
 | `/rhino3d-scripts` | Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write Rhi… |
 | `/rice-impact-matrix` | Scores features using both RICE and strategic alignment for nuanced prioritisation. Use when asked… |
 | `/rice-prioritisation` | Scores and ranks product initiatives using the RICE framework. Use when asked to prioritise featur… |
@@ -12993,7 +13588,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ripgrep` | Enhanced code search with custom ripgrep binary supporting ES module extensions and advanced patte… |
 | `/rippling-automation` | Automate Rippling tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/risk-assessment` | Run a structured security risk assessment and maintain a risk register — identify, analyze, evalua… |
-| `/risk-management` | Manages financial risks through quantitative analysis, modeling, and mitigation strategies. |
+| `/risk-management` | Enterprise risk management expertise for ERM frameworks, risk assessment, business continuity, ins… |
 | `/risk-management-specialist` | Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Pro… |
 | `/risk-management-trading` | Master of capital preservation and position sizing - combining Kelly Criterion, volatility targeti… |
 | `/risk-manager` | Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates e… |
@@ -13076,6 +13671,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ruby-gems-bundler` | Use when working with Ruby gems, Bundler for dependency management, creating gemspecs, and publish… |
 | `/ruby-mcp-server-generator` | Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK … |
 | `/ruby-metaprogramming` | Use when working with Ruby metaprogramming features including dynamic method definition, method_mi… |
+| `/ruby-on-rails-best-practices` | Ruby on Rails architecture and coding patterns from Basecamp. Use when writing, reviewing, or refa… |
 | `/ruby-oop` | Use when working with Ruby's object-oriented programming features including classes, modules, inhe… |
 | `/ruby-optimise` | Ruby performance optimization guidelines. This skill should be used when writing, reviewing, or re… |
 | `/ruby-patterns` | Modern Ruby idioms, design patterns, metaprogramming techniques, and best practices. Use when writ… |
@@ -13085,6 +13681,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ruby-refactor` | Ruby refactoring guidelines from community best practices. This skill should be used when refactor… |
 | `/ruby-standard-library` | Use when working with Ruby's standard library including Enumerable, File I/O, Time/Date, Regular E… |
 | `/ruff` | Lint and format Python with Ruff. Use when a user asks to set up Python linting, replace flake8/bl… |
+| `/ruff-formatting` | Python code formatting with ruff format. Fast, Black-compatible formatter. Use when formatting Pyt… |
+| `/ruff-linting` | Python linting with ruff. Fast linting, rule selection, auto-fixing, and config. Use when checking… |
 | `/ruff-recursive-fix` | Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iterativel… |
 | `/ruflo-doctor` | Run health checks on the Ruflo installation and fix common issues |
 | `/rugby-session-planning-coach` | Coaches user to build a rugby training session based on the needs of the squad by asking effective… |
@@ -13117,6 +13715,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/rust-code-navigator` | Navigate Rust code using LSP. Triggers on: /navigate, go to definition, find references, where is … |
 | `/rust-craftsman` | Systems programming specialist for Rust, ownership model, memory safety, concurrency, and performa… |
 | `/rust-daily` | CRITICAL: Use for Rust news and daily/weekly/monthly reports. Triggers on: rust news, rust daily, … |
+| `/rust-development` | Rust development — cargo, clippy, rustfmt, async, Tokio, Serde, memory safety. Use when mentioning… |
 | `/rust-engineer` | Writes, reviews, and debugs idiomatic Rust code with memory safety and zero-cost abstractions. Imp… |
 | `/rust-error-handling` | Use when Rust error handling with Result, Option, custom errors, thiserror, and anyhow. Use when h… |
 | `/rust-expert` | Rust programming expert for ownership, lifetimes, async/await, traits, and unsafe code |
@@ -13133,6 +13732,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/rust-skill-creator` | Use when creating skills for Rust crates or std library documentation. Keywords: create rust skill… |
 | `/rust-skills` | Comprehensive Rust coding guidelines with 265 rules across 26 categories. Use when writing, review… |
 | `/rust-symbol-analyzer` | Analyze Rust project structure using LSP symbols. Triggers on: /symbols, project structure, list s… |
+| `/rust-systems` | Rust patterns for CLI tools, backend services, and general application code. Use when working with… |
 | `/rust-systems-programming` | Complete guide for Rust systems programming including ownership, borrowing, concurrency, async pro… |
 | `/rust-testing` | Rust testing patterns including unit tests, integration tests, async testing, property-based testi… |
 | `/rust-ui-architecture` | Architecture patterns for Rust UI applications including GPUI-specific patterns, code organization… |
@@ -13163,6 +13763,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sage-automation` | Automate Sage tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/salary-negotiation` | Plan a compensation negotiation grounded in numbers and leverage, not nerves. Use when asked to ne… |
 | `/salary-negotiation-prep` | Research market rates, build negotiation strategy, and create counter-offer scripts |
+| `/sales` | Sales strategy expertise for sales methodologies (MEDDIC, SPIN, Challenger), sales forecasting, ac… |
 | `/sales-11x` | 11x.ai platform help — AI digital workers for revenue operations: Alice (AI SDR for outbound prosp… |
 | `/sales-6sense` | 6sense platform help — Signalverse intent data, Predictive Analytics (6AI Scoring), Sales Intellig… |
 | `/sales-account-map` | Maps the buying committee at a target account — identify decision-makers, influencers, champions, … |
@@ -13821,6 +14422,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/scenario-analyzer` | Skill that analyzes 18-month scenarios from a news headline. Runs the primary analysis with the sc… |
 | `/scenario-war-room` | Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption… |
 | `/scene-structure-techniques` | Use when structuring scenes or planning chapter content - provides scene-sequel framework, tension… |
+| `/scenekit` | Maintain and extend existing SceneKit 3D scenes and visualizations. Use when working with SCNView,… |
 | `/scheduled-tasks` | Schedule recurring tasks and heartbeat monitoring using Claude Code's cron system (CronCreate/Cron… |
 | `/scheduler-and-booking-design` | Designing meeting schedulers and booking experiences that qualify leads, set up calls well, and co… |
 | `/schema` | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also… |
@@ -13902,6 +14504,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seaborn` | Statistical visualization with pandas integration. Use for quick exploration of distributions, rel… |
 | `/search-and-discovery-experience` | Implement search and discovery UX with indexing pipelines, relevance tuning, and secure filtered q… |
 | `/search-code` | Search for code across GitHub repositories |
+| `/search-discovery` | Obsidian vault search: full-text/grep, tag listing, link traversal, outline, orphan/dead-end detec… |
 | `/search-engine-setup` | Set up and optimize search engines for applications. Use when someone asks to "add search to my ap… |
 | `/search-first` | Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing… |
 | `/search-realtime-information` | Priority live web search for real-time information |
@@ -13969,7 +14572,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/security-flutter` | Sécurité Flutter. Use when reviewing security, implementing auth, or hardening code. |
 | `/security-guidance` | PreToolUse security-anti-pattern hook for Claude Code. Catches 12 common security risks (command i… |
 | `/security-hardening` | Reduces attack surface across OS, container, cloud, network, and database layers using CIS Benchma… |
-| `/security-headers` | Security headers configuration and best practices for ASP.NET Core Razor Pages applications. Cover… |
+| `/security-headers` | Verify and configure HTTP security headers (CSP, HSTS, CORS, X-Frame-Options, etc). Checks current… |
 | `/security-headers-configuration` | Configures HTTP security headers to protect against XSS, clickjacking, and MIME sniffing attacks. … |
 | `/security-incident-playbook-generator` | Creates response procedures for security incidents with containment steps, communication templates… |
 | `/security-investigation` | Drive a security investigation from a lead or hypothesis to an evidence-backed conclusion — correl… |
@@ -14032,6 +14635,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/semanticscholar-automation` | Automate Semanticscholar tasks via Rube MCP (Composio). Always search tools first for current sche… |
 | `/semgrep` | Run Semgrep static analysis scan on a codebase using parallel subagents. Supports two scan modes —… |
 | `/semgrep-rule-variant-creator` | Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified … |
+| `/send-data` | Sending telemetry data to Grafana Cloud — metrics via Prometheus remote write or OTLP, logs via Lo… |
 | `/send-me-my-files-r2-upload-with-short-lived-signed-urls` | Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage and generate secure presigned … |
 | `/sendbird-ai-chabot-automation` | Automate Sendbird AI Chabot tasks via Rube MCP (Composio). Always search tools first for current s… |
 | `/sendbird-automation` | Automate Sendbird tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -14062,6 +14666,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/senior-security` | Use when the user asks for STRIDE threat modeling, DREAD risk scoring, data-flow-diagram threat an… |
 | `/sensibo-automation` | Automate Sensibo tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/sensor-fusion` | Combining IoT sensor data using algorithms like Kalman filters for improved accuracy and reliability |
+| `/sensorkit` | Access research-grade sensor data using SensorKit for approved studies. Use when an app needs Sens… |
 | `/sentence-transformers` | Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained mo… |
 | `/sentencepiece` | Language-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. … |
 | `/sentiment-analysis` | Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfact… |
@@ -14105,6 +14710,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sentry-sdk-skill-creator` | Create a complete Sentry SDK skill bundle for any platform. Use when asked to "create an SDK skill… |
 | `/sentry-sdk-upgrade` | Upgrade the Sentry JavaScript SDK across major versions. Use when asked to upgrade Sentry, migrate… |
 | `/sentry-setup-ai-monitoring` | Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI age… |
+| `/sentry-span-streaming-dart` | Migrate Dart/Flutter SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to … |
 | `/sentry-span-streaming-js` | Migrate JavaScript SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to "e… |
 | `/sentry-span-streaming-python` | Migrate Python SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to "enabl… |
 | `/sentry-svelte-sdk` | Full Sentry SDK setup for Svelte and SvelteKit. Use when asked to "add Sentry to Svelte", "add Sen… |
@@ -14127,6 +14733,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seo-ai-search-share-of-voice` | Measure AI Search share of voice for a target domain versus competitors across ChatGPT, Perplexity… |
 | `/seo-ai-social-report` | Generate one unified performance report that brings together SEO rankings, AI-search visibility (S… |
 | `/seo-analytics` | Generate visual SEO analysis reports using Google PageSpeed Insights API. Use when user asks to an… |
+| `/seo-analytics-auditor` | Use this skill when auditing SEO, analyzing Core Web Vitals, verifying meta tags, checking structu… |
 | `/seo-and-meta-tags-in-sveltekit` | Provides SEO and Meta Tags guidelines in SvelteKit. |
 | `/seo-api` | SE Ranking API integration architect. Covers the whole SE Ranking surface — the Data API (keyword … |
 | `/seo-audit` | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user… |
@@ -14156,6 +14763,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seo-dataforseo` | Live SEO data via DataForSEO MCP server. SERP analysis (Google, Bing, Yahoo, YouTube, Google Image… |
 | `/seo-drift` | SEO drift monitoring: capture baselines of SEO-critical elements, detect changes, and track regres… |
 | `/seo-ecommerce` | E-commerce SEO analysis: Google Shopping visibility, Amazon marketplace intelligence, product sche… |
+| `/seo-entity` | Use when optimizing entity-based / semantic SEO 2026. Covers entity maps, Google Knowledge Graph r… |
+| `/seo-featured-snippets` | Use when optimizing for position 0 featured snippets and AI Overviews. Covers paragraph, list, tab… |
 | `/seo-firecrawl` | Full-site crawling, scraping, and site mapping via Firecrawl MCP. Use when user says "crawl site",… |
 | `/seo-flow` | FLOW framework integration — evidence-led SEO using the Find → Leverage → Optimize → Win loop. Sur… |
 | `/seo-forensic-incident-response` | Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident… |
@@ -14166,6 +14775,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seo-hreflang` | Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validat… |
 | `/seo-image-gen` | AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, pro… |
 | `/seo-images` | Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, respons… |
+| `/seo-internal-linking` | Use when designing internal linking strategy. Covers pillar/cluster architecture, anchor text opti… |
 | `/seo-keyword` | Run keyword research, classify by search intent, cluster into topical groups, and prioritize for c… |
 | `/seo-keyword-cluster` | Build a content cluster plan from seed keywords — intent-grouped clusters, pillar+spokes architect… |
 | `/seo-keyword-cluster-builder` | SEO keyword clustering with topic organization, content hub architecture, internal linking strateg… |
@@ -14186,6 +14796,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seo-profound` | Profound LLM citation tracker (extension). Time-series brand citation rates across ChatGPT, Perple… |
 | `/seo-programmatic` | Programmatic SEO planning and analysis for pages generated at scale from data sources. Covers temp… |
 | `/seo-rank-tracking` | Set up and run rank tracking using Ahrefs MCP: pick the right keywords to track, segment them by p… |
+| `/seo-redirects` | Use when planning redirects or site migration. Covers 301 vs 302 vs 307/308, migration plans, redi… |
 | `/seo-schema` | Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user… |
 | `/seo-seranking` | SE Ranking AI visibility analyst (extension). Tracks AI Share-of-Voice across ChatGPT, Gemini, Per… |
 | `/seo-site-health-audit` | Triage technical SEO findings from Ahrefs Site Audit (and similar crawlers) by SEO impact, not jus… |
@@ -14199,6 +14810,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/seo-technical-audit` | Focused one-shot technical SEO audit for a domain. Crawlability, indexability, security, mobile, s… |
 | `/seo-traffic-diagnosis` | Diagnose organic traffic changes (drops, stalls, or unexpected wins) using Ahrefs MCP plus Search … |
 | `/seo-unlighthouse` | Multi-page Lighthouse audit via the MIT-licensed Unlighthouse CLI. Free-tier alternative to runnin… |
+| `/seo-video` | Use when optimizing video SEO. Covers VideoObject schema, YouTube metadata, transcripts, chapters,… |
 | `/seo-visibility-expert` | Comprehensive SEO, discoverability, and AI crawler optimization for web projects. Use for technica… |
 | `/separation-of-concerns` | Enforces code organization using features/ (verticals), platform/ (horizontals), and shell/ (thin … |
 | `/seqera-automation` | Automate Seqera tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -14224,6 +14836,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/serverless` | Serverless and microservices development guidelines covering FastAPI, cloud-native patterns, API g… |
 | `/serverless-architecture` | Design and implement serverless applications using AWS Lambda, Azure Functions, and GCP Cloud Func… |
 | `/serverless-debugger` | Debug and optimize serverless functions (AWS Lambda, Vercel Functions, Cloudflare Workers). Use wh… |
+| `/serverless-development` | AWS Lambda, Vercel Edge Functions, Cloudflare Workers, cold starts, deployment patterns, and infra… |
 | `/serverless-event-driven-and-workflow-orchestration` | Design event-driven serverless workflows with queues, topics, schedulers, and orchestration patter… |
 | `/service-blueprint` | Map the end-to-end service delivery system including frontstage actions, backstage processes, and … |
 | `/service-catalog-entry` | Write a service catalog entry for a microservice or internal platform service — covering service i… |
@@ -14239,6 +14852,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/serving-llms-vllm` | Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when dep… |
 | `/session-checkpoint` | Save session state to ledger file for continuity across crashes, context switches, or /clear + rel… |
 | `/session-compression` | AI session compression techniques for managing multi-turn conversations efficiently through summar… |
+| `/session-deep-dive` | Deep qualitative analysis of high-signal sessions. Spawns subagents with v2 template, synthesizes … |
+| `/session-distill` | Distill session insights into rules, skill improvements, recipes, and cross-repo promotions to mar… |
+| `/session-end` | End-of-session orchestrator. Previews which of wrap/distill/feedback/taskwarrior-sync qualify, sin… |
 | `/session-handoff` | Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (… |
 | `/session-inspector` | Inspect agent session transcripts from Claude (~/.claude/projects/), Codex (~/.codex/sessions/), o… |
 | `/session-launcher` | Restores full context when user says "hi-ai" or starts a new conversation. Searches project files,… |
@@ -14250,11 +14866,17 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/session-mesh` | Session topology: discover alive sessions, specialization registry, steer/kill sub-agents, session… |
 | `/session-persist` | Persist and restore agent sessions across conversations with state snapshots |
 | `/session-report` | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills,… |
+| `/session-scan` | Compute metrics for Claude Code sessions. Discovers via ccrider, filters trivial, computes frictio… |
+| `/session-spinup` | Read-only session-start briefing of open tasks, git state, journal todos. Use when user says spin … |
+| `/session-timeout-handler` | Build timeout-resistant Claude Code workflows with chunking strategies, checkpoint patterns, progr… |
 | `/session-transcript-analyzer` | Parses and merges Claude .jsonl transcripts with debug logs to generate a timeline heuristics repo… |
+| `/session-trends` | Analyze trends across session metrics. Computes windowed aggregates, deltas, and compares against … |
+| `/session-wrap` | End-of-session capture to taskwarrior, optional journal, GitHub issues. Use when user says wrap up… |
 | `/sessions` | Manage and review session history and state |
 | `/setlist` | Build a grandMA2 per-song show system from a set list / rundown: for each song a selector macro, a… |
 | `/setting-detector` | Automatically detects story settings (genres, time periods, themes) based on keywords and activate… |
 | `/setting-up-tauri-projects` | Helps users create and initialize new Tauri v2 projects for building cross-platform desktop and mo… |
+| `/settings-configuration` | Claude Code settings hierarchy, permission wildcards, and configuration patterns. Use when setting… |
 | `/setup` | Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, me… |
 | `/setup-api-key` | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user … |
 | `/setup-arxiv-mcp` | Guide for setup arXiv paper search MCP server using Docker MCP |
@@ -14276,19 +14898,28 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sfsymbol-generator` | Generate an Xcode SF Symbol asset catalog .symbolset from an SVG. Use when you need to add a custo… |
 | `/sglang` | Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/r… |
 | `/shadcn` | Manages shadcn/ui components and projects, providing context, documentation, and usage patterns fo… |
+| `/shadcn-components` | Component patterns for shadcn/ui with both Radix UI and Base UI primitives. Covers API differences… |
+| `/shadcn-detection` | Detect whether a project uses Radix UI or Base UI as shadcn/ui primitives. Analyzes package.json, … |
 | `/shadcn-management` | Manage shadcn/ui components using MCP tools. Use when user needs to: (1) Add new shadcn components… |
+| `/shadcn-migration` | Migration guide between Radix UI and Base UI primitives for shadcn/ui. Covers step-by-step migrati… |
+| `/shadcn-registries` | Configure shadcn/ui registries, components.json, and CLI commands. Covers default Radix registry, … |
+| `/shadcn-theming` | Design tokens and theming for shadcn/ui. Covers CSS variables, OKLCH colors, dark/light mode, and … |
 | `/shadcn-ui` | Expert guidance for integrating and building applications with shadcn/ui components, including com… |
 | `/shadcn-vue` | shadcn-vue for Vue/Nuxt with Reka UI components and Tailwind. Use for accessible UI, Auto Form, da… |
 | `/shader-dev` | Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF mode… |
 | `/shader-programming` | Writing and optimizing GLSL or HLSL shaders for real-time graphics rendering in game engines. |
 | `/shader-programming-glsl` | Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, coveri… |
+| `/shadertoy` | This skill should be used when working with Shadertoy shaders, GLSL fragment shaders, or creating … |
+| `/shadow-mode` | Shadow mode / dark-launch for validating new systems under production load. Use when testing repla… |
 | `/shannon-ai-pentester` | Autonomous white-box AI pentester for web applications and APIs using source code analysis and liv… |
 | `/shap` | Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this ski… |
 | `/share-reading` | Draft social media posts to share valuable readings, articles, or resources. Use when user wants t… |
 | `/share_point-automation` | Automate SharePoint tasks via Rube MCP (Composio): document libraries, sites, lists, and content m… |
 | `/shared` | Platform-agnostic skills including skill creation templates and best practices. Use when creating … |
 | `/shared-memory` | Share memories and state with other users. Use when user wants to share knowledge, create users/gr… |
+| `/shareplay-activities` | Build shared real-time experiences using GroupActivities and SharePlay. Use when implementing shar… |
 | `/sharepoint` | Build integrations with SharePoint Online for document management, site automation, and intranet d… |
+| `/sharing-skills` | Use when you've developed a broadly useful skill and want to contribute it upstream via pull reque… |
 | `/sharp` | Process and transform images with Sharp for Node.js. Use when a user asks to resize images, conver… |
 | `/sharp-coder` | Two-layer performance skill combining disciplined THINK layer (surgical edits, simplicity) and ter… |
 | `/sharp-edges` | Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mi… |
@@ -14297,6 +14928,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/shell` | Shell scripting best practices for writing safe, portable, and maintainable bash/sh scripts. Use w… |
 | `/shell-best-practices` | Use when writing shell scripts following modern best practices. Covers portable scripting, Bash pa… |
 | `/shell-error-handling` | Use when implementing error handling, cleanup routines, or debugging in shell scripts. Covers trap… |
+| `/shell-expert` | Shell scripting: bash, zsh, POSIX, CLI tools, cross-platform automation. Use when writing shell sc… |
 | `/shell-integration` | Shell scripting and terminal integration patterns for building tools that integrate with Zsh, Bash… |
 | `/shell-portability` | Use when writing shell scripts that need to run across different systems, shells, or environments.… |
 | `/shell-scripting` | Shell scripting expert for Bash, POSIX compliance, error handling, and automation |
@@ -14381,6 +15013,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/simplicity-principles` | Use when designing solutions, adding features, or refactoring by applying KISS, YAGNI, and Princip… |
 | `/simplicity-reviewer` | Final review for code simplicity. Identifies anti-patterns, code smells, and YAGNI violations. |
 | `/simplify-code` | Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. |
+| `/simplifying-code` | Simplifies, polishes, and declutters code without changing behavior. Use when asked to simplify, c… |
 | `/simpo-training` | Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better pe… |
 | `/simpy` | Process-based discrete-event simulation framework in Python. Use this skill when building simulati… |
 | `/sinatra-patterns` | Common Sinatra patterns, routing strategies, error handling, and application organization. Use whe… |
@@ -14396,6 +15029,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sitemap-audit` | Validate an AEM Edge Delivery Services sitemap.xml against actual site content. Cross-references t… |
 | `/sitespeakai-automation` | Automate Sitespeakai tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/situation-retrospective` | PM behavioral retrospective. Use this skill whenever a PM wants to debrief a specific situation th… |
+| `/skaffold-filesync` | Skaffold file sync — copy changed files to containers without rebuilding. Use when optimizing the … |
+| `/skaffold-orbstack` | OrbStack-optimized Skaffold for local Kubernetes dev without port-forward. Use when configuring Sk… |
+| `/skaffold-standards` | Skaffold standards with OrbStack and dotenvx for local K8s. Use when configuring Skaffold, setting… |
+| `/skaffold-testing` | Container image validation with Skaffold test/verify stages — container-structure-tests, security … |
 | `/skill` | Manage local skills - list, add, remove, search, edit, setup wizard |
 | `/skill-archetypes` | Four common skill archetypes with structure templates - CLI reference, methodology, safety/securit… |
 | `/skill-architect` | Expert guide for designing and building high-quality skills from scratch through structured conver… |
@@ -14434,6 +15071,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/skill-finder` | Discover and recommend agent skills from SkillsMP, ClawHub, SkillHub, and the Anthropic marketplac… |
 | `/skill-grader` | Evaluate skill test run outputs against expectations and extract implicit claims. |
 | `/skill-graph` | Neo4j query interface for skill discovery — replaces flat skill injection, Cypher traversal |
+| `/skill-harvester` | Meta-skill for extracting and creating reusable Claude Code skills from past work sessions. Analyz… |
 | `/skill-idea-miner` | Mine Claude Code session logs for skill idea candidates. Use when running the weekly skill generat… |
 | `/skill-installer` | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, r… |
 | `/skill-integration-tester` | Validate multi-skill workflows defined in CLAUDE.md by checking skill existence, inter-skill data … |
@@ -14442,9 +15080,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/skill-library-search` | 全量搜索外部 Skill/Agent/Rule 仓库，必须执行7维度协议，禁止以少于7维度的搜索声称「全量完成」。触发词：「全量搜索 skill 库」「搜索 GitHub skill 仓库」「找所… |
 | `/skill-linter` | Validate skills against agentskills.io specification. Use when adding new skills to the marketplac… |
 | `/skill-logger` | Logs and scores skill usage quality, tracking output effectiveness, user satisfaction signals, and… |
-| `/skill-management` | Creates, audits, and validates agent skills following the Agent Skills open standard. Covers YAML … |
+| `/skill-management` | Create, update, and manage Claude Code skills. Use when working with SKILL.md files, slash command… |
 | `/skill-map` | Use to find agent skill installs, duplicate skills, cross-dependencies, invocations, and cross-ref… |
 | `/skill-meta-prompt` | Craft better prompts using proven optimization techniques — use when your prompt needs refinement.… |
+| `/skill-monitor` | Analyze skill effectiveness across sessions. Computes per-skill metrics (action rate, friction, ou… |
 | `/skill-name` | A clear, concise description of what this skill does (1-2 sentences). Focus on the VALUE it provid… |
 | `/skill-navigator` | The 100th skill! Your intelligent guide to all 99 other skills. Recommends the perfect skill for a… |
 | `/skill-optimizer` | Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static an… |
@@ -14470,12 +15109,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/skill-vetter` | Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub,… |
 | `/skill-vetting` | Vet ClawHub skills for security and utility before installation. **Auto-trigger**: 用户安装新技能时自动触发。评估… |
 | `/skill-writer` | Create and improve agent skills following the Agent Skills specification. Use when asked to create… |
+| `/skill-writing-best-practices` | Guidelines for creating AI agent skills. Use when writing new skills, documenting coding patterns,… |
 | `/skillclaw-skill-evolution` | Framework for collective skill evolution in multi-user LLM agent ecosystems — automatically distil… |
 | `/skillcraft` | Create, design, and package Clawdbot skills. Use when asked to "make/build/craft a skill for X", o… |
 | `/skillful-subagent-creator` | Creates Claude subagents equipped with curated skills for solving problems within DAG workflows. U… |
 | `/skillguard` | Security scanner for AgentSkill packages. Scan skills for credential theft, code injection, prompt… |
 | `/skillify` | Turn a repeatable workflow from the current session into a reusable OMC skill draft |
 | `/skills-audit` | Audit locally installed agent skills for security/policy issues using the SkillLens CLI (`skilllen… |
+| `/skills-collection-manager` | Comprehensive toolkit for managing large Claude Code skill collections including bulk downloading … |
 | `/skills-finder` | Intelligent skill matcher that searches multiple skill marketplaces (ClawHub & Skills.sh) in real-… |
 | `/skills-index-snippets` | Create and maintain AGENTS.md / CLAUDE.md snippet indexes that route tasks to the correct dotnet-s… |
 | `/skills-manager` | List, check, update, install, delete, and claim installed skills in the current sibling skills dir… |
@@ -14541,6 +15182,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/snapshot-test-refactorer` | Refactors brittle snapshot tests into resilient, focused assertions. Provides strategies for reduc… |
 | `/snapshot-testing` | Use Verify for snapshot testing in .NET. Approve API surfaces, HTTP responses, rendered emails, an… |
 | `/snipcart` | Add e-commerce to any website with Snipcart. Use when a user asks to add a shopping cart to a stat… |
+| `/sniper-check` | Use when validating code quality after modifications. Runs sniper agent in isolated forked context… |
 | `/snipgrapher` | Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlig… |
 | `/snow-report` | Get snow conditions, forecasts, and ski reports for any mountain resort worldwide. Use when asked … |
 | `/snowflake` | Static-to-EDS conversion that preserves the original design while making content authorable in Doc… |
@@ -14597,10 +15239,23 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/solana-swaps` | Swap tokens on Solana via Jupiter aggregator and check wallet balances. Use when user wants to swa… |
 | `/solana-trader` | Solana wallet management and token trading via Jupiter aggregator. Check balances, view transactio… |
 | `/solana-vulnerability-scanner` | Scans Solana programs for 6 critical vulnerabilities including arbitrary CPI, improper PDA validat… |
+| `/solid-astro` | Use when applying SOLID principles and clean architecture to Astro projects. Enforces files < 100 … |
 | `/solid-cache-coder` | Use when configuring or working with Solid Cache for database-backed caching. Applies Rails 8 conv… |
+| `/solid-csharp` | SOLID principles for C# 12/.NET 9. Files < 100 lines, interfaces separated, modular architecture. … |
+| `/solid-detection` | Multi-language SOLID detection rules. Project type detection, interface locations, file size limit… |
+| `/solid-generic` | SOLID principles for generic TypeScript, Bun, and Node.js projects. Files < 100 lines, interfaces … |
+| `/solid-go` | SOLID principles for Go 1.23+. Files < 100 lines, interfaces separated, modular architecture. Modu… |
+| `/solid-java` | SOLID principles for Java 21+. Files < 100 lines, interfaces separated, modular architecture. Modu… |
 | `/solid-js` | SolidJS — fine-grained reactive UI library without a virtual DOM. Use when building high-performan… |
+| `/solid-nextjs` | This skill should be used when the user asks about "SOLID principles", "Next.js architecture", "mo… |
+| `/solid-php` | SOLID principles for Laravel 13 and PHP 8.3+. Files < 100 lines, interfaces separated, PHPDoc mand… |
 | `/solid-principles` | Use during implementation when designing modules, functions, and components requiring SOLID princi… |
+| `/solid-python` | SOLID principles for Python 3.12+. Files < 100 lines, interfaces separated, modular architecture. … |
 | `/solid-queue-coder` | Use when configuring or working with Solid Queue for background jobs. Applies Rails 8 conventions,… |
+| `/solid-react` | SOLID principles for React 19. Files < 100 lines, hooks separated, interfaces in src/interfaces/, … |
+| `/solid-ruby` | SOLID principles for Ruby 3.3+ and Rails 8. Files < 100 lines, contracts separated, modular archit… |
+| `/solid-rust` | SOLID principles for Rust 2024+. Files < 100 lines, traits separated, modular architecture. Module… |
+| `/solid-swift` | SOLID principles for Swift 6 and SwiftUI (iOS 26+). Files < 100 lines, protocols separated, @Obser… |
 | `/solidity` | Write smart contracts with Solidity for Ethereum. Use when a user asks to create a smart contract,… |
 | `/solidity-security` | Master smart contract security best practices, vulnerability prevention, and secure Solidity devel… |
 | `/solidjs` | SolidJS framework development skill for building reactive web applications with fine-grained react… |
@@ -14644,6 +15299,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/spark-optimization` | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Us… |
 | `/sparse-autoencoder-training` | Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose… |
 | `/spatial-audio` | Implements 3D audio positioning and rendering for immersive AR/VR experiences. |
+| `/spatie-javascript` | Apply Spatie's JavaScript coding standards for any task that creates, edits, reviews, refactors, o… |
+| `/spatie-laravel-php` | Apply Spatie's Laravel and PHP coding standards for any task that creates, edits, reviews, refacto… |
+| `/spatie-security` | Apply Spatie's security guidelines when configuring applications, databases, or servers, or when r… |
+| `/spatie-version-control` | Apply Spatie's version control conventions when creating commits, branches, pull requests, or mana… |
 | `/spawn` | Launch N parallel subagents in isolated git worktrees to compete on the session task. Use when the… |
 | `/spec` | Issue specification (`/spec 123`). Reads Issue requirements and creates an implementation plan. Au… |
 | `/spec-critique` | Self-critique specification documents using extended thinking — surfaces hidden assumptions, contr… |
@@ -14682,6 +15341,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/speculative-decoding` | Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding… |
 | `/speech` | Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio promp… |
 | `/speech-pathology-ai` | Expert speech-language pathologist specializing in AI-powered speech therapy, phoneme analysis, ar… |
+| `/speech-recognition` | Transcribe speech to text using Apple's Speech framework. Use when implementing live microphone tr… |
 | `/speech-to-text` | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, gene… |
 | `/speed` | Launch RSVP speed reader for text |
 | `/spiderfoot` | SpiderFoot automated OSINT framework with 200+ modules for comprehensive target profiling. Use whe… |
@@ -14740,6 +15400,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sprint-planning` | DEPRECATED as of 2026-04-25 — solo cybersecurity-focused founder/operator does not run sprints wit… |
 | `/sprint-retrospective` | Data-driven sprint retrospectives from git history — velocity, cycle/lead time, contributor insigh… |
 | `/sprint-velocity-analysis` | Analyze sprint velocity data and produce an engineering team health report covering delivery trend… |
+| `/spritekit` | Build 2D games and animations using SpriteKit. Use when creating game scenes with SKScene and SKVi… |
 | `/sql` | Query optimization, EXPLAIN, indexes, JOINs, window functions, CTEs, transactions, PostgreSQL tips… |
 | `/sql-analysis` | Use this when writing, reviewing, or modifying SQL queries — including SELECT, CTEs, joins, aggreg… |
 | `/sql-analyst` | SQL query expert for optimization, schema design, and data analysis |
@@ -14764,7 +15425,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sqlalchemy-patterns` | SQLAlchemy 2.0 patterns - model definition, engine setup, async patterns, relationships, query opt… |
 | `/sqli-sql-injection` | SQL injection playbook. Use when input reaches SQL queries, authentication logic, sorting, filteri… |
 | `/sqlite` | SQLite is a self-contained, serverless, zero-configuration embedded SQL database engine. Learn CLI… |
+| `/sqlite-db` | General guide for using the sqlite3 CLI to build composable knowledge databases. Use this skill wh… |
 | `/sqlite-expert` | SQLite expert for WAL mode, query optimization, embedded patterns, and advanced features |
+| `/sqlite-notes` | Personal note-taking, thinking trails, and knowledge management using plain SQLite. Supports captu… |
 | `/sqlite-to-fast-sql` | Guides the agent through migrating SQLite and SQL-style Capacitor plugins to @capgo/capacitor-fast… |
 | `/sqlmap` | Detect and exploit SQL injection with sqlmap. Use when a user asks to test for SQL injection, extr… |
 | `/sqlmap-database-pentesting` | Provide systematic methodologies for automated SQL injection detection and exploitation using SQLM… |
@@ -14828,6 +15491,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/startup-canvas` | Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + reve… |
 | `/startup-financial-modeling` | Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow… |
 | `/startup-idea-validator` | Pressure-test a startup idea the way a sharp investor or co-founder would — problem, market, wedge… |
+| `/startup-launch` | Complete startup launch guidance from idea validation to market entry. Use when planning a new bus… |
 | `/startup-metrics-framework` | Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different… |
 | `/startup-validator` | Comprehensive startup idea validation and market analysis tool. Use when users need to evaluate a … |
 | `/stash` | 回顾当前对话，把值得跨会话持久化的信息（用户偏好/反馈、项目决策与约束、踩过的坑、外部资源指针）存进本项目 memory 目录、更新 MEMORY.md 索引，并按需更新 CLAUDE.md。用户… |
@@ -14845,10 +15509,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/statistical-analyst` | Run hypothesis tests, analyze A/B experiment results, calculate sample sizes, and interpret statis… |
 | `/statistical-ml-review` | Use this when performing statistical analysis, hypothesis testing, A/B testing, model training, mo… |
 | `/statistical-power` | Sample-size and statistical power calculations for planning studies. Use whenever someone asks "ho… |
+| `/statistics-verifier` | Verify statistics from raw data with methodology checking, significance testing, claim validation,… |
 | `/stats` | Displays memory usage statistics for the current session and project including counts by category,… |
 | `/statsmodels` | Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed m… |
 | `/status` | Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendat… |
 | `/status-report` | Generate a multi-audience status report (exec, board, team, investor) with green/yellow/red status… |
+| `/status-report-generator` | Project status report generation from git history, task context, and milestone tracking. Use when … |
 | `/status-update-generator` | Generate weekly executive status updates from Jira/Linear data exports. Produces a structured "hig… |
 | `/statuscake-automation` | Automate Statuscake tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/statusline-generator` | Installs, configures, customizes, or troubleshoots the Claude Code statusline (cwd, model, token c… |
@@ -14892,6 +15558,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/store-model-coder` | Wrap JSON-backed database columns with ActiveModel-like classes using store_model. Use when creati… |
 | `/stored-procedures` | Implement stored procedures and functions for database logic. Use when creating reusable database … |
 | `/storeganise-automation` | Automate Storeganise tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/storekit` | Implement, review, or improve in-app purchases and subscriptions using StoreKit 2. Use when buildi… |
 | `/storerocket-automation` | Automate Storerocket tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/stormglass-io-automation` | Automate Stormglass IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/story-explanation` | Create compelling story-format summaries using UltraThink to find the best narrative framing. Supp… |
@@ -15024,6 +15691,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/supply-chain-attack-recon` | External recon for software supply-chain attack surface — package-namespace squatting candidates, … |
 | `/supply-chain-guard` | Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI… |
 | `/supply-chain-hardening` | Configure install-time cooldowns for npm/bun (minimum release age) and run a sandboxed pre-install… |
+| `/supply-chain-optimizer` | Supply chain analysis, inventory optimization, logistics planning, vendor evaluation, and demand f… |
 | `/supply-chain-risk-auditor` | Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply … |
 | `/support-macro` | Write reusable support macros / canned responses that sound human, not robotic. Use when asked to … |
 | `/support-runbook` | Write a support runbook for handling a recurring issue type consistently. Use when asked to write … |
@@ -15033,6 +15701,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/survey-design` | Design surveys that collect reliable, unbiased quantitative data to validate hypotheses and measur… |
 | `/survey-generator` | Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi… |
 | `/survey_monkey-automation` | Automate SurveyMonkey tasks via Rube MCP (Composio): surveys, responses, collectors, and survey an… |
+| `/sustainability-esg` | Sustainability and ESG expertise for ESG strategy, carbon footprint management, sustainable supply… |
 | `/sustainability-metrics` | ESG performance measurement, sustainability reporting frameworks, materiality assessment, and impa… |
 | `/sustainability-scoring` | Score urban designs against LEED-ND, BREEAM Communities, WELL Community Standard, Green Star Commu… |
 | `/svelte` | You are an expert in Svelte 5 and SvelteKit 2. You help developers build web applications using ru… |
@@ -15040,7 +15709,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/svelte-components` | Svelte component patterns. Use for web components, component libraries (Bits UI, Ark UI, Melt UI),… |
 | `/svelte-core-bestpractices` | Guidance on writing fast, robust, modern Svelte code. Load this skill whenever in a Svelte project… |
 | `/svelte-deployment` | Svelte deployment guidance. Use for adapters, Vite config, pnpm setup, library authoring, PWA, or … |
-| `/svelte-development` | Comprehensive Svelte development skill covering reactivity runes, components, stores, lifecycle, t… |
+| `/svelte-development` | Svelte 5 development with runes ($state, $derived, $effect), SvelteKit full-stack framework, and m… |
 | `/svelte-expert` | Svelte and SvelteKit expert including components, stores, and routing |
 | `/svelte-frontend` | Svelte coding guidelines for the Windmill frontend. MUST use when writing or modifying code in the… |
 | `/svelte-runes` | Svelte runes guidance. Use for reactive state, props, effects, attachments, or migration. Covers $… |
@@ -15070,33 +15739,53 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/swc` | You are an expert in SWC, the Rust-based JavaScript/TypeScript compiler. You help developers repla… |
 | `/swift` | Expert in Swift and SwiftUI development for iOS, macOS, and Apple platforms |
 | `/swift-actor-persistence` | Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eli… |
+| `/swift-api-design-guidelines` | Apply Swift API Design Guidelines to name, label, and document Swift APIs. Covers argument label r… |
+| `/swift-architecture` | Select, implement, or migrate between app architecture patterns for Apple platform apps. Use when … |
 | `/swift-best-practices` | ／ This skill should be used when writing or reviewing Swift code for iOS or macOS projects. Apply … |
+| `/swift-charts` | Implement, review, or improve data visualizations using Swift Charts. Use when building bar, line,… |
+| `/swift-codable` | Implement Swift Codable models for JSON and property-list encoding and decoding with JSONDecoder, … |
+| `/swift-concurrency` | Resolve Swift concurrency compiler errors, adopt approachable concurrency (SE-0466), and write dat… |
 | `/swift-concurrency-6-2` | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit backgrou… |
 | `/swift-concurrency-expert` | Swift Concurrency review and remediation for Swift 6.2+. Use when: reviewing async/await usage, fi… |
 | `/swift-concurrency-pro` | Reviews Swift code for concurrency correctness, modern API usage, and common async/await pitfalls.… |
+| `/swift-core` | Swift 6 fundamentals for all Apple platforms. Use when implementing concurrency, architecture, tes… |
 | `/swift-csp` | Expert SWIFT Customer Security Programme (CSP) advisor covering the Customer Security Controls Fra… |
 | `/swift-data` | SwiftData persistence and data-layer architecture for iOS 26 / Swift 6.2 clinic modular MVVM-C app… |
 | `/swift-development` | Swift language patterns and best practices including concurrency, performance, and modern idioms. … |
 | `/swift-executor` | Rapid task execution without hesitation or deterrence. Expert in overcoming blockers, making quick… |
 | `/swift-expert` | Builds iOS/macOS/watchOS/tvOS applications, implements SwiftUI views and state management, designs… |
+| `/swift-formatstyle` | Format and parse values for display using the FormatStyle and ParseableFormatStyle protocols and F… |
+| `/swift-language` | Apply modern Swift language patterns and idioms for non-concurrency, non-SwiftUI code. Covers if/s… |
 | `/swift-mcp-server-generator` | Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SD… |
 | `/swift-missing-translations` | Audit a Swift/SwiftUI project's Localizable.xcstrings (and AppShortcuts.xcstrings) for missing tra… |
 | `/swift-optimise` | Swift 6.2 and SwiftUI performance optimization for iOS 26 clinic architecture codebases. Covers as… |
 | `/swift-protocol-di-testing` | Protocol-based dependency injection for testable Swift code — mock file system, network, and exter… |
 | `/swift-refactor` | Swift and SwiftUI refactoring patterns aligned with the iOS 26 / Swift 6.2 clinic modular MVVM-C a… |
+| `/swift-security` | Use when working with iOS/macOS Keychain Services (SecItem queries, kSecClass, OSStatus errors), b… |
 | `/swift-settingskit` | SettingsKit for SwiftUI settings interfaces (iOS, macOS, watchOS, tvOS, visionOS). Use for setting… |
+| `/swift-testing` | Writes and migrates Swift Testing framework tests with @Test, @Suite, #expect, #require, confirmat… |
 | `/swift-ui-architect` | Opinionated SwiftUI architecture enforcement for iOS 26 / Swift 6.2 clinic modular MVVM-C apps usi… |
+| `/swiftdata` | Implement, review, or improve data persistence using SwiftData. Use when defining @Model classes w… |
 | `/swiftdata-inheritance` | SwiftData class inheritance patterns for hierarchical models with type-based querying, polymorphic… |
+| `/swiftlint` | Configures and enforces SwiftLint in Swift projects using build tool plugins, run scripts, and CI.… |
+| `/swiftui-animation` | Implement, review, or improve SwiftUI animations and transitions. Use when adding explicit animati… |
+| `/swiftui-core` | SwiftUI fundamentals for all Apple platforms. Use when building views, navigation, data persistenc… |
 | `/swiftui-debugging` | Diagnose SwiftUI performance issues including unnecessary re-renders, view identity problems, and … |
 | `/swiftui-development` | Expert SwiftUI development guidelines with MVVM architecture and modern Swift best practices |
 | `/swiftui-empty-app-init` | Initialize a minimal SwiftUI iOS app in the current directory by generating a single `.xcodeproj` … |
 | `/swiftui-expert-skill` | Write, review, or improve SwiftUI code following best practices for state management, view composi… |
+| `/swiftui-gestures` | Implement, review, or improve SwiftUI gesture handling. Use when adding tap, long press, drag, mag… |
+| `/swiftui-layout-components` | Build SwiftUI layouts using stacks, grids, lists, scroll views, forms, and controls. Covers VStack… |
 | `/swiftui-liquid-glass` | Implement iOS 26+ Liquid Glass design in SwiftUI. Use when: adopting Liquid Glass API, refactoring… |
+| `/swiftui-navigation` | Implement SwiftUI navigation patterns including NavigationStack, NavigationSplitView, sheet presen… |
 | `/swiftui-patterns` | SwiftUI architecture patterns, state management with @Observable, view composition, navigation, pe… |
+| `/swiftui-performance` | Audit and improve SwiftUI runtime performance. Use when diagnosing slow rendering, janky scrolling… |
 | `/swiftui-performance-audit` | Audit and optimize SwiftUI runtime performance. Use when: diagnosing slow rendering, janky scrolli… |
 | `/swiftui-pro` | Comprehensively reviews SwiftUI code for best practices on modern APIs, maintainability, and perfo… |
 | `/swiftui-ui-patterns` | Comprehensive SwiftUI UI patterns with example-driven guidance. Use when: building SwiftUI views, … |
+| `/swiftui-uikit-interop` | Bridges UIKit and SwiftUI with UIViewRepresentable, UIViewControllerRepresentable, UIHostingContro… |
 | `/swiftui-view-refactor` | Refactor SwiftUI views for better architecture with MV patterns. Use when: cleaning up SwiftUI vie… |
+| `/swiftui-webkit` | Embeds and controls web content in SwiftUI with WebKit for SwiftUI, including WebView, WebPage, na… |
 | `/swiggy` | Order food, groceries, and book restaurants in India via Swiggy's MCP servers. Food delivery, Inst… |
 | `/switch-persona` | Quick persona switching. Triggers: 'switch persona', 'switch to X', 'become X'. Lists personas, re… |
 | `/switch-project` | Overrides the auto-detected project scope to read and write memories under a different project ID,… |
@@ -15181,6 +15870,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/table-extractor` | Extract tables from PDFs with high accuracy using camelot. Handles complex table structures includ… |
 | `/table-image` | Generate images from tables for better readability in messaging apps like Telegram. Use when displ… |
 | `/tabletop-rpg-design` | Expert system designer for tabletop roleplaying games covering dice mechanics, character creation,… |
+| `/tabletopkit` | Builds multiplayer spatial board games using TabletopKit on visionOS. Use when creating tabletop g… |
 | `/tabular-document-review` | Extract structured data from multiple documents into comparison matrix with citations. Use for bul… |
 | `/tactical-ddd` | Design, refactor, analyze, and review code by applying the principles and patterns of tactical dom… |
 | `/taggun-automation` | Automate Taggun tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -15211,18 +15901,31 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tailwind-utility-classes` | Use when working with Tailwind CSS utility classes for layout, spacing, typography, colors, and vi… |
 | `/tailwind-v4-shadcn` | ／ Production-tested setup for Tailwind CSS v4 with shadcn/ui, Vite, and React. Use when: initializ… |
 | `/tailwindcss` | You are an expert in Tailwind CSS v4, the utility-first CSS framework. You help developers build c… |
-| `/tailwindcss-accessibility` | Tailwind CSS accessibility patterns including WCAG 2.2 compliance, touch targets, focus management… |
+| `/tailwindcss-accessibility` | Tailwind CSS v4.1 accessibility utilities. focus-visible, sr-only, reduced-motion, WCAG enforcemen… |
 | `/tailwindcss-advanced-components` | Tailwind CSS advanced component patterns with CVA (class-variance-authority) and variant managemen… |
 | `/tailwindcss-advanced-design-systems` | Tailwind CSS advanced design systems with design tokens and @theme configuration. PROACTIVELY acti… |
 | `/tailwindcss-advanced-layouts` | Tailwind CSS advanced layout techniques including CSS Grid and Flexbox patterns. PROACTIVELY activ… |
 | `/tailwindcss-animations` | Tailwind CSS animations and transitions including built-in utilities and custom keyframes. PROACTI… |
+| `/tailwindcss-backgrounds` | Background utilities Tailwind CSS v4.1. Colors (bg-{color}, palette OKLCH P3), Gradients (bg-linea… |
+| `/tailwindcss-borders` | Border utilities Tailwind CSS v4.1. Border (border-width, border-color, border-style, border-radiu… |
+| `/tailwindcss-core` | Configuration and directives Tailwind CSS v4.1. @theme, @import, @source, @utility, @variant, @app… |
 | `/tailwindcss-debugging` | Tailwind CSS debugging and troubleshooting common issues. PROACTIVELY activate for: (1) classes no… |
+| `/tailwindcss-effects` | Effects utilities Tailwind CSS v4.1. Shadows (shadow-*, shadow-color, inset-shadow-* NEW), Opacity… |
 | `/tailwindcss-framework-integration` | Tailwind CSS integration with React, Vue, Next.js, Svelte, Angular, and other frameworks. PROACTIV… |
 | `/tailwindcss-fundamentals-v4` | Tailwind CSS v4 fundamentals — installation, CSS-first configuration, and 2025-2026 best practices… |
+| `/tailwindcss-interactivity` | Interactivity utilities Tailwind CSS v4.1. Cursor (cursor-*), Scroll (scroll-smooth, scroll-snap-*… |
+| `/tailwindcss-layout` | Layout utilities Tailwind CSS v4.1. Flexbox (flex, justify, items, gap), Grid (grid-cols, grid-row… |
 | `/tailwindcss-mobile-first` | Mobile-first responsive design patterns with Tailwind CSS v4 (2025-2026). PROACTIVELY activate for… |
 | `/tailwindcss-performance` | Tailwind CSS performance optimization including v4 improvements. PROACTIVELY activate for: (1) Tai… |
 | `/tailwindcss-plugins` | Tailwind CSS plugins — official plugins and custom plugin development. PROACTIVELY activate for: (… |
+| `/tailwindcss-responsive` | Responsive design, breakpoints, container queries |
 | `/tailwindcss-responsive-darkmode` | Tailwind CSS responsive design and dark mode patterns (2025-2026). PROACTIVELY activate for: (1) d… |
+| `/tailwindcss-sizing` | Sizing utilities Tailwind CSS v4.1. Width (w-*, w-screen, w-full, w-auto), Height (h-*, h-screen, … |
+| `/tailwindcss-spacing` | Spacing utilities Tailwind CSS v4.1. Margin (m-*, mx-*, my-*, mt-*, mr-*, mb-*, ml-*, -m-* negativ… |
+| `/tailwindcss-transforms` | Transform & Animation utilities Tailwind CSS v4.1. Transform (scale-*, rotate-*, translate-*, skew… |
+| `/tailwindcss-typography` | Typography utilities Tailwind CSS v4.1. Font (font-sans, font-serif, font-mono, font-size, font-we… |
+| `/tailwindcss-utilities` | Complete reference for Tailwind CSS utility classes |
+| `/tailwindcss-v4` | Tailwind CSS v4.1 core features, @theme, directives, migration guide |
 | `/taiwan-equity-research-coverage` | Structured equity research database for 1,735 Taiwan-listed companies with wikilink knowledge grap… |
 | `/taiwan-md-knowledge-base` | AI-native open knowledge base about Taiwan built with Astro v5, featuring bilingual content (zh-TW… |
 | `/talent-acquisition` | Talent acquisition across recruiting strategy, sourcing, interviews, and hiring analytics. Use whe… |
@@ -15252,22 +15955,31 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tapform-automation` | Automate Tapform tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/tashan-workbench-dev` | 他山工作台（tashan-workbench）开发专属 Skill。接手/开发/调试工作台时激活：启动命令、架构速查、历史踩坑、测试方法。触发词：「他山工作台」「openwork-local」「t… |
 | `/task` | Get detailed information about a specific ClickUp task |
+| `/task-add` | Add a taskwarrior task with blueprint linkage and optional GitHub issue. Use when adding coordinat… |
+| `/task-claim` | Claim a taskwarrior task as in-flight (+ACTIVE) and write a coworker marker. Use when picking up a… |
+| `/task-coordinate` | Surface next N unblocked taskwarrior tasks by urgency, skipping lock-contending tasks. Use when pl… |
 | `/task-coordination-strategies` | Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper tas… |
 | `/task-coordinator` | Use when orchestrating multi-step workflows with Claude Code's native Task system (TaskCreate, Tas… |
 | `/task-decomposer` | Breaks natural-language problem descriptions into sub-tasks suitable for DAG nodes. The entry poin… |
 | `/task-delegation` | Agent task delegation patterns — spawn protocols, handoff metadata, drain gate, parallel limits, a… |
 | `/task-dependency-patterns` | Task Management patterns with TaskCreate, TaskUpdate, TaskGet, TaskList tools. Decompose complex w… |
+| `/task-done` | Close a taskwarrior task with landing commit annotation and optional GitHub issue/PR close. Use wh… |
 | `/task-execution-engine` | Execute implementation tasks from design documents using markdown checkboxes. Use when (1) impleme… |
 | `/task-generator` | Generate structured task lists from specs or requirements. IMPORTANT: After completing ANY spec vi… |
 | `/task-intelligence` | Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de e… |
 | `/task-management-protocol` | Protocol for task synchronization, context handoff, and cross-session coordination using Claude Co… |
+| `/task-reconcile` | Close taskwarrior tasks whose linked GitHub issue/PR closed or merged. Use when stale trackers pil… |
+| `/task-release` | Release a taskwarrior task without closing it — stops +ACTIVE clock and annotates state for handof… |
+| `/task-status` | Read-only taskwarrior queue report — pending, blocked, ready tasks and drift vs linked PRs. Use wh… |
 | `/task-tracker` | Personal task management with daily standups and weekly reviews. Use when: (1) User says 'daily st… |
 | `/tasknotes` | Manage tasks in Obsidian via TaskNotes plugin API. Use when user wants to create tasks, list tasks… |
+| `/tasks` | Obsidian tasks via CLI: list open tasks, create tasks, mark complete. Use when user mentions Obsid… |
 | `/taste` | A creative-direction (taste) layer for music videos and short-form edits in the angelcore / cloud-… |
 | `/taste-and-craft` | Good taste is knowing what is good. Craft is making it real. Together they separate products peopl… |
 | `/taste-check` | Review code using Linus Torvalds' "good taste" philosophy. Eliminates defensive code, special case… |
 | `/taste-design` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enfo… |
 | `/tauri` | Assists with building lightweight cross-platform desktop (and mobile) applications using Tauri. Us… |
+| `/tauri-desktop` | Tauri 2.0 project setup, Rust backend + web frontend, plugin system, IPC commands, security model,… |
 | `/tauri-development` | Tauri development guidelines for building cross-platform desktop applications with TypeScript, Rus… |
 | `/tauri-native-api-integration` | Rules for integrating Tauri's native APIs in the frontend application. |
 | `/tauri-security-rules` | Security-related rules for Tauri application development. |
@@ -15292,6 +16004,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tdd-loop` | Use when implementing a feature or bugfix from a spec that should land as a hardened, CI-green PR,… |
 | `/tdd-orchestrator` | Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordi… |
 | `/tdd-process` | Strict test-driven development state machine with red-green-refactor cycles. Enforces test-first d… |
+| `/tdd-reference` | On-demand TDD guideline access without loading full documentation into context. Provides targeted … |
 | `/tdd-repair` | Test-Driven Repair — given a failing test, spawn a bounded headless `claude -p` (Read/Edit/Bash on… |
 | `/tdd-workflow` | Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle. |
 | `/tdd-workflows` | Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle) |
@@ -15387,6 +16100,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/template-updater` | Research-backed template refresh workflow for updating existing templates with placeholder verific… |
 | `/templated-automation` | Automate Templated tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/templates` | Project scaffolding templates for new applications. Use when creating new projects from scratch. C… |
+| `/tempo` | Grafana Tempo distributed tracing backend. Covers TraceQL query language (span selectors, attribut… |
 | `/temporal` | Build reliable distributed workflows with Temporal. Use when a user asks to orchestrate microservi… |
 | `/temporal-cloud` | Fix Temporal Cloud connection, auth, and config problems. Use when users hit login failures, can't… |
 | `/temporal-craftsman` | Workflow orchestration expert using Temporal.io for durable executionUse when "temporal workflow, … |
@@ -15416,6 +16130,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/terraform-generator` | Create, generate, write, or scaffold Terraform .tf HCL — resources, modules, providers, variables,… |
 | `/terraform-iac` | Manages cloud infrastructure using Terraform (and OpenTofu). Use when the user wants to write Terr… |
 | `/terraform-iac-expert` | Terraform and OpenTofu infrastructure as code — module design, state management, multi-environment… |
+| `/terraform-iac-helper` | Expert helper for Terraform and infrastructure-as-code best practices |
 | `/terraform-infra` | Terraform infrastructure operations with safety controls |
 | `/terraform-infrastructure` | Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modu… |
 | `/terraform-infrastructure-as-code` | Comprehensive Terraform Infrastructure as Code skill covering resources, modules, state management… |
@@ -15438,10 +16153,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tesla` | Control your Tesla vehicles - lock/unlock, climate, location, charge status, and more. Supports mu… |
 | `/tesseract` | You are an expert in Tesseract OCR, the most popular open-source optical character recognition eng… |
 | `/test` | 当用户想写测试、生成测试用例、给代码加单元测试时使用 — 自动生成测试，覆盖正常路径和边界情况 |
+| `/test-analyze` | Analyze test results and create a fix plan with subagents. Use when triaging failing tests, analyz… |
 | `/test-app-automation` | Automate Test App tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/test-architect` | Testing strategy specialist for test pyramid design, test isolation, property-based testing, and q… |
 | `/test-automation-expert` | Comprehensive test automation specialist covering unit, integration, and E2E testing strategies. E… |
 | `/test-automation-framework` | Design and implement scalable test automation frameworks with Page Object Model, fixtures, and rep… |
+| `/test-consult` | Consult the test-architecture agent for strategy decisions. Use when asking about coverage gaps, t… |
 | `/test-coverage` | Use after writing tests to assess coverage quality across structural, mutation, requirements, and … |
 | `/test-coverage-improver` | Analyze test coverage gaps and generate tests to improve coverage. Use when improving test coverag… |
 | `/test-data-factory-builder` | Creates factories and builders for generating consistent, composable test data with realistic valu… |
@@ -15451,7 +16168,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/test-first-bugs` | This skill should be used when the user reports a bug, describes unexpected behavior, says somethi… |
 | `/test-fixing` | Systematically identify and fix all failing tests using smart grouping strategies. Use when explic… |
 | `/test-fixture-generator` | Generate synthetic test data with edge cases for ETL pipeline testing. |
+| `/test-focus` | Run one test file fail-fast for rapid TDD — Playwright, Vitest, Jest, pytest, cargo, go test. Use … |
 | `/test-framework-migration-skill` | Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress… |
+| `/test-full` | Run complete test suite in pyramid order — unit, integration, E2E. Use when running all tests befo… |
 | `/test-gaps` | Detect missing test coverage and generate test suggestions |
 | `/test-gen` | Generate unit tests from source files using AI. Use when adding test coverage. |
 | `/test-generator` | Generate unit, integration, and end-to-end tests for existing code. Use when a user asks to write … |
@@ -15463,14 +16182,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/test-prompt` | Use when creating or editing any prompt (commands, hooks, skills, subagent instructions) to verify… |
 | `/test-quality-analysis` | Detect test smells, overmocking, flaky tests, and coverage issues. Analyze test effectiveness, mai… |
 | `/test-quality-inspector` | Test quality inspection framework for reviewing test coverage, identifying gaps, and ensuring comp… |
+| `/test-quick` | Run fast unit tests only, skip slow/integration/E2E. Use when checking units after a change, runni… |
+| `/test-report` | Show cached test status without re-running. Use when checking test health, standup status, coverag… |
 | `/test-reporting-triage-skill` | Automatically categorizes test failures, suggests responsible owners, and provides common fix chec… |
 | `/test-reviewer` | Review test quality, coverage, and completeness. Analyzes for missing edge cases, assertion qualit… |
+| `/test-run` | Universal test runner auto-detecting pytest, vitest, jest, cargo, go test. Use when running tests,… |
 | `/test-runner` | Run test suite and return structured pass/fail results. Supports scoped runs by directory, file, o… |
 | `/test-scenario` | Generates structured usability test scenarios with realistic tasks, success criteria, and facilita… |
 | `/test-scenarios` | Create comprehensive test scenarios from user stories with test objectives, starting conditions, u… |
+| `/test-setup` | Configure testing infrastructure with CI/CD. Use when setting up tests, scaffolding test dirs, add… |
 | `/test-skill` | Use when creating or editing skills, before deployment, to verify they work under pressure and res… |
 | `/test-strategist` | Testing strategy and design - what to test, how to test, and when testing is overkill. From TDD to… |
 | `/test-strategy-doc` | Write a test strategy document from a feature spec, PRD, or system description. Use when asked to … |
+| `/test-tier-selection` | Auto-select test tiers based on change scope — unit for small, full suite for large. Use when runn… |
 | `/testcontainers` | When the user wants to run integration tests with real dependencies using Docker containers manage… |
 | `/testcontainers-integration-tests` | Write integration tests using TestContainers for .NET with xUnit. Covers infrastructure testing wi… |
 | `/testflight` | Use when the user asks to "ship to TestFlight", "push to TestFlight", "release a build to testers"… |
@@ -15497,6 +16221,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/testing-react` | Stratégie de Tests React 19 + Compiler 1.0. Use when writing tests, reviewing test coverage, or se… |
 | `/testing-reactnative` | Testing React Native 0.85+. Use when writing tests, reviewing test coverage, or setting up testing. |
 | `/testing-security` | Security test: DAST OWASP ZAP/Nuclei, SAST Semgrep/Bandit, Snyk/Trivy, detect-secrets/TruffleHog |
+| `/testing-skills-with-subagents` | Use when creating or editing skills, before deployment, to verify they work under pressure and res… |
 | `/testing-strategies` | Strategic guidance for choosing and implementing testing approaches across the test pyramid. Use w… |
 | `/testing-strategy` | Comprehensive testing strategy covering unit, integration, E2E, security, accessibility, and perfo… |
 | `/testing-symfony` | Stratégie de Tests Symfony 8.1 / PHP 8.5. Use when writing tests, reviewing test coverage, or sett… |
@@ -15518,11 +16243,17 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/textme` | Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Clau… |
 | `/textrazor-automation` | Automate Textrazor tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/texture-art` | Expert texture artist specializing in PBR workflows, Substance suite, Quixel Mixer, and hand-paint… |
+| `/tfc-list-runs` | List Terraform Cloud workspace runs filtered by status or date. Use when reviewing run history, fi… |
+| `/tfc-plan-json` | TFC plan JSON download and analysis. Use when diffing resource changes, inspecting replacements, o… |
+| `/tfc-run-logs` | Retrieve plan and apply logs from Terraform Cloud runs. Use when debugging failed plans/applies or… |
+| `/tfc-run-status` | Terraform Cloud run status with resource counts and actions. Use when polling a run, checking pass… |
+| `/tfc-workspace-runs` | List TFC runs across known workspaces (github, sentry, gcp, onelogin, twingate). Use when checking… |
 | `/tg` | Telegram CLI for reading, searching, and sending messages. Use when the user asks about Telegram m… |
 | `/tg-ws-proxy-telegram-socks5` | Local SOCKS5 proxy server that accelerates Telegram Desktop by routing traffic through WebSocket c… |
 | `/thai-dev-workflow` | Use this skill for the self-hosted infrastructure workflow — K3s-first deployment policy, Git work… |
 | `/thanks-io-automation` | Automate Thanks IO tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/thanos` | Deploy and configure Thanos for long-term Prometheus metric storage, global querying across multip… |
+| `/the-fool` | Use when challenging ideas, plans, decisions, or proposals using structured critical reasoning. In… |
 | `/the-honoured-one` | Forces the AI to fully load context and read relevant files before performing complex, multi-file … |
 | `/the-odds-api-automation` | Automate The Odds API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/the-sports-db` | Access sports data via TheSportsDB (teams, events, scores). |
@@ -15538,6 +16269,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/thesys-generative-ui` | > Generate, modify, and style React components from natural language using the Thesys SDK. Guides … |
 | `/things-mac` | Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/sear… |
 | `/think` | Invoke before writing any code for a new feature, design, or architecture decision. Turns rough id… |
+| `/think-in-code` | Use ONE Bash script instead of N sequential Read calls when analyzing multiple files, auditing cod… |
 | `/think-tank` | Run a Virtual Think Tank — a structured multi-persona debate — before planning or making architect… |
 | `/thinking` | Analytical and creative thinking frameworks. First principles decomposition, iterative depth analy… |
 | `/thinking-partner` | 思考拍档 - 陪你从混沌中理清局面，锁定核心问题，拆解卡点，共创解法，落地行动 |
@@ -15580,10 +16312,12 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tiangolo-library-skills` | Install and manage AI agent skills from Python/JS libraries so agents always use up-to-date patterns |
 | `/ticket` | Get detailed information about a specific Jira ticket |
 | `/ticket-craft` | Create Jira/Asana/Linear tickets optimized for Claude Code execution - AI-native ticket writing |
+| `/ticket-drafting-guidelines` | Guidelines for drafting GitHub issues using What/Why/How format. Use when creating issues, draftin… |
 | `/ticket-triage` | Triages and prioritizes an inbound support ticket — assigns category, P1-P4 priority, product area… |
 | `/ticketmaster-automation` | Automate Ticketmaster tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ticktick` | Manage TickTick tasks and projects from the command line with OAuth2 auth, batch operations, and r… |
 | `/ticktick-automation` | Automate Ticktick tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/tidewave-integration` | Tidewave MCP runtime tools — debugging, smoke testing, live state inspection, SQL queries, hex doc… |
 | `/tidy` | Triggered by "tidy up", "clean up transactions", "categorize uncategorized", "organize my transact… |
 | `/tiktok` | TikTok platform integration. Manage videos, view analytics, and track engagement. |
 | `/tiktok-automation` | Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content,… |
@@ -15600,6 +16334,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/timelinesai-automation` | Automate Timelinesai tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/timelink-automation` | Automate Timelink tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/timely-automation` | Automate Timely tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/timeout-prevention` | Prevent request timeouts in Claude Code sessions by chunking long operations, implementing progres… |
 | `/timer` | Set timers and alarms. When a background timer completes, you receive a System notification - resp… |
 | `/timesfm` | Forecast time series data using Google's TimesFM foundation model with zero-shot prediction. Use w… |
 | `/timesfm-forecasting` | Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate t… |
@@ -15611,6 +16346,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tinyfish` | Use TinyFish/Mino web agent to extract/scrape websites, extract data, and automate browser actions… |
 | `/tinystruct-patterns` | Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystr… |
 | `/tinyurl-automation` | Automate Tinyurl tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/tipkit` | Implement and review Apple TipKit feature-discovery UI for iOS 17+ apps. Use when adding or auditi… |
 | `/tiptap` | Builds rich text editors with Tiptap, a headless ProseMirror-based editor framework for React with… |
 | `/tisane-automation` | Automate Tisane tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/tlc-spec-driven` | Feature planning and implementation with 4 adaptive phases — Specify, Design, Tasks, Execute. Auto… |
@@ -15741,7 +16477,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/trash-talk-generator` | Create clever, non-offensive trash talk. Rivalry-specific references, historical callbacks, memes.… |
 | `/travel-concierge` | Find contact details for accommodation listings (Airbnb, Booking.com, VRBO, Expedia) |
 | `/travel-health-analyzer` | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 |
-| `/travel-planner` | This skill should be used whenever users need help planning trips, creating travel itineraries, ma… |
+| `/travel-planner` | Travel destination research and daily itinerary creation with logistics planning, budget tracking,… |
 | `/treatment-plans` | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical … |
 | `/tree-of-thoughts` | Execute tasks through systematic exploration, pruning, and expansion using Tree of Thoughts method… |
 | `/trekker` | Trekker CLI task tracking for AI coding agents. Covers epics, tasks, subtasks, dependencies, comme… |
@@ -15829,6 +16565,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tutor` | Interactive quiz tutor for Obsidian StudyVault learning. Use when the user wants to: (1) Take a di… |
 | `/tutor-setup` | Transforms knowledge sources into an Obsidian StudyVault. Two modes: (1) Document Mode — PDF/text/… |
 | `/tutorial-engineer` | Creates step-by-step tutorials and educational content from code. Transforms complex concepts into… |
+| `/tvos` | tvOS platform-specific development with focus system, large screen UI, Siri Remote, and media play… |
 | `/tweet-insight` | 从推文出发，深度阅读关联内容，整理成原创分享帖。不是翻译，而是学习后用自己的话讲出来。Use when user provides tweet URL(s) and wants to create… |
 | `/tweet-writer` | Write viral, persuasive, engaging tweets and threads. Uses web research to find viral examples in … |
 | `/tweetclaw` | Use TweetClaw as an OpenClaw plugin for X/Twitter automation: search tweets, search tweet replies,… |
@@ -15857,6 +16594,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/twitter-x-marketing` | Create, optimize, and automate content for Twitter/X including tweets, threads, Spaces, and API au… |
 | `/twitter-x-posts` | When the user wants to create X (Twitter) post copy, threads, or optimize for X platform. Also use… |
 | `/twocaptcha-automation` | Automate Twocaptcha tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/ty-type-checking` | ty: Astral's extremely fast Python type checker (mypy/Pyright alternative). Use when checking Pyth… |
 | `/tycana` | Persistent task management and productivity intelligence via MCP. Captures tasks from conversation… |
 | `/type-design-performance` | Design .NET types for performance. Seal classes, use readonly structs, prefer static pure function… |
 | `/type-juggling` | PHP type juggling and weak comparison (`==`) bypass. Use when authentication, HMAC/signature check… |
@@ -15871,6 +16609,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/typescript-async-patterns` | Use when typeScript async patterns including Promises, async/await, and async iterators with prope… |
 | `/typescript-backend-project-setup` | Sets up NX monorepo for TypeScript backend projects optimized for AI-assisted development. Delegat… |
 | `/typescript-core` | Advanced TypeScript patterns and best practices for 2025 |
+| `/typescript-debugging` | Modern TypeScript/JavaScript debugging with Bun — inspector flags, debug.bun.sh, VSCode launch.jso… |
 | `/typescript-docs` | Generates comprehensive TypeScript documentation using JSDoc, TypeDoc, and multi-layered documenta… |
 | `/typescript-expert` | TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimi… |
 | `/typescript-magician` | Designs complex generic types, refactors `any` types to strict alternatives, creates type guards a… |
@@ -15883,7 +16622,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/typescript-refactor` | TypeScript and TSX refactoring and modernization guidelines from a principal specialist perspectiv… |
 | `/typescript-review` | Review TypeScript and JavaScript code changes for compliance with Metabase coding standards, style… |
 | `/typescript-security-review` | Provides security review capability for TypeScript/Node.js applications, validates code against XS… |
-| `/typescript-strict` | Expert knowledge for TypeScript strict mode patterns and type safetyUse when "typescript, type err… |
+| `/typescript-sentry` | Error monitoring and performance with Sentry SDK for Bun/Node.js/Next.js — error capture, breadcru… |
+| `/typescript-strict` | TypeScript strict mode: tsconfig.json, strict flags, Bundler/NodeNext moduleResolution, verbatimMo… |
 | `/typescript-strict-migrator` | Migrates TypeScript projects to strict mode incrementally with type guards, utility types, and bes… |
 | `/typescript-type-system` | Use when working with TypeScript's type system including strict mode, advanced types, generics, ty… |
 | `/typescript-utility-types` | Use when typeScript utility types, mapped types, and advanced type manipulation. Use when creating… |
@@ -15902,6 +16642,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ue-component-model` | Create or edit the Universal Editor component configuration (component-definition.json, component-… |
 | `/ui-a11y` | Audit a StyleSeed-based component or page for WCAG 2.2 AA issues and apply practical accessibility… |
 | `/ui-analyzer` | Analyze UI design screenshots and generate React components with TypeScript and Tailwind CSS. Use … |
+| `/ui-animation` | Motion design and animation for user interfaces. Use when creating micro-interactions, page transi… |
 | `/ui-audit` | AI skill for automated UI audits. Evaluate interfaces against proven UX principles for visual hier… |
 | `/ui-automation-router-zh` | Route user intent to Web or App orchestrator skills when platform is unclear. |
 | `/ui-code-auditor` | Review source code for UI quality, accessibility violations, and performance anti-patterns. Static… |
@@ -15919,6 +16660,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ui-page` | Scaffold a new mobile-first page using StyleSeed Toss layout patterns, section rhythm, and existin… |
 | `/ui-pattern` | Generate reusable UI patterns such as card sections, grids, lists, forms, and chart wrappers using… |
 | `/ui-principles` | Enforce a precise, minimal design system inspired by Linear, Notion, and Stripe. Use this skill wh… |
+| `/ui-research` | Research-first UI/UX design workflow. Use BEFORE any frontend visual work to research modern patte… |
 | `/ui-review` | Review UI code for StyleSeed design-system compliance, accessibility, mobile ergonomics, spacing d… |
 | `/ui-screenshots` | Capture screenshots of web apps during development using Playwright and PIL. Supports full-page ca… |
 | `/ui-setup` | Interactive StyleSeed setup wizard for choosing app type, brand color, visual style, typography, a… |
@@ -16111,8 +16853,14 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/uspto-database` | Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citation… |
 | `/utm-link-generator` | Generates properly tagged UTM links with consistent naming conventions. Maintains a UTM registry f… |
 | `/utm-parameter-generator` | Create standardized UTM tracking for all campaigns. Ensure consistent naming conventions across te… |
+| `/uv-advanced-dependencies` | Advanced uv dependencies: Git deps, path deps, editable installs, groups, extras, custom indexes. … |
 | `/uv-package-manager` | Comprehensive guide to using uv, an extremely fast Python package installer and resolver written i… |
+| `/uv-project-management` | Python project setup, deps, and lockfiles with uv. Use when the user mentions uv, creating Python … |
+| `/uv-python-versions` | Install and manage Python interpreter versions with uv. Use when the user mentions installing Pyth… |
+| `/uv-run` | Run Python scripts with uv (PEP 723 inline deps, --with for one-off deps). Use when running script… |
+| `/uv-tool-management` | Install and manage global Python CLI tools with uv (pipx alternative). Use when the user mentions … |
 | `/uv-workflow` | Master uv package manager for Python: project setup, dependency management, virtual environments, … |
+| `/uv-workspaces` | Manage multi-package Python projects with uv workspaces. Use when the user mentions uv workspaces,… |
 | `/uvicorn` | Deploy Python ASGI apps with Uvicorn. Use when a user asks to run FastAPI in production, configure… |
 | `/ux-audit` | Audit screens against Nielsen's heuristics and mobile UX best practices using the StyleSeed Toss d… |
 | `/ux-brief` | Create junior-dev-ready design systems through guided discovery before implementation |
@@ -16160,6 +16908,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/variant-analysis` | Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunt… |
 | `/varlock` | Secure-by-default environment variable management for Claude Code sessions. |
 | `/varlock-claude-skill` | Secure environment variable management ensuring secrets are never exposed in Claude sessions, term… |
+| `/vault-files` | Obsidian vault file ops via CLI: read, create, append, move, rename, delete, listings, daily/rando… |
+| `/vault-frontmatter` | Offline YAML frontmatter maintenance for Obsidian notes. Use when stripping legacy `id:`, cleaning… |
+| `/vault-management` | Obsidian vault inspection and cross-vault routing via `vault=` prefix. Use when checking vault inf… |
+| `/vault-mocs` | Map-of-Content (MOC) curation for Obsidian vaults. Use when creating a MOC for a tag, extending wi… |
+| `/vault-orphans` | Triage orphaned notes (zero in/out wikilinks) in an Obsidian vault. Use when finding orphans, link… |
+| `/vault-stubs` | Work-namespace redirect-stub classification in an Obsidian vault. Use when cleaning stubs, convert… |
+| `/vault-tags` | Emoji-prefixed tag taxonomy for Obsidian vaults. Use when consolidating drifted tags, collapsing b… |
+| `/vault-templates` | Obsidian Templater drift repair. Use when fixing unrendered `<% tp.file.cursor() %>` markers or re… |
+| `/vault-wikilinks` | Broken Obsidian wikilink detection and repair. Use when fixing `[[Target]]` links, rewriting renam… |
 | `/vb-core` | Core VB.NET patterns, type safety, modern language features |
 | `/vb-database` | ADO.NET patterns, Entity Framework, database best practices |
 | `/vb-winforms` | Windows Forms development patterns, UI threading, data binding |
@@ -16271,11 +17028,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/verifiedemail-automation` | Automate Verifiedemail tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/verify` | Acceptance test. Automatically verifies post-merge acceptance conditions and updates Issue checkbo… |
 | `/verify-authenticity` | 真实性验证技能。分析用户提供的信息、消息、图片或内容，判断其真实性和可信度，识别虚假信息、AI生成内容或伪造内容。 |
+| `/verify-before-plan` | Verify orchestrator premises (file counts, build state, artefact presence) before dispatching para… |
 | `/verify-email-snapshots` | Snapshot test email templates using Verify to catch regressions. Validates rendered HTML output ma… |
 | `/verify-on-browser` | Control browser via Chrome DevTools Protocol - full CDP access |
 | `/veriphone-automation` | Automate Veriphone tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/verl-rl-training` | Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Us… |
 | `/vero-automation` | Automate Vero tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/version-badge-pattern` | Version badge UI showing build version, git commit, and changelog in a tooltip. Use when adding ve… |
 | `/version-control-strategy` | Define version control strategies for design files, components, and libraries. |
 | `/version-planner` | 帮助用户把产品需求拆解成渐进式版本规划。当用户说"拆版本"、"版本规划"、"MVP怎么做"、"分阶段实现"时触发。 |
 | `/vertex-ai-gemini` | Google Cloud Vertex AI for enterprise Gemini deployments — production scaling, fine-tuning, and ML… |
@@ -16320,7 +17079,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/video-planner` | Plan videos and prepare publishing materials for YouTubers/UP主. Use when user wants to plan a vide… |
 | `/video-processing-editing` | FFmpeg automation for cutting, trimming, concatenating videos. Audio mixing, timeline editing, tra… |
 | `/video-processor` | Download and process videos from YouTube and other platforms. Supports video download, audio extra… |
-| `/video-production` | World-class video production expertise combining the storytelling craft of documentary filmmakers,… |
+| `/video-production` | Professional video production from planning to delivery. Use when creating video content, editing … |
 | `/video-recap` | Generate a Chinese-narration recap video from an input video, end to end. Use when the user gives … |
 | `/video-script` | Write a timestamped Chinese narration script (解说词 / 旁白) for an already-analyzed video, then lint/v… |
 | `/video-subtitles` | Generate SRT subtitles from video/audio with translation support. Transcribes Hebrew (ivrit.ai) an… |
@@ -16356,6 +17115,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/visa-doc-translate` | Translate visa application documents (images) to English and create a bilingual PDF with original … |
 | `/vision-analysis` | Analyze, describe, and extract information from images using the MiniMax vision MCP tool. Use when… |
 | `/vision-exploration` | 终局愿景探索。用户抛出一个模糊 idea，AI 主导引导，通过"追问价值 → 挖掘动机 → 推导演化 → 画终局"的链路，帮用户看到未来最远的可能性。不设限，不收敛，纯发散。 |
+| `/vision-framework` | Implement computer vision features including text recognition (OCR), face detection, barcode scann… |
+| `/visionos` | visionOS platform-specific development with spatial computing, RealityKit, immersive spaces, and v… |
 | `/visionos-widgets` | visionOS widget patterns including mounting styles, glass/paper textures, proximity-aware layouts,… |
 | `/visme-automation` | Automate Visme tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/visual-and-observational-rules` | Defines the visual aspects of the game and how the player observes the world. This includes map co… |
@@ -16405,6 +17166,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/voicebox-voice-synthesis` | Expert skill for Voicebox — the open-source local voice cloning and TTS studio built with Tauri, R… |
 | `/voicenotes` | Sync and access voice notes from Voicenotes.com. Use when the user wants to retrieve their voice r… |
 | `/voiceover` | World-class voiceover expertise combining the narrative craft of documentary producers, the commer… |
+| `/volunteer-coordinator` | Volunteer management system design with scheduling, skill matching, communication templates, recog… |
 | `/von-restorff-effect` | Apply the Von Restorff Effect to make the most important element distinctly different from its sur… |
 | `/voxel-art` | Expert voxel artist with deep knowledge of MagicaVoxel workflows, palette design, animation techni… |
 | `/vpe-advisor` | VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identifi… |
@@ -16424,6 +17186,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/vue-component-patterns` | Use when Vue component patterns including props, emits, slots, and provide/inject. Use when buildi… |
 | `/vue-composition-api` | Use when Vue 3 Composition API with reactive refs, computed, and composables. Use when building mo… |
 | `/vue-debug-guides` | Vue 3 debugging and error handling for runtime errors, warnings, async failures, and SSR/hydration… |
+| `/vue-development` | Vue.js 3 development with Composition API, TypeScript, Pinia state management, and Nuxt 3 full-sta… |
 | `/vue-expert` | Builds Vue 3 components with Composition API patterns, configures Nuxt 3 SSR/SSG projects, sets up… |
 | `/vue-expert-js` | Creates Vue 3 components, builds vanilla JS composables, configures Vite projects, and sets up rou… |
 | `/vue-nuxt-frontend` | Build and review Vue and Nuxt frontend systems with composable components, SSR or SSG strategy, ac… |
@@ -16447,6 +17210,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/vulnerability-scan-triage` | Triage raw vulnerability-scanner output (Nessus/Qualys/Trivy/Grype/OpenVAS, cloud or container sca… |
 | `/vulnerability-scanner` | Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapp… |
 | `/vulnerability-scanning` | Automated security scanning for dependencies, code, containers with Trivy, Snyk, npm audit. Use fo… |
+| `/vulture-dead-code` | Vulture and deadcode tools for detecting unused Python code (functions, classes, imports). Use whe… |
 | `/waboxapp-automation` | Automate Waboxapp tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/wachete-automation` | Automate Wachete tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/wacli` | Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for … |
@@ -16471,7 +17235,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/wasm-gallery` | Browse, publish, and install WASM agents from the community gallery |
 | `/watch-my-money` | Analyze bank transactions, categorize spending, track monthly budgets, detect overspending and ano… |
 | `/watchOS` | watchOS development guidance including SwiftUI for Watch, Watch Connectivity, complications, and w… |
+| `/watchos` | watchOS platform-specific development with complications, workouts, HealthKit, and Watch Connectiv… |
 | `/wati-automation` | Automate Wati tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/wave-based-dispatch` | Sequential-wave dispatch for WO chains where output of one feeds the next, shared locks, or shared… |
 | `/wave-executor` | Fresh-process orchestration for EPIC-tier batch pipelines. Spawns a new Bun process per wave via t… |
 | `/wave_accounting-automation` | Automate Wave Accounting tasks via Rube MCP (Composio): invoices, customers, payments, and small b… |
 | `/wcag` | Expert WCAG (Web Content Accessibility Guidelines) advisor covering WCAG 2.0, 2.1, and 2.2 — the W… |
@@ -16480,6 +17246,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/weather` | Get current weather and forecasts (no API key required). |
 | `/weather-pollen` | Weather and pollen reports for any location using free APIs. Get current conditions, forecasts, an… |
 | `/weathercli` | Get current weather conditions and forecasts for any location worldwide. Returns structured data w… |
+| `/weatherkit` | Fetch WeatherKit current, minute, hourly, and daily forecasts; weather alerts; iOS 18+ changes, hi… |
 | `/weathermap-automation` | Automate Weathermap tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/weave` | You are an expert in Weave, the lightweight toolkit by Weights & Biases for tracking and evaluatin… |
 | `/weaviate` | Weaviate is an open-source vector database with built-in vectorization modules. Learn schema defin… |
@@ -16580,7 +17347,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/websocket-realtime-builder` | Implements real-time features using WebSockets with Socket.io, rooms, authentication, and reconnec… |
 | `/websocket-security` | WebSocket handshake, CSWSH, tooling (wsrepl, ws-harness, Burp), and common flaws. Use when apps us… |
 | `/websocket-streaming` | Implements real-time bidirectional communication between DAG execution engines and visualization d… |
-| `/websockets-realtime` | Expert at building real-time features using WebSockets, Server-Sent Events, and other live update … |
+| `/websockets-realtime` | Real-time communication with WebSockets, Server-Sent Events, and related technologies. Use when bu… |
 | `/webvizio-automation` | Automate Webvizio tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/webxr` | WebXR API enables web-based AR and VR experiences by accessing XR devices directly from browsers. |
 | `/wechat-article-aggregator` | 微信公众号文章聚合器。通过 mptext.top API 批量获取指定公众号博主的最新文章列表，下载文章内容并解析为 Markdown/HTML/纯文本格式。支持按公众号名称或 fakeid 获取… |
@@ -16621,6 +17388,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/whoop` | WHOOP morning check-in (recovery/sleep/strain) with suggestions. |
 | `/whoop-2` | Access Whoop wearable health data (sleep, recovery, strain, HRV, workouts) and generate interactiv… |
 | `/whoopskill` | WHOOP CLI with health insights, trends analysis, and data fetching (sleep, recovery, HRV, strain). |
+| `/widgetkit` | Implement, review, or improve WidgetKit widgets and controls. Use when building Home Screen, Lock … |
 | `/widgets-state-security-distribution` | This skill should be used when the user asks about TUI widgets, forms, dialogs, tables, trees, cha… |
 | `/wienerlinien` | Vienna public transport (Wiener Linien) real-time data. Use when asking about departures, schedule… |
 | `/wiki` | LLM Wiki — persistent markdown knowledge base that compounds across sessions (Karpathy model) |
@@ -16642,6 +17410,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/windows-av-evasion` | AV/EDR evasion playbook for Windows. Use when bypassing AMSI, ETW, .NET assembly detection, shellc… |
 | `/windows-control` | Full Windows desktop control. Mouse, keyboard, screenshots - interact with any Windows application… |
 | `/windows-desktop-e2e` | E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Win… |
+| `/windows-expert` | Expert guidance for Windows, PowerShell, WSL interop, and cross-platform development |
 | `/windows-git-bash-compatibility` | Windows and Git Bash compatibility for ADF tooling. PROACTIVELY activate for: (1) MSYS_NO_PATHCONV… |
 | `/windows-git-bash-paths` | Windows and Git Bash path handling for SSDT, SqlPackage, and DACPAC files. PROACTIVELY activate fo… |
 | `/windows-git-bash-testing` | Windows and Git Bash testing compatibility for Vitest, Playwright, and MSW. PROACTIVELY activate f… |
@@ -16708,16 +17477,21 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/workflow-automator` | Takes a manual business workflow description and designs the automated version. Maps current steps… |
 | `/workflow-best-practices` | Build durable workflows with the Workflow Development Kit — steps, streaming, agent runs, metadata… |
 | `/workflow-builder` | Design and write deterministic multi-agent workflow scripts (.js files in .claude/workflows/) for … |
+| `/workflow-checkpoint-refactor` | Multi-phase refactoring with checkpoint files that survive context limits. Use when refactoring sp… |
 | `/workflow-create` | Author a workflow — either an MCP workflow template (persisted, lifecycle) or a native .claude/wor… |
 | `/workflow-creator` | Creates multi-agent orchestration workflows for complex tasks. Handles enterprise workflows, opera… |
+| `/workflow-dev` | Automated dev loop — run tests, file issues for failures, TDD fix on branch, open PR, watch CI. Us… |
 | `/workflow-interactive-dev` | 用于开发 FastGPT 工作流中的交互响应。详细说明了交互节点的架构、开发流程和需要修改的文件。 |
 | `/workflow-management` | Create, debug, or modify QStash workflows for data updates and social media posting in the API ser… |
 | `/workflow-orchestration` | Disciplined task execution with planning, verification, and self-improvement loops. Use when start… |
 | `/workflow-orchestration-patterns` | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, r… |
 | `/workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase check… |
+| `/workflow-preflight` | Pre-work validation before implementation. Use when starting an issue or fix to verify remote stat… |
 | `/workflow-run` | Run a workflow — drive an MCP workflow lifecycle (execute/pause/resume/cancel) or invoke + resume … |
 | `/workflow-trellis` | Represent messy work as durable obligations, workflow building blocks, fragments, AI/automation in… |
 | `/workflow-updater` | Research-backed workflow to refresh existing workflow files with phase-gate regression checks, ide… |
+| `/workflow-verify-before-filing` | Verify accumulated bug claims at upstream HEAD and dedup against trackers before filing issues. Us… |
+| `/workflow-wave-dispatch` | Sequential-wave dispatch for multi-agent work with cross-task dependencies. Use when planning mult… |
 | `/workflow-worktree` | Use when creating, managing, or merging worktrees. Triggers on worktree creation, merge-back, suba… |
 | `/working-on` | Set a tracking document as the source of truth for the current feature or task. Use when starting … |
 | `/working-with-aspire` | Use when building distributed apps with Aspire; orchestrating .NET, JavaScript, Python, or polyglo… |
@@ -16734,6 +17508,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/workspace` | Dynamic multi-repo and monorepo awareness for Claude Code. Analyze workspace topology, track API c… |
 | `/workspace-context-linter` | Diagnose always-loaded workspace context files such as AGENTS.md, SOUL.md, USER.md, MEMORY.md, and… |
 | `/workspace-surface-audit` | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then rec… |
+| `/workspaces` | Obsidian editor workspace: list open tabs, recent files, saved Workspaces. Use when checking what'… |
 | `/worktree-guide` | Interactive guide for parallel development with Ghostty, git worktrees, and Lazygit. Use when sett… |
 | `/worktree-qa` | Full QA loop for the current worktree: diff → host → test → handoff. Runs `git diff` to enumerate … |
 | `/worktrunk` | Manage Git worktrees for parallel AI agent workflows with Worktrunk CLI. Use when: running multipl… |
@@ -16835,6 +17610,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/yahoo-data-fetcher` | Fetch real-time stock quotes from Yahoo Finance. |
 | `/yahoo-finance` | Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Ya… |
 | `/yahoo-finance-2` | This skill should be used when the user asks to "get stock prices", "check stock quotes", "look up… |
+| `/yaml-config-helper` | Validate, format, and troubleshoot YAML configuration files |
 | `/yandex-automation` | Automate Yandex tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/yandex-metrika` | Аналитика Yandex Metrika: трафик, конверсии, UTM, поисковые системы. Cache-first подход для гигиен… |
 | `/yandex-search-api` | Парсинг выдачи Яндекса через Yandex Cloud Search API v2. Синхронный и асинхронный режимы. Кэширова… |
@@ -16865,6 +17641,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/yjs` | Expert guidance for Yjs, the high-performance CRDT (Conflict-free Replicated Data Type) framework … |
 | `/ynab` | Manage YNAB budgets, accounts, categories, and transactions via CLI. |
 | `/ynab-automation` | Automate Ynab tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/your-skill-name` | Clear description of what this skill does and when to use it. Use when the user asks about X or wa… |
 | `/yourvpndead-vpn-detection` | Android app that detects VPN/proxy servers (VLESS/xray/sing-box) via local SOCKS5 vulnerability, e… |
 | `/yousearch-automation` | Automate Yousearch tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/youtube` | Search YouTube videos, get channel info, fetch video details and transcripts using YouTube Data AP… |
@@ -16885,6 +17662,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/youtube-transcript` | Download YouTube video transcripts when user provides a YouTube URL or asks to download/get/fetch … |
 | `/youtube-transcription` | Transcribe YouTube videos to text using OpenAI Whisper and yt-dlp. Use when the user wants to get … |
 | `/youtube-watcher` | Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer que… |
+| `/yq-yaml-processing` | yq YAML processing: query, filter, transform YAML. Use when parsing configs, modifying Kubernetes … |
 | `/yt-api-cli` | Manage your YouTube account from the command line. Complete CLI for YouTube Data API v3 - list/sea… |
 | `/yt-dlp` | Download video and audio from YouTube and other platforms with yt-dlp. Use when a user asks to dow… |
 | `/yt-dlp-downloader` | Download videos from YouTube, Bilibili, Twitter, and thousands of other sites using yt-dlp. Use wh… |
@@ -16951,7 +17729,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/zylvie-automation` | Automate Zylvie tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/zyte-api-automation` | Automate Zyte API tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/公众号封面生成器` | 根据主题和标题生成现代风格的公众号封面图，使用jimeng-mcp-server生成3D插画风格底图，叠加文字层生成HTML，并可选择性转换为高质量PNG/JPG图片 |
-| `/规范迭代审核` | 对已有项目进行审核，对比产品定义与实际实现的差距，然后反思改进项目的开发规范.md。当用户说"做一次规范审核"、"审核这个项目"、"迭代规范"或"项目复盘"时触发。 |
+| `/哔哩哔哩字幕获取器` | 从哔哩哔哩(B站)搜索视频、获取字幕并转换为 Markdown 格式。当用户需要搜索 B 站视频、下载视频字幕、批量获取字幕、分析视频内容时使用。支持关键词搜索、单视频处理、批量并发下载。 |
 ---
 
 ## 三、斜杠可直接调用的技能（user-invocable）
@@ -16994,6 +17772,48 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 - `/assess`
   Assesses and rates quality 0-10 across multiple dimensions (correctness, maintainability, security, performance, testability, simplicity) with pros/cons analysis. Compares against …
 
+- `/astro-6`
+  Expert Astro 6 framework — routing, output modes, middleware, Vite Environment API, Rust compiler, Content Security Policy, Live Collections, Fonts API. Use when building Astro sit…
+
+- `/astro-actions`
+  Expert Astro Server Actions — defineAction, astro:actions, Zod validation, ActionError, HTML form actions, accept form, progressive enhancement, redirect patterns. Use when handlin…
+
+- `/astro-assets`
+  Image and asset optimization in Astro 6 — <Image />, <Picture />, getImage(), remote images, @astrojs/sharp, Fonts API, OG image generation with Satori, Cloudinary/Imgix. Use for a…
+
+- `/astro-content`
+  Expert Astro Content Layer API — content.config.ts, glob/file loaders, custom loaders, getCollection, getEntry, render(), Zod schemas, MDX, Remark/Rehype plugins. Use when managing…
+
+- `/astro-db`
+  Astro DB — defineDb, defineTable, column types, CRUD with db.select/insert/update/delete, db/config.ts, db/seed.ts, Turso for production, type-safety, integration with Astro Action…
+
+- `/astro-deployment`
+  Deploying Astro 6 apps — @astrojs/cloudflare (Workers, D1, KV, R2), @astrojs/vercel (Serverless/Edge, Image CDN), @astrojs/netlify (Edge Functions), @astrojs/node (standalone), ISR…
+
+- `/astro-i18n`
+  Use when implementing internationalization in Astro, configuring i18n routing, setting up locale strategies, using getRelativeLocaleUrl/getAbsoluteLocaleUrl, handling Astro.current…
+
+- `/astro-integrations`
+  Expert Astro UI framework integrations — @astrojs/react, @astrojs/vue, @astrojs/svelte, @astrojs/solid-js, @astrojs/preact, @astrojs/alpinejs, @astrojs/lit, @qwikdev/astro, @analog…
+
+- `/astro-islands`
+  Expert Astro Islands Architecture — client:load, client:idle, client:visible, client:media, client:only, server:defer (Server Islands), fallback slots, transition:persist, prop ser…
+
+- `/astro-security`
+  Use when configuring Content Security Policy (CSP) in Astro 6, setting security headers, managing script/style hashes, using nonces, or implementing experimentalStaticHeaders for a…
+
+- `/astro-seo`
+  SEO for Astro sites — meta tags, Open Graph, Twitter Cards, JSON-LD structured data, sitemap, RSS, robots.txt, canonical URLs, hreflang, Core Web Vitals. Use when optimizing search…
+
+- `/astro-starlight`
+  Astro Starlight documentation theme — setup, sidebar config, Pagefind search, dark/light mode, plugins (DocSearch, blog, openapi, typedoc, versions), multi-language, Content Layer …
+
+- `/astro-styling`
+  Use when styling Astro components with scoped CSS, CSS Modules, Tailwind CSS, UnoCSS, or Sass. Covers class:list directive, global styles, CSS custom properties, and Vite-powered p…
+
+- `/auth-audit`
+  Audit authentication and authorization patterns. Checks JWT, sessions, OAuth2, PKCE implementations for security best practices and common vulnerabilities.
+
 - `/autoresearch`
   Use for autoresearch, autonomous experiments, optimization loops, "optimize X overnight/in a loop", or "experiment loop"; sets up iterative trials for an optimization target.
 
@@ -17011,6 +17831,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - `/bkit-explore`
   Browse installed bkit skills, agents, and evals via lib/discovery/explorer.js (filesystem scan, no subprocess). Triggers: bkit explore, list skills, skill discovery, browse skills,…
+
+- `/breaking-changes`
+  Detect breaking changes in Claude Code updates by comparing current API surface against changelog. Maps impacts to specific plugin files.
 
 - `/btw`
   By-The-Way: 작업 중 개선 제안을 즉시 수집하고 관리하는 스킬. Triggers: /btw, /btw list, /btw analyze, /btw promote, /btw stats Keywords: btw, 개선, 제안, suggestion, improve, idea, feedback
@@ -17035,6 +17858,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - `/changelog`
   Generate changelog entries following Keep a Changelog format
+
+- `/changelog-scan`
+  Scan Claude Code changelog for new versions, features, and changes. Fetches official docs, parses release notes, and generates structured update report.
 
 - `/checkpoint`
   Save current verification state for resumption
@@ -17066,6 +17892,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 - `/commit`
   Use only when explicitly invoked for Git commit workflows: stage intended changes, craft Conventional Prefix Format messages by default, Natural Language messages with --natural or…
 
+- `/community-pulse`
+  Monitor community feedback on Claude Code via Exa search. Gathers sentiment, real-world usage patterns, bug reports, and feature requests from blogs, forums, and social media.
+
 - `/component-search`
   Search 21st.dev component registry for production-ready React components. Finds components by natural language description, filters by framework and style system, returns ranked re…
 
@@ -17089,6 +17918,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - `/create-skill`
   Use to create/scaffold/init a new agent skill in `.agents/skills` by default or `~/.agents/skills` with `--global`.
+
+- `/cve-research`
+  Research CVEs and security advisories for project dependencies. Uses Exa, NVD API, OSV.dev, and GitHub Advisory Database to find known vulnerabilities.
 
 - `/daily-meeting-update`
   Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum update', 'status update', 'what did I do yesterday', 'prepare for meeting', 'morni…
@@ -17204,61 +18036,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 - `/evm-atlas`
   Use for targeted EVM chain, account, transaction, RPC, explorer, and bridge data: chain name/ID, native symbol, RouteMesh, balances, token/NFT holdings/transfers, tx history, fundi…
 
-- `/evolve`
-  Cluster related instincts into skills, commands, or agents
-
-- `/existing-repo`
-  Analyze existing repositories, maintain structure, setup guardrails and best practices
-
-- `/expect`
-  Diff-aware AI browser testing — analyzes git changes, generates targeted test plans, and executes them via agent-browser (Rust daemon + CDP, ARIA-tree-first). Reads git diff to det…
-
-- `/explore`
-  Multi-angle codebase exploration spawning 3-5 parallel agents for code structure, data flow, architecture patterns, and health assessment. Generates ASCII visualizations, import gr…
-
-- `/find-tool`
-  Use to find, compare, and recommend current tools, packages, libraries, CLIs, VSCode extensions, agent skills, databases, or infrastructure options for a development task.
-
-- `/fix-issue`
-  Fixes GitHub issues using parallel analysis agents for root cause investigation, code exploration, and regression detection. Reads issue context from gh CLI, searches codebase and …
-
-- `/ftb-quests`
-  Generate FTB Quests configuration files (JSON5 for 1.21+, SNBT for 1.20.1 and earlier) for Minecraft modpacks. Triggers on: "FTB任务", "FTB quests", "任务配置", "quest config", "任务线", "生…
-
-- `/gemini-review`
-  Google Gemini CLI code review with Gemini 2.5 Pro, 1M token context, CI/CD integration
-
-- `/git-squash`
-  Use to squash a feature branch into one commit and rebase onto base: squash commits/branch, clean up commits, flatten branch history, prepare clean PR commit.
-
-- `/go-grpc-service`
-  生成标准go-zero gRPC服务:proto→pb→logic→handler→ent一站式脚手架
-
-- `/golang-benchmark`
-  Golang benchmarking, profiling, and performance measurement. Use when writing, running, or comparing Go benchmarks, profiling hot paths with pprof, interpreting CPU/memory/trace pr…
-
-- `/golang-cli`
-  Golang CLI application development. Use when building, modifying, or reviewing a Go CLI tool — especially for command structure, flag handling, configuration layering, version embe…
-
-- `/golang-code-style`
-  Golang code style, formatting and conventions. Use when writing code, reviewing style, configuring linters, writing comments, or establishing project standards.
-
-- `/golang-concurrency`
-  Golang concurrency patterns. Use when writing or reviewing concurrent Go code involving goroutines, channels, select, locks, sync primitives, errgroup, singleflight, worker pools, …
-
-- `/golang-context`
-  Idiomatic context.Context usage in Golang — creation, propagation, cancellation, timeouts, deadlines, context values, and cross-service tracing. Apply when working with context.Con…
-
-- `/golang-continuous-integration`
-  Provides CI/CD pipeline configuration using GitHub Actions for Golang projects. Covers testing, linting, SAST, security scanning, code coverage, Dependabot, Renovate, GoReleaser, c…
-
-- `/golang-data-structures`
-  Golang data structures — slices (internals, capacity growth, preallocation, slices package), maps (internals, hash buckets, maps package), arrays, container/list/heap/ring, strings…
-
-- `/golang-database`
-  Comprehensive guide for Go database access. Covers parameterized queries, struct scanning, NULLable column handling, error patterns, transactions, isolation levels, SELECT FOR UPDA…
-
-*…另有 137 个，运行 `npx skills ls -g` 查看完整列表*
+*…另有 212 个，运行 `npx skills ls -g` 查看完整列表*
 
 ---
 
@@ -17473,9 +18251,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 ## 五、安装统计
 
 - 本次请求技能（去重）：**226** 个
-- 已成功安装：**209** 个
-- 全局技能总数：**16300** 个
-- 支持斜杠调用：**237** 个
+- 已成功安装：**210** 个
+- 全局技能总数：**17079** 个
+- 支持斜杠调用：**312** 个
 
 ---
 

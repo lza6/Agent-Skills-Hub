@@ -1,5 +1,5 @@
 {
-  "total_repos": 622,
+  "total_repos": 634,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -1126,6 +1126,12 @@
       ]
     },
     {
+      "repo": "bfollington/terma",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "bidah/skill-set",
       "waves": [
         68
@@ -1326,7 +1332,8 @@
       "repo": "cloudflare/skills",
       "waves": [
         4,
-        15
+        15,
+        80
       ]
     },
     {
@@ -1568,9 +1575,21 @@
       ]
     },
     {
+      "repo": "dpearson2699/swift-ios-skills",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "dreamybot/prompt-engineering-skill",
       "waves": [
         52
+      ]
+    },
+    {
+      "repo": "drjacky/claude-android-ninja",
+      "waves": [
+        80
       ]
     },
     {
@@ -1741,6 +1760,12 @@
       ]
     },
     {
+      "repo": "fusengine/agents",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "gastonmorixe/software-best-design-patterns-skill",
       "waves": [
         64
@@ -1758,7 +1783,8 @@
         23,
         25,
         28,
-        37
+        37,
+        80
       ]
     },
     {
@@ -1847,7 +1873,8 @@
     {
       "repo": "grafana/skills",
       "waves": [
-        23
+        23,
+        80
       ]
     },
     {
@@ -2030,6 +2057,12 @@
       ]
     },
     {
+      "repo": "iliaal/ai-skills",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "inekipelov/apple-platform-project-setup-skill",
       "waves": [
         62
@@ -2098,6 +2131,12 @@
       ]
     },
     {
+      "repo": "jackspace/claudeskillz",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "jamditis/claude-skills-journalism",
       "waves": [
         78
@@ -2145,7 +2184,8 @@
       "waves": [
         4,
         5,
-        9
+        9,
+        80
       ]
     },
     {
@@ -2351,6 +2391,12 @@
       "repo": "larksuite/cli",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "laurigates/claude-plugins",
+      "waves": [
+        80
       ]
     },
     {
@@ -2631,7 +2677,8 @@
         22,
         23,
         37,
-        38
+        38,
+        80
       ]
     },
     {
@@ -2686,7 +2733,8 @@
       "repo": "mongodb/agent-skills",
       "waves": [
         4,
-        13
+        13,
+        80
       ]
     },
     {
@@ -2843,6 +2891,12 @@
       ]
     },
     {
+      "repo": "oliver-kriska/claude-elixir-phoenix",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "ombulabs/claude-code_rails-upgrade-skill",
       "waves": [
         68,
@@ -2859,6 +2913,12 @@
       "repo": "omry/agent_tools",
       "waves": [
         59
+      ]
+    },
+    {
+      "repo": "onewave-ai/claude-skills",
+      "waves": [
+        80
       ]
     },
     {
@@ -3310,6 +3370,12 @@
       ]
     },
     {
+      "repo": "sergiodxa/agent-skills",
+      "waves": [
+        80
+      ]
+    },
+    {
       "repo": "sfrangulov/claude-code-handbook-ru",
       "waves": [
         69,
@@ -3422,6 +3488,12 @@
       "repo": "spanora/skills",
       "waves": [
         79
+      ]
+    },
+    {
+      "repo": "spatie/guidelines-skills",
+      "waves": [
+        80
       ]
     },
     {
@@ -3617,6 +3689,12 @@
         22,
         68,
         72
+      ]
+    },
+    {
+      "repo": "travisjneuman/.claude",
+      "waves": [
+        80
       ]
     },
     {
