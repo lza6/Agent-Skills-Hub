@@ -1,5 +1,5 @@
 {
-  "total_repos": 675,
+  "total_repos": 687,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -188,6 +188,12 @@
       ]
     },
     {
+      "repo": "ChrisWiles/claude-code-showcase",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "Cocoon-AI/architecture-diagram-generator",
       "waves": [
         44
@@ -225,6 +231,12 @@
         49,
         69,
         70
+      ]
+    },
+    {
+      "repo": "FlorianBruniaux/claude-code-plugins",
+      "waves": [
+        84
       ]
     },
     {
@@ -728,6 +740,12 @@
       ]
     },
     {
+      "repo": "ThibautBaissac/rails_ai_agents",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "TimBroddin/skills",
       "waves": [
         69,
@@ -784,6 +802,12 @@
       ]
     },
     {
+      "repo": "a-pavithraa/springboot-skills-marketplace",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "aaronontheweb/dotnet-skills",
       "waves": [
         24
@@ -820,6 +844,12 @@
       "repo": "adobe/skills",
       "waves": [
         77
+      ]
+    },
+    {
+      "repo": "adrianpuiu/claude-skills-marketplace",
+      "waves": [
+        84
       ]
     },
     {
@@ -1802,6 +1832,12 @@
       ]
     },
     {
+      "repo": "ferdinandobons/AWSBedrockAgentCoreSkill",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "ferdousbhai/cloud-fullstack-skills",
       "waves": [
         61
@@ -2248,6 +2284,12 @@
       ]
     },
     {
+      "repo": "jabrena/plinth",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "jackspace/claudeskillz",
       "waves": [
         80
@@ -2571,6 +2613,12 @@
       ]
     },
     {
+      "repo": "lightpointventures/claude-code-starter",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "lihao0318/ai-nl2ui-automation",
       "waves": [
         72
@@ -2796,6 +2844,12 @@
       "repo": "microsoft/playwright-cli",
       "waves": [
         3
+      ]
+    },
+    {
+      "repo": "microsoft/power-platform-skills",
+      "waves": [
+        84
       ]
     },
     {
@@ -3033,6 +3087,12 @@
       "repo": "oalders/kitchen-sink",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "obie/skills",
+      "waves": [
+        84
       ]
     },
     {
@@ -3499,6 +3559,12 @@
       ]
     },
     {
+      "repo": "safishamsi/graphify",
+      "waves": [
+        84
+      ]
+    },
+    {
       "repo": "saifoelloh/golang-best-practices-skill",
       "waves": [
         48
@@ -3922,6 +3988,12 @@
       "repo": "trailofbits/skills-curated",
       "waves": [
         83
+      ]
+    },
+    {
+      "repo": "transilienceai/communitytools",
+      "waves": [
+        84
       ]
     },
     {

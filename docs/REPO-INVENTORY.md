@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（675 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（687 个唯一仓库，wave2–73）
 
-**唯一仓库数: 675** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 687** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -88,3 +88,4 @@
 | 81 | 18 | `0xdarkmatter/claude-mods`, `alti3/litestar-skills`, `anthropics/skills`, `besoeasy/open-skills`, `damusix/skills`, `davila7/claude-code-templates`, `different-ai/openwork`, `gopherguides/gopher-ai`, `johnlindquist/claude`, `llama-farm/llamafarm`, `manifoldhiker/typesense-skill`, `mikkelkrogsholm/dev-skills`, `oguzhan18/angular-ecosystem-skills`, `samber/cc-skills-golang`, `shipshitdev/library`, `sickn33/antigravity-awesome-skills`, `windmill-labs/windmill`, `wshobson/agents` |
 | 82 | 17 | `AgriciDaniel/claude-ads`, `FlorianBruniaux/claude-code-ultimate-guide`, `LingyiChen-AI/comfyui-workflow-skill`, `asgard-ai-platform/skills`, `botingw/rulebook-ai`, `centminmod/my-claude-code-setup`, `ckanner/agent-skills`, `karanb192/awesome-claude-skills`, `microsoft/skills-for-copilot-studio`, `ndpvt-web/latex-document-skill`, `pcliangx/AppGenesisForge`, `piomin/claude-ai-spring-boot`, `rohitg00/awesome-claude-code-toolkit`, `runesleo/claude-code-workflow`, `selmakcby/claude-agents-skills`, `seulee26/mckinsey-pptx`, `spences10/claude-skills-cli` |
 | 83 | 12 | `GRCEngClub/claude-grc-engineering`, `Ricko12vPL/claude-code-skills`, `agentskills/agentskills`, `athola/claude-night-market`, `browserbase/skills`, `buildbetter-app/skills`, `djacobsmeyer/claude-skills-engineering`, `jnemargut/better-plan-mode`, `obra/superpowers-chrome`, `trailofbits/skills-curated`, `vercel-labs/skills`, `zxkane/aws-skills` |
+| 84 | 12 | `ChrisWiles/claude-code-showcase`, `FlorianBruniaux/claude-code-plugins`, `ThibautBaissac/rails_ai_agents`, `a-pavithraa/springboot-skills-marketplace`, `adrianpuiu/claude-skills-marketplace`, `ferdinandobons/AWSBedrockAgentCoreSkill`, `jabrena/plinth`, `lightpointventures/claude-code-starter`, `microsoft/power-platform-skills`, `obie/skills`, `safishamsi/graphify`, `transilienceai/communitytools` |
