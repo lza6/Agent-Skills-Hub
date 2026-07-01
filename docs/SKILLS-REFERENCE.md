@@ -1,6 +1,6 @@
 # Claude Code 全局技能总览手册
 
-> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **17454** 个全局技能
+> 本机路径：`C:\Users\Administrator.DESKTOP-EGNE9ND\Agent-Skills-Hub\docs\SKILLS-REFERENCE.md` ｜ 技能目录：`~/.claude/skills/` ｜ 共 **17844** 个全局技能
 
 ---
 
@@ -859,7 +859,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 ### Wave 71 全量已安装技能索引（按字母排序）
 
-> 以下 **17241** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
+> 以下 **17631** 个技能均通过 `npx skills add` 成功安装到项目级 `.agents/skills/`。
 > 仅展示**已安装**技能，未安装的不收录。
 
 | Skill | Description |
@@ -1411,7 +1411,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/accessibility-implementation` | WCAG 2.1/2.2 compliance, ARIA patterns, keyboard nav, focus management, a11y testing. Use when imp… |
 | `/accessibility-test-plan` | Create accessibility testing plans covering assistive technologies and WCAG criteria. |
 | `/accessibility-testing` | Test web applications for WCAG compliance and ensure usability for users with disabilities. Use fo… |
-| `/accessibility-wcag` | WCAG 2.1 AA compliance requirements including semantic markup, keyboard navigation, ARIA labels, a… |
+| `/accessibility-wcag` | Web accessibility patterns for WCAG 2.2 compliance including ARIA, keyboard navigation, screen rea… |
 | `/accesslint-audit` | Find and fix WCAG 2.2 accessibility issues. Two modes — report (sweep a codebase or page, produce … |
 | `/accesslint-diff` | Diff a live page's accessibility violations against a baseline — by default compares uncommitted c… |
 | `/accesslint-scan` | Audit a live page for accessibility issues, locate each WCAG violation precisely, and return a sel… |
@@ -1515,9 +1515,31 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/adr-writer` | Creates Architecture Decision Records documenting key technical decisions with context, alternativ… |
 | `/adrapid-automation` | Automate Adrapid tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ads` | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram),… |
+| `/ads-amazon` | Amazon Ads deep analysis covering Sponsored Products, Sponsored Brands (incl. Sponsored Brands Vid… |
+| `/ads-apple` | Apple Ads (formerly Apple Search Ads) deep analysis for mobile app advertisers. Evaluates campaign… |
+| `/ads-attribution` | Cross-platform attribution health audit covering AdAttributionKit (iOS view-through 24h post-impre… |
+| `/ads-audit` | Full multi-platform paid advertising audit with parallel subagent delegation. Analyzes Google Ads,… |
+| `/ads-budget` | Budget allocation and bidding strategy review across all ad platforms. Evaluates spend distributio… |
+| `/ads-competitor` | Competitor ad intelligence analysis across Google, Meta, LinkedIn, TikTok, Microsoft, and Apple Ad… |
 | `/ads-copywriter` | Multi-platform ad copy generation for Google Ads, Meta/Facebook, TikTok, LinkedIn with A/B testing… |
+| `/ads-create` | Campaign concept and copy brief generator for paid advertising. Reads brand-profile.json and optio… |
+| `/ads-creative` | Cross-platform creative quality audit covering ad copy, video, image, and format diversity across … |
 | `/ads-creative-development` | How to produce ad creative that converts at performance scale. Hook patterns, format selection, vi… |
+| `/ads-dna` | Brand DNA extractor for paid advertising. Scans a website URL to extract visual identity, tone of … |
+| `/ads-generate` | AI image generation for paid ad creatives. Reads campaign-brief.md and brand-profile.json to produ… |
+| `/ads-google` | Google Ads deep analysis covering Search, Performance Max, AI Max, Display, YouTube, and Demand Ge… |
+| `/ads-landing` | Landing page quality assessment for paid advertising campaigns. Evaluates message match, page spee… |
+| `/ads-linkedin` | LinkedIn Ads deep analysis for B2B advertising. Evaluates 27 checks across technical setup, audien… |
+| `/ads-math` | PPC financial calculator and modeling tool. CPA, ROAS, CPL calculations, break-even analysis, impr… |
+| `/ads-meta` | Meta Ads deep analysis covering Facebook, Instagram, and Threads advertising in the Andromeda + GE… |
+| `/ads-microsoft` | Microsoft/Bing Ads deep analysis covering search, Performance Max, Audience Network, and Copilot i… |
 | `/ads-performance-analytics` | How to read paid media dashboards without fooling yourself. Attribution models, platform reporting… |
+| `/ads-photoshoot` | Product photography enhancement for ad creatives using banana-claude image generation. Takes a pro… |
+| `/ads-plan` | Strategic paid advertising planning with industry-specific templates. Covers platform selection, c… |
+| `/ads-server-side-tracking` | Server-side tracking pipeline audit covering server-side Google Tag Manager (sGTM), Meta CAPI Gate… |
+| `/ads-test` | A/B test design and experiment planning for paid advertising. Structured hypothesis framework, sta… |
+| `/ads-tiktok` | TikTok Ads deep analysis covering creative quality, tracking, bidding, campaign structure, and Tik… |
+| `/ads-youtube` | YouTube Ads specific analysis covering campaign types, creative quality, audience targeting, and m… |
 | `/advanced-alchemy-caching` | Design cache-aware Advanced Alchemy usage, including deterministic read paths, SQLAlchemy statemen… |
 | `/advanced-alchemy-cli` | Use Advanced Alchemy's CLI for migrations, revision management, inspection, branching, fixture dum… |
 | `/advanced-alchemy-database-seeding` | Seed databases and load fixtures with Advanced Alchemy using JSON fixture files, sync or async hel… |
@@ -1724,6 +1746,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agent-sequencer` | A mechanism for step-driving AI agents according to a classical program (sequencer program) |
 | `/agent-session-search` | Coding Agent Session Search - unified CLI/TUI to index and search local coding agent history from … |
 | `/agent-skills` | Datadog skills for AI agents. Essential monitoring, logging, tracing and observability. |
+| `/agent-skills-hub-wave` | Agent Skills Hub 项目专用——新会话说"继续"即触发全栈技能安装闭环（搜索→安装→元数据→中英文手册→总账→提交推送）。仅当项目根目录是 Agent-Skills-Hub 时生效。 |
 | `/agent-sona-learning-optimizer` | Agent skill for sona-learning-optimizer - invoke with $agent-sona-learning-optimizer |
 | `/agent-sort` | Build an evidence-backed ECC install plan for a specific repo by sorting skills, commands, rules, … |
 | `/agent-sparc-coordinator` | Agent skill for sparc-coordinator - invoke with $agent-sparc-coordinator |
@@ -1742,7 +1765,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agent-sync-coordinator` | Agent skill for sync-coordinator - invoke with $agent-sync-coordinator |
 | `/agent-tdd-london-swarm` | Agent skill for tdd-london-swarm - invoke with $agent-tdd-london-swarm |
 | `/agent-team-builder` | Designs and deploys custom agent teams for specific business workflows. Interactive discovery of b… |
-| `/agent-teams` | Configure Claude Code agent teams (implicit team, SendMessage, TaskUpdate). Use when running paral… |
+| `/agent-teams` | Claude Code Agent Teams - default team-based development with strict TDD pipeline enforcement |
 | `/agent-test-long-runner` | Agent skill for test-long-runner - invoke with $agent-test-long-runner |
 | `/agent-tester` | Agent skill for tester - invoke with $agent-tester |
 | `/agent-to-agent` | Agent-to-Agent (A2A) communication protocol. Connect two or more Claude agents that pass messages,… |
@@ -1781,6 +1804,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agentic-workflow-orchestration` | Multi-agent coordination, orchestrator-worker patterns, /plan decomposition, and project coordinat… |
 | `/agentic-workflow-security` | 5-layer defense-in-depth security for GitHub Agentic Workflows - safe outputs, threat detection, A… |
 | `/agentic-workflows` | Route gh-aw workflow design/create/debug/upgrade requests to the right prompts. |
+| `/agentkit-seo` | Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use w… |
 | `/agentlens` | Navigate and understand codebases using agentlens hierarchical documentation. Use when exploring n… |
 | `/agentmail` | Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and che… |
 | `/agentphone` | Build AI phone agents with AgentPhone API. Use when the user wants to make phone calls, send/recei… |
@@ -1797,6 +1821,20 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/agentscope` | Build transparent, observable AI agents using AgentScope — agents you can see, understand, and tru… |
 | `/agenttrace-session-audit` | Audit local AI coding-agent sessions with agenttrace for cost, tool failures, latency, anomalies, … |
 | `/agenty-automation` | Automate Agenty tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/agf-deploying-uat` | Use when deploy-engineer is about to deploy the merged-to-main code to the isolated local UAT stac… |
+| `/agf-releasing-apple` | Use when apple-release-engineer is about to build the signed distributable (TestFlight build / not… |
+| `/agf-running-apple-sit` | Use when apple-dev has finished feature code + Unit tests (Swift Testing) and is about to enter co… |
+| `/agf-running-release-retro` | Use when product-lead is about to run a release retrospective after a successful MAJOR or MINOR re… |
+| `/agf-running-sit-tests` | Use when an execution-layer dev (frontend-dev / backend-dev / ai-agent-dev / ml-engineer / miniapp… |
+| `/agf-wiring-apple-llm` | Use when wiring LLM features into the Apple client (macOS / iOS) — streaming chat via the FastAPI … |
+| `/agf-wiring-multi-llm-sdk` | Use when wiring up or switching between China-domestic LLM providers (DeepSeek, Doubao/Volc Ark, Q… |
+| `/agf-writing-adr` | Use when tech-lead is about to record an architecture decision (new tech stack member, deviation f… |
+| `/agf-writing-change` | Use when product-lead is about to formalize a feature into a change folder (the OpenSpec-style int… |
+| `/agf-writing-docx-reports` | 用 docx-js 写"阅读友好的中文 docx 报告"（决议书 / 评审报告 / 调研 / 分析 / 投标书等高密度报告型文档）。当用户要求把 markdown 内容转 docx 且抱怨"格式混… |
+| `/agf-writing-github-issue` | Use whenever a user, product-lead, or qa-engineer wants to create a GitHub issue in the project re… |
+| `/agf-writing-pptx-reports` | 用 python-pptx 写"现代化中文制度 / 党政 / 企业宣贯 PPT"（含决议书提报、评审报告、管理办法、培训宣贯等 23 页量级 deck）。当用户要求程序化生成 PPT 且抱怨"老土… |
+| `/agf-writing-prd` | [DEPRECATED since v6.9.0 → removed in v7.0.0; use agf-writing-change instead] Legacy PRD intake. U… |
+| `/agf-writing-qa-report` | Use when qa-engineer (or miniapp-qa-engineer) is about to publish an E2E or UAT report. Provides t… |
 | `/agile-coach` | Expert agile coaching: framework selection, maturity assessment, retrospective facilitation, trans… |
 | `/agile-product-owner` | Agile product ownership for backlog management and sprint execution. Covers user story writing, ac… |
 | `/agile-sprint-planning` | Plan and execute effective sprints using Agile methodologies. Define sprint goals, estimate user s… |
@@ -1839,6 +1877,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ai-game-art-generation` | Master AI-powered game asset pipelines using ComfyUI, Stable Diffusion, FLUX, ControlNet, and IP-A… |
 | `/ai-gateway` | Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tra… |
 | `/ai-guardrails` | Implement safety guardrails for AI systems — content filtering, prompt injection detection, output… |
+| `/ai-image-creator` | Generate PNG images using AI (multiple models via OpenRouter including Gemini, FLUX.2, Riverflow, … |
 | `/ai-image-editing` | Expert patterns for AI-powered image editing including inpainting, outpainting, ControlNet, image-… |
 | `/ai-image-generator` | Generate AI images using Gemini or GPT APIs directly. Covers model selection (Gemini for scenes; G… |
 | `/ai-llm-engineering` | Operational skill hub for LLM system architecture, evaluation, deployment, and optimization (moder… |
@@ -1923,6 +1962,68 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/alerting-irm` | Configure Grafana Alerting, Incident Response Management (IRM), and SLOs end-to-end — provisions G… |
 | `/alex-hormozi-pitch` | Create irresistible offers and pitches using Alex Hormozi's methodology from $100M Offers. Guides … |
 | `/alexa-cli` | Control Amazon Alexa devices and smart home via the `alexacli` CLI. Use when a user asks to speak/… |
+| `/algo-ad-bidding` | Implement and select ad bidding strategies from manual CPC to automated target-CPA and target-ROAS… |
+| `/algo-ad-budget` | Optimize advertising budget allocation across campaigns using marginal returns analysis. Use this … |
+| `/algo-ad-ctr` | Build CTR prediction models for estimating ad click-through rates from features. Use this skill wh… |
+| `/algo-ad-gsp` | Implement Generalized Second Price auction for ad slot allocation and pricing. Use this skill when… |
+| `/algo-ad-vcg` | Implement VCG mechanism for incentive-compatible ad slot allocation with truthful bidding. Use thi… |
+| `/algo-blockchain-basics` | Explain blockchain fundamentals including distributed ledger architecture, consensus mechanisms, a… |
+| `/algo-blockchain-smart-contract` | Design and implement smart contracts as self-executing programmatic agreements on blockchain. Use … |
+| `/algo-ecom-bm25` | Implement BM25 ranking function for e-commerce product search relevance scoring. Use this skill wh… |
+| `/algo-ecom-ranking` | Design multi-objective e-commerce product ranking combining relevance, conversion, and business me… |
+| `/algo-ecom-search` | Optimize e-commerce search relevance across the full pipeline from query understanding to result p… |
+| `/algo-forecast-arima` | Build ARIMA models for time series forecasting with trend and seasonality decomposition. Use this … |
+| `/algo-forecast-ensemble` | Combine multiple forecasting models into ensemble predictions for improved accuracy. Use this skil… |
+| `/algo-forecast-exponential` | Apply exponential smoothing methods for time series forecasting with weighted moving averages. Use… |
+| `/algo-forecast-prophet` | Build forecasting models with Meta's Prophet for business time series with holidays and changepoin… |
+| `/algo-hr-compensation` | Conduct compensation benchmarking analysis to position salaries against market data. Use this skil… |
+| `/algo-hr-matching` | Implement Gale-Shapley stable matching algorithm for two-sided matching problems. Use this skill w… |
+| `/algo-hr-turnover` | Build employee turnover prediction models to identify flight risk and retention drivers. Use this … |
+| `/algo-mfg-cpk` | Calculate Cpk process capability index to assess whether a process meets specification requirement… |
+| `/algo-mfg-doe` | Design and analyze factorial experiments to identify significant process factors and optimize sett… |
+| `/algo-mfg-fmea` | Conduct FMEA to systematically identify, prioritize, and mitigate potential failure modes. Use thi… |
+| `/algo-mfg-spc` | Implement Statistical Process Control charts to monitor production process stability. Use this ski… |
+| `/algo-net-centrality` | Calculate network centrality metrics to identify important nodes in graphs. Use this skill when th… |
+| `/algo-net-community` | Implement Louvain community detection to discover densely connected groups in networks. Use this s… |
+| `/algo-net-influence` | Solve the influence maximization problem to select optimal seed nodes for maximum information spre… |
+| `/algo-nlp-lda` | Implement LDA topic modeling to discover latent topics in document collections. Use this skill whe… |
+| `/algo-nlp-ner` | Implement Named Entity Recognition to identify and classify entities in text. Use this skill when … |
+| `/algo-nlp-similarity` | Calculate text similarity using lexical and semantic methods for matching and deduplication. Use t… |
+| `/algo-nlp-summarization` | Implement text summarization using extractive and abstractive approaches. Use this skill when the … |
+| `/algo-price-bundle` | Design bundle pricing strategies using pure bundling, mixed bundling, and consumer surplus analysi… |
+| `/algo-price-conjoint` | Run conjoint analysis to measure how product attributes drive consumer preferences and willingness… |
+| `/algo-price-dynamic` | Implement dynamic pricing strategies that adjust prices in real-time based on demand, time, and co… |
+| `/algo-price-elasticity` | Calculate price elasticity of demand to quantify how price changes affect sales volume. Use this s… |
+| `/algo-price-van-westendorp` | Conduct Van Westendorp Price Sensitivity Meter analysis to identify acceptable price ranges. Use t… |
+| `/algo-rank-bayesian` | Apply Bayesian averaging to rank items by combining observed ratings with prior expectations. Use … |
+| `/algo-rank-elo` | Implement Elo rating system to rank items or players from pairwise comparison outcomes. Use this s… |
+| `/algo-rank-trueskill` | Implement TrueSkill rating system for multiplayer and team-based competitive ranking. Use this ski… |
+| `/algo-rank-wilson` | Calculate Wilson Score confidence intervals for ranking items by positive proportion with sample s… |
+| `/algo-rec-cf` | Implement collaborative filtering for recommendations based on user behavior patterns. Use this sk… |
+| `/algo-rec-content` | Implement content-based recommendation by matching item features to user preference profiles. Use … |
+| `/algo-rec-hybrid` | Design hybrid recommendation systems combining multiple strategies for improved accuracy. Use this… |
+| `/algo-rec-mf` | Implement matrix factorization to decompose user-item interaction matrices into latent factor repr… |
+| `/algo-rec-session` | Implement session-based recommendation from short-term user behavior sequences without long-term p… |
+| `/algo-risk-altman-z` | Calculate Altman Z-Score to predict corporate bankruptcy probability from financial ratios. Use th… |
+| `/algo-risk-benford` | Apply Benford's Law to detect anomalies in numerical datasets by analyzing first-digit frequency d… |
+| `/algo-risk-credit` | Build credit scoring models to predict default probability from borrower characteristics. Use this… |
+| `/algo-risk-var` | Calculate Value at Risk to estimate maximum portfolio loss at a given confidence level. Use this s… |
+| `/algo-sc-bullwhip` | Analyze and mitigate the bullwhip effect where demand variability amplifies upstream in supply cha… |
+| `/algo-sc-eoq` | Calculate Economic Order Quantity to minimize total inventory cost (ordering + holding). Use this … |
+| `/algo-sc-newsvendor` | Solve the newsvendor problem for single-period ordering decisions under uncertain demand. Use this… |
+| `/algo-sc-routing` | Solve vehicle routing problems to optimize delivery routes under capacity and time constraints. Us… |
+| `/algo-sc-safety-stock` | Calculate safety stock levels to buffer against demand and lead time uncertainty. Use this skill w… |
+| `/algo-seo-backlink` | Evaluate backlink quality using Domain Authority, Domain Rating, and trust metrics. Use this skill… |
+| `/algo-seo-content` | Execute content SEO strategy from keyword research through content planning, writing, and on-page … |
+| `/algo-seo-crawl` | Implement a web crawler pipeline covering URL discovery, fetching, parsing, and storage. Use this … |
+| `/algo-seo-pagerank` | Implement PageRank algorithm to compute web page importance scores using the random surfer model. … |
+| `/algo-seo-schema` | Implement Schema.org structured data markup in JSON-LD format for enhanced search results. Use thi… |
+| `/algo-seo-technical` | Optimize Core Web Vitals (LCP, INP, CLS) for better search rankings and user experience. Use this … |
+| `/algo-seo-tfidf` | Implement TF-IDF scoring to measure term importance relative to a document corpus. Use this skill … |
+| `/algo-social-engagement` | Calculate and benchmark social media engagement rates across platforms and variants. Use this skil… |
+| `/algo-social-influence` | Measure social media influence using engagement-weighted metrics beyond follower count. Use this s… |
+| `/algo-social-sentiment` | Implement VADER sentiment analysis for social media text scoring. Use this skill when the user nee… |
+| `/algo-social-virality` | Model viral spread dynamics using SIR/SIS/SEIR compartmental models. Use this skill when the user … |
 | `/algo-trading` | Build algorithmic trading systems — backtesting, strategy development, live execution, and risk ma… |
 | `/algodocs-automation` | Automate Algodocs tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/algolia-automation` | Automate Algolia tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -2294,7 +2395,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/android-jetpack` | Jetpack: Room, Navigation, WorkManager, DataStore, CameraX, Hilt injection, Paging 3 |
 | `/android-jetpack-compose` | Use when building Android UIs with Jetpack Compose, managing state with remember/mutableStateOf, o… |
 | `/android-jetpack-compose-expert` | Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, n… |
-| `/android-kotlin` | Kotlin for Android: ViewModel, LiveData/StateFlow, coroutines viewModelScope, Gradle KTS, KTX |
+| `/android-kotlin` | Android Kotlin development with Coroutines, Jetpack Compose, Hilt, and MockK testing |
 | `/android-kotlin-core` | Use Kotlin idioms safely in Android apps, including nullability, data classes, sealed types, exten… |
 | `/android-kotlin-coroutines` | Use when implementing async operations with Kotlin coroutines, Flow, StateFlow, or managing concur… |
 | `/android-kotlin-development` | Develop native Android apps with Kotlin. Covers MVVM with Jetpack, Compose for modern UI, Retrofit… |
@@ -2814,6 +2915,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/audit-full` | Single-pass codebase analysis leveraging Opus 4.8 1M context for comprehensive security scanning, … |
 | `/audit-integrity` | Shared audit integrity framework for all AppSec agents — enforces output quality, intellectual hon… |
 | `/audit-logging` | Implement tamper-evident audit logs for compliance (SOC 2, HIPAA, PCI DSS). Use when building comp… |
+| `/audit-session-metrics` | Audit a session-metrics JSON export for token-usage waste and produce a plain-English findings rep… |
 | `/audit-skills` | Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to ident… |
 | `/audit-website-aeo` | Audits a live website for AI-engine discoverability (AEO/GEO). Crawls the site, runs 16 determinis… |
 | `/auditing-aws-s3-bucket-permissions` | Systematically audit AWS S3 bucket permissions to identify publicly accessible buckets, overly per… |
@@ -2854,7 +2956,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/authentication-best-practices` | Read sessions client- and server-side, guard routes, and run sign in/up/out with Better Auth. Use … |
 | `/authentication-flow-rules` | OAuth 2.1 compliant authentication flows (MANDATORY Q2 2026). PKCE required for ALL clients, Impli… |
 | `/authentication-oauth` | Expert guidance on authentication implementation including OAuth 2.0/OIDC, JWT tokens, session man… |
-| `/authentication-patterns` | OAuth 2.0, JWT, SSO, MFA, NextAuth/Clerk/Supabase Auth implementation patterns |
+| `/authentication-patterns` | Authentication and authorization patterns including OAuth2, JWT, RBAC, session management, and PKC… |
 | `/authjs` | You are an expert in Auth.js (formerly NextAuth.js), the authentication library for web frameworks… |
 | `/authoring-analysis` | Analyze content sequences and determine authoring approach (default content vs blocks). Validates … |
 | `/authoring-conventions` | House authoring conventions for this marketplace's skills — a thin delta over superpowers' writing… |
@@ -2928,6 +3030,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/aws-cli` | AWS Command Line Interface for managing Amazon Web Services. Use when the user needs to interact w… |
 | `/aws-cloud-architecture` | Comprehensive guide to AWS cloud architecture covering compute, storage, databases, networking, se… |
 | `/aws-cloud-ops` | AWS cloud operations for CloudWatch, S3, Lambda, EC2, and IAM |
+| `/aws-cloud-patterns` | AWS cloud patterns for Lambda, ECS, S3, DynamoDB, and Infrastructure as Code with CDK/Terraform |
 | `/aws-cloud-services` | Comprehensive AWS cloud services skill covering S3, Lambda, DynamoDB, EC2, RDS, IAM, CloudFormatio… |
 | `/aws-cloudformation` | Author, validate, and troubleshoot AWS CloudFormation templates. Covers template authoring with se… |
 | `/aws-cloudfront` | Configure Amazon CloudFront for global content delivery. Set up distributions with S3 and ALB orig… |
@@ -3392,6 +3495,35 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/bitquery-automation` | Automate Bitquery tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/bitwarden` | Access and manage Bitwarden/Vaultwarden passwords securely using the rbw CLI. |
 | `/bitwarden-automation` | Automate Bitwarden tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/biz-4p-7p` | Apply the Marketing Mix (4P/7P) framework to design tactical marketing decisions across Product, P… |
+| `/biz-ansoff` | Apply Ansoff Matrix to evaluate growth strategy options across market and product dimensions. Use … |
+| `/biz-bcg-matrix` | Apply BCG Growth-Share Matrix to analyze a product or business unit portfolio for resource allocat… |
+| `/biz-blue-ocean` | Apply Blue Ocean Strategy to create uncontested market space through value innovation. Use this sk… |
+| `/biz-brand-positioning` | Develop brand positioning strategy including positioning statements, perceptual maps, and brand pe… |
+| `/biz-breakeven` | Perform break-even analysis to determine the sales volume or revenue needed to cover all costs. Us… |
+| `/biz-bsc` | Apply the Balanced Scorecard (BSC) framework to translate strategy into measurable objectives acro… |
+| `/biz-cac-ltv` | Calculate and analyze Customer Acquisition Cost (CAC) and Customer Lifetime Value (LTV) to evaluat… |
+| `/biz-corporate-governance` | Corporate-governance practice playbook: board composition, three lines of defense, audit/compensat… |
+| `/biz-crm-strategy` | Customer relationship management strategy — integrated framework with six pillars: customer segmen… |
+| `/biz-customer-journey` | Map and analyze the customer journey across Awareness, Consideration, Decision, Usage, and Advocac… |
+| `/biz-dcf` | Build Discounted Cash Flow (DCF) valuation models to estimate intrinsic value. Use this skill when… |
+| `/biz-dupont` | Apply DuPont Analysis to decompose Return on Equity (ROE) into profitability, efficiency, and leve… |
+| `/biz-erm` | Enterprise risk management (ERM) framework layer — integrates COSO ERM 2017 (five components, 20 p… |
+| `/biz-financial-ratios` | Analyze financial health using ratio categories: profitability, liquidity, leverage, efficiency, a… |
+| `/biz-innovation-management` | Corporate innovation-governance toolkit integrating Stage-Gate process, 3 Horizons model, innovati… |
+| `/biz-lean-six-sigma` | Apply Lean and Six Sigma principles to eliminate waste and reduce process variation. Use this skil… |
+| `/biz-management-accounting` | Management accounting toolkit for internal decision support: ABC costing, variance analysis, trans… |
+| `/biz-net-zero-transition` | Net-zero transition playbook: GHG inventory (ISO 14064-1, GHG Protocol Scope 1/2/3), science-based… |
+| `/biz-pestel` | Apply PESTEL framework to scan the macro-environment across Political, Economic, Social, Technolog… |
+| `/biz-porters-five-forces` | Apply Porter's Five Forces framework to assess industry competitive dynamics and attractiveness. U… |
+| `/biz-pricing-strategy` | Analyze and design pricing strategies including cost-plus, value-based, competitive, penetration, … |
+| `/biz-sme-management` | SME and family-business management for Taiwan's industrial structure (98% SME, 70%+ family-control… |
+| `/biz-stp` | Apply STP (Segmentation, Targeting, Positioning) framework for market strategy. Use this skill whe… |
+| `/biz-supply-chain` | Analyze supply chain operations using the SCOR model across Plan, Source, Make, Deliver, and Retur… |
+| `/biz-swot` | Conduct SWOT analysis with TOWS matrix for strategic planning. Use this skill when the user needs … |
+| `/biz-toc` | Apply Theory of Constraints (TOC) to identify and manage system bottlenecks. Use this skill when t… |
+| `/biz-unit-economics` | Analyze unit economics to evaluate per-unit profitability and business model scalability. Use this… |
+| `/biz-value-chain` | Apply Porter's Value Chain Analysis to identify competitive advantage sources within an organizati… |
 | `/bkend-auth` | bkend.ai authentication — email/social login, JWT tokens, RBAC, session management. Triggers: bken… |
 | `/bkend-cookbook` | bkend.ai project tutorials (todo to SaaS) and common error troubleshooting. Triggers: bkend tutori… |
 | `/bkend-data` | bkend.ai database — CRUD, column types, filtering, sorting, relations, indexing. Triggers: bkend t… |
@@ -4225,6 +4357,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ci-cd-pipeline` | World-class continuous integration and deployment - GitHub Actions, GitLab CI, deployment strategi… |
 | `/ci-cd-pipeline-builder` | Generate pragmatic CI/CD pipelines from detected project stack signals — fast baseline generation,… |
 | `/ci-cd-pipeline-patterns` | Comprehensive CI/CD pipeline patterns skill covering GitHub Actions, workflows, automation, testin… |
+| `/ci-cd-pipelines` | CI/CD pipeline patterns for GitHub Actions, GitLab CI, testing strategies, and deployment automation |
 | `/ci-cd-troubleshooter` | Use when analyzing failing build/test logs in Github Actions, GitLab, or Jenkins, and fixing pipel… |
 | `/ci-debug` | Diagnose a failing CI run against an 11-pattern playbook. Classifies the failure, cites the releva… |
 | `/ci-gen` | Generate GitHub Actions workflows from your project. Use when setting up CI/CD from scratch. |
@@ -4315,6 +4448,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-design-style` | Apply Anthropic/Claude's official visual design language to any creative output. Use this skill wh… |
 | `/claude-design-system-architect` | Generate a complete, premium design system from a brand brief or an existing site — color tokens, … |
 | `/claude-devfleet` | Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents… |
+| `/claude-docs-consultant` | Consult official Claude Code documentation from code.claude.com using selective fetching. Use when… |
 | `/claude-ecosystem` | ALWAYS invoke this skill when the user asks about Claude Code features, configuration, extensibili… |
 | `/claude-ecosystem-promoter` | Marketing and promotion specialist for Claude ecosystem technology - MCP servers, skills, plugins,… |
 | `/claude-git-branching` | Expert Git workflow management for Claude Code sessions with branch naming conventions, push retry… |
@@ -4327,6 +4461,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/claude-md-progressive-disclosurer` | Optimize / slim down / restructure a CLAUDE.md (or AGENTS.md) using progressive disclosure — move … |
 | `/claude-md-starter` | Generates a fully structured, project-specific CLAUDE.md by scanning the repo for signal files (pa… |
 | `/claude-mem` | Add persistent memory to Claude Code that survives across sessions. Use when: maintaining continui… |
+| `/claude-memory-kit` | Persistent memory system for Claude Code. Two-layer architecture (hot cache + knowledge wiki), saf… |
 | `/claude-migrate-memory-to-doc` | Migrates Claude Code personal memory (the per-project memory/ directory) into tool-agnostic refere… |
 | `/claude-monitor` | Monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, v… |
 | `/claude-opus-4-5-migration` | Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the… |
@@ -5025,6 +5160,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/constitutional-ai` | Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervi… |
 | `/constraints-reviewer` | Review data constraints and referential integrity in Rails models and migrations. |
 | `/consul` | HashiCorp Consul for service discovery, health checking, and service mesh. Use when the user needs… |
+| `/consult-codex` | Compare OpenAI Codex GPT-5.5 and code-searcher responses for comprehensive dual-AI code analysis. … |
+| `/consult-zai` | Dual-AI code analysis pairing z.ai GLM 5.2 with Claude code-searcher — a lightweight two-model sec… |
 | `/consulting-proposal` | Write a consulting proposal that wins the engagement — outcomes over hours. Use when asked to writ… |
 | `/contact-hunter` | Search and extract contact information for people or companies including names, phone numbers, ema… |
 | `/contacts-framework` | Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fet… |
@@ -5438,6 +5575,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/crystal-macros` | Use when implementing compile-time metaprogramming in Crystal using macros for code generation, DS… |
 | `/cs` | Root CS: theoretical foundations, problem classification, complexity theory |
 | `/cs-algorithms` | Algorithms: sorting, searching, BFS/DFS/A*, dynamic programming, greedy, backtracking, Big-O |
+| `/cs-analytics` | Measure and optimize customer service performance using CSAT, NPS, CES, First Contact Resolution, … |
+| `/cs-chatbot-design` | Design conversational AI chatbots including intent recognition, slot filling, dialogue flow, and r… |
 | `/cs-compilers` | Compilers: lexing, parsing LL/LR/PEG, AST, semantic analysis, code gen LLVM, optimization, tree-si… |
 | `/cs-concurrency` | Concurrency: threads vs async, locks/mutexes/rwlocks, atomics, lock-free, actor model, STM, deadlock |
 | `/cs-crypto` | Cryptography: AES, RSA/ECC, SHA-256/Blake3, PKI/X.509, TLS, digital signatures, ZKP, quantum resis… |
@@ -5448,8 +5587,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/cs-math` | CS math: discrete math, combinatorics, probability, linear algebra, calculus for ML, information t… |
 | `/cs-ml` | ML: supervised/unsupervised/RL, CNN/RNN/Transformer, training, evaluation, MLOps, LLM fine-tuning |
 | `/cs-networks` | Networks: TCP/IP, HTTP/2/3, TLS 1.3, DNS, BGP, WebSockets, QUIC, socket programming |
+| `/cs-notification-strategy` | Design push notification and messaging strategies including channel selection, timing optimization… |
 | `/cs-onboard` | Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:se… |
 | `/cs-os` | OS: processes/threads/fibers, CFS scheduling, virtual memory, file systems, IPC, syscalls, POSIX |
+| `/cs-sop` | Design customer service operations including tiered support (L1/L2/L3), response templates, SLA de… |
 | `/csat-nps-analysis` | Analyse CSAT / NPS / CES survey results and turn the score into actions. Use when asked to analyse… |
 | `/csharp-async` | Get best practices for C# async programming |
 | `/csharp-async-patterns` | Use when C# async/await patterns including Task, ValueTask, async streams, and cancellation. Use w… |
@@ -5610,16 +5751,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/data-catalog-entry` | Create standardized metadata for data assets. Use when documenting new datasets, building data cat… |
 | `/data-classification` | Data classification levels (Public, Internal, Confidential, Restricted) and handling requirements … |
 | `/data-cloud-2025` | Salesforce Data Cloud integration patterns and architecture (2025). PROACTIVELY activate for: (1) … |
+| `/data-cohort-analysis` | Conduct cohort analysis to track user behavior over time, build retention matrices, and compare co… |
 | `/data-contract` | Define a data contract between a producer and consumers of a dataset/event/API. Use when asked to … |
+| `/data-dashboard-design` | Design effective data dashboards with proper KPI hierarchy, chart type selection, and interactive … |
 | `/data-encryption` | Implement strong encryption using AES, RSA, TLS, and proper key management. Use when securing data… |
 | `/data-engineer` | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Impl… |
-| `/data-engineering` | ETL/ELT pipelines, data warehousing (BigQuery, Snowflake, Redshift), stream processing (Kafka, Spa… |
+| `/data-engineering` | Data engineering patterns for ETL pipelines, data warehousing, Apache Spark, and data quality vali… |
 | `/data-engineering-data-driven-feature` | Build features guided by data insights, A/B testing, and continuous measurement using specialized … |
 | `/data-engineering-data-pipeline` | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective… |
 | `/data-expert` | Data processing expert including parsing, transformation, and validation |
 | `/data-export-pdf` | Create professional PDF reports with text, tables, and embedded images using reportlab. Works with… |
 | `/data-extractor` | Extract structured data from any document format using unified document processing. Use when a use… |
 | `/data-feeds` | Extract structured data from 40+ websites including Amazon, LinkedIn, Instagram, TikTok, Facebook,… |
+| `/data-financial-analysis` | Interpret the three core financial statements (income statement, balance sheet, cash flow statemen… |
 | `/data-governance` | Use when implementing data governance frameworks, building data catalogs, establishing data lineag… |
 | `/data-integrity-auditor` | Detects data integrity issues including orphaned records, broken foreign key relationships, constr… |
 | `/data-integrity-reviewer` | Review data integrity for Rails changes. Use when the user asks for migration safety review, const… |
@@ -5654,6 +5798,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/data-scraper-agent` | Build a fully automated AI-powered data collection agent for any public source — job boards, price… |
 | `/data-seeding-fixtures-builder` | Generates deterministic seed data for development and testing with factory functions, realistic fi… |
 | `/data-sourcing` | Optimize provider selection, routing, and credit usage across 150+ enrichment sources for company/… |
+| `/data-sql-optimization` | Optimize SQL query performance using EXPLAIN analysis, indexing strategies, and common anti-patter… |
 | `/data-storytelling` | Transform raw data into compelling narratives that drive decisions and inspire action. |
 | `/data-structure-protocol` | Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs,… |
 | `/data-transform` | Transform, clean, reshape, and preprocess data using pandas and numpy. Works with ANY LLM provider… |
@@ -5687,6 +5832,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/database-migrator` | Migrates databases between providers (Postgres, MySQL, Supabase, PlanetScale, MongoDB). Reads sour… |
 | `/database-monitoring` | Monitor database performance and health. Use when setting up monitoring, analyzing metrics, or tro… |
 | `/database-observability` | Grafana Cloud Database Observability — query-level performance insights for MySQL and PostgreSQL. … |
+| `/database-optimization` | Query optimization, indexing strategies, and database performance tuning for PostgreSQL and MySQL |
 | `/database-optimizer` | Expert database optimizer specializing in modern performance tuning, query optimization, and scala… |
 | `/database-patterns` | Deep reference for PostgreSQL schema design, query optimization, indexing, migration safety, and d… |
 | `/database-performance` | Database access patterns for performance. Separate read/write models, avoid N+1 queries, use AsNoT… |
@@ -5958,7 +6104,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/design-mirror` | Replicate the visual style of any website and apply it to your existing codebase. Use this skill w… |
 | `/design-negotiation` | Advocate for design quality, scope, and time with cross-functional partners and leadership using e… |
 | `/design-orchestration` | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execu… |
-| `/design-patterns` | Select a design pattern from a symptom — strategy, observer, factory, adapter, decorator. Use when… |
+| `/design-patterns` | Common design patterns with Java examples (Factory, Builder, Strategy, Observer, Decorator, etc.).… |
 | `/design-patterns-implementation` | Apply appropriate design patterns (Singleton, Factory, Observer, Strategy, etc.) to solve architec… |
 | `/design-principles` | Define a set of actionable design principles that guide decision-making and resolve trade-offs. |
 | `/design-pseudocode` | Design a routine by stepwise refinement — pseudocode the intent before coding, then promote it to … |
@@ -6327,7 +6473,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/dock-certs-automation` | Automate Dock Certs tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/docker` | Dockerfile best practices, multi-stage builds, Compose, health checks, debugging containers, secur… |
 | `/docker-2025-features` | Latest Docker features (2025-2026) including Docker AI, Enhanced Container Isolation, BuildKit imp… |
-| `/docker-best-practices` | Comprehensive Docker best practices for images, containers, and production deployments. PROACTIVEL… |
+| `/docker-best-practices` | Docker best practices including multi-stage builds, compose patterns, image optimization, and secu… |
 | `/docker-compose` | Docker Compose for multi-container local development and production stacks. Use when user mentions… |
 | `/docker-compose-basics` | Use when defining and running multi-container Docker applications with Docker Compose YAML configu… |
 | `/docker-compose-networking` | Use when configuring networks and service communication in Docker Compose including bridge network… |
@@ -6715,7 +6861,20 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/echarts` | Create interactive data visualizations with Apache ECharts. Use when a user asks to build charts, … |
 | `/echtpost-automation` | Automate Echtpost tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/ecl-harness-engineer` | Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance,… |
+| `/ecom-analytics` | Analyze e-commerce performance using GA4 metrics, conversion funnel analysis, and key e-commerce K… |
+| `/ecom-conversational` | Design conversational commerce experiences across messaging platforms including chatbot flows, pro… |
+| `/ecom-inventory-health` | Analyze inventory health using turnover ratios, ABC classification, safety stock calculations, and… |
+| `/ecom-multilingual-listing` | Optimize multilingual product listings for international e-commerce including SEO localization, ma… |
+| `/ecom-promo-roi` | Calculate and analyze promotional ROI including incremental sales lift, margin impact, and promo t… |
+| `/ecom-rfm-analysis` | Perform RFM (Recency, Frequency, Monetary) customer segmentation from transaction data. Use this s… |
+| `/ecom-sea-strategy` | Develop e-commerce strategy for Southeast Asian markets including platform selection, payment infr… |
 | `/ecommerce-advisor` | Strategic advisory for e-commerce founders on unit economics, fulfillment models, payments, and ch… |
+| `/econ-behavioral` | Apply behavioral economics concepts including bounded rationality, prospect theory, mental account… |
+| `/econ-business-cycle` | Analyze business cycle phases (expansion, peak, contraction, trough) and their implications for bu… |
+| `/econ-game-theory` | Apply basic game theory concepts including Nash equilibrium, dominant strategies, and the Prisoner… |
+| `/econ-macro-indicators` | Interpret macroeconomic indicators including GDP, inflation, unemployment, interest rates, and exc… |
+| `/econ-market-structure` | Analyze market structures across perfect competition, monopolistic competition, oligopoly, and mon… |
+| `/econ-supply-demand` | Apply supply and demand analysis to explain price determination, market equilibrium, and the effec… |
 | `/economic-calendar-fetcher` | Fetch upcoming economic events and data releases using FMP API. Retrieve scheduled central bank de… |
 | `/ecosystem-integrity-scanner` | Deeply analyzes Agent Studio framework structural health: catching phantom require() references, w… |
 | `/ecosystem-primer` | INVOKE FIRST for any LangChain / LangGraph / Deep Agents agent building project before consulting … |
@@ -7087,6 +7246,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/expect` | Diff-aware AI browser testing — analyzes git changes, generates targeted test plans, and executes … |
 | `/expense-report` | Organize, categorize, and summarize business expenses for reimbursement and tax preparation. Use w… |
 | `/expense-tracker-pro` | Track expenses via natural language, get spending summaries, set budgets |
+| `/experience-evolution` | Project knowledge accumulation system - learn from practice, avoid repeating mistakes |
 | `/experience-map` | Create a holistic experience map showing the full ecosystem of user touchpoints, channels, and rel… |
 | `/experiment-design` | A discipline for designing experiments (A/B tests, multivariate, holdouts) so the results actually… |
 | `/experiment-designer` | Use when planning product experiments, writing testable hypotheses, estimating sample size, priori… |
@@ -7404,6 +7564,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/fillout-forms-automation` | Automate Fillout tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/fillout_forms-automation` | Automate Fillout tasks via Rube MCP (Composio): forms, submissions, workflows, and form builder. A… |
 | `/filmkit-fujifilm-camera` | Browser-based preset manager and RAW converter for Fujifilm X-series cameras using WebUSB and PTP … |
+| `/fin-earnings-summary` | Summarize and analyze earnings calls (法說會) including financial highlights, management commentary, … |
+| `/fin-m-and-a` | M&A integration playbook covering eight modules: strategic rationale, target screening, due dilige… |
+| `/fin-modeling` | Build three-statement financial models (Income Statement, Balance Sheet, Cash Flow) with revenue f… |
 | `/finage-automation` | Automate Finage tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/finalize-agent-prompt` | Finalize prompt file using the role of an AI agent to polish the prompt for the end user. |
 | `/finance` | Financial analysis expertise for financial modeling (DCF, LBO, M&A), valuation, financial statemen… |
@@ -7713,6 +7876,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/frontend-developer` | Build React components, implement responsive layouts, and handle client-side state management. Mas… |
 | `/frontend-development` | Multi-framework frontend development. Frameworks: React 18+ (Suspense, hooks, TanStack), Vue 3 (Co… |
 | `/frontend-enhancer` | This skill should be used when enhancing the visual design and aesthetics of web applications. It … |
+| `/frontend-excellence` | Modern frontend patterns for React Server Components, performance optimization, and Core Web Vitals |
 | `/frontend-expert` | Frontend development expert including UI/UX patterns, responsive design, and accessibility |
 | `/frontend-internationalization-best-practices` | Internationalization best practices for React Router framework mode using remix-i18next. Use when … |
 | `/frontend-js-best-practices` | JavaScript performance optimization guidelines. Use when writing, reviewing, or refactoring JavaSc… |
@@ -7997,7 +8161,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/git` | Git workflows, rebasing, conflict resolution, hooks, monorepo patterns, bisect, reflog, stash, wor… |
 | `/git-2-49-features` | Git 2.49 specific features and performance improvements. PROACTIVELY activate for: (1) git-backfil… |
 | `/git-2025-features` | Git 2.49+ features and modern Git workflows (2025-2026). PROACTIVELY activate for: (1) Git 2.49+ f… |
-| `/git-advanced` | Advanced git operations including complex rebase strategies, interactive staging, commit surgery, … |
+| `/git-advanced` | Advanced git workflows including worktrees, bisect, interactive rebase, hooks, and recovery techni… |
 | `/git-advanced-workflows` | Master advanced Git techniques to maintain clean history, collaborate effectively, and recover fro… |
 | `/git-api-pr` | GitHub API PR creation without local git. Use when submitting file changes as a PR without local c… |
 | `/git-branch-cleanup` | Delete merged branches and show branch status summary |
@@ -8273,6 +8437,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/golang-grpc` | Provides gRPC usage guidelines, protobuf organization, and production-ready patterns for Golang mi… |
 | `/golang-how-to` | Golang skills orchestrator — always active on any Golang coding, review, debug, or setup task. Rea… |
 | `/golang-http-frameworks` | Go HTTP API development with net/http, Chi, Gin, Echo, and Fiber frameworks |
+| `/golang-idioms` | Idiomatic Go patterns for error handling, interfaces, concurrency, testing, and module management |
 | `/golang-lint` | Provides linting best practices and golangci-lint configuration for Go projects. Covers running li… |
 | `/golang-modernize` | Continuously modernize Golang code to use the latest language features, standard library improveme… |
 | `/golang-naming` | Go (Golang) naming conventions — covers packages, constructors, structs, interfaces, constants, en… |
@@ -8408,6 +8573,94 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/graalvm` | Expert guidance for GraalVM native image development with Java frameworks, build optimization, and… |
 | `/graalvm-native-image` | Provides expert guidance for building GraalVM Native Image executables from Java applications. Use… |
 | `/graceful-shutdown` | Implement graceful shutdown procedures to handle SIGTERM signals, drain connections, complete in-f… |
+| `/grad-action-research` | Apply action research through Plan-Act-Observe-Reflect cycles and Participatory Action Research (P… |
+| `/grad-affordance` | Apply Affordance Theory (Gibson, 1979; Norman, 1988) to analyze the action possibilities that an a… |
+| `/grad-agenda-setting` | Apply agenda-setting theory (McCombs & Shaw) to analyze how media salience transfers to public per… |
+| `/grad-ai-ethics` | Apply AI ethics frameworks (fairness, accountability, transparency, privacy) to evaluate AI system… |
+| `/grad-ambidexterity` | Apply organizational ambidexterity theory to balance exploration and exploitation activities. Use … |
+| `/grad-ant` | Apply Actor-Network Theory (Latour, Callon) to trace how human and non-human actors (actants) form… |
+| `/grad-auction-theory` | Apply auction theory to compare the four canonical auction formats and assess revenue equivalence.… |
+| `/grad-behavioral-finance` | Apply behavioral finance theory to identify systematic investor biases and their impact on asset p… |
+| `/grad-blooms` | Apply Bloom's revised taxonomy to classify learning objectives and design assessments across six c… |
+| `/grad-born-global` | Apply the Born Global framework to analyze firms that internationalize rapidly from inception unde… |
+| `/grad-brand-equity` | Apply brand equity frameworks (Aaker, 1991; Keller, 1993) to assess and build customer-based brand… |
+| `/grad-business-ecosystems` | Apply Moore's business ecosystem framework to analyze how firms co-evolve through four stages (bir… |
+| `/grad-capm` | Apply the Capital Asset Pricing Model (CAPM) to estimate expected returns and assess risk-return t… |
+| `/grad-cas` | Apply Complex Adaptive Systems theory to analyze phenomena exhibiting emergence, self-organization… |
+| `/grad-case-study` | Apply case study research design (Yin) to investigate how and why questions within real-life conte… |
+| `/grad-cct` | Apply Consumer Culture Theory to analyze consumption as a cultural practice shaped by identity, ma… |
+| `/grad-cognitive-load` | Apply Cognitive Load Theory to optimize instructional design by managing intrinsic, extraneous, an… |
+| `/grad-constructivism` | Apply constructivist learning theory to design instruction based on active knowledge construction,… |
+| `/grad-contract-theory` | Apply contract theory to design incentive-compatible agreements under moral hazard and adverse sel… |
+| `/grad-coopetition` | Apply the Co-opetition Value Net framework (Brandenburger and Nalebuff, 1996) to map cooperative a… |
+| `/grad-critical-realism` | Apply Bhaskar's critical realism to analyze phenomena through three ontological domains (real, act… |
+| `/grad-cultivation` | Apply cultivation theory (Gerbner) to analyze how long-term media exposure shapes worldviews. Use … |
+| `/grad-diamond` | Apply Porter's Diamond Model to analyze national competitive advantage for a specific industry. Us… |
+| `/grad-did` | Apply Difference-in-Differences (DID) to estimate causal treatment effects by comparing changes in… |
+| `/grad-digital-transformation` | Apply the three-level framework of digital transformation — Digitization, Digitalization, and Digi… |
+| `/grad-disruptive-innovation` | Apply Christensen's Disruptive Innovation theory to assess low-end and new-market threats to incum… |
+| `/grad-dual-process` | Apply dual-process theory to diagnose whether judgments arise from fast intuitive (System 1) or sl… |
+| `/grad-elm` | Apply the Elaboration Likelihood Model to design persuasion strategies by matching message type to… |
+| `/grad-embeddedness` | Apply Granovetter's embeddedness theory to analyze how economic behavior is embedded in ongoing so… |
+| `/grad-emh` | Apply the Efficient Market Hypothesis (Fama, 1970) to evaluate information incorporation in asset … |
+| `/grad-ethnography` | Apply ethnographic methods including prolonged engagement, participant observation, thick descript… |
+| `/grad-event-study` | Apply event study methodology to measure abnormal returns and cumulative abnormal returns (CAR) ar… |
+| `/grad-fama-french` | Apply the Fama-French three-factor model to decompose asset returns into market, size, and value f… |
+| `/grad-field-theory` | Apply Bourdieu's field theory to analyze power relations through the interplay of field, capital, … |
+| `/grad-flow` | Apply flow theory to diagnose optimal experience conditions and design environments that balance c… |
+| `/grad-framing` | Apply framing theory to analyze how selection, emphasis, and exclusion shape interpretation of iss… |
+| `/grad-governance` | Apply governance theory to analyze multi-level, network, and collaborative governance arrangements… |
+| `/grad-grounded-theory` | Apply Grounded Theory (Glaser and Strauss) to build theory inductively from qualitative data throu… |
+| `/grad-habitual-domain` | Habitual Domain (HD) theory by Taiwanese scholar P.L. Yu (游伯龍, 1977) — integrates four domains (po… |
+| `/grad-hlm` | Apply Hierarchical Linear Modeling (HLM) to analyze nested data structures with random intercepts … |
+| `/grad-info-economics` | Apply information economics to diagnose and remedy market failures caused by asymmetric informatio… |
+| `/grad-innovation-diffusion-bass` | Apply the Bass Diffusion Model (1969) to forecast innovation adoption using innovation and imitati… |
+| `/grad-is-success` | Apply the DeLone and McLean Information Systems Success Model to evaluate IS effectiveness through… |
+| `/grad-mechanism-design` | Apply mechanism design (reverse game theory) to engineer incentive-compatible rules for allocation… |
+| `/grad-meta-analysis` | Apply meta-analysis to synthesize effect sizes across multiple studies, assess heterogeneity, and … |
+| `/grad-mixed-methods` | Design and conduct mixed methods research using convergent, explanatory sequential, or exploratory… |
+| `/grad-mm-theorem` | Apply the Modigliani-Miller theorem to analyze capital structure decisions and identify when finan… |
+| `/grad-narrative` | Apply narrative research methods to understand human experience through stories, analyzing narrati… |
+| `/grad-network-economics` | Apply network economics to analyze markets with network effects, critical mass dynamics, and platf… |
+| `/grad-oli` | Apply Dunning's OLI Paradigm (Eclectic Theory) to evaluate foreign direct investment decisions bas… |
+| `/grad-org-ecology` | Apply organizational ecology (Hannan and Freeman) to analyze population-level dynamics of organiza… |
+| `/grad-panel-data` | Apply panel data analysis with fixed effects, random effects, and dynamic GMM to exploit longitudi… |
+| `/grad-paradigms` | Apply Kuhn's paradigm theory to analyze scientific progress through the cycle of normal science, a… |
+| `/grad-paradox-theory` | Apply Smith and Lewis's paradox theory to identify and manage organizational tensions across perfo… |
+| `/grad-pecking-order` | Apply pecking order theory (Myers and Majluf, 1984) to analyze how information asymmetry drives fi… |
+| `/grad-phenomenology` | Apply phenomenological methods including bracketing (epoche), lived experience inquiry, and Interp… |
+| `/grad-platform-economics` | Apply platform economics to analyze network effects, solve chicken-and-egg problems, and design mu… |
+| `/grad-pls-sem` | Apply Partial Least Squares SEM (PLS-SEM) with reflective and formative measurement models to maxi… |
+| `/grad-policy-streams` | Apply Kingdon's multiple streams framework to analyze how problems, policies, and politics converg… |
+| `/grad-pragmatism` | Apply pragmatist philosophy (Peirce, James, Dewey) to frame knowledge as instrumental for action, … |
+| `/grad-public-choice` | Apply public choice theory to analyze political decision-making as rational self-interested behavi… |
+| `/grad-real-options` | Apply real options analysis to value managerial flexibility embedded in investment decisions. Use … |
+| `/grad-sd-logic` | Apply Service-Dominant Logic (Vargo and Lusch, 2004) and value co-creation principles to reframe e… |
+| `/grad-sdt` | Apply Self-Determination Theory to analyze motivation quality along the autonomy continuum and des… |
+| `/grad-sem` | Apply Structural Equation Modeling (SEM) to test hypothesized causal structures by combining measu… |
+| `/grad-sensemaking` | Apply Weick's sensemaking theory to analyze how individuals and organizations construct meaning fr… |
+| `/grad-servqual` | Apply the SERVQUAL model (Parasuraman, Zeithaml, and Berry, 1988) to measure service quality gaps … |
+| `/grad-signaling` | Apply signaling theory (Spence, 1973) to analyze how agents communicate private information throug… |
+| `/grad-social-capital` | Apply social capital theory (Putnam, Coleman, Bourdieu, Burt) to analyze how network structures an… |
+| `/grad-social-identity` | Apply Social Identity Theory to analyze how group categorization, identification, and intergroup c… |
+| `/grad-sociotechnical` | Apply Sociotechnical Systems Theory to analyze and design work systems through joint optimization … |
+| `/grad-spiral-of-silence` | Apply spiral of silence theory (Noelle-Neumann) to analyze how perceived opinion climate suppresse… |
+| `/grad-strat-agency` | Apply Agency Theory (Jensen and Meckling, 1976) to diagnose principal-agent problems — moral hazar… |
+| `/grad-strat-dynamic-cap` | Apply the Dynamic Capabilities framework (Teece et al., 1997) — sensing, seizing, and transforming… |
+| `/grad-strat-institutional` | Apply Institutional Theory (DiMaggio and Powell, 1983) to analyze how coercive, mimetic, and norma… |
+| `/grad-strat-kbv` | Apply the Knowledge-Based View (Grant, 1996) and Nonaka and Takeuchi's SECI model to analyze how o… |
+| `/grad-strat-rbv` | Apply the Resource-Based View (Barney, 1991) and VRIO framework to evaluate whether a firm's resou… |
+| `/grad-strat-stakeholder` | Apply Stakeholder Theory (Freeman, 1984) and the Mitchell et al. (1997) salience model to identify… |
+| `/grad-strat-tce` | Apply Transaction Cost Economics (Williamson, 1975, 1985) to analyze governance structure choices … |
+| `/grad-strat-upper-echelons` | Apply Upper Echelons Theory (Hambrick and Mason, 1984) to analyze how top management team characte… |
+| `/grad-structuration` | Apply Giddens' structuration theory to analyze the duality of structure — how social structures ar… |
+| `/grad-survey-design` | Apply rigorous survey design principles including construct operationalization, Likert scale devel… |
+| `/grad-sustainability` | Apply sustainability frameworks (triple bottom line, SDGs, ESG, circular economy) to evaluate whet… |
+| `/grad-systematic-review` | Conduct a systematic literature review following the PRISMA framework with explicit search strateg… |
+| `/grad-tam-utaut` | Apply the Technology Acceptance Model (Davis, 1989) and Unified Theory of Acceptance and Use of Te… |
+| `/grad-tpack` | Apply the TPACK framework to evaluate and design technology-integrated instruction at the intersec… |
+| `/grad-tpb` | Apply the Theory of Planned Behavior to predict behavioral intentions from attitudes, subjective n… |
+| `/grad-uppsala` | Apply the Uppsala Internationalization Model to analyze gradual foreign market entry based on psyc… |
 | `/gradio` | Python library for building ML demo UIs with minimal code. Create interactive web interfaces for m… |
 | `/grafana` | Grafana is an open-source visualization and dashboarding platform that connects to dozens of data … |
 | `/grafana-dashboard` | Create professional Grafana dashboards with visualizations, templating, and alerts. Use when build… |
@@ -8438,6 +8691,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/graphql-api-development` | Comprehensive guide for building GraphQL APIs including schema design, queries, mutations, subscri… |
 | `/graphql-architect` | Master modern GraphQL with federation, performance optimization, and enterprise security. Build sc… |
 | `/graphql-client-and-bff-integration` | Integrate GraphQL clients and BFF layers with schema governance, caching, and error normalization … |
+| `/graphql-design` | GraphQL schema design, resolver patterns, subscriptions, DataLoader for N+1 prevention, and error … |
 | `/graphql-development` | GraphQL development guidelines with type-safe clients, schema design, and integration with React a… |
 | `/graphql-expert` | GraphQL API design and implementation. Use when building GraphQL APIs, designing schemas, implemen… |
 | `/graphql-implementation` | Builds GraphQL APIs with schema design, resolvers, error handling, and performance optimization us… |
@@ -8620,6 +8874,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/guardrails-safety-filter-builder` | Implements content safety filters with PII redaction, policy constraints, prompt injection detecti… |
 | `/guidance` | You are an expert in Guidance, Microsoft's library for controlling LLM output with constrained gen… |
 | `/guide` | es-toolkit usage guide covering installation, import patterns, and setup for Node.js, Bun, Deno, a… |
+| `/guide-recap` | Transform CHANGELOG entries into social content (LinkedIn, Twitter/X, Newsletter, Slack) in FR + E… |
 | `/guiding-users` | Implements onboarding and help systems including product tours, interactive tutorials, tooltips, c… |
 | `/guizang-ppt-skill` | 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① "电子杂志 × 电子墨水"（衬线 + 流体背景 + 暖色） ② "瑞士… |
 | `/guizang-social-card-skill` | Generate Guizang-style social card image sets and WeChat official account cover pairs from article… |
@@ -8968,6 +9223,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/huggingface-vision-trainer` | Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image … |
 | `/huggingface-zerogpu` | AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or r… |
 | `/hugo` | Hugo static site generator with Tailwind v4, headless CMS (Sveltia/Tina), Cloudflare deployment. U… |
+| `/hum-critical-thinking` | Apply structured critical thinking — identifying claims, evidence, reasoning chains, hidden assump… |
+| `/hum-dialectics` | Apply Hegelian dialectics (thesis-antithesis-synthesis) to analyze contradictions and generate hig… |
+| `/hum-discourse` | Apply discourse analysis to examine how language constructs meaning, power relationships, and soci… |
+| `/hum-ethics` | Apply ethical frameworks — deontology, utilitarianism, virtue ethics, and justice theory — to anal… |
+| `/hum-historical-analogy` | Use historical analogies to inform strategic decisions by identifying structural similarities and … |
+| `/hum-narrative` | Apply narrative structure and storytelling techniques for brand, business, and communication conte… |
+| `/hum-rhetoric` | Apply classical rhetoric — Ethos, Pathos, Logos — to analyze persuasive communication and craft ef… |
+| `/hum-socratic` | Apply Socratic questioning — systematic inquiry via clarification, assumption-probing, evidence-te… |
+| `/hum-source-criticism` | Evaluate source credibility using primary/secondary classification, internal/external criticism, t… |
 | `/human-centered-design-fundamentals` | Apply cognitive psychology principles to design discoverable, understandable products through affo… |
 | `/human-copywrite` | User-facing copy — UI strings, documentation, marketing, release notes, error messages, onboarding… |
 | `/human-gate-designer` | Designs human-in-the-loop review points for DAG workflows. Determines what to present to the human… |
@@ -9294,6 +9558,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/instrumenting-with-mlflow-tracing` | Instruments Python and TypeScript code with MLflow Tracing for observability. Must be loaded when … |
 | `/instruments-profiling` | Use when profiling native macOS or iOS apps with Instruments/xctrace. Covers correct binary select… |
 | `/insurance-claim` | Write a clear insurance claim letter or appeal that supports a payout. Use when asked to write an … |
+| `/int-patterns` | Pattern library for Copilot Studio agent design. Contains proven and recommended implementation pa… |
+| `/int-project-context` | Shared project context for all Copilot Studio sub-agents. Provides project structure, schema looku… |
+| `/int-reference` | Reference tables for Copilot Studio YAML authoring: triggers, actions, variables, entities, Power … |
 | `/integrate-context-matic` | Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to … |
 | `/integrating-stripe-webhooks` | Use when implementing Stripe webhook endpoints and getting 'Raw body not available' or signature v… |
 | `/integrating-tauri-js-frontends` | Guides Claude through configuring JavaScript frontend frameworks for Tauri v2 desktop applications… |
@@ -9578,6 +9845,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/json-data-handling` | Working effectively with JSON data structures. |
 | `/json-render-catalog` | json-render component catalog patterns for AI-safe generative UI. Define Zod-typed catalogs that c… |
 | `/json-render-generative-ui` | Generative UI framework that renders AI-generated JSON specs into type-safe UI components across R… |
+| `/jta` | Translate JSON i18n files to multiple languages with AI-powered quality optimization. Use when use… |
 | `/jtagprobe` | Probe IoT/embedded targets for exposed SWD/JTAG debug interfaces using a SEGGER J-Link. Detects wh… |
 | `/jtbd-analyzer` | Uncover the real "job" customers hire your product to do. Goes beyond features to understand funct… |
 | `/jtbd-framing` | The Jobs-to-be-Done framework as applied product methodology. Job statements, struggling moments, … |
@@ -9745,7 +10013,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/kubernetes-helm` | Manages Kubernetes clusters and Helm charts. Use when the user wants to write Kubernetes manifests… |
 | `/kubernetes-manifest-generator` | Generates Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, Ingress, and … |
 | `/kubernetes-manifests` | Use when writing and deploying Kubernetes manifests for container orchestration. |
-| `/kubernetes-operations` | Kubernetes operations — deployment, management, troubleshooting, kubectl mastery. Use when the use… |
+| `/kubernetes-operations` | Kubernetes operations including manifests, Helm charts, operators, troubleshooting, and resource m… |
 | `/kubernetes-operator` | Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on… |
 | `/kubernetes-ops` | Deploy, scale, and manage Kubernetes workloads. Create deployments, services, and configurations, … |
 | `/kubernetes-orchestration` | Comprehensive guide to Kubernetes container orchestration, covering workloads, networking, storage… |
@@ -9900,6 +10168,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/latchbio-integration` | Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decor… |
 | `/late-api` | Official Late API reference for scheduling posts across 13 social media platforms. Covers authenti… |
 | `/latency-critical-systems` | Use for latency-sensitive systems such as realtime dashboards, market data, streaming agents, exec… |
+| `/latex-document-skill` | Universal LaTeX document skill: create, compile, and convert any document to professional PDF with… |
 | `/latex-paper-conversion` | This skill should be used when the user asks to convert an academic paper in LaTeX from one format… |
 | `/latex-posters` | Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support… |
 | `/lattice-crypto-attacks` | Lattice-based cryptanalysis playbook. Use when attacking RSA via Coppersmith small roots, recoveri… |
@@ -9914,6 +10183,11 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/launch_darkly-automation` | Automate LaunchDarkly tasks via Rube MCP (Composio): feature flags, environments, segments, and ro… |
 | `/launchdarkly` | Manage feature flags with LaunchDarkly. Use when a user asks to implement feature flags, roll out … |
 | `/launchservices-health` | Diagnose macOS LaunchServices DB bloat and launchservicesd CPU spikes. Use when launchservicesd is… |
+| `/law-contract` | Analyze contract fundamentals including formation requirements (offer, acceptance, consideration),… |
+| `/law-gdpr-pdpa` | Analyze data privacy compliance requirements under GDPR, Taiwan's Personal Data Protection Act (PD… |
+| `/law-ip` | Analyze intellectual property rights across patents, trademarks, copyrights, and trade secrets. Us… |
+| `/law-irac` | Apply IRAC (Issue, Rule, Application, Conclusion) method for structured legal analysis. Use this s… |
+| `/law-labor` | Analyze Taiwan labor law fundamentals under the Labor Standards Act including working hours, overt… |
 | `/law-of-common-region` | Apply the Law of Common Region to group elements using containers, backgrounds, and boundaries. |
 | `/law-of-proximity` | Apply the Law of Proximity to group related elements through spatial relationships. |
 | `/layer2-discovery` | Layer 2 device discovery and topology mapping. Use when finding switch port assignments, enumerati… |
@@ -10348,6 +10622,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/log-ops` | Log analysis and JSONL processing - structured extraction, cross-log correlation, timeline reconst… |
 | `/logging-module-usage` | Employs the logging module judiciously to log important events, warnings, and errors. |
 | `/logging-observability` | Structured logging, distributed tracing, and metrics for production applications. [What: OpenTelem… |
+| `/logging-patterns` | Java logging best practices with SLF4J, structured logging (JSON), and MDC for request tracing. In… |
 | `/logging-strategies` | World-class application logging - structured logs, correlation IDs, log aggregation, and the battl… |
 | `/logic-lens` | AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frame… |
 | `/logicmso` | Analyze digital and analog captures from Saleae Logic MSO devices. Decode protocols like UART, SPI… |
@@ -10620,7 +10895,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mcp-deploy-manage-agents` | Skill converted from mcp-deploy-manage-agents.prompt.md |
 | `/mcp-deployment` | Production deployment patterns for MCP servers including Docker, cloud platforms, monitoring, and … |
 | `/mcp-developer` | Use when building, debugging, or extending MCP servers or clients that connect AI systems with ext… |
-| `/mcp-development` | Use when building "MCP server", "Model Context Protocol", creating "Claude tools", "MCP tools", or… |
+| `/mcp-development` | MCP server development including tool design, resource endpoints, prompt templates, and transport … |
 | `/mcp-dynamic-orchestrator` | Dynamic MCP server discovery and code-mode execution via central registry. Use for multiple MCP in… |
 | `/mcp-expert` | Architects and orchestrates Model Context Protocol (MCP) ecosystems including server development, … |
 | `/mcp-hub` | Access 1200+ AI Agent tools via Model Context Protocol (MCP) |
@@ -10661,6 +10936,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mdr-745-specialist` | EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, … |
 | `/mdv-markdown-visualization` | MDV — Markdown superset for documents, dashboards, and slides with embedded charts, KPI stats, and… |
 | `/mdx-sanitizer` | Sanitize MDX content for Docusaurus builds. Fixes unescaped angle brackets (<, >, &lt;=, &gt;=), L… |
+| `/med-business` | Use when writing financial news — earnings, IPO/M&A, regulatory changes, industry trends — from tr… |
+| `/med-culture` | Use when the user wants to write a culture-and-arts news piece — exhibition coverage, performance … |
+| `/med-education` | Use when the user wants to write an education news piece — school policy, research findings, stude… |
+| `/med-entertainment` | Use when writing entertainment news — reviews, box office analysis, streaming reports, festival co… |
+| `/med-health` | Use when writing a medical or health news story — clinical research breakthroughs, public health a… |
+| `/med-international` | Use when writing an international news piece — foreign affairs, diplomatic coverage, cross-border … |
+| `/med-news-reporter` | Use when the user wants to turn raw material — transcripts, interviews, event notes, data, direct … |
+| `/med-political` | Use when the user wants to write a political news piece — election coverage, legislative reporting… |
+| `/med-sports` | Use when the user wants to write a sports news piece — game recaps, athlete profiles, league/rule … |
 | `/medchem` | Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS),… |
 | `/media` | Visual and video content creation. AI images, technical diagrams, mermaid flowcharts, infographics… |
 | `/media-asset-management` | Plan and run a media pipeline for images, video, and downloadable assets. Use this skill when desi… |
@@ -10761,13 +11045,19 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/meta-cognition-parallel` | EXPERIMENTAL: Three-layer parallel meta-cognition analysis. Triggers on: /meta-parallel, 三层分析, par… |
 | `/meta-command-creator` | Create custom slash commands for Claude Code with markdown and YAML frontmatter. Use when building… |
 | `/meta-context-diet` | Audit CLAUDE.md and .claude/rules for always-loaded content that should become an on-demand skill.… |
+| `/meta-decision-analysis` | Apply structured decision analysis using decision matrices, decision trees, expected value, and mu… |
+| `/meta-first-principles` | Apply first principles thinking to break problems down to fundamental truths and reason up from th… |
 | `/meta-harness-optimization` | Framework for automated search over task-specific model harnesses — the code around a fixed base m… |
 | `/meta-hook-creator` | Create event hooks for Claude Code that trigger on tool calls, prompts, and lifecycle events. Use … |
+| `/meta-mental-models` | Apply a latticework of mental models from multiple disciplines to improve decision quality. Use th… |
 | `/meta-plugin-creator` | Create plugins for Claude Code that bundle skills, agents, commands, hooks, and MCP servers. Use w… |
 | `/meta-promote` | Promote rules, skills, or agents from project scope to parent or user-global scope. Use when reorg… |
 | `/meta-prompt` | Meta-prompting framework for critiquing responses, analyzing solution trajectories, and evaluating… |
 | `/meta-prompting` | Structured reasoning modifiers (/think, /verify, /adversarial, /edge, /confidence, /assumptions, e… |
+| `/meta-scenario-planning` | Conduct scenario planning to prepare for multiple plausible futures using driving forces, uncertai… |
 | `/meta-skill-creator` | Create agent skills following the Agent Skills open standard. Use when building new skills for Cla… |
+| `/meta-structured-problem` | Apply structured problem-solving using MECE principle, issue trees, hypothesis-driven approach, an… |
+| `/meta-systems-thinking` | Apply systems thinking — causal loop diagrams, stock-and-flow models, system archetypes, and lever… |
 | `/meta-tags-gen` | Scan pages and generate missing meta tags. Use when improving SEO. |
 | `/meta-tags-optimizer` | Use when the user asks to "optimize meta tags"; improves titles, descriptions, Open Graph, Twitter… |
 | `/metaads-automation` | Automate Metaads tasks via Rube MCP (Composio). Always search tools first for current schemas. |
@@ -10791,6 +11081,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/metrics-definition` | Define UX metrics and KPIs that connect design decisions to measurable business and user outcomes. |
 | `/metrics-framework` | Build a metrics framework for any product, team, or business. Use when asked for a metrics tree, K… |
 | `/mezmo-automation` | Automate Mezmo tasks via Rube MCP (Composio). Always search tools first for current schemas. |
+| `/mfg-oee-analysis` | Calculate and diagnose Overall Equipment Effectiveness (OEE) by decomposing into Availability, Per… |
+| `/mfg-predictive-maintenance` | Design predictive maintenance strategies using sensor data, ML models for remaining useful life (R… |
+| `/mfg-production-planning` | Design production plans using MPS (Master Production Schedule), MRP (Material Requirements Plannin… |
+| `/mfg-supplier-scorecard` | Evaluate and manage suppliers using weighted scorecards across quality, delivery, price, and servi… |
 | `/mgrep-code-search` | Semantic code search using mgrep for efficient codebase exploration. This skill should be used whe… |
 | `/mhr-cfw-domain-fronting-relay` | Expert skill for setting up and using MHR-CFW, a domain-fronting relay that routes traffic through… |
 | `/micro-interaction-spec` | Specify micro-interactions with trigger, rules, feedback, and loop/mode definitions. |
@@ -10805,6 +11099,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/microservices-architect` | Designs distributed system architectures, decomposes monoliths into bounded-context services, reco… |
 | `/microservices-architecture` | Design and implement microservices architecture including service boundaries, communication patter… |
 | `/microservices-decomposition` | Design a microservices decomposition for a monolith or new system, defining service boundaries, ow… |
+| `/microservices-design` | Microservices design patterns including service mesh, event-driven architecture, saga pattern, and… |
 | `/microservices-patterns` | Master microservices architecture patterns including service boundaries, inter-service communicati… |
 | `/microsoft-agent-framework` | Build multi-agent AI systems with Microsoft's Agent Framework (formerly Semantic Kernel Agents). U… |
 | `/microsoft-azure-webjobs-extensions-authentication-events-dotnet` | Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentica… |
@@ -10890,6 +11185,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mkdocs` | Build documentation sites with MkDocs and Material for MkDocs. Use when a user asks to create proj… |
 | `/mkdocs-translations` | Generate a language translation for a mkdocs documentation stack. |
 | `/mkfast-deploy` | 把 mkfast-template / TanStarter 系项目部署到 Cloudflare Workers —— 自动检测实际启用的组件（D1 / R2 / Email / Better A… |
+| `/mkt-ab-testing` | Design and execute marketing A/B tests for landing pages, email campaigns, ad creatives, and prici… |
+| `/mkt-ad-optimization` | Optimize digital advertising campaigns across Google Ads, Meta Ads, and LINE LAP including bidding… |
+| `/mkt-content-calendar` | Build and manage content calendars for multi-platform content marketing including editorial planni… |
+| `/mkt-seo-audit` | Conduct technical and on-page SEO audits covering crawlability, site speed, mobile-friendliness, a… |
 | `/ml-adoption-playbook` | End-to-end methodology for AI agents and software engineers to add machine learning algorithms to … |
 | `/ml-ai` | Grafana Cloud AI and ML features — Grafana Assistant (natural language queries, dashboard generati… |
 | `/ml-azureml-adf-automation` | This skill should be used when the user asks to automate Azure ML and Azure Data Factory productio… |
@@ -10973,7 +11272,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/mobile-debugging` | Remote JavaScript console access and debugging on mobile devices. Use when debugging web pages on … |
 | `/mobile-design` | (Mobile-First · Touch-First · Platform-Respectful) |
 | `/mobile-developer` | Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cr… |
-| `/mobile-development` | Cross-platform and native mobile development. Frameworks: React Native, Flutter, Swift/SwiftUI, Ko… |
+| `/mobile-development` | Mobile development patterns for React Native and Flutter including navigation, state management, a… |
 | `/mobile-first-design` | Designs responsive interfaces starting from mobile screens with progressive enhancement for larger… |
 | `/mobile-first-design-rules` | Focuses on rules and best practices for mobile-first design and responsive typography using tailwi… |
 | `/mobile-game-dev` | Expert mobile game developer specializing in iOS and Android game optimization, touch input design… |
@@ -11417,6 +11716,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/nextjs-dynamic-routes-params` | Guide for Next.js App Router dynamic routes and pathname parameters. Use when building pages that … |
 | `/nextjs-expert` | Next.js expert for App Router, SSR/SSG, API routes, middleware, and deployment |
 | `/nextjs-i18n` | Next.js 16 internationalization with next-intl or DIY. Use when implementing i18n, translations, l… |
+| `/nextjs-mastery` | Next.js 14+ App Router patterns including RSC, ISR, middleware, parallel routes, and data fetching |
 | `/nextjs-middleware` | Complete Next.js Middleware system (Next.js 15.5/16). PROACTIVELY activate for: (1) Creating middl… |
 | `/nextjs-modal-integration` | Modal.com integration patterns for Next.js applications. PROACTIVELY activate for: (1) Next.js + M… |
 | `/nextjs-pathname-id-fetch` | Focused pattern for fetching data using URL parameters in Next.js. Covers creating dynamic routes … |
@@ -11881,10 +12181,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/opportunity-framework` | Identify, evaluate, and prioritize design opportunities using impact-effort frameworks and strateg… |
 | `/opportunity-solution-tree` | Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to… |
 | `/ops` | Execute AEM Edge Delivery Services admin operations - list admins, add/remove users, preview, publ… |
+| `/ops-business-model-canvas` | Apply the Business Model Canvas (BMC) to map and evaluate business models across nine building blo… |
 | `/ops-comms` | Send and read messages across all channels. Routes based on arguments — whatsapp, email, slack, te… |
+| `/ops-contract-review` | Review business contracts for risk identification including liability clauses, IP ownership, termi… |
 | `/ops-daemon` | Check claude-ops background daemon end-to-end and auto-fix common issues. Detects stale plist path… |
 | `/ops-dash` | Interactive pixel-art command center dashboard. Visual business HQ with instant hotkey navigation … |
 | `/ops-deploy` | Deploy status across all projects. Shows ECS service versions, Vercel deployments, recent deploys,… |
+| `/ops-digital-transformation` | Digital-transformation execution playbook: maturity assessment, transformation roadmap, Operating … |
 | `/ops-doctor` | Health check and auto-repair for the ops plugin. Diagnoses manifest errors, broken permissions, in… |
 | `/ops-ecom` | Shopify store command center. Orders, inventory, fulfillment, analytics, and store health. Works w… |
 | `/ops-fires` | Production incidents dashboard. Reads ECS health, Sentry errors, CI failures. Offers to dispatch f… |
@@ -11892,17 +12195,24 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ops-gtm` | Go-to-market strategy planner. Generates a complete GTM plan across paid, unpaid, marketing, sales… |
 | `/ops-inbox` | Full inbox management across all channels — WhatsApp (wacli), Email (Gmail MCP), Slack (MCP), Tele… |
 | `/ops-integrate` | Add any SaaS API as a first-class integration. Provide the service name — ops-integrate discovers … |
+| `/ops-leadership-styles` | Leadership-style decision framework combining transformational, transactional, servant, situationa… |
 | `/ops-linear` | Linear command center. Shows current sprint, creates/updates issues, manages priorities, syncs wit… |
 | `/ops-marketing` | Marketing command center. Email campaigns (Klaviyo), paid ads (Meta/Google), analytics (GA4), SEO,… |
+| `/ops-meeting-minutes` | Create structured meeting minutes with decisions, action items, and follow-up tracking. Use this s… |
 | `/ops-merge` | Autonomous PR merge pipeline. Scans all repos for open PRs, dispatches subagents to fix CI, resolv… |
 | `/ops-monitor` | Unified APM and monitoring surface. Polls Datadog, New Relic, and OpenTelemetry backends for activ… |
+| `/ops-negotiation` | Apply principled negotiation using BATNA, ZOPA, and the Harvard method to prepare for and conduct … |
 | `/ops-next` | Business-level "what should I do next". Priority stack — fires > unread comms > ready-to-merge PRs… |
+| `/ops-okr-planning` | Design and implement OKR (Objectives and Key Results) for goal-setting and strategic alignment acr… |
 | `/ops-orchestrate` | Autonomous multi-project orchestration engine. Audits all registered projects, structures work int… |
+| `/ops-org-behavior` | Integrated organizational-behavior diagnostic toolkit across three layers: individual motivation (… |
+| `/ops-pitch-deck` | Structure and write investor pitch decks covering problem, solution, market, business model, tract… |
 | `/ops-projects` | Portfolio dashboard for all GSD-tracked projects. Scans ~/Projects and ~/gsd-workspaces for .plann… |
 | `/ops-revenue` | Revenue and costs tracker. AWS spend via aws ce, credits tracker, project revenue stages. Shows bu… |
 | `/ops-settings` | Post-setup credential manager. Shows current integration status (configured/missing/expired) and l… |
 | `/ops-speedup` | Cross-platform, hardware-adaptive system optimizer. Auto-detects macOS / Linux / WSL / Windows (MI… |
 | `/ops-status` | Lightweight green/red status panel for every configured integration. No gather, no actions. |
+| `/ops-talent-strategy` | Strategic talent-management toolkit integrating 9-box grid (performance × potential), succession p… |
 | `/ops-triage` | Cross-platform issue triage. Pulls from Sentry (MCP), Linear (MCP), GitHub Issues (gh). Cross-refe… |
 | `/ops-voice` | Voice operations — make phone calls (Bland AI), text-to-speech (ElevenLabs), transcribe audio (Whi… |
 | `/ops-whatsapp-biz` | WhatsApp Business Cloud API — send approved template messages at scale, manage templates with appr… |
@@ -12582,6 +12892,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/postgres-expert` | PostgreSQL expert for query optimization, indexing, extensions, and database administration |
 | `/postgres-migrations` | Comprehensive guide to PostgreSQL migrations - common errors, generated columns, full-text search,… |
 | `/postgres-ops` | PostgreSQL operations, optimization, and administration. Use for: schema design, index selection, … |
+| `/postgres-optimization` | PostgreSQL optimization including indexes, query plans, partitioning, JSONB operations, and connec… |
 | `/postgres-patterns` | PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based … |
 | `/postgres-pro` | Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database… |
 | `/postgres-query` | Run PostgreSQL queries for testing, debugging, and performance analysis. Use when you need to quer… |
@@ -12642,16 +12953,20 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/pr-commit-workflow` | This skill should be used when creating commits or pull requests, enforcing a human-written PR str… |
 | `/pr-create` | Creates a pull request from current changes, monitors GitHub CI, and debugs any failures until CI … |
 | `/pr-creator` | Create well-structured pull request descriptions. Use when the user wants to create a PR, needs he… |
-| `/pr-crisis-response` | Build a crisis communications plan to respond fast and credibly when something goes wrong. Use whe… |
+| `/pr-crisis-communication` | Manage crisis communication across prevention, response, and recovery phases using SCCT theory and… |
+| `/pr-crisis-response` | Manage PR crises using classification, golden hour response, crisis statement templates (3C framew… |
 | `/pr-dashboard` | Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open… |
 | `/pr-description-writer` | Write a clear, structured pull request description from a git diff, branch summary, or commit list… |
+| `/pr-media-monitoring` | Set up and conduct media monitoring to track brand mentions, sentiment, and share of voice across … |
 | `/pr-merge-champion` | Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-… |
+| `/pr-press-release` | Write effective press releases using inverted pyramid structure, headline best practices, and medi… |
 | `/pr-quality-checklist` | PR quality checklist for ensuring comprehensive, well-documented pull requests. Use before submitt… |
 | `/pr-review` | Review pull requests for the MiniMax Skills repository. Use when reviewing PRs, validating new ski… |
 | `/pr-review-comments` | Posts review findings from a JSON file as inline comments on a GitHub Pull Request, attaching each… |
 | `/pr-review-expert` | Use when the user asks to review pull requests, analyze code changes, check for security issues in… |
 | `/pr-screenshot-docs` | Capture and document UI changes with before/after screenshots for pull requests. Use when creating… |
 | `/pr-screenshots` | Embed before/after screenshots and annotated images in pull request descriptions. Covers PR descri… |
+| `/pr-social-copywriting` | Write platform-optimized social media copy for Instagram, Facebook, LinkedIn, and X/Twitter with h… |
 | `/pr-summary` | Summarize current pull request with diff, comments, and changed files. Use when reviewing PRs or b… |
 | `/pr-template-builder` | Creates GitHub pull request templates, issue templates, and discussion templates with proper YAML … |
 | `/pr-threads-address` | Address PR review feedback by systematically working through every unresolved PR review thread on … |
@@ -12920,7 +13235,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/prompt-injection-test` | Test an LLM feature for direct and indirect prompt injection using a structured payload set, then … |
 | `/prompt-library` | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://… |
 | `/prompt-log` | Extract conversation transcripts from AI coding session logs (Clawdbot, Claude Code, Codex). Use w… |
-| `/prompt-master` | 提示词主控 - 智能选择合适的领域skill并生成提示词，支持自动领域分类和调度 |
+| `/prompt-master` | Generates optimized prompts for AI tools. Activates only when the user explicitly asks to write, f… |
 | `/prompt-optimization` | Analyze and improve existing prompts for better performance |
 | `/prompt-optimizer` | Transform vague prompts into precise, well-structured specifications using EARS (Easy Approach to … |
 | `/prompt-pack` | Author and execute "prompt packs" — a big job broken into a sequence of self-contained, independen… |
@@ -14036,7 +14351,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/rust-skill-creator` | Use when creating skills for Rust crates or std library documentation. Keywords: create rust skill… |
 | `/rust-skills` | Comprehensive Rust coding guidelines with 265 rules across 26 categories. Use when writing, review… |
 | `/rust-symbol-analyzer` | Analyze Rust project structure using LSP symbols. Triggers on: /symbols, project structure, list s… |
-| `/rust-systems` | Rust patterns for CLI tools, backend services, and general application code. Use when working with… |
+| `/rust-systems` | Rust systems programming patterns including ownership, traits, async runtime, error handling, and … |
 | `/rust-systems-programming` | Complete guide for Rust systems programming including ownership, borrowing, concurrency, async pro… |
 | `/rust-testing` | Rust testing patterns including unit tests, integration tests, async testing, property-based testi… |
 | `/rust-ui-architecture` | Architecture patterns for Rust UI applications including GPUI-specific patterns, code organization… |
@@ -14879,7 +15194,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/security-first-2025` | Security-first bash scripting patterns for 2025 (mandatory validation, zero-trust). PROACTIVELY ac… |
 | `/security-flutter` | Sécurité Flutter. Use when reviewing security, implementing auth, or hardening code. |
 | `/security-guidance` | PreToolUse security-anti-pattern hook for Claude Code. Catches 12 common security risks (command i… |
-| `/security-hardening` | Reduces attack surface across OS, container, cloud, network, and database layers using CIS Benchma… |
+| `/security-hardening` | Application security covering input validation, auth, headers, secrets management, and dependency … |
 | `/security-headers` | Verify and configure HTTP security headers (CSP, HSTS, CORS, X-Frame-Options, etc). Checks current… |
 | `/security-headers-configuration` | Configures HTTP security headers to protect against XSS, clickjacking, and MIME sniffing attacks. … |
 | `/security-incident-playbook-generator` | Creates response procedures for security incidents with containment steps, communication templates… |
@@ -14923,6 +15238,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/selenium` | When the user wants to automate browser testing across multiple browsers using Selenium WebDriver.… |
 | `/selenium-automation` | Expert guidance for browser automation and web testing using Selenium WebDriver with best practice… |
 | `/selenium-skill` | Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaSc… |
+| `/self-assessment` | Interactive skill assessment with personalized learning path generation |
 | `/self-driven` | 让 AI 不用人催，自己找事做。实现自我驱动闭环。 |
 | `/self-eval` | Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, co… |
 | `/self-improve` | Autonomous evolutionary code improvement engine with tournament selection |
@@ -15166,7 +15482,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/session-deep-dive` | Deep qualitative analysis of high-signal sessions. Spawns subagents with v2 template, synthesizes … |
 | `/session-distill` | Distill session insights into rules, skill improvements, recipes, and cross-repo promotions to mar… |
 | `/session-documenter` | Documents work, decisions, and context from the current session by writing structured entries to `… |
-| `/session-end` | Save session wrap-up documentation before clearing context by running the session-documenter workf… |
+| `/session-end` | Session wrap-up - update handoff + commit + auto-record experience |
 | `/session-handoff` | Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (… |
 | `/session-inspector` | Inspect agent session transcripts from Claude (~/.claude/projects/), Codex (~/.codex/sessions/), o… |
 | `/session-launcher` | Restores full context when user says "hi-ai" or starts a new conversation. Searches project files,… |
@@ -15176,6 +15492,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/session-management` | Implements secure session management with JWT tokens, Redis storage, refresh flows, and proper coo… |
 | `/session-memory` | Maintains awareness across sessions. Spawns observer agent on start, loads context, notifies of ev… |
 | `/session-mesh` | Session topology: discover alive sessions, specialization registry, steer/kill sub-agents, session… |
+| `/session-metrics` | Tally Claude Code session token usage and cost estimates from the raw JSONL conversation log. Trig… |
 | `/session-persist` | Persist and restore agent sessions across conversations with state snapshots |
 | `/session-report` | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills,… |
 | `/session-scan` | Compute metrics for Claude Code sessions. Discovers via ccrider, filters trivial, computes frictio… |
@@ -15514,6 +15831,13 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/soap-note` | Structure a clinical encounter into a clean SOAP note. Use when asked to write a SOAP note, docume… |
 | `/soar` | Implements Security Orchestration, Automation, and Response for blue-team incident handling. |
 | `/sober-addict-protector` | Daily protection and relapse prevention companion for people in recovery. Expert in identifying hi… |
+| `/soc-cialdini` | Apply Cialdini's six principles of persuasion — Reciprocity, Commitment/Consistency, Social Proof,… |
+| `/soc-cognitive-bias` | Identify and analyze cognitive biases including confirmation bias, anchoring, availability heurist… |
+| `/soc-innovation-diffusion` | Apply Rogers' Diffusion of Innovations theory to analyze how new products, ideas, or technologies … |
+| `/soc-policy-analysis` | Conduct structured policy analysis including problem definition, alternative evaluation, and evide… |
+| `/soc-social-network` | Apply social network analysis concepts including nodes, ties, centrality, structural holes, and st… |
+| `/soc-stakeholder` | Conduct stakeholder analysis using identification, Power-Interest matrix classification, and influ… |
+| `/soc-user-research` | Design and conduct user research using interviews, focus groups, surveys, and field observation. U… |
 | `/soc2` | Expert SOC 2 compliance assistant covering all five Trust Services Criteria (Security/CC, Availabi… |
 | `/soc2-audit-prep` | /cs:soc2-audit-prep <scope> — SOC 2 Type II readiness 6-question forcing interrogation. Observatio… |
 | `/soc2-compliance` | Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matr… |
@@ -15598,6 +15922,17 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/sound-effects` | Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, g… |
 | `/sound-engineer` | Expert in spatial audio, procedural sound design, game audio middleware, and app UX sound design. … |
 | `/source-analyzer` | Analyze data source characteristics including update frequency, volume patterns, and schema stabil… |
+| `/source-command-audit-prose` | Add descriptive prose to bare sections in whitepapers (FR + EN) using 9 parallel agents |
+| `/source-command-audit-whitepapers` | Audit version freshness, FR/EN parity, and metadata quality of all whitepapers and recap cards |
+| `/source-command-ccguide-daily` | Daily update check — official Anthropic docs diff + guide/CC releases digest |
+| `/source-command-ccguide-diff-docs` | Compare official Anthropic docs baseline vs current snapshot (no network — instant) |
+| `/source-command-ccguide-init-docs` | Fetch official Anthropic Codex docs and store as local baseline snapshot |
+| `/source-command-ccguide-refresh-docs` | Re-fetch official Anthropic Codex docs and update current snapshot (baseline unchanged) |
+| `/source-command-changelog` | View recent CHANGELOG entries |
+| `/source-command-methodology-advisor` | Analyzes your codebase and asks 3 targeted questions to recommend the right AI-assisted developmen… |
+| `/source-command-sync` | Check guide/landing synchronization status |
+| `/source-command-track-mentions` | Search for new online mentions of the Codex Ultimate Guide and update the tracker |
+| `/source-command-update-infos-release` | Update Codex releases tracking (guide + landing + version bump) |
 | `/source-driven-development` | Grounds every implementation decision in official documentation. Use when you want authoritative, … |
 | `/source-verification` | Journalism source verification and fact-checking workflows. Use when verifying claims, checking so… |
 | `/sourcecraft-publisher` | Publish static page artifacts to SourceCraft Sites (Yandex infrastructure, works in Russia), with … |
@@ -15824,6 +16159,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/startup-validator` | Comprehensive startup idea validation and market analysis tool. Use when users need to evaluate a … |
 | `/stash` | 回顾当前对话，把值得跨会话持久化的信息（用户偏好/反馈、项目决策与约束、踩过的坑、外部资源指针）存进本项目 memory 目录、更新 MEMORY.md 索引，并按需更新 CLAUDE.md。用户… |
 | `/stash-ai-memory` | Persistent memory layer for AI agents using Postgres/pgvector with MCP server support |
+| `/stat-ab-testing` | Design and analyze A/B tests with proper statistical methodology including sample size calculation… |
+| `/stat-causal-inference` | Apply causal inference methods — counterfactual framework, instrumental variables, propensity scor… |
+| `/stat-eda` | Conduct Exploratory Data Analysis (EDA) using descriptive statistics, visualizations, and data qua… |
+| `/stat-hypothesis-testing` | Conduct statistical hypothesis testing including null/alternative hypothesis formulation, p-values… |
 | `/state-effector` | Effector reactive state management for React/Next.js applications. This skill should be used when … |
 | `/state-machine` | Model complex UI behavior as finite state machines with states, events, and transitions. |
 | `/state-management` | React Query and Zustand patterns for state management. Use when implementing data fetching, cachin… |
@@ -16295,6 +16634,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tashan-workbench-dev` | 他山工作台（tashan-workbench）开发专属 Skill。接手/开发/调试工作台时激活：启动命令、架构速查、历史踩坑、测试方法。触发词：「他山工作台」「openwork-local」「t… |
 | `/task` | Get detailed information about a specific ClickUp task |
 | `/task-add` | Add a taskwarrior task with blueprint linkage and optional GitHub issue. Use when adding coordinat… |
+| `/task-breakdown` | Group a session-metrics session's turns into higher-level SEMANTIC TASKS ("what was I actually try… |
 | `/task-claim` | Claim a taskwarrior task as in-flight (+ACTIVE) and write a coworker marker. Use when picking up a… |
 | `/task-coordinate` | Surface next N unblocked taskwarrior tasks by urgency, skipping lock-contending tasks. Use when pl… |
 | `/task-coordination-strategies` | Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper tas… |
@@ -16342,6 +16682,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tdd` | Activate strict Test-Driven Development workflow |
 | `/tdd-guide` | Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzin… |
 | `/tdd-loop` | Use when implementing a feature or bugfix from a spec that should land as a hardened, CI-green PR,… |
+| `/tdd-mastery` | Test-driven development workflow with Red-Green-Refactor cycle across languages |
 | `/tdd-orchestrator` | Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordi… |
 | `/tdd-process` | Strict test-driven development state machine with red-green-refactor cycles. Enforces test-first d… |
 | `/tdd-reference` | On-demand TDD guideline access without loading full documentation into context. Provides targeted … |
@@ -16376,8 +16717,10 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/team-workflow` | Design team workflows covering task management, collaboration rituals, and tooling. |
 | `/teamcamp-automation` | Automate Teamcamp tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/teams-channel-post-writer` | Creates educational Teams channel posts for internal knowledge sharing about Claude Code features,… |
+| `/tech-api-integration` | Guide REST API integration including HTTP methods, authentication, error handling, and rate limiti… |
 | `/tech-article-writer` | 技术干货文章创作专家,擅长用简练语言传递核心知识点,不遗漏关键信息 |
 | `/tech-contract-negotiation` | Negotiation frameworks for technology services agreements, B2B contracts, and professional service… |
+| `/tech-data-pipeline` | Design data pipelines covering ETL vs ELT architectures, data source integration, scheduling, qual… |
 | `/tech-debt-analyzer` | Scans codebases for technical debt signals and prioritizes them by business impact. Finds TODO/FIX… |
 | `/tech-debt-audit` | Thorough, user-invoked tech debt and architecture audit of the current codebase. Produces TECH_DEB… |
 | `/tech-debt-manager` | Strategic technical debt management - understanding the debt metaphor, knowing when to take on deb… |
@@ -16387,7 +16730,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tech-doc-style-chinese` | Writing skill for Chinese technical documentation and product copy — enforces clarity, correct typ… |
 | `/tech-due-diligence` | Technical due diligence for M&A, investment, or acquisition. Reads a target company's codebase and… |
 | `/tech-entrepreneur-coach-adhd` | Big tech ML engineer to indie founder transition coach. Expert in idea validation, MVP development… |
+| `/tech-mcp-server-dev` | Build MCP (Model Context Protocol) servers including tool definition, schema design, authenticatio… |
 | `/tech-presentation-interview` | Prepares for "reverse system design" rounds where you present YOUR past technical work. Use for pr… |
+| `/tech-prompt-engineering` | Debug and harden production LLM prompts — handle prompt injection, output format drift, instructio… |
 | `/tech-radar` | Build a technology radar for an engineering team, categorizing technologies into Adopt/Trial/Asses… |
 | `/tech-resume-optimizer` | Optimize resumes for software engineering, PM, and technical roles |
 | `/tech-risk-assessment` | Assess the security risk of a technology or product decision for leadership — new technology/vendo… |
@@ -16571,7 +16916,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/testing-reactnative` | Testing React Native 0.85+. Use when writing tests, reviewing test coverage, or setting up testing. |
 | `/testing-security` | Security test: DAST OWASP ZAP/Nuclei, SAST Semgrep/Bandit, Snyk/Trivy, detect-secrets/TruffleHog |
 | `/testing-skills-with-subagents` | Use when creating or editing skills, before deployment, to verify they work under pressure and res… |
-| `/testing-strategies` | Strategic guidance for choosing and implementing testing approaches across the test pyramid. Use w… |
+| `/testing-strategies` | Testing strategies including contract testing, snapshot testing, mutation testing, property-based … |
 | `/testing-strategy` | Comprehensive testing strategy covering unit, integration, E2E, security, accessibility, and perfo… |
 | `/testing-symfony` | Stratégie de Tests Symfony 8.1 / PHP 8.5. Use when writing tests, reviewing test coverage, or sett… |
 | `/testing-tauri-apps` | Guides developers through testing Tauri applications including unit testing with mock runtime, moc… |
@@ -16920,6 +17265,44 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/tutor-setup` | Transforms knowledge sources into an Obsidian StudyVault. Two modes: (1) Document Mode — PDF/text/… |
 | `/tutorial-engineer` | Creates step-by-step tutorials and educational content from code. Transforms complex concepts into… |
 | `/tvos` | tvOS platform-specific development with focus system, large screen UI, Siri Remote, and media play… |
+| `/tw-ecom-analytics-benchmarks` | Taiwan e-commerce benchmark ranges for CVR, ROAS, LTV, AOV, repeat rate, cart-abandon — segmented … |
+| `/tw-ecom-analytics-ga4` | Implement GA4 for Taiwan e-commerce — Enhanced Ecommerce events (view_item, add_to_cart, begin_che… |
+| `/tw-ecom-channel-strategy` | Choose the right e-commerce platform mix for a Taiwan business — DTC platforms (Shopline, 91APP, S… |
+| `/tw-ecom-compliance-consumer` | Comply with Taiwan consumer protection law (消保法) — 7-day 鑑賞期 scope and exceptions (生鮮 / 客製化 / 數位商品… |
+| `/tw-ecom-compliance-cross-border` | Tax and regulatory compliance for cross-border e-commerce involving Taiwan — import duty rates, VA… |
+| `/tw-ecom-compliance-pdpa` | E-commerce-specific PDPA (個資法) compliance — member consent at signup, cookie consent, order / paym… |
+| `/tw-ecom-compliance-product` | Comply with Taiwan product-specific regulations — 食品 (食安法), 藥品 (藥事法), 化妝品 (化妝品衛生安全管理法), 保健食品, 酒類 (… |
+| `/tw-ecom-dtc-91app` | Integrate and operate 91APP in Taiwan e-commerce context via mcp-91app. Use when syncing orders/pr… |
+| `/tw-ecom-dtc-shopify-localization` | Run Shopify stores for Taiwan market — localization (NT$ pricing, Traditional Chinese, TW address … |
+| `/tw-ecom-dtc-shopline` | Integrate and operate Shopline in Taiwan e-commerce context via mcp-shopline. Use when the user ne… |
+| `/tw-ecom-invoice-carrier` | Handle Taiwan e-invoice carriers (載具) — 手機條碼, 自然人憑證, 會員載具, plus 捐贈碼 donation flow. Covers carrier … |
+| `/tw-ecom-invoice-ezpay` | Issue and manage Taiwan e-invoices via ezPay (加值服務中心) through mcp-ezpay-einvoice. Use when issuing… |
+| `/tw-ecom-invoice-universalec` | Issue Taiwan e-invoices via UniversalEC (汎宇電商) using mcp-universalec-e-invoice (27 tools). Use whe… |
+| `/tw-ecom-invoice-void` | Void Taiwan e-invoices within the same bimonthly window, or issue allowances (折讓) for cross-period… |
+| `/tw-ecom-logistics-cold-chain` | Ship refrigerated / frozen products in Taiwan — 宅配通 宅配通冷藏 / 黑貓宅急便 低溫, cold-chain CVS pickup limita… |
+| `/tw-ecom-logistics-cross-border` | Select carriers and manage cross-border shipping operations for Taiwan — carrier choices (DHL / Fe… |
+| `/tw-ecom-logistics-cvs` | Ship via Taiwan convenience store pickup (7-11 賣貨便 / 全家 / 萊爾富 / OK) — store selection API, shippin… |
+| `/tw-ecom-logistics-home` | Ship via Taiwan home delivery carriers — 黑貓宅急便, 宅配通, 新竹物流, 郵局. Use when setting up home delivery, … |
+| `/tw-ecom-marketplace-momo` | Operate on momo購物網 — listing approval workflow, price-matching rules, momo's next-day delivery SLA… |
+| `/tw-ecom-marketplace-shopee` | Operate a Shopee Taiwan store — listings, promotions, flash sales, SIP (Shopee Supported Program) … |
+| `/tw-ecom-operations-customer-service` | Taiwan e-commerce customer service — LINE / Messenger / email / phone channel mix, 消保法鑑賞期 scripts,… |
+| `/tw-ecom-operations-line-oa` | Run CRM and member retention via LINE Official Account — broadcast cost model, rich menu, auto-res… |
+| `/tw-ecom-operations-pricing` | Set prices for Taiwan e-commerce — 含稅 vs 未稅 presentation, price-ending conventions (0/8/9 endings)… |
+| `/tw-ecom-operations-promotion` | Run Taiwan e-commerce promotional campaigns — 雙11, 618, 年中慶, 雙12, 週年慶, 母親節. Covers promo calendar,… |
+| `/tw-ecom-payment-dispute` | Handle Taiwan e-commerce payment disputes — credit card chargebacks (扣款爭議), refund across bimonthl… |
+| `/tw-ecom-payment-ecpay` | Integrate 綠界 (ECPay) for Taiwan e-commerce — credit card, ATM, CVS 代碼, 超商取貨付款, and CheckMacValue s… |
+| `/tw-ecom-payment-jkopay` | Integrate 街口支付 (JKOPay) for Taiwan e-commerce — web/app flow, JKO 幣 rewards, merchant settlement c… |
+| `/tw-ecom-payment-newebpay` | Integrate NewebPay (藍新金流) for Taiwan e-commerce via mcp-newebpay. Use when accepting credit card /… |
+| `/tw-ecom-payment-tappay` | Integrate TapPay for Taiwan e-commerce — TapPay Web/iOS/Android SDK, 3DS 2.0 flow, Apple Pay / Goo… |
+| `/tw-einvoice-guide` | Implement Taiwan's e-invoice (電子發票) system including platform integration, B2B vs B2C formats, car… |
+| `/tw-fintech-compliance` | Navigate Taiwan fintech regulations including FSC oversight, electronic payment laws, VASP rules, … |
+| `/tw-healthcare-regulations` | Navigate Taiwan healthcare regulations including NHI system, medical device classification, drug r… |
+| `/tw-manufacturing` | Analyze Taiwan's manufacturing industry structure including semiconductor, electronics, machinery,… |
+| `/tw-payment-integration` | Integrate Taiwan payment service providers including credit card, ATM transfer, convenience store … |
+| `/tw-retail-landscape` | Analyze Taiwan's retail industry including convenience stores, department stores, supermarkets, hy… |
+| `/tw-startup-legal` | Guide Taiwan company registration and legal setup including business entity selection, commercial … |
+| `/tw-stock-analysis` | Analyze Taiwan-listed stocks using fundamental analysis including EPS, P/E ratio, dividend yield, … |
+| `/tw-tax-basics` | Navigate Taiwan's tax system including corporate income tax (營所稅), business tax (營業稅), personal in… |
 | `/tweet-insight` | 从推文出发，深度阅读关联内容，整理成原创分享帖。不是翻译，而是学习后用自己的话讲出来。Use when user provides tweet URL(s) and wants to create… |
 | `/tweet-writer` | Write viral, persuasive, engaging tweets and threads. Uses web research to find viral examples in … |
 | `/tweetclaw` | Use TweetClaw as an OpenClaw plugin for X/Twitter automation: search tweets, search tweet replies,… |
@@ -16958,6 +17341,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/typefully-automation` | Automate Typefully tasks via Rube MCP (Composio). Always search tools first for current schemas. |
 | `/typeorm` | You are an expert in TypeORM, the ORM for TypeScript and JavaScript that supports PostgreSQL, MySQ… |
 | `/typescript` | TypeScript performance, tsconfig, type errors, async patterns — triggered when the user asks to "o… |
+| `/typescript-advanced` | Advanced TypeScript patterns including generics, conditional types, mapped types, template literal… |
 | `/typescript-advanced-patterns` | Advanced TypeScript — type-level programming, library/DSL APIs, declaration merging, modern langua… |
 | `/typescript-advanced-types` | Comprehensive guidance for mastering TypeScript's advanced type system including generics, conditi… |
 | `/typescript-async-patterns` | Use when typeScript async patterns including Promises, async/await, and async iterators with prope… |
@@ -17231,11 +17615,15 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/ux-compare` | Compare UX patterns across multiple reference apps using pattern libraries produced by ux-extract.… |
 | `/ux-copy` | Generate UX microcopy in StyleSeed's Toss-inspired voice for buttons, empty states, errors, toasts… |
 | `/ux-design` | UX design methodology and external consultation. Use when creating user flows, wireframes, interac… |
+| `/ux-design-thinking` | Apply Design Thinking's five stages — Empathize, Define, Ideate, Prototype, Test — to solve user-c… |
 | `/ux-designer` | Expert UX design assistance for user research, wireframing, prototyping, and design strategy. Use … |
 | `/ux-extract` | Exhaustively extract UX patterns from a reference web app. Walks every screen, captures screenshot… |
 | `/ux-feedback` | Add loading, empty, error, and success feedback states to StyleSeed components and pages with prac… |
 | `/ux-flow` | Design user flows and screen structure using StyleSeed UX patterns such as progressive disclosure,… |
 | `/ux-friction-analyzer` | Comprehensive UX analysis using cognitive psychology, ADHD-friendly design, Gestalt principles, an… |
+| `/ux-heuristic` | Conduct heuristic evaluation of user interfaces using Nielsen's 10 usability principles. Use this … |
+| `/ux-jtbd` | Apply Jobs to Be Done (JTBD) framework to understand customer motivation through functional, emoti… |
+| `/ux-lean-startup` | Apply Lean Startup methodology — Build-Measure-Learn loop, MVP, validated learning, and pivot deci… |
 | `/ux-persuasion-engineer` | One sentence - what this skill does and when to invoke it |
 | `/ux-principles` | User research, usability heuristics, user psychology, accessibility, inclusive design, user testin… |
 | `/ux-research` | Plan and execute user research including research planning, recruiting, interview design, qualitat… |
@@ -17711,7 +18099,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/websocket-development` | Best practices and guidelines for building real-time applications with WebSocket communication |
 | `/websocket-engineer` | Use when building real-time communication systems with WebSockets or Socket.IO. Invoke for bidirec… |
 | `/websocket-implementation` | Implements real-time WebSocket communication with connection management, room-based messaging, and… |
-| `/websocket-realtime` | Expert guidance on real-time communication patterns including WebSockets, Server-Sent Events (SSE)… |
+| `/websocket-realtime` | Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events, and scaling strate… |
 | `/websocket-realtime-builder` | Implements real-time features using WebSockets with Socket.io, rooms, authentication, and reconnec… |
 | `/websocket-security` | WebSocket handshake, CSWSH, tooling (wsrepl, ws-harness, Burp), and common flaws. Use when apps us… |
 | `/websocket-streaming` | Implements real-time bidirectional communication between DAG execution engines and visualization d… |
@@ -17957,6 +18345,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 | `/xano` | Expert guidance for Xano, the no-code/low-code backend platform for building APIs, databases, and … |
 | `/xata` | Expert guidance for Xata, the serverless data platform that combines PostgreSQL, Elasticsearch, an… |
 | `/xata-postgres-platform` | Expert skill for Xata open-source cloud-native Postgres platform with copy-on-write branching, sca… |
+| `/xborder-logistics` | Design cross-border logistics strategies including direct mail, overseas warehousing, and bonded w… |
+| `/xborder-sea-entry` | Plan Southeast Asia market entry including mode selection, regulatory requirements, cultural resea… |
 | `/xcloud-docker-deploy` | xCloud Docker Deploy v1.4.1 — a confirmation-gated skill for preparing projects for xCloud. It ins… |
 | `/xero-accounting` | Integrate with the Xero accounting API to sync invoices, expenses, bank transactions, and contacts… |
 | `/xguard-manager` | Read, replace, reset, export, and import XGuard policy options on the orchestrator. Use when you n… |
@@ -18128,6 +18518,9 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - `/agentic-scaffold`
   Interactively design and scaffold a new agentic component — skill, worker, strategist, or persona. Scoped to creating new components only; use /agentic-consult for changes to exist…
+
+- `/agentkit-seo`
+  Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy,…
 
 - `/agents-context-management`
   Use to create or polish repo agent context files: README.md, AGENTS.md/CLAUDE.md symlinks, and existing project .agents/skills/SKILL.md files. Updates existing skills only; do not …
@@ -18408,10 +18801,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 - `/effect-ts`
   Use for nontrivial Effect-TS work including services/layers, typed errors, Schema/JSONSchema, Config, runtime/concurrency, @effect/vitest, @effect/ai, @effect/sql, or @prb/effect-n…
 
-- `/enterprise`
-  Enterprise-grade systems with microservices, Kubernetes, Terraform, and AI Native methodology. For multi-feature initiatives spanning a release timeline, combine with /sprint maste…
-
-*…另有 225 个，运行 `npx skills ls -g` 查看完整列表*
+*…另有 226 个，运行 `npx skills ls -g` 查看完整列表*
 
 ---
 
@@ -18627,8 +19017,8 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 
 - 本次请求技能（去重）：**226** 个
 - 已成功安装：**210** 个
-- 全局技能总数：**17454** 个
-- 支持斜杠调用：**325** 个
+- 全局技能总数：**17844** 个
+- 支持斜杠调用：**326** 个
 
 ---
 

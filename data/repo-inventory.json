@@ -1,5 +1,5 @@
 {
-  "total_repos": 646,
+  "total_repos": 663,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -85,6 +85,12 @@
       "repo": "Agentchengfeng/chengfeng-videocut-skills",
       "waves": [
         45
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-ads",
+      "waves": [
+        82
       ]
     },
     {
@@ -219,6 +225,12 @@
         49,
         69,
         70
+      ]
+    },
+    {
+      "repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "waves": [
+        82
       ]
     },
     {
@@ -423,6 +435,12 @@
       "repo": "Linalab-io/unity-design-patterns-skills",
       "waves": [
         64
+      ]
+    },
+    {
+      "repo": "LingyiChen-AI/comfyui-workflow-skill",
+      "waves": [
+        82
       ]
     },
     {
@@ -1033,6 +1051,12 @@
       ]
     },
     {
+      "repo": "asgard-ai-platform/skills",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "ashchupliak/dream-team",
       "waves": [
         77
@@ -1193,6 +1217,12 @@
       ]
     },
     {
+      "repo": "botingw/rulebook-ai",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "browserwing/browserwing",
       "waves": [
         72
@@ -1255,6 +1285,12 @@
       ]
     },
     {
+      "repo": "centminmod/my-claude-code-setup",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "chenShengBiao/cocos-ai-mcp",
       "waves": [
         72
@@ -1300,6 +1336,12 @@
       "repo": "cisco-ai-defense/skill-scanner",
       "waves": [
         46
+      ]
+    },
+    {
+      "repo": "ckanner/agent-skills",
+      "waves": [
+        82
       ]
     },
     {
@@ -2331,6 +2373,12 @@
       ]
     },
     {
+      "repo": "karanb192/awesome-claude-skills",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "kepano/obsidian-skills",
       "waves": [
         43
@@ -2709,6 +2757,12 @@
       ]
     },
     {
+      "repo": "microsoft/skills-for-copilot-studio",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "midudev/autoskills",
       "waves": [
         46
@@ -2814,6 +2868,12 @@
       "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
       "waves": [
         43
+      ]
+    },
+    {
+      "repo": "ndpvt-web/latex-document-skill",
+      "waves": [
+        82
       ]
     },
     {
@@ -3079,6 +3139,12 @@
       ]
     },
     {
+      "repo": "pcliangx/AppGenesisForge",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "penspanic/webgpu-metal-debug-kit",
       "waves": [
         50
@@ -3125,6 +3191,12 @@
       "repo": "pinecone-io/skills",
       "waves": [
         18
+      ]
+    },
+    {
+      "repo": "piomin/claude-ai-spring-boot",
+      "waves": [
+        82
       ]
     },
     {
@@ -3329,6 +3401,12 @@
       ]
     },
     {
+      "repo": "rohitg00/awesome-claude-code-toolkit",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "rokpiy/auto-commenter",
       "waves": [
         74
@@ -3352,6 +3430,12 @@
       "repo": "rubber-ducks-syndicate/obsidian-documentation-skill",
       "waves": [
         53
+      ]
+    },
+    {
+      "repo": "runesleo/claude-code-workflow",
+      "waves": [
+        82
       ]
     },
     {
@@ -3428,6 +3512,12 @@
       ]
     },
     {
+      "repo": "selmakcby/claude-agents-skills",
+      "waves": [
+        82
+      ]
+    },
+    {
       "repo": "seranking/seo-skills",
       "waves": [
         69
@@ -3437,6 +3527,12 @@
       "repo": "sergiodxa/agent-skills",
       "waves": [
         80
+      ]
+    },
+    {
+      "repo": "seulee26/mckinsey-pptx",
+      "waves": [
+        82
       ]
     },
     {
@@ -3565,6 +3661,12 @@
       "repo": "spatie/guidelines-skills",
       "waves": [
         80
+      ]
+    },
+    {
+      "repo": "spences10/claude-skills-cli",
+      "waves": [
+        82
       ]
     },
     {
