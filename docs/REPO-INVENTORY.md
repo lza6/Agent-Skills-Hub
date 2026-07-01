@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（663 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（675 个唯一仓库，wave2–73）
 
-**唯一仓库数: 663** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 675** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -87,3 +87,4 @@
 | 80 | 18 | `bfollington/terma`, `cloudflare/skills`, `dpearson2699/swift-ios-skills`, `drjacky/claude-android-ninja`, `fusengine/agents`, `getsentry/sentry-for-ai`, `grafana/skills`, `iliaal/ai-skills`, `jackspace/claudeskillz`, `jeffallan/claude-skills`, `laurigates/claude-plugins`, `mindrally/skills`, `mongodb/agent-skills`, `oliver-kriska/claude-elixir-phoenix`, `onewave-ai/claude-skills`, `sergiodxa/agent-skills`, `spatie/guidelines-skills`, `travisjneuman/.claude` |
 | 81 | 18 | `0xdarkmatter/claude-mods`, `alti3/litestar-skills`, `anthropics/skills`, `besoeasy/open-skills`, `damusix/skills`, `davila7/claude-code-templates`, `different-ai/openwork`, `gopherguides/gopher-ai`, `johnlindquist/claude`, `llama-farm/llamafarm`, `manifoldhiker/typesense-skill`, `mikkelkrogsholm/dev-skills`, `oguzhan18/angular-ecosystem-skills`, `samber/cc-skills-golang`, `shipshitdev/library`, `sickn33/antigravity-awesome-skills`, `windmill-labs/windmill`, `wshobson/agents` |
 | 82 | 17 | `AgriciDaniel/claude-ads`, `FlorianBruniaux/claude-code-ultimate-guide`, `LingyiChen-AI/comfyui-workflow-skill`, `asgard-ai-platform/skills`, `botingw/rulebook-ai`, `centminmod/my-claude-code-setup`, `ckanner/agent-skills`, `karanb192/awesome-claude-skills`, `microsoft/skills-for-copilot-studio`, `ndpvt-web/latex-document-skill`, `pcliangx/AppGenesisForge`, `piomin/claude-ai-spring-boot`, `rohitg00/awesome-claude-code-toolkit`, `runesleo/claude-code-workflow`, `selmakcby/claude-agents-skills`, `seulee26/mckinsey-pptx`, `spences10/claude-skills-cli` |
+| 83 | 12 | `GRCEngClub/claude-grc-engineering`, `Ricko12vPL/claude-code-skills`, `agentskills/agentskills`, `athola/claude-night-market`, `browserbase/skills`, `buildbetter-app/skills`, `djacobsmeyer/claude-skills-engineering`, `jnemargut/better-plan-mode`, `obra/superpowers-chrome`, `trailofbits/skills-curated`, `vercel-labs/skills`, `zxkane/aws-skills` |

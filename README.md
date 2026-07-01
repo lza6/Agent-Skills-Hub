@@ -10,7 +10,7 @@
 ## ✨ 特性
 
 - 🚀 **一键总安装**：基础技能 + Wave 2–79 全栈扩展，一条命令搞定
-- 📚 **大规模技能库**：663 唯一仓库，全局 14000+ 技能，中文元数据 16000+ 条
+- 📚 **大规模技能库**：675 唯一仓库，全局 14000+ 技能，中文元数据 16000+ 条
 - 📖 **中文手册自动生成**：46000+ 行中文技能手册，安装后自动同步到 `~/.claude/`
 - 🗂️ **仓库总账**：`docs/REPO-INVENTORY.md` 去重汇总所有已装仓库（按 Wave 分组）
 - 🔧 **元数据补全**：自动从 SKILL.md 抽取 description 生成中文 stub
@@ -67,7 +67,7 @@ Agent-Skills-Hub/
 ├── docs/
 │   ├── SKILLS-REFERENCE-CN.md         # 中文技能手册（45600+ 行，核心）
 │   ├── SKILLS-REFERENCE.md            # 英文手册（17000+ 行）
-│   ├── REPO-INVENTORY.md              # 仓库总账（663 去重仓库，按 Wave 分组）
+│   ├── REPO-INVENTORY.md              # 仓库总账（675 去重仓库，按 Wave 分组）
 │   ├── INSTALL-CN.md                  # 给他人电脑的一键安装指南
 │   ├── SKILLS-GUIDE-CN.md             # 高效使用技巧指南
 │   ├── PATHS-CN.md                    # 完整路径映射说明

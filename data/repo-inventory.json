@@ -1,5 +1,5 @@
 {
-  "total_repos": 663,
+  "total_repos": 675,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -249,6 +249,12 @@
       "repo": "Frun1753/claude-codecraft-toolkit",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "GRCEngClub/claude-grc-engineering",
+      "waves": [
+        83
       ]
     },
     {
@@ -630,6 +636,12 @@
       ]
     },
     {
+      "repo": "Ricko12vPL/claude-code-skills",
+      "waves": [
+        83
+      ]
+    },
+    {
       "repo": "Sanskar015/claude-skills-supercharged",
       "waves": [
         71
@@ -832,6 +844,12 @@
       "waves": [
         69,
         70
+      ]
+    },
+    {
+      "repo": "agentskills/agentskills",
+      "waves": [
+        83
       ]
     },
     {
@@ -1082,6 +1100,12 @@
       ]
     },
     {
+      "repo": "athola/claude-night-market",
+      "waves": [
+        83
+      ]
+    },
+    {
       "repo": "atsushi-green/ds-ai-coding-skills",
       "waves": [
         65
@@ -1223,6 +1247,12 @@
       ]
     },
     {
+      "repo": "browserbase/skills",
+      "waves": [
+        83
+      ]
+    },
+    {
       "repo": "browserwing/browserwing",
       "waves": [
         72
@@ -1232,6 +1262,12 @@
       "repo": "buer2233/ai-api-test-skill",
       "waves": [
         53
+      ]
+    },
+    {
+      "repo": "buildbetter-app/skills",
+      "waves": [
+        83
       ]
     },
     {
@@ -1610,6 +1646,12 @@
       "repo": "diy777/web-security-testing-skills",
       "waves": [
         51
+      ]
+    },
+    {
+      "repo": "djacobsmeyer/claude-skills-engineering",
+      "waves": [
+        83
       ]
     },
     {
@@ -2295,6 +2337,12 @@
       "repo": "jimdawdy-hub/claude-skill-code-memory",
       "waves": [
         58
+      ]
+    },
+    {
+      "repo": "jnemargut/better-plan-mode",
+      "waves": [
+        83
       ]
     },
     {
@@ -2985,6 +3033,12 @@
       "repo": "oalders/kitchen-sink",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "obra/superpowers-chrome",
+      "waves": [
+        83
       ]
     },
     {
@@ -3865,6 +3919,12 @@
       ]
     },
     {
+      "repo": "trailofbits/skills-curated",
+      "waves": [
+        83
+      ]
+    },
+    {
       "repo": "travisjneuman/.claude",
       "waves": [
         80
@@ -3929,6 +3989,12 @@
       "waves": [
         6,
         36
+      ]
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "waves": [
+        83
       ]
     },
     {
@@ -4226,6 +4292,12 @@
       "repo": "zhinkgit/embeddedskills",
       "waves": [
         56
+      ]
+    },
+    {
+      "repo": "zxkane/aws-skills",
+      "waves": [
+        83
       ]
     }
   ]
