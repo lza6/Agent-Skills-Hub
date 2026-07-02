@@ -1,5 +1,5 @@
 {
-  "total_repos": 687,
+  "total_repos": 701,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -179,6 +179,12 @@
       "repo": "BrownFineSecurity/iothackbot",
       "waves": [
         74
+      ]
+    },
+    {
+      "repo": "Cedriccmh/claude-code-skill-scrapling",
+      "waves": [
+        85
       ]
     },
     {
@@ -425,6 +431,12 @@
       ]
     },
     {
+      "repo": "Kentobayashi/claude-skills-QA-framework",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "KewkLW/codex-testflight-skill",
       "waves": [
         65
@@ -654,6 +666,12 @@
       ]
     },
     {
+      "repo": "RollerRemember/r14-borghei-claude-skills-devops",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "Sanskar015/claude-skills-supercharged",
       "waves": [
         71
@@ -709,6 +727,12 @@
       ]
     },
     {
+      "repo": "StreetTsuchikage/r20-glebis-claude-skills-devops",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "StrongAI/claude-skills-programming",
       "waves": [
         67
@@ -753,6 +777,12 @@
       ]
     },
     {
+      "repo": "TopCoppersmithRuin/r09-travisvn-awesome-claude-skills-devops",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "Venkatesh-6921/skill-blast",
       "waves": [
         49
@@ -787,6 +817,12 @@
       "repo": "Wha1eChai/auto-cleanup-skill",
       "waves": [
         49
+      ]
+    },
+    {
+      "repo": "Wirasm/worktree-manager-skill",
+      "waves": [
+        85
       ]
     },
     {
@@ -1013,6 +1049,12 @@
       "waves": [
         2,
         39
+      ]
+    },
+    {
+      "repo": "anikievev/claude-skills-devops",
+      "waves": [
+        85
       ]
     },
     {
@@ -1348,6 +1390,12 @@
       "repo": "ccheney/robust-skills",
       "waves": [
         3
+      ]
+    },
+    {
+      "repo": "centiofficermultiply/r17-behisecc-awesome-claude-skills-devops",
+      "waves": [
+        85
       ]
     },
     {
@@ -1980,6 +2028,12 @@
       ]
     },
     {
+      "repo": "glebis/claude-skills",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "glitternetwork/pinme",
       "waves": [
         74
@@ -2242,6 +2296,12 @@
       ]
     },
     {
+      "repo": "itgoyo/awesome-claude-code-skills",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "ithiria894/awesome-claude-code-workflows",
       "waves": [
         47
@@ -2299,6 +2359,12 @@
       "repo": "jamditis/claude-skills-journalism",
       "waves": [
         78
+      ]
+    },
+    {
+      "repo": "jamesrochabrun/skills",
+      "waves": [
+        85
       ]
     },
     {
@@ -2434,6 +2500,12 @@
       "repo": "jtaub/claude-code-github-workflow-skills",
       "waves": [
         54
+      ]
+    },
+    {
+      "repo": "julianobarbosa/claude-code-skills",
+      "waves": [
+        85
       ]
     },
     {
@@ -3060,9 +3132,21 @@
       ]
     },
     {
+      "repo": "nightwayvibrate/r02-alirezarezvani-claude-skills-devops",
+      "waves": [
+        85
+      ]
+    },
+    {
       "repo": "nimrodfisher/data-analytics-skills",
       "waves": [
         68
+      ]
+    },
+    {
+      "repo": "notmanas/claude-code-skills",
+      "waves": [
+        85
       ]
     },
     {
