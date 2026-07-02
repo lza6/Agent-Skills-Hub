@@ -1,5 +1,5 @@
 {
-  "total_repos": 743,
+  "total_repos": 759,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -254,6 +254,12 @@
       ]
     },
     {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "CrazySwami/wordpress-dev-skills",
       "waves": [
         55
@@ -277,6 +283,12 @@
       "repo": "DenisSergeevitch/agents-best-practices",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "waves": [
+        88
       ]
     },
     {
@@ -910,6 +922,12 @@
       ]
     },
     {
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "Wechat-ggGitHub/wechat-claude-code",
       "waves": [
         45
@@ -976,6 +994,12 @@
         14,
         15,
         75
+      ]
+    },
+    {
+      "repo": "aden-hive/hive",
+      "waves": [
+        88
       ]
     },
     {
@@ -1079,6 +1103,18 @@
       "repo": "alexgreensh/token-optimizer",
       "waves": [
         87
+      ]
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "waves": [
+        88
+      ]
+    },
+    {
+      "repo": "alibaba/zvec",
+      "waves": [
+        88
       ]
     },
     {
@@ -1424,6 +1460,12 @@
       "repo": "botingw/rulebook-ai",
       "waves": [
         82
+      ]
+    },
+    {
+      "repo": "breaking-brake/cc-wf-studio",
+      "waves": [
+        88
       ]
     },
     {
@@ -1932,6 +1974,12 @@
       ]
     },
     {
+      "repo": "eigent-ai/eigent",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "ejirocodes/agent-skills",
       "waves": [
         19
@@ -2347,6 +2395,12 @@
       ]
     },
     {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "heygen-com/hyperframes",
       "waves": [
         2,
@@ -2393,6 +2447,12 @@
       "repo": "htdt/godogen",
       "waves": [
         87
+      ]
+    },
+    {
+      "repo": "htmlstreamofficial/preline",
+      "waves": [
+        88
       ]
     },
     {
@@ -2613,6 +2673,12 @@
       "repo": "jiweiyeah/Skills-Manager",
       "waves": [
         86
+      ]
+    },
+    {
+      "repo": "jnMetaCode/superpowers-zh",
+      "waves": [
+        88
       ]
     },
     {
@@ -3053,6 +3119,12 @@
       ]
     },
     {
+      "repo": "metalbear-co/mirrord",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "mhagrelius/dotfiles",
       "waves": [
         76
@@ -3074,6 +3146,12 @@
       "repo": "michalparkola/tapestry-skills",
       "waves": [
         68
+      ]
+    },
+    {
+      "repo": "microsoft/SkillOpt",
+      "waves": [
+        88
       ]
     },
     {
@@ -3285,6 +3363,12 @@
       "repo": "nexu-io/html-anything",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "nexu-io/open-design",
+      "waves": [
+        88
       ]
     },
     {
@@ -4274,6 +4358,12 @@
       ]
     },
     {
+      "repo": "topoteretes/cognee",
+      "waves": [
+        88
+      ]
+    },
+    {
       "repo": "toss/es-toolkit",
       "waves": [
         76
@@ -4554,6 +4644,12 @@
       "repo": "xixu-me/skills",
       "waves": [
         8
+      ]
+    },
+    {
+      "repo": "xixu-me/xget",
+      "waves": [
+        88
       ]
     },
     {

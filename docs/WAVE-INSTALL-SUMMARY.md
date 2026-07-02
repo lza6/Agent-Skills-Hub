@@ -9,19 +9,19 @@
 
 | 维度 | 数值 |
 |------|------|
-| 唯一仓库数（去重） | 743 |
+| 唯一仓库数（去重） | 759 |
 | 全局技能数 `~/.claude/skills/` | 14000+ |
 | 中文元数据条目 | 16000+ |
 | 中文手册行数 | 46000+ |
 | 英文手册行数 | 19000+ |
-| Wave 脚本数 | 91（Wave 2–87） |
+| Wave 脚本数 | 92（Wave 2–88） |
 
 仓库明细见 [`docs/REPO-INVENTORY.md`](../docs/REPO-INVENTORY.md)（人读）与
 [`data/repo-inventory.json`](../data/repo-inventory.json)（机读）。
 
 ---
 
-## 近期波次结果（Wave 73–87）
+## 近期波次结果（Wave 73–88）
 
 | Wave | 成功 | 失败 | 主要方向 | 失败仓库 |
 |------|------|------|----------|----------|
@@ -40,6 +40,7 @@
 | 85 | 10 | 4 | 全栈(scrapling/QA-framework/worktree-manager/awesome合集/devops系列) | glebis/claude-skills, itgoyo/awesome-claude-code-skills, Kentobayashi/claude-skills-QA-framework, anikievev/claude-skills-devops |
 | 86 | 17 | 2 | 全栈(best-practice/generative-media/pro-workflow/continuous-claude/planning-with-files/baoyu/drawio/java/shinkoku/smart-ralph/ok-skills/openagent/AI-Research/PM) | ciembor/agent-rules-books, jiweiyeah/Skills-Manager |
 | 87 | 23 | 0 | 全栈(context-mode/seo/obsidian/godogen/mermaid/narrator/blog/banana/GodotMaker/reins/nelson/ai-agent-team/web-clone/cti-expert/youtube/SkillCompass/word-format/jeecg/youtube-fetcher) | — |
+| 88 | 11 | 5 | 全栈(open-design/ponytail/cognee/eigent/hive/SkillOpt/open-code-review/preline/superpowers-zh/cc-wf-studio) | VoltAgent/awesome-openclaw-skills, hesreallyhim/awesome-claude-code, alibaba/zvec, xixu-me/xget, metalbear-co/mirrord |
 
 失败原因统一为 `exit 1`（仓库无有效 SKILL.md 或结构不符 `npx skills` 规范）。
 
