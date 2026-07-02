@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（701 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（720 个唯一仓库，wave2–73）
 
-**唯一仓库数: 701** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 720** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -90,3 +90,4 @@
 | 83 | 12 | `GRCEngClub/claude-grc-engineering`, `Ricko12vPL/claude-code-skills`, `agentskills/agentskills`, `athola/claude-night-market`, `browserbase/skills`, `buildbetter-app/skills`, `djacobsmeyer/claude-skills-engineering`, `jnemargut/better-plan-mode`, `obra/superpowers-chrome`, `trailofbits/skills-curated`, `vercel-labs/skills`, `zxkane/aws-skills` |
 | 84 | 12 | `ChrisWiles/claude-code-showcase`, `FlorianBruniaux/claude-code-plugins`, `ThibautBaissac/rails_ai_agents`, `a-pavithraa/springboot-skills-marketplace`, `adrianpuiu/claude-skills-marketplace`, `ferdinandobons/AWSBedrockAgentCoreSkill`, `jabrena/plinth`, `lightpointventures/claude-code-starter`, `microsoft/power-platform-skills`, `obie/skills`, `safishamsi/graphify`, `transilienceai/communitytools` |
 | 85 | 14 | `Cedriccmh/claude-code-skill-scrapling`, `Kentobayashi/claude-skills-QA-framework`, `RollerRemember/r14-borghei-claude-skills-devops`, `StreetTsuchikage/r20-glebis-claude-skills-devops`, `TopCoppersmithRuin/r09-travisvn-awesome-claude-skills-devops`, `Wirasm/worktree-manager-skill`, `anikievev/claude-skills-devops`, `centiofficermultiply/r17-behisecc-awesome-claude-skills-devops`, `glebis/claude-skills`, `itgoyo/awesome-claude-code-skills`, `jamesrochabrun/skills`, `julianobarbosa/claude-code-skills`, `nightwayvibrate/r02-alirezarezvani-claude-skills-devops`, `notmanas/claude-code-skills` |
+| 86 | 19 | `Agents365-ai/drawio-skill`, `JimLiu/baoyu-skills`, `Orchestra-Research/AI-Research-SKILLs`, `OthmanAdi/planning-with-files`, `SamurAIGPT/Generative-Media-Skills`, `browser-act/skills`, `ciembor/agent-rules-books`, `code-yeongyu/oh-my-openagent`, `deanpeters/Product-Manager-Skills`, `decebals/claude-code-java`, `jiweiyeah/Skills-Manager`, `kazukinagata/shinkoku`, `mxyhi/ok-skills`, `parcadei/Continuous-Claude-v3`, `pedrohcgs/claude-code-my-workflow`, `rohitg00/pro-workflow`, `shanraisshan/claude-code-best-practice`, `tzachbon/smart-ralph`, `wondelai/skills` |

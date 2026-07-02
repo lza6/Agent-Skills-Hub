@@ -1,5 +1,5 @@
 {
-  "total_repos": 701,
+  "total_repos": 720,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -85,6 +85,12 @@
       "repo": "Agentchengfeng/chengfeng-videocut-skills",
       "waves": [
         45
+      ]
+    },
+    {
+      "repo": "Agents365-ai/drawio-skill",
+      "waves": [
+        86
       ]
     },
     {
@@ -383,6 +389,12 @@
       ]
     },
     {
+      "repo": "JimLiu/baoyu-skills",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "Jojo252511/claude-skill-codereview",
       "waves": [
         58
@@ -606,9 +618,21 @@
       ]
     },
     {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "OrionArchitekton/orion-skills",
       "waves": [
         71
+      ]
+    },
+    {
+      "repo": "OthmanAdi/planning-with-files",
+      "waves": [
+        86
       ]
     },
     {
@@ -669,6 +693,12 @@
       "repo": "RollerRemember/r14-borghei-claude-skills-devops",
       "waves": [
         85
+      ]
+    },
+    {
+      "repo": "SamurAIGPT/Generative-Media-Skills",
+      "waves": [
+        86
       ]
     },
     {
@@ -1319,6 +1349,12 @@
       ]
     },
     {
+      "repo": "browser-act/skills",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "browserbase/skills",
       "waves": [
         83
@@ -1447,6 +1483,12 @@
       ]
     },
     {
+      "repo": "ciembor/agent-rules-books",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "cisco-ai-defense/skill-scanner",
       "waves": [
         46
@@ -1515,6 +1557,12 @@
       "repo": "cminn10/ecc2cursor",
       "waves": [
         47
+      ]
+    },
+    {
+      "repo": "code-yeongyu/oh-my-openagent",
+      "waves": [
+        86
       ]
     },
     {
@@ -1666,6 +1714,18 @@
       "repo": "dchuk/claude-code-tauri-skills",
       "waves": [
         79
+      ]
+    },
+    {
+      "repo": "deanpeters/Product-Manager-Skills",
+      "waves": [
+        86
+      ]
+    },
+    {
+      "repo": "decebals/claude-code-java",
+      "waves": [
+        86
       ]
     },
     {
@@ -2448,6 +2508,12 @@
       ]
     },
     {
+      "repo": "jiweiyeah/Skills-Manager",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "jnemargut/better-plan-mode",
       "waves": [
         83
@@ -2538,6 +2604,12 @@
       "repo": "karanb192/awesome-claude-skills",
       "waves": [
         82
+      ]
+    },
+    {
+      "repo": "kazukinagata/shinkoku",
+      "waves": [
+        86
       ]
     },
     {
@@ -3045,6 +3117,12 @@
       ]
     },
     {
+      "repo": "mxyhi/ok-skills",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "ndpvt-web/latex-document-skill",
       "waves": [
         82
@@ -3311,6 +3389,12 @@
       ]
     },
     {
+      "repo": "parcadei/Continuous-Claude-v3",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "partme-ai/full-stack-skills",
       "waves": [
         78
@@ -3340,6 +3424,12 @@
       "repo": "pcliangx/AppGenesisForge",
       "waves": [
         82
+      ]
+    },
+    {
+      "repo": "pedrohcgs/claude-code-my-workflow",
+      "waves": [
+        86
       ]
     },
     {
@@ -3605,6 +3695,12 @@
       ]
     },
     {
+      "repo": "rohitg00/pro-workflow",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "rokpiy/auto-commenter",
       "waves": [
         74
@@ -3751,6 +3847,12 @@
       "waves": [
         2,
         19
+      ]
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "waves": [
+        86
       ]
     },
     {
@@ -4129,6 +4231,12 @@
       ]
     },
     {
+      "repo": "tzachbon/smart-ralph",
+      "waves": [
+        86
+      ]
+    },
+    {
       "repo": "u7079256/paperjury",
       "waves": [
         73
@@ -4236,6 +4344,12 @@
       "repo": "withkynam/vibecode-pro-max-kit",
       "waves": [
         73
+      ]
+    },
+    {
+      "repo": "wondelai/skills",
+      "waves": [
+        86
       ]
     },
     {

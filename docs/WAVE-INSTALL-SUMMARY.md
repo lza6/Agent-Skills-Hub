@@ -9,19 +9,19 @@
 
 | 维度 | 数值 |
 |------|------|
-| 唯一仓库数（去重） | 701 |
+| 唯一仓库数（去重） | 720 |
 | 全局技能数 `~/.claude/skills/` | 14000+ |
 | 中文元数据条目 | 16000+ |
 | 中文手册行数 | 46000+ |
 | 英文手册行数 | 19000+ |
-| Wave 脚本数 | 89（Wave 2–85） |
+| Wave 脚本数 | 90（Wave 2–86） |
 
 仓库明细见 [`docs/REPO-INVENTORY.md`](../docs/REPO-INVENTORY.md)（人读）与
 [`data/repo-inventory.json`](../data/repo-inventory.json)（机读）。
 
 ---
 
-## 近期波次结果（Wave 73–85）
+## 近期波次结果（Wave 73–86）
 
 | Wave | 成功 | 失败 | 主要方向 | 失败仓库 |
 |------|------|------|----------|----------|
@@ -38,6 +38,7 @@
 | 83 | 11 | 1 | 全栈工程(vercel-labs/skills官方/Ricko12vPL Python/browserbase/trailofbits精选/AWS/superpowers-chrome/GRC/night-market) | agentskills/agentskills |
 | 84 | 12 | 0 | 全栈(graphify/showcase/Rails/plinth/PowerPlatform/transilience/obie/marketplace/SpringBoot/AWSBedrock/plugins/starter) | — |
 | 85 | 10 | 4 | 全栈(scrapling/QA-framework/worktree-manager/awesome合集/devops系列) | glebis/claude-skills, itgoyo/awesome-claude-code-skills, Kentobayashi/claude-skills-QA-framework, anikievev/claude-skills-devops |
+| 86 | 17 | 2 | 全栈(best-practice/generative-media/pro-workflow/continuous-claude/planning-with-files/baoyu/drawio/java/shinkoku/smart-ralph/ok-skills/openagent/AI-Research/PM) | ciembor/agent-rules-books, jiweiyeah/Skills-Manager |
 
 失败原因统一为 `exit 1`（仓库无有效 SKILL.md 或结构不符 `npx skills` 规范）。
 
