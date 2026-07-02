@@ -1,8 +1,8 @@
 # 技能仓库总账
 
-> 自动提取自 `scripts/install-*-wave*.ps1`（720 个唯一仓库，wave2–73）
+> 自动提取自 `scripts/install-*-wave*.ps1`（743 个唯一仓库，wave2–73）
 
-**唯一仓库数: 720** | [JSON](../data/repo-inventory.json)
+**唯一仓库数: 743** | [JSON](../data/repo-inventory.json)
 
 | Wave | 仓库数 | 仓库 |
 |---|---|---|
@@ -91,3 +91,4 @@
 | 84 | 12 | `ChrisWiles/claude-code-showcase`, `FlorianBruniaux/claude-code-plugins`, `ThibautBaissac/rails_ai_agents`, `a-pavithraa/springboot-skills-marketplace`, `adrianpuiu/claude-skills-marketplace`, `ferdinandobons/AWSBedrockAgentCoreSkill`, `jabrena/plinth`, `lightpointventures/claude-code-starter`, `microsoft/power-platform-skills`, `obie/skills`, `safishamsi/graphify`, `transilienceai/communitytools` |
 | 85 | 14 | `Cedriccmh/claude-code-skill-scrapling`, `Kentobayashi/claude-skills-QA-framework`, `RollerRemember/r14-borghei-claude-skills-devops`, `StreetTsuchikage/r20-glebis-claude-skills-devops`, `TopCoppersmithRuin/r09-travisvn-awesome-claude-skills-devops`, `Wirasm/worktree-manager-skill`, `anikievev/claude-skills-devops`, `centiofficermultiply/r17-behisecc-awesome-claude-skills-devops`, `glebis/claude-skills`, `itgoyo/awesome-claude-code-skills`, `jamesrochabrun/skills`, `julianobarbosa/claude-code-skills`, `nightwayvibrate/r02-alirezarezvani-claude-skills-devops`, `notmanas/claude-code-skills` |
 | 86 | 19 | `Agents365-ai/drawio-skill`, `JimLiu/baoyu-skills`, `Orchestra-Research/AI-Research-SKILLs`, `OthmanAdi/planning-with-files`, `SamurAIGPT/Generative-Media-Skills`, `browser-act/skills`, `ciembor/agent-rules-books`, `code-yeongyu/oh-my-openagent`, `deanpeters/Product-Manager-Skills`, `decebals/claude-code-java`, `jiweiyeah/Skills-Manager`, `kazukinagata/shinkoku`, `mxyhi/ok-skills`, `parcadei/Continuous-Claude-v3`, `pedrohcgs/claude-code-my-workflow`, `rohitg00/pro-workflow`, `shanraisshan/claude-code-best-practice`, `tzachbon/smart-ralph`, `wondelai/skills` |
+| 87 | 23 | `7onez/cti-expert`, `AgriciDaniel/banana-claude`, `AgriciDaniel/claude-blog`, `AgriciDaniel/claude-obsidian`, `AgriciDaniel/claude-seo`, `AgriciDaniel/claude-youtube`, `Aspegio/nelson`, `Evol-ai/SkillCompass`, `Jane-xiaoer/claude-skill-web-clone`, `JimmySadek/youtube-fetcher-to-markdown`, `NarratorAI-Studio/narrator-ai-cli-skill`, `RandallLiuXin/GodotMaker`, `alexgreensh/token-optimizer`, `codeaashu/claude-code`, `eugeniughelbur/obsidian-second-brain`, `htdt/godogen`, `jeecgboot/skills`, `mksglu/context-mode`, `oh-my-mermaid/oh-my-mermaid`, `pegasi-ai/reins`, `peterfei/ai-agent-team`, `wuyoscar/GPT-Image2-Skill`, `yeap531/word-format-skill` |

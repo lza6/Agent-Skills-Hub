@@ -1,5 +1,5 @@
 {
-  "total_repos": 720,
+  "total_repos": 743,
   "repos": [
     {
       "repo": "0xbigboss/claude-code",
@@ -68,6 +68,12 @@
       ]
     },
     {
+      "repo": "7onez/cti-expert",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "Aaronontheweb/dotnet-skills",
       "waves": [
         46,
@@ -94,15 +100,45 @@
       ]
     },
     {
+      "repo": "AgriciDaniel/banana-claude",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "AgriciDaniel/claude-ads",
       "waves": [
         82
       ]
     },
     {
+      "repo": "AgriciDaniel/claude-blog",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "AgriciDaniel/claude-cybersecurity",
       "waves": [
         48
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-obsidian",
+      "waves": [
+        87
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "waves": [
+        87
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-youtube",
+      "waves": [
+        87
       ]
     },
     {
@@ -141,6 +177,12 @@
       "repo": "Asif2BD/xCloud-Docker-Deploy-Skill",
       "waves": [
         65
+      ]
+    },
+    {
+      "repo": "Aspegio/nelson",
+      "waves": [
+        87
       ]
     },
     {
@@ -243,6 +285,12 @@
         49,
         69,
         70
+      ]
+    },
+    {
+      "repo": "Evol-ai/SkillCompass",
+      "waves": [
+        87
       ]
     },
     {
@@ -368,6 +416,12 @@
       ]
     },
     {
+      "repo": "Jane-xiaoer/claude-skill-web-clone",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "Jeffallan/claude-skills",
       "waves": [
         11,
@@ -392,6 +446,12 @@
       "repo": "JimLiu/baoyu-skills",
       "waves": [
         86
+      ]
+    },
+    {
+      "repo": "JimmySadek/youtube-fetcher-to-markdown",
+      "waves": [
+        87
       ]
     },
     {
@@ -581,6 +641,12 @@
       ]
     },
     {
+      "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "NeoLabHQ/context-engineering-kit",
       "waves": [
         68,
@@ -681,6 +747,12 @@
       "repo": "Pluviobyte/jiepi-skill",
       "waves": [
         72
+      ]
+    },
+    {
+      "repo": "RandallLiuXin/GodotMaker",
+      "waves": [
+        87
       ]
     },
     {
@@ -1001,6 +1073,12 @@
       "repo": "alchaincyf/huashu-md-html",
       "waves": [
         74
+      ]
+    },
+    {
+      "repo": "alexgreensh/token-optimizer",
+      "waves": [
+        87
       ]
     },
     {
@@ -1566,6 +1644,12 @@
       ]
     },
     {
+      "repo": "codeaashu/claude-code",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "codecell-germany/sevdesk-agent-skill",
       "waves": [
         66
@@ -1894,6 +1978,12 @@
       "repo": "erichowens/some_claude_skills",
       "waves": [
         77
+      ]
+    },
+    {
+      "repo": "eugeniughelbur/obsidian-second-brain",
+      "waves": [
+        87
       ]
     },
     {
@@ -2300,6 +2390,12 @@
       ]
     },
     {
+      "repo": "htdt/godogen",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "huangserva/skill-prompt-generator",
       "waves": [
         74
@@ -2462,6 +2558,12 @@
       "waves": [
         69,
         70
+      ]
+    },
+    {
+      "repo": "jeecgboot/skills",
+      "waves": [
+        87
       ]
     },
     {
@@ -3045,6 +3147,12 @@
       ]
     },
     {
+      "repo": "mksglu/context-mode",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "mlflow/skills",
       "waves": [
         77
@@ -3277,6 +3385,12 @@
       ]
     },
     {
+      "repo": "oh-my-mermaid/oh-my-mermaid",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "oil-oil/draw-ui",
       "waves": [
         68
@@ -3433,6 +3547,12 @@
       ]
     },
     {
+      "repo": "pegasi-ai/reins",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "penspanic/webgpu-metal-debug-kit",
       "waves": [
         50
@@ -3455,6 +3575,12 @@
       "waves": [
         21,
         27
+      ]
+    },
+    {
+      "repo": "peterfei/ai-agent-team",
+      "waves": [
+        87
       ]
     },
     {
@@ -4394,6 +4520,12 @@
       ]
     },
     {
+      "repo": "wuyoscar/GPT-Image2-Skill",
+      "waves": [
+        87
+      ]
+    },
+    {
       "repo": "wwwzhouhui/skills_collection",
       "waves": [
         68
@@ -4447,6 +4579,12 @@
       "repo": "yctimlin/mcp_excalidraw",
       "waves": [
         74
+      ]
+    },
+    {
+      "repo": "yeap531/word-format-skill",
+      "waves": [
+        87
       ]
     },
     {
